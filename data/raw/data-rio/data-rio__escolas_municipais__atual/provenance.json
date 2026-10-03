@@ -1,0 +1,19 @@
+{
+  "id": "data-rio__escolas_municipais__atual",
+  "source_name": "Escolas municipais",
+  "source_institution": "Secretaria Municipal de Educacao / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Educacao/SME/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query_paginated",
+  "downloaded_at": "2026-05-17T19:23:57+00:00",
+  "started_at": "2026-05-17T19:23:53+00:00",
+  "duration_seconds": 3.933,
+  "stored_path": "data/raw/data-rio/data-rio__escolas_municipais__atual/escolas_municipais_arcgis_capture.json",
+  "stored_filename": "escolas_municipais_arcgis_capture.json",
+  "content_type": "application/json",
+  "bytes_written": 394304,
+  "sha256": "b86da24308a93e45b8e2955036ca289f6c1c6c2f3b96a5de9efc3ab1267e4a76",
+  "object_id_field": "objectid",
+  "object_id_count": 1590,
+  "batch_size": 500,
+  "batch_count": 4
+}

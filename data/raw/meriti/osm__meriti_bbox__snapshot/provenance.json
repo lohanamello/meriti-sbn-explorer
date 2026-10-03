@@ -1,0 +1,11 @@
+{
+  "id": "osm__meriti_bbox__snapshot",
+  "source_url": "https://overpass-api.de/api/interpreter",
+  "resolved_url": "https://overpass-api.de/api/interpreter",
+  "downloaded_at": "2026-10-03T03:05:37+00:00",
+  "stored_path": "data/raw/meriti/osm__meriti_bbox__snapshot/osm.json",
+  "bytes_written": 272842,
+  "sha256": "59d72fd90724c2b088a8935ed87dc63fad595751170875eddfb406a0641f619e",
+  "content_type": "application/json",
+  "query": "[out:json][timeout:60][bbox:-22.815,-43.411,-22.755,-43.329];(nwr[\"amenity\"~\"^(school|hospital|clinic|health_post|community_centre)$\"];nwr[\"leisure\"~\"^(park|garden|playground)$\"];way[\"waterway\"];);out geom;"
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/9/query?f=geojson&where=1%3D1&geometry=-43.411%2C-22.815%2C-43.329%2C-22.755&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true",
+  "retrievedAt": "2026-10-03T16:48:27+00:00",
+  "sha256": "d446aca58e539086209d46ac8bce2e5050cb6948ffa562b632beb543690a5c1d"
+}

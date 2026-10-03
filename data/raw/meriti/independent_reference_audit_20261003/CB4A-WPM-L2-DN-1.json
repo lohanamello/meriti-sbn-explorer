@@ -1,0 +1,1008 @@
+{
+  "type": "FeatureCollection",
+  "links": [],
+  "context": {
+    "matched": 3,
+    "returned": 3
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "CBERS_4A_WPM_20260501_198_142_L2",
+      "collection": "CB4A-WPM-L2-DN-1",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -42.43471647865933,
+              -23.54846425270156
+            ],
+            [
+              -43.34685797408542,
+              -23.369542054120306
+            ],
+            [
+              -43.1516741977442,
+              -22.52718648493702
+            ],
+            [
+              -42.24514499552044,
+              -22.705293536984655
+            ],
+            [
+              -42.43324995881626,
+              -23.543312931849236
+            ],
+            [
+              -42.43440466375945,
+              -23.548386893874532
+            ],
+            [
+              -42.43471647865933,
+              -23.54846425270156
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L2-DN-1/items/CBERS_4A_WPM_20260501_198_142_L2",
+          "rel": "self"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L2-DN-1",
+          "rel": "parent"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L2-DN-1",
+          "rel": "collection"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/",
+          "rel": "root"
+        }
+      ],
+      "bbox": [
+        -43.35759040613756,
+        -23.560889039218036,
+        -42.21924356562524,
+        -22.48035433663797
+      ],
+      "assets": {
+        "BAND0": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND0.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 2190561273,
+          "bdc:chunk_size": {
+            "x": 57472,
+            "y": 57472
+          },
+          "bdc:raster_size": {
+            "x": 57472,
+            "y": 58989
+          },
+          "checksum:multihash": "1220630b731b78f2c8197aa968bf359ee50f44d96b9c1c40563d336cf8e755f99162",
+          "eo:bands": [
+            {
+              "name": "BAND0",
+              "common_name": "pan",
+              "description": "WPM - BAND0 - pan",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 2,
+              "resolution_y": 2,
+              "center_wavelength": 0.675,
+              "full_width_half_max": 0.45
+            }
+          ]
+        },
+        "BAND1": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND1.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 140055863,
+          "bdc:chunk_size": {
+            "x": 14368,
+            "y": 14368
+          },
+          "bdc:raster_size": {
+            "x": 14368,
+            "y": 14747
+          },
+          "checksum:multihash": "12206db943b966cf80da0ac3bb0908773f035c452df8549d3c2e7394f7c0029ca901",
+          "eo:bands": [
+            {
+              "name": "BAND1",
+              "common_name": "blue",
+              "description": "WPM - BAND1 - blue",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.485,
+              "full_width_half_max": 0.07
+            }
+          ]
+        },
+        "BAND2": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND2.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 138912499,
+          "bdc:chunk_size": {
+            "x": 14368,
+            "y": 14368
+          },
+          "bdc:raster_size": {
+            "x": 14368,
+            "y": 14747
+          },
+          "checksum:multihash": "1220b1c630adcfff62d4c270127b3f5e75a54dd26caa411effc7ddfeed829257b9e8",
+          "eo:bands": [
+            {
+              "name": "BAND2",
+              "common_name": "green",
+              "description": "WPM - BAND2 - green",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.555,
+              "full_width_half_max": 0.07
+            }
+          ]
+        },
+        "BAND3": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND3.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 142768621,
+          "bdc:chunk_size": {
+            "x": 14368,
+            "y": 14368
+          },
+          "bdc:raster_size": {
+            "x": 14368,
+            "y": 14747
+          },
+          "checksum:multihash": "122000fd737c6e785b3568e3e914ff452e2e9a76ff88badd02010ffefd53028a0bc3",
+          "eo:bands": [
+            {
+              "name": "BAND3",
+              "common_name": "red",
+              "description": "WPM - BAND3 - red",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.66,
+              "full_width_half_max": 0.06
+            }
+          ]
+        },
+        "BAND4": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND4.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 144934571,
+          "bdc:chunk_size": {
+            "x": 14368,
+            "y": 14368
+          },
+          "bdc:raster_size": {
+            "x": 14368,
+            "y": 14747
+          },
+          "checksum:multihash": "12208d45a014a071908b5bdb36bee210e46e90d1d4cabda63bf98e30197935578452",
+          "eo:bands": [
+            {
+              "name": "BAND4",
+              "common_name": "nir",
+              "description": "WPM - BAND4 - nir",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.83,
+              "full_width_half_max": 0.12
+            }
+          ]
+        },
+        "BAND0_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND0.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 19767,
+          "checksum:multihash": "1220953730cde45c9ae80fd8e61cbcf376f7834cab3c611120b825eddc8b8582e0b7"
+        },
+        "BAND1_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND1.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 19759,
+          "checksum:multihash": "12205b4fe56936af6c239372083bffc440bea21272a1f71fe8884eff238a2d7bbae6"
+        },
+        "BAND2_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND2.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 19758,
+          "checksum:multihash": "122062d3bc0dbbe878a8c5835c84b55a3e39178d9552691708c96ddd7f2b919a7edf"
+        },
+        "BAND3_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND3.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 19759,
+          "checksum:multihash": "1220750ce14b7e9d08e65e19c59730e27f56c8dddf4e06dbf2c658a18ea44138eb36"
+        },
+        "BAND4_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142_L2_BAND4.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 19759,
+          "checksum:multihash": "12208e39be6587acfbc7e8374fbe43747f0c8f7eb2f955ee7f46c8a3adfed2f3dd66"
+        },
+        "thumbnail": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_05/CBERS_4A_WPM_RAW_2026_05_01.12_34_31_CB11/198_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260501_198_142.png",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ],
+          "created": "2026-05-02T08:36:45",
+          "updated": "2026-05-02T08:36:45",
+          "bdc:size": 109169,
+          "checksum:multihash": "1220f211adc7c93a126b88c4cfe57cddc7944e573c6478414a4ccdfb4e922dbe31fe"
+        }
+      },
+      "properties": {
+        "datetime": "2026-05-01T12:41:10.000000Z",
+        "start_datetime": "2026-05-01T12:41:10.000000Z",
+        "end_datetime": "2026-05-01T12:41:10.000000Z",
+        "created": "2026-05-02T08:36:45.711442Z",
+        "updated": "2026-05-02T08:36:45.710944Z",
+        "row": "142",
+        "path": "198",
+        "eo:cloud_cover": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CBERS_4A_WPM_20260123_199_142_L2",
+      "collection": "CB4A-WPM-L2-DN-1",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -43.34121125872949,
+              -23.547560126533376
+            ],
+            [
+              -44.25225430437733,
+              -23.368541870447945
+            ],
+            [
+              -44.1804852968407,
+              -23.059919181872058
+            ],
+            [
+              -44.05717661578389,
+              -22.52766841420083
+            ],
+            [
+              -44.05149097151797,
+              -22.528718982206986
+            ],
+            [
+              -43.834650223769295,
+              -22.57188012253629
+            ],
+            [
+              -43.15187446582003,
+              -22.705776934351448
+            ],
+            [
+              -43.340241689022385,
+              -23.543648726076423
+            ],
+            [
+              -43.34121125872949,
+              -23.547560126533376
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L2-DN-1/items/CBERS_4A_WPM_20260123_199_142_L2",
+          "rel": "self"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L2-DN-1",
+          "rel": "parent"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L2-DN-1",
+          "rel": "collection"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/",
+          "rel": "root"
+        }
+      ],
+      "bbox": [
+        -44.25719114758789,
+        -23.554604769154505,
+        -43.131952979988064,
+        -22.48594712149404
+      ],
+      "assets": {
+        "BAND0": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND0.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 462311473,
+          "bdc:chunk_size": {
+            "x": 57143,
+            "y": 57143
+          },
+          "bdc:raster_size": {
+            "x": 57143,
+            "y": 58662
+          },
+          "checksum:multihash": "1220fa60c2b689f73c4f38a03d7b36ce1121471bb01752f4eaaff78eb958e13c872d",
+          "eo:bands": [
+            {
+              "name": "BAND0",
+              "common_name": "pan",
+              "description": "WPM - BAND0 - pan",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 2,
+              "resolution_y": 2,
+              "center_wavelength": 0.675,
+              "full_width_half_max": 0.45
+            }
+          ]
+        },
+        "BAND1": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND1.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 32223975,
+          "bdc:chunk_size": {
+            "x": 14285,
+            "y": 14285
+          },
+          "bdc:raster_size": {
+            "x": 14285,
+            "y": 14665
+          },
+          "checksum:multihash": "122043e1971c492bac0571c50f7e65bf16cf4f4d68fc3819b7a5cb543ebee9a48033",
+          "eo:bands": [
+            {
+              "name": "BAND1",
+              "common_name": "blue",
+              "description": "WPM - BAND1 - blue",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.485,
+              "full_width_half_max": 0.07
+            }
+          ]
+        },
+        "BAND2": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND2.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 55675821,
+          "bdc:chunk_size": {
+            "x": 14285,
+            "y": 14285
+          },
+          "bdc:raster_size": {
+            "x": 14285,
+            "y": 14665
+          },
+          "checksum:multihash": "1220b299b3f8d11e350d2a6a54a5393db23ac76d147f6b02fc4230536edbdc261ed6",
+          "eo:bands": [
+            {
+              "name": "BAND2",
+              "common_name": "green",
+              "description": "WPM - BAND2 - green",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.555,
+              "full_width_half_max": 0.07
+            }
+          ]
+        },
+        "BAND3": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND3.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 28046799,
+          "bdc:chunk_size": {
+            "x": 14285,
+            "y": 14285
+          },
+          "bdc:raster_size": {
+            "x": 14285,
+            "y": 14665
+          },
+          "checksum:multihash": "122011ba51d8f59966227375b64c15112604c6418bf41120bec427adffce91f76d8d",
+          "eo:bands": [
+            {
+              "name": "BAND3",
+              "common_name": "red",
+              "description": "WPM - BAND3 - red",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.66,
+              "full_width_half_max": 0.06
+            }
+          ]
+        },
+        "BAND4": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND4.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 54496283,
+          "bdc:chunk_size": {
+            "x": 14285,
+            "y": 14285
+          },
+          "bdc:raster_size": {
+            "x": 14285,
+            "y": 14665
+          },
+          "checksum:multihash": "122058918cf5b64ee35cc6ebf4d92727a7b8cf3f0d0110b04dbe95549d4edeb91533",
+          "eo:bands": [
+            {
+              "name": "BAND4",
+              "common_name": "nir",
+              "description": "WPM - BAND4 - nir",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.83,
+              "full_width_half_max": 0.12
+            }
+          ]
+        },
+        "BAND0_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND0.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 19176,
+          "checksum:multihash": "1220e60ed7822fa55afd42ba9ebda20b995121eeb89cc98ed9b3226a6d8482e62054"
+        },
+        "BAND1_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND1.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 19169,
+          "checksum:multihash": "12205e5ae162a8f24f59d1d5a343d55f216cc570bfb74bb67db19880baa7f56c2749"
+        },
+        "BAND2_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND2.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 19169,
+          "checksum:multihash": "1220000749a8eeabf6a824bd95c7530431263183f8730e29759c750e5f7867554979"
+        },
+        "BAND3_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND3.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 19169,
+          "checksum:multihash": "1220f479317663b3c29131377cbeb48fd452007a62801c7c0f093a8428110a74f43c"
+        },
+        "BAND4_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142_L2_BAND4.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 19169,
+          "checksum:multihash": "122064afe5731ae57dbe89e274e92eae71c1702528c9c05da357ef17cce49db6f4ad"
+        },
+        "thumbnail": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_142_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_142.png",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ],
+          "created": "2026-01-24T08:34:32",
+          "updated": "2026-01-24T08:34:32",
+          "bdc:size": 52982,
+          "checksum:multihash": "1220cd2b915374fcc85dfe47f504c314d804f089d8f7f77878b82cf41608defd5e8f"
+        }
+      },
+      "properties": {
+        "datetime": "2026-01-23T12:51:20.000000Z",
+        "start_datetime": "2026-01-23T12:51:20.000000Z",
+        "end_datetime": "2026-01-23T12:51:20.000000Z",
+        "created": "2026-01-24T08:34:32.075057Z",
+        "updated": "2026-01-24T08:34:32.074514Z",
+        "row": "142",
+        "path": "199",
+        "eo:cloud_cover": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CBERS_4A_WPM_20260123_199_141_L2",
+      "collection": "CB4A-WPM-L2-DN-1",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -43.16325681151761,
+              -22.755756282472923
+            ],
+            [
+              -44.06864818514898,
+              -22.577236617141846
+            ],
+            [
+              -43.953709153927875,
+              -22.078262075678897
+            ],
+            [
+              -43.875365004732146,
+              -21.737074289150645
+            ],
+            [
+              -43.87040746166574,
+              -21.737980031607183
+            ],
+            [
+              -43.74410713932575,
+              -21.763230442902476
+            ],
+            [
+              -42.97548994728877,
+              -21.914692356381348
+            ],
+            [
+              -43.16243972159437,
+              -22.752784893373352
+            ],
+            [
+              -43.163102011430034,
+              -22.755682257952937
+            ],
+            [
+              -43.16325681151761,
+              -22.755756282472923
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L2-DN-1/items/CBERS_4A_WPM_20260123_199_141_L2",
+          "rel": "self"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L2-DN-1",
+          "rel": "parent"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L2-DN-1",
+          "rel": "collection"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/",
+          "rel": "root"
+        }
+      ],
+      "bbox": [
+        -44.07452508665253,
+        -22.76359854043071,
+        -42.95493400461502,
+        -21.694640926407192
+      ],
+      "assets": {
+        "BAND0": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND0.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 165684403,
+          "bdc:chunk_size": {
+            "x": 57132,
+            "y": 57132
+          },
+          "bdc:raster_size": {
+            "x": 57132,
+            "y": 58627
+          },
+          "checksum:multihash": "12208f22474055ddf3996728cd3c4e4860a8f6fc1b1d20356897ff1ad7bad8e38feb",
+          "eo:bands": [
+            {
+              "name": "BAND0",
+              "common_name": "pan",
+              "description": "WPM - BAND0 - pan",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 2,
+              "resolution_y": 2,
+              "center_wavelength": 0.675,
+              "full_width_half_max": 0.45
+            }
+          ]
+        },
+        "BAND1": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND1.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 9737457,
+          "bdc:chunk_size": {
+            "x": 14283,
+            "y": 14283
+          },
+          "bdc:raster_size": {
+            "x": 14283,
+            "y": 14656
+          },
+          "checksum:multihash": "1220f89ca36b84a05fbf8579a6e5974276570fabe27ebe114f9e44b5ae720959cbd9",
+          "eo:bands": [
+            {
+              "name": "BAND1",
+              "common_name": "blue",
+              "description": "WPM - BAND1 - blue",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.485,
+              "full_width_half_max": 0.07
+            }
+          ]
+        },
+        "BAND2": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND2.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 23477153,
+          "bdc:chunk_size": {
+            "x": 14283,
+            "y": 14283
+          },
+          "bdc:raster_size": {
+            "x": 14283,
+            "y": 14656
+          },
+          "checksum:multihash": "12205b406ec81b106eda50628e0e0724f28b7292e45cc1a7a2cb6c9d02e4cd4b4a98",
+          "eo:bands": [
+            {
+              "name": "BAND2",
+              "common_name": "green",
+              "description": "WPM - BAND2 - green",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.555,
+              "full_width_half_max": 0.07
+            }
+          ]
+        },
+        "BAND3": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND3.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 1356021,
+          "bdc:chunk_size": {
+            "x": 14283,
+            "y": 14283
+          },
+          "bdc:raster_size": {
+            "x": 14283,
+            "y": 14656
+          },
+          "checksum:multihash": "1220d9bd47829e5352f46a5dd2ddcea10c749c49e5a19adc1697c9ba8b767f05e3cb",
+          "eo:bands": [
+            {
+              "name": "BAND3",
+              "common_name": "red",
+              "description": "WPM - BAND3 - red",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.66,
+              "full_width_half_max": 0.06
+            }
+          ]
+        },
+        "BAND4": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND4.tif",
+          "type": "image/tiff",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 14155823,
+          "bdc:chunk_size": {
+            "x": 14283,
+            "y": 14283
+          },
+          "bdc:raster_size": {
+            "x": 14283,
+            "y": 14656
+          },
+          "checksum:multihash": "122017536797b858cb94a07ea15a74f9ab88e2ff86db6cd704b5bdc5375c73375094",
+          "eo:bands": [
+            {
+              "name": "BAND4",
+              "common_name": "nir",
+              "description": "WPM - BAND4 - nir",
+              "min": 0.0,
+              "max": 1024.0,
+              "nodata": 0.0,
+              "scale": 1.0,
+              "scale_add": null,
+              "data_type": "uint8",
+              "resolution_x": 8,
+              "resolution_y": 8,
+              "center_wavelength": 0.83,
+              "full_width_half_max": 0.12
+            }
+          ]
+        },
+        "BAND0_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND0.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 19766,
+          "checksum:multihash": "1220907933662b0312a3f7f7b1c024f1c287141ff6eb711c8170072e2a0b0be2649d"
+        },
+        "BAND1_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND1.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 19757,
+          "checksum:multihash": "1220edcbe070e9801dd1716781f4fb1acda0f8a3adda7114d6e0ec35c5b90906a8ca"
+        },
+        "BAND2_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND2.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 19758,
+          "checksum:multihash": "1220894816d8ebb54610f11732659e56ca23dc2969468432deacd1977f46f5900b2b"
+        },
+        "BAND3_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND3.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 19758,
+          "checksum:multihash": "1220f24fcc55043ecb91da8ebacd7d31dd20709925a34a7a8c46f914815a5751b244"
+        },
+        "BAND4_xml": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141_L2_BAND4.xml",
+          "type": "application/xml",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 19757,
+          "checksum:multihash": "1220bd126c27ebdc436cfb4b57dbfd37cf295d22c8227f3f02f7808b2390df1c75cb"
+        },
+        "thumbnail": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-L2-DN/2026_01/CBERS_4A_WPM_RAW_2026_01_23.12_44_27_ETC2/199_141_0/2_BC_UTM_WGS84/CBERS_4A_WPM_20260123_199_141.png",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ],
+          "created": "2026-01-24T08:34:33",
+          "updated": "2026-01-24T08:34:33",
+          "bdc:size": 21914,
+          "checksum:multihash": "12200ecc77a82673697450e4f20b7e586761ee724b28744c8ea505c4e9653e3422f1"
+        }
+      },
+      "properties": {
+        "datetime": "2026-01-23T12:51:07.000000Z",
+        "start_datetime": "2026-01-23T12:51:07.000000Z",
+        "end_datetime": "2026-01-23T12:51:07.000000Z",
+        "created": "2026-01-24T08:34:33.196058Z",
+        "updated": "2026-01-24T08:34:33.195536Z",
+        "row": "141",
+        "path": "199",
+        "eo:cloud_cover": null
+      }
+    }
+  ]
+}

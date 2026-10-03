@@ -1,0 +1,104 @@
+{
+  "protectedAreas": [
+    {
+      "id": "inea-uc-312",
+      "name": "Área de Proteção Ambiental Limoeiro",
+      "category": "Área de proteção ambiental",
+      "legalAct": "DECRETO N. 4.969 DE 20/04/2010",
+      "registeredAreaHa": 10.05560889,
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+      "coordinates": [
+        -43.33978234119304,
+        -22.770027734418818
+      ]
+    },
+    {
+      "id": "inea-uc-314",
+      "name": "Parque Natural Municipal Jardim Jurema",
+      "category": "Parque natural municipal",
+      "legalAct": "DECRETO N. 4.220 DE 25/03/2004",
+      "registeredAreaHa": 14.82052884,
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+      "coordinates": [
+        -43.343295837537255,
+        -22.785949679084457
+      ]
+    },
+    {
+      "id": "inea-uc-315",
+      "name": "Área de Proteção Ambiental do Parque Vitória",
+      "category": "Área de proteção ambiental",
+      "legalAct": "DECRETO N. 4.969 DE 20/04/2010",
+      "registeredAreaHa": 2.90649725,
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+      "coordinates": [
+        -43.34291876313001,
+        -22.780601518487362
+      ]
+    },
+    {
+      "id": "inea-uc-316",
+      "name": "Área de Proteção Ambiental Aeronáutica",
+      "category": "Área de proteção ambiental",
+      "legalAct": "DECRETO N. 4.969 DE 20/04/2010",
+      "registeredAreaHa": 11.63673816,
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+      "coordinates": [
+        -43.333201287282826,
+        -22.77670358079374
+      ]
+    },
+    {
+      "id": "inea-uc-319",
+      "name": "Área de Proteção Ambiental Andorinhas",
+      "category": "Área de proteção ambiental",
+      "legalAct": "DECRETO N. 4.969 DE 20/04/2010",
+      "registeredAreaHa": 16.22114195,
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+      "coordinates": [
+        -43.34505121010573,
+        -22.77156764199545
+      ]
+    },
+    {
+      "id": "inea-uc-320",
+      "name": "Área de Proteção Ambiental do Jardim Santo Antônio",
+      "category": "Área de proteção ambiental",
+      "legalAct": "DECRETO N. 4.969 DE 20/04/2010",
+      "registeredAreaHa": 3.54283087,
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+      "coordinates": [
+        -43.3456645634201,
+        -22.78207103987046
+      ]
+    }
+  ],
+  "protectedAreaCount": 6,
+  "registeredAreaHa": 59.18334596000001,
+  "geometryAreaHa": 59.17840689556295,
+  "contextBufferMeters": 500,
+  "watercourseCounts": {
+    "Curso de água": 8,
+    "Canal": 2
+  },
+  "sourceWatercourseCounts": {
+    "Curso de água": 109,
+    "Canal": 18
+  },
+  "sourceLinearFeatureCount": 127,
+  "waterbodyCount": 9,
+  "linearFeatureCount": 10,
+  "removedDuplicateLengthMeters": 14405.504749448402,
+  "canalSourceRole": "Classification only. All canal geometry already contained in the drainage network.",
+  "linearLengthMeters": 49566.76221181569,
+  "officialRiverNames": [
+    "Canal de Sarapuí",
+    "Rio Acari",
+    "Rio Dona Eugênia",
+    "Rio Pavuna",
+    "Rio São João de Meriti",
+    "Rio da Prata",
+    "Rio dos Cachorros"
+  ],
+  "excludedDuplicateSource": "inea__canal_vala_bc25__consulta2026"
+}

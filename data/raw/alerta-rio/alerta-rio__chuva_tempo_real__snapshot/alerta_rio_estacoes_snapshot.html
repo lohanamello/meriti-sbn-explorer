@@ -1,0 +1,1354 @@
+<!doctype html>
+<html lang="pt-br">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sistema Alerta Rio</title>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/bootstrap-theme.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/c3.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/weather-icons.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/bootstrap-datetimepicker.min.css" type="text/css">
+    <script>
+    window.WEBSOCKET_DOMAIN = 'ws://websempre.rio.rj.gov.br/ws/';
+    window.WS4REDIS_HEARTBEAT = "--heartbeat--";
+    </script>
+
+    
+</head>
+<body >
+    <div class="container-fluid">
+        
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-brand">
+              <a href="/"><img src="/static/img/geo-rio-logo.png" height="80%"/>
+                <span class="navbar-link"> Alerta Rio</span></a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse">
+        	
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/accounts/login/">Login</a></li>
+            </ul>
+            
+            <ul class="nav navbar-nav">
+                <li class="dropdown ">
+                    <a href="/mapas/mapa">Radar Meteorológico</a>
+                </li>
+            </ul>
+            
+            <ul class="nav navbar-nav">
+                <li class="dropdown ">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Previsão <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/procedimentos/previsao/mural/boletim">Boletim</a></li>
+                        <li><a href="/procedimentos/previsao/mural/estendida">Previsão Estendida</a></li>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
+
+        <div id="content">
+            
+<div class="col-md-10">
+    <div class="page-header">
+        <h1>Dados Pluviométricos</h1>
+    </div>
+    <table id="tabela-dados" class="table table-condensed table-bordered table-sorter table-padding">
+        <thead>
+            <tr>
+                <th id="header-ident" colspan="4" class="text-center">Identificação <span class="glyphicon glyphicon-eye-open show-all" aria-hidden="true"></span></th>
+                <th id="header-chuva" colspan="15" class="text-center">Chuvas <span class="glyphicon glyphicon-eye-open show-all" aria-hidden="true"></span></th>
+                
+            </tr>
+            <tr>
+                
+<th class="text-center number"><span class="sorter">N° </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".number"></span></th>
+
+                
+<th class="text-center station"><span class="sorter">Estação </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".station"></span></th>
+
+                
+<th class="text-center location"><span class="sorter">Localização </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".location"></span></th>
+
+                
+<th class="text-center leitura"><span class="sorter">Hora Leitura </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".leitura"></span></th>
+
+                
+                
+<th class="text-center m05"><span class="sorter">05<br>min<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".m05"></span></th>
+
+                
+<th class="text-center m10"><span class="sorter">10<br>min<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".m10"></span></th>
+
+                
+<th class="text-center m15"><span class="sorter">15<br>min<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".m15"></span></th>
+
+                
+<th class="text-center m30"><span class="sorter">30<br>min<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".m30"></span></th>
+
+                
+<th class="text-center h01"><span class="sorter">1h<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".h01"></span></th>
+
+                
+<th class="text-center h02"><span class="sorter">2h<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".h02"></span></th>
+
+                
+<th class="text-center h03"><span class="sorter">3h<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".h03"></span></th>
+
+                
+<th class="text-center h04"><span class="sorter">4h<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".h04"></span></th>
+
+                
+<th class="text-center h06"><span class="sorter">6h<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".h06"></span></th>
+
+                
+<th class="text-center h12"><span class="sorter">12h<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".h12"></span></th>
+
+                
+<th class="text-center h24"><span class="sorter">24h<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".h24"></span></th>
+
+                
+<th class="text-center h96"><span class="sorter">96h<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".h96"></span></th>
+
+                
+<th class="text-center mes"><span class="sorter">No Mês<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".mes"></span></th>
+
+                
+                
+<th class="text-center taxa"><span class="sorter">TX - 15<br> </span><span class="glyphicon glyphicon-eye-close hide-col" aria-hidden="true" col-hide=".taxa"></span></th>
+
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr id ="linha-1">
+                    <td id="estacao-1" class=" number">1</td>
+                    <td id="nome-1" class=" station">Vidigal
+                        
+                    </td>
+                    <td id="bacia-1" class=" location">Zona Sul</td>
+                    <td id="horaLeitura-1" class=" text-center leitura"><a id="data-1" href="/estacoes/pluviometricos/24horas/1/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-1" class=" text-center m05">0,0</td>
+                    <td id="m10-1" class=" text-center m10">0,0</td>
+                    <td id="m15-1" class=" text-center m15">0,0</td>
+                    <td id="m30-1" class=" text-center m30">0,0</td>
+                    <td id="h01-1" class=" text-center h01">0,0</td>
+                    <td id="h02-1" class=" text-center h02">0,0</td>
+                    <td id="h03-1" class=" text-center h03">0,0</td>
+                    <td id="h04-1" class=" text-center h04">0,0</td>
+                    <td id="h06-1" class=" text-center h06">0,0</td>
+                    <td id="h12-1" class=" text-center h12">0,0</td>
+                    <td id="h24-1" class=" text-center h24">0,0</td>
+                    <td id="h96-1" class=" text-center h96">7,2</td>
+                    <td id="mes-1" class=" text-center mes">43,8</td>
+                    
+                    <td id="taxa-1" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-2">
+                    <td id="estacao-2" class=" number">2</td>
+                    <td id="nome-2" class=" station">Urca
+                        
+                    </td>
+                    <td id="bacia-2" class=" location">Zona Sul</td>
+                    <td id="horaLeitura-2" class=" text-center leitura"><a id="data-2" href="/estacoes/pluviometricos/24horas/2/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-2" class=" text-center m05">0,0</td>
+                    <td id="m10-2" class=" text-center m10">0,0</td>
+                    <td id="m15-2" class=" text-center m15">0,0</td>
+                    <td id="m30-2" class=" text-center m30">0,0</td>
+                    <td id="h01-2" class=" text-center h01">0,0</td>
+                    <td id="h02-2" class=" text-center h02">0,0</td>
+                    <td id="h03-2" class=" text-center h03">0,0</td>
+                    <td id="h04-2" class=" text-center h04">0,0</td>
+                    <td id="h06-2" class=" text-center h06">0,0</td>
+                    <td id="h12-2" class=" text-center h12">0,0</td>
+                    <td id="h24-2" class=" text-center h24">0,0</td>
+                    <td id="h96-2" class=" text-center h96">0,0</td>
+                    <td id="mes-2" class=" text-center mes">7,6</td>
+                    
+                    <td id="taxa-2" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-3">
+                    <td id="estacao-3" class=" number">3</td>
+                    <td id="nome-3" class=" station">Rocinha
+                        
+                    </td>
+                    <td id="bacia-3" class=" location">Zona Sul</td>
+                    <td id="horaLeitura-3" class=" text-center leitura"><a id="data-3" href="/estacoes/pluviometricos/24horas/3/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-3" class=" text-center m05">0,0</td>
+                    <td id="m10-3" class=" text-center m10">0,0</td>
+                    <td id="m15-3" class=" text-center m15">0,0</td>
+                    <td id="m30-3" class=" text-center m30">0,0</td>
+                    <td id="h01-3" class=" text-center h01">0,0</td>
+                    <td id="h02-3" class=" text-center h02">0,0</td>
+                    <td id="h03-3" class=" text-center h03">0,0</td>
+                    <td id="h04-3" class=" text-center h04">0,0</td>
+                    <td id="h06-3" class=" text-center h06">0,0</td>
+                    <td id="h12-3" class=" text-center h12">0,0</td>
+                    <td id="h24-3" class=" text-center h24">0,0</td>
+                    <td id="h96-3" class=" text-center h96">0,4</td>
+                    <td id="mes-3" class=" text-center mes">69,0</td>
+                    
+                    <td id="taxa-3" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-4">
+                    <td id="estacao-4" class=" number">4</td>
+                    <td id="nome-4" class=" station">Tijuca
+                        
+                    </td>
+                    <td id="bacia-4" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-4" class=" text-center leitura"><a id="data-4" href="/estacoes/pluviometricos/24horas/4/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                    
+                    <td id="m05-4" class=" text-center m05">0,0</td>
+                    <td id="m10-4" class=" text-center m10">0,0</td>
+                    <td id="m15-4" class=" text-center m15">0,0</td>
+                    <td id="m30-4" class=" text-center m30">0,0</td>
+                    <td id="h01-4" class=" text-center h01">0,0</td>
+                    <td id="h02-4" class=" text-center h02">0,0</td>
+                    <td id="h03-4" class=" text-center h03">0,0</td>
+                    <td id="h04-4" class=" text-center h04">0,0</td>
+                    <td id="h06-4" class=" text-center h06">0,0</td>
+                    <td id="h12-4" class=" text-center h12">0,0</td>
+                    <td id="h24-4" class=" text-center h24">0,0</td>
+                    <td id="h96-4" class=" text-center h96">0,0</td>
+                    <td id="mes-4" class=" text-center mes">19,8</td>
+                    
+                    <td id="taxa-4" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-5">
+                    <td id="estacao-5" class=" number">5</td>
+                    <td id="nome-5" class=" station">Santa Teresa
+                        
+                    </td>
+                    <td id="bacia-5" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-5" class=" text-center leitura"><a id="data-5" href="/estacoes/pluviometricos/24horas/5/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-5" class=" text-center m05">0,0</td>
+                    <td id="m10-5" class=" text-center m10">0,0</td>
+                    <td id="m15-5" class=" text-center m15">0,0</td>
+                    <td id="m30-5" class=" text-center m30">0,0</td>
+                    <td id="h01-5" class=" text-center h01">0,0</td>
+                    <td id="h02-5" class=" text-center h02">0,0</td>
+                    <td id="h03-5" class=" text-center h03">0,0</td>
+                    <td id="h04-5" class=" text-center h04">0,0</td>
+                    <td id="h06-5" class=" text-center h06">0,0</td>
+                    <td id="h12-5" class=" text-center h12">0,0</td>
+                    <td id="h24-5" class=" text-center h24">0,0</td>
+                    <td id="h96-5" class=" text-center h96">0,0</td>
+                    <td id="mes-5" class=" text-center mes">14,4</td>
+                    
+                    <td id="taxa-5" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-6">
+                    <td id="estacao-6" class=" number">6</td>
+                    <td id="nome-6" class=" station">Copacabana
+                        
+                    </td>
+                    <td id="bacia-6" class=" location">Zona Sul</td>
+                    <td id="horaLeitura-6" class=" text-center leitura"><a id="data-6" href="/estacoes/pluviometricos/24horas/6/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-6" class=" text-center m05">0,0</td>
+                    <td id="m10-6" class=" text-center m10">0,0</td>
+                    <td id="m15-6" class=" text-center m15">0,0</td>
+                    <td id="m30-6" class=" text-center m30">0,0</td>
+                    <td id="h01-6" class=" text-center h01">0,0</td>
+                    <td id="h02-6" class=" text-center h02">0,0</td>
+                    <td id="h03-6" class=" text-center h03">0,0</td>
+                    <td id="h04-6" class=" text-center h04">0,0</td>
+                    <td id="h06-6" class=" text-center h06">0,0</td>
+                    <td id="h12-6" class=" text-center h12">0,0</td>
+                    <td id="h24-6" class=" text-center h24">0,0</td>
+                    <td id="h96-6" class=" text-center h96">0,0</td>
+                    <td id="mes-6" class=" text-center mes">26,4</td>
+                    
+                    <td id="taxa-6" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-7">
+                    <td id="estacao-7" class=" number">7</td>
+                    <td id="nome-7" class=" station">Grajaú
+                        
+                    </td>
+                    <td id="bacia-7" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-7" class=" text-center leitura"><a id="data-7" href="/estacoes/pluviometricos/24horas/7/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-7" class=" text-center m05">0,0</td>
+                    <td id="m10-7" class=" text-center m10">0,0</td>
+                    <td id="m15-7" class=" text-center m15">0,0</td>
+                    <td id="m30-7" class=" text-center m30">0,0</td>
+                    <td id="h01-7" class=" text-center h01">0,0</td>
+                    <td id="h02-7" class=" text-center h02">0,0</td>
+                    <td id="h03-7" class=" text-center h03">0,0</td>
+                    <td id="h04-7" class=" text-center h04">0,0</td>
+                    <td id="h06-7" class=" text-center h06">0,0</td>
+                    <td id="h12-7" class=" text-center h12">0,0</td>
+                    <td id="h24-7" class=" text-center h24">0,0</td>
+                    <td id="h96-7" class=" text-center h96">0,0</td>
+                    <td id="mes-7" class=" text-center mes">8,8</td>
+                    
+                    <td id="taxa-7" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-8">
+                    <td id="estacao-8" class=" number">8</td>
+                    <td id="nome-8" class=" station">Ilha do Governador
+                        
+                    </td>
+                    <td id="bacia-8" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-8" class=" text-center leitura"><a id="data-8" href="/estacoes/pluviometricos/24horas/8/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-8" class=" text-center m05">0,0</td>
+                    <td id="m10-8" class=" text-center m10">0,0</td>
+                    <td id="m15-8" class=" text-center m15">0,0</td>
+                    <td id="m30-8" class=" text-center m30">0,0</td>
+                    <td id="h01-8" class=" text-center h01">0,0</td>
+                    <td id="h02-8" class=" text-center h02">0,0</td>
+                    <td id="h03-8" class=" text-center h03">0,0</td>
+                    <td id="h04-8" class=" text-center h04">0,0</td>
+                    <td id="h06-8" class=" text-center h06">0,0</td>
+                    <td id="h12-8" class=" text-center h12">0,0</td>
+                    <td id="h24-8" class=" text-center h24">0,0</td>
+                    <td id="h96-8" class=" text-center h96">0,0</td>
+                    <td id="mes-8" class=" text-center mes">7,4</td>
+                    
+                    <td id="taxa-8" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-9">
+                    <td id="estacao-9" class=" number">9</td>
+                    <td id="nome-9" class=" station">Penha
+                        
+                    </td>
+                    <td id="bacia-9" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-9" class=" text-center leitura"><a id="data-9" href="/estacoes/pluviometricos/24horas/9/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-9" class=" text-center m05">0,0</td>
+                    <td id="m10-9" class=" text-center m10">0,0</td>
+                    <td id="m15-9" class=" text-center m15">0,0</td>
+                    <td id="m30-9" class=" text-center m30">0,0</td>
+                    <td id="h01-9" class=" text-center h01">0,0</td>
+                    <td id="h02-9" class=" text-center h02">0,0</td>
+                    <td id="h03-9" class=" text-center h03">0,0</td>
+                    <td id="h04-9" class=" text-center h04">0,0</td>
+                    <td id="h06-9" class=" text-center h06">0,0</td>
+                    <td id="h12-9" class=" text-center h12">0,0</td>
+                    <td id="h24-9" class=" text-center h24">0,0</td>
+                    <td id="h96-9" class=" text-center h96">0,0</td>
+                    <td id="mes-9" class=" text-center mes">1,8</td>
+                    
+                    <td id="taxa-9" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-10">
+                    <td id="estacao-10" class=" number">10</td>
+                    <td id="nome-10" class=" station">Madureira
+                        
+                    </td>
+                    <td id="bacia-10" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-10" class=" text-center leitura"><a id="data-10" href="/estacoes/pluviometricos/24horas/10/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                    
+                    <td id="m05-10" class=" text-center m05">0,0</td>
+                    <td id="m10-10" class=" text-center m10">0,0</td>
+                    <td id="m15-10" class=" text-center m15">0,0</td>
+                    <td id="m30-10" class=" text-center m30">0,0</td>
+                    <td id="h01-10" class=" text-center h01">0,0</td>
+                    <td id="h02-10" class=" text-center h02">0,0</td>
+                    <td id="h03-10" class=" text-center h03">0,0</td>
+                    <td id="h04-10" class=" text-center h04">0,0</td>
+                    <td id="h06-10" class=" text-center h06">0,0</td>
+                    <td id="h12-10" class=" text-center h12">0,0</td>
+                    <td id="h24-10" class=" text-center h24">0,0</td>
+                    <td id="h96-10" class=" text-center h96">0,0</td>
+                    <td id="mes-10" class=" text-center mes">5,4</td>
+                    
+                    <td id="taxa-10" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-11">
+                    <td id="estacao-11" class=" number">11</td>
+                    <td id="nome-11" class=" station">Irajá
+                        
+                    </td>
+                    <td id="bacia-11" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-11" class=" text-center leitura"><a id="data-11" href="/estacoes/pluviometricos/24horas/11/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-11" class=" text-center m05">0,0</td>
+                    <td id="m10-11" class=" text-center m10">0,0</td>
+                    <td id="m15-11" class=" text-center m15">0,0</td>
+                    <td id="m30-11" class=" text-center m30">0,0</td>
+                    <td id="h01-11" class=" text-center h01">0,0</td>
+                    <td id="h02-11" class=" text-center h02">0,0</td>
+                    <td id="h03-11" class=" text-center h03">0,0</td>
+                    <td id="h04-11" class=" text-center h04">0,0</td>
+                    <td id="h06-11" class=" text-center h06">0,0</td>
+                    <td id="h12-11" class=" text-center h12">0,0</td>
+                    <td id="h24-11" class=" text-center h24">0,0</td>
+                    <td id="h96-11" class=" text-center h96">0,0</td>
+                    <td id="mes-11" class=" text-center mes">4,4</td>
+                    
+                    <td id="taxa-11" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-12">
+                    <td id="estacao-12" class=" number">12</td>
+                    <td id="nome-12" class=" station">Bangu
+                        
+                    </td>
+                    <td id="bacia-12" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-12" class=" text-center leitura"><a id="data-12" href="/estacoes/pluviometricos/24horas/12/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-12" class=" text-center m05">0,0</td>
+                    <td id="m10-12" class=" text-center m10">0,0</td>
+                    <td id="m15-12" class=" text-center m15">0,0</td>
+                    <td id="m30-12" class=" text-center m30">0,0</td>
+                    <td id="h01-12" class=" text-center h01">0,0</td>
+                    <td id="h02-12" class=" text-center h02">0,0</td>
+                    <td id="h03-12" class=" text-center h03">0,0</td>
+                    <td id="h04-12" class=" text-center h04">0,0</td>
+                    <td id="h06-12" class=" text-center h06">0,0</td>
+                    <td id="h12-12" class=" text-center h12">0,0</td>
+                    <td id="h24-12" class=" text-center h24">0,0</td>
+                    <td id="h96-12" class=" text-center h96">0,2</td>
+                    <td id="mes-12" class=" text-center mes">38,0</td>
+                    
+                    <td id="taxa-12" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-13">
+                    <td id="estacao-13" class=" number">13</td>
+                    <td id="nome-13" class=" station">Piedade
+                        
+                    </td>
+                    <td id="bacia-13" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-13" class=" text-center leitura"><a id="data-13" href="/estacoes/pluviometricos/24horas/13/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-13" class=" text-center m05">0,0</td>
+                    <td id="m10-13" class=" text-center m10">0,0</td>
+                    <td id="m15-13" class=" text-center m15">0,0</td>
+                    <td id="m30-13" class=" text-center m30">0,0</td>
+                    <td id="h01-13" class=" text-center h01">0,0</td>
+                    <td id="h02-13" class=" text-center h02">0,0</td>
+                    <td id="h03-13" class=" text-center h03">0,0</td>
+                    <td id="h04-13" class=" text-center h04">0,0</td>
+                    <td id="h06-13" class=" text-center h06">0,0</td>
+                    <td id="h12-13" class=" text-center h12">0,0</td>
+                    <td id="h24-13" class=" text-center h24">0,0</td>
+                    <td id="h96-13" class=" text-center h96">0,0</td>
+                    <td id="mes-13" class=" text-center mes">8,4</td>
+                    
+                    <td id="taxa-13" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-14">
+                    <td id="estacao-14" class=" number">14</td>
+                    <td id="nome-14" class=" station">Jacarepaguá/Tanque
+                        
+                    </td>
+                    <td id="bacia-14" class=" location">Barra/Jacarepaguá</td>
+                    <td id="horaLeitura-14" class=" text-center leitura"><a id="data-14" href="/estacoes/pluviometricos/24horas/14/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-14" class=" text-center m05">0,0</td>
+                    <td id="m10-14" class=" text-center m10">0,0</td>
+                    <td id="m15-14" class=" text-center m15">0,0</td>
+                    <td id="m30-14" class=" text-center m30">0,0</td>
+                    <td id="h01-14" class=" text-center h01">0,0</td>
+                    <td id="h02-14" class=" text-center h02">0,0</td>
+                    <td id="h03-14" class=" text-center h03">0,0</td>
+                    <td id="h04-14" class=" text-center h04">0,0</td>
+                    <td id="h06-14" class=" text-center h06">0,0</td>
+                    <td id="h12-14" class=" text-center h12">0,0</td>
+                    <td id="h24-14" class=" text-center h24">0,0</td>
+                    <td id="h96-14" class=" text-center h96">0,0</td>
+                    <td id="mes-14" class=" text-center mes">18,8</td>
+                    
+                    <td id="taxa-14" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-15">
+                    <td id="estacao-15" class=" number">15</td>
+                    <td id="nome-15" class=" station">Saúde
+                        
+                    </td>
+                    <td id="bacia-15" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-15" class=" text-center leitura"><a id="data-15" href="/estacoes/pluviometricos/24horas/15/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-15" class=" text-center m05">0,0</td>
+                    <td id="m10-15" class=" text-center m10">0,0</td>
+                    <td id="m15-15" class=" text-center m15">0,0</td>
+                    <td id="m30-15" class=" text-center m30">0,0</td>
+                    <td id="h01-15" class=" text-center h01">0,0</td>
+                    <td id="h02-15" class=" text-center h02">0,0</td>
+                    <td id="h03-15" class=" text-center h03">0,0</td>
+                    <td id="h04-15" class=" text-center h04">0,0</td>
+                    <td id="h06-15" class=" text-center h06">0,0</td>
+                    <td id="h12-15" class=" text-center h12">0,0</td>
+                    <td id="h24-15" class=" text-center h24">0,0</td>
+                    <td id="h96-15" class=" text-center h96">0,0</td>
+                    <td id="mes-15" class=" text-center mes">8,0</td>
+                    
+                    <td id="taxa-15" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-16">
+                    <td id="estacao-16" class=" number">16</td>
+                    <td id="nome-16" class=" station">Jardim Botânico
+                        
+                    </td>
+                    <td id="bacia-16" class=" location">Zona Sul</td>
+                    <td id="horaLeitura-16" class=" text-center leitura"><a id="data-16" href="/estacoes/pluviometricos/24horas/16/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-16" class=" text-center m05">0,0</td>
+                    <td id="m10-16" class=" text-center m10">0,0</td>
+                    <td id="m15-16" class=" text-center m15">0,0</td>
+                    <td id="m30-16" class=" text-center m30">0,0</td>
+                    <td id="h01-16" class=" text-center h01">0,0</td>
+                    <td id="h02-16" class=" text-center h02">0,0</td>
+                    <td id="h03-16" class=" text-center h03">0,0</td>
+                    <td id="h04-16" class=" text-center h04">0,0</td>
+                    <td id="h06-16" class=" text-center h06">0,0</td>
+                    <td id="h12-16" class=" text-center h12">0,0</td>
+                    <td id="h24-16" class=" text-center h24">0,0</td>
+                    <td id="h96-16" class=" text-center h96">0,0</td>
+                    <td id="mes-16" class=" text-center mes">22,8</td>
+                    
+                    <td id="taxa-16" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-17">
+                    <td id="estacao-17" class=" number">17</td>
+                    <td id="nome-17" class=" station">Barra/Barrinha
+                        
+                    </td>
+                    <td id="bacia-17" class=" location">Barra/Jacarepaguá</td>
+                    <td id="horaLeitura-17" class=" text-center leitura"><a id="data-17" href="/estacoes/pluviometricos/24horas/17/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-17" class=" text-center m05">0,0</td>
+                    <td id="m10-17" class=" text-center m10">0,0</td>
+                    <td id="m15-17" class=" text-center m15">0,0</td>
+                    <td id="m30-17" class=" text-center m30">0,0</td>
+                    <td id="h01-17" class=" text-center h01">0,0</td>
+                    <td id="h02-17" class=" text-center h02">0,0</td>
+                    <td id="h03-17" class=" text-center h03">0,0</td>
+                    <td id="h04-17" class=" text-center h04">0,0</td>
+                    <td id="h06-17" class=" text-center h06">0,0</td>
+                    <td id="h12-17" class=" text-center h12">0,0</td>
+                    <td id="h24-17" class=" text-center h24">0,0</td>
+                    <td id="h96-17" class=" text-center h96">0,2</td>
+                    <td id="mes-17" class=" text-center mes">37,6</td>
+                    
+                    <td id="taxa-17" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-18">
+                    <td id="estacao-18" class=" number">18</td>
+                    <td id="nome-18" class=" station">Jacarepaguá/Cidade de Deus
+                        
+                    </td>
+                    <td id="bacia-18" class=" location">Barra/Jacarepaguá</td>
+                    <td id="horaLeitura-18" class=" text-center leitura"><a id="data-18" href="/estacoes/pluviometricos/24horas/18/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-18" class=" text-center m05">0,0</td>
+                    <td id="m10-18" class=" text-center m10">0,0</td>
+                    <td id="m15-18" class=" text-center m15">0,0</td>
+                    <td id="m30-18" class=" text-center m30">0,0</td>
+                    <td id="h01-18" class=" text-center h01">0,0</td>
+                    <td id="h02-18" class=" text-center h02">0,0</td>
+                    <td id="h03-18" class=" text-center h03">0,0</td>
+                    <td id="h04-18" class=" text-center h04">0,0</td>
+                    <td id="h06-18" class=" text-center h06">0,0</td>
+                    <td id="h12-18" class=" text-center h12">0,0</td>
+                    <td id="h24-18" class=" text-center h24">0,0</td>
+                    <td id="h96-18" class=" text-center h96">0,4</td>
+                    <td id="mes-18" class=" text-center mes">40,8</td>
+                    
+                    <td id="taxa-18" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-19">
+                    <td id="estacao-19" class=" number">19</td>
+                    <td id="nome-19" class=" station">Barra/Riocentro
+                        
+                    </td>
+                    <td id="bacia-19" class=" location">Barra/Jacarepaguá</td>
+                    <td id="horaLeitura-19" class=" text-center leitura"><a id="data-19" href="/estacoes/pluviometricos/24horas/19/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-19" class=" text-center m05">0,0</td>
+                    <td id="m10-19" class=" text-center m10">0,0</td>
+                    <td id="m15-19" class=" text-center m15">0,0</td>
+                    <td id="m30-19" class=" text-center m30">0,0</td>
+                    <td id="h01-19" class=" text-center h01">0,0</td>
+                    <td id="h02-19" class=" text-center h02">0,0</td>
+                    <td id="h03-19" class=" text-center h03">0,0</td>
+                    <td id="h04-19" class=" text-center h04">0,0</td>
+                    <td id="h06-19" class=" text-center h06">0,0</td>
+                    <td id="h12-19" class=" text-center h12">0,0</td>
+                    <td id="h24-19" class=" text-center h24">0,0</td>
+                    <td id="h96-19" class=" text-center h96">0,0</td>
+                    <td id="mes-19" class=" text-center mes">53,2</td>
+                    
+                    <td id="taxa-19" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-20">
+                    <td id="estacao-20" class=" number">20</td>
+                    <td id="nome-20" class=" station">Guaratiba
+                        
+                    </td>
+                    <td id="bacia-20" class=" location">Baía de Sepetiba</td>
+                    <td id="horaLeitura-20" class=" text-center leitura"><a id="data-20" href="/estacoes/pluviometricos/24horas/20/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-20" class=" text-center m05">0,0</td>
+                    <td id="m10-20" class=" text-center m10">0,0</td>
+                    <td id="m15-20" class=" text-center m15">0,0</td>
+                    <td id="m30-20" class=" text-center m30">0,0</td>
+                    <td id="h01-20" class=" text-center h01">0,0</td>
+                    <td id="h02-20" class=" text-center h02">0,0</td>
+                    <td id="h03-20" class=" text-center h03">0,0</td>
+                    <td id="h04-20" class=" text-center h04">0,0</td>
+                    <td id="h06-20" class=" text-center h06">0,0</td>
+                    <td id="h12-20" class=" text-center h12">0,0</td>
+                    <td id="h24-20" class=" text-center h24">0,0</td>
+                    <td id="h96-20" class=" text-center h96">0,0</td>
+                    <td id="mes-20" class=" text-center mes">43,6</td>
+                    
+                    <td id="taxa-20" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-21">
+                    <td id="estacao-21" class=" number">21</td>
+                    <td id="nome-21" class=" station">Est. Grajaú/Jacarepaguá
+                        
+                    </td>
+                    <td id="bacia-21" class=" location">Barra/Jacarepaguá</td>
+                    <td id="horaLeitura-21" class=" text-center leitura"><a id="data-21" href="/estacoes/pluviometricos/24horas/21/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-21" class=" text-center m05">0,0</td>
+                    <td id="m10-21" class=" text-center m10">0,0</td>
+                    <td id="m15-21" class=" text-center m15">0,0</td>
+                    <td id="m30-21" class=" text-center m30">0,0</td>
+                    <td id="h01-21" class=" text-center h01">0,0</td>
+                    <td id="h02-21" class=" text-center h02">0,0</td>
+                    <td id="h03-21" class=" text-center h03">0,0</td>
+                    <td id="h04-21" class=" text-center h04">0,0</td>
+                    <td id="h06-21" class=" text-center h06">0,0</td>
+                    <td id="h12-21" class=" text-center h12">0,0</td>
+                    <td id="h24-21" class=" text-center h24">0,0</td>
+                    <td id="h96-21" class=" text-center h96">0,0</td>
+                    <td id="mes-21" class=" text-center mes">16,8</td>
+                    
+                    <td id="taxa-21" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-22">
+                    <td id="estacao-22" class=" number">22</td>
+                    <td id="nome-22" class=" station">Santa Cruz
+                        
+                    </td>
+                    <td id="bacia-22" class=" location">Baía de Sepetiba</td>
+                    <td id="horaLeitura-22" class=" text-center leitura"><a id="data-22" href="/estacoes/pluviometricos/24horas/22/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-22" class=" text-center m05">0,0</td>
+                    <td id="m10-22" class=" text-center m10">0,0</td>
+                    <td id="m15-22" class=" text-center m15">0,0</td>
+                    <td id="m30-22" class=" text-center m30">0,0</td>
+                    <td id="h01-22" class=" text-center h01">0,0</td>
+                    <td id="h02-22" class=" text-center h02">0,0</td>
+                    <td id="h03-22" class=" text-center h03">0,0</td>
+                    <td id="h04-22" class=" text-center h04">0,0</td>
+                    <td id="h06-22" class=" text-center h06">0,0</td>
+                    <td id="h12-22" class=" text-center h12">0,0</td>
+                    <td id="h24-22" class=" text-center h24">0,0</td>
+                    <td id="h96-22" class=" text-center h96">0,0</td>
+                    <td id="mes-22" class=" text-center mes">18,4</td>
+                    
+                    <td id="taxa-22" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-23">
+                    <td id="estacao-23" class=" number">23</td>
+                    <td id="nome-23" class=" station">Grande Méier
+                        
+                    </td>
+                    <td id="bacia-23" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-23" class=" text-center leitura"><a id="data-23" href="/estacoes/pluviometricos/24horas/23/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-23" class=" text-center m05">0,0</td>
+                    <td id="m10-23" class=" text-center m10">0,0</td>
+                    <td id="m15-23" class=" text-center m15">0,0</td>
+                    <td id="m30-23" class=" text-center m30">0,0</td>
+                    <td id="h01-23" class=" text-center h01">0,0</td>
+                    <td id="h02-23" class=" text-center h02">0,0</td>
+                    <td id="h03-23" class=" text-center h03">0,0</td>
+                    <td id="h04-23" class=" text-center h04">0,0</td>
+                    <td id="h06-23" class=" text-center h06">0,0</td>
+                    <td id="h12-23" class=" text-center h12">0,0</td>
+                    <td id="h24-23" class=" text-center h24">0,0</td>
+                    <td id="h96-23" class=" text-center h96">0,0</td>
+                    <td id="mes-23" class=" text-center mes">2,4</td>
+                    
+                    <td id="taxa-23" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-24">
+                    <td id="estacao-24" class=" number">24</td>
+                    <td id="nome-24" class=" station">Anchieta
+                        
+                    </td>
+                    <td id="bacia-24" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-24" class=" text-center leitura"><a id="data-24" href="/estacoes/pluviometricos/24horas/24/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-24" class=" text-center m05">0,0</td>
+                    <td id="m10-24" class=" text-center m10">0,0</td>
+                    <td id="m15-24" class=" text-center m15">0,0</td>
+                    <td id="m30-24" class=" text-center m30">0,0</td>
+                    <td id="h01-24" class=" text-center h01">0,0</td>
+                    <td id="h02-24" class=" text-center h02">0,0</td>
+                    <td id="h03-24" class=" text-center h03">0,0</td>
+                    <td id="h04-24" class=" text-center h04">0,0</td>
+                    <td id="h06-24" class=" text-center h06">0,0</td>
+                    <td id="h12-24" class=" text-center h12">0,0</td>
+                    <td id="h24-24" class=" text-center h24">0,0</td>
+                    <td id="h96-24" class=" text-center h96">0,0</td>
+                    <td id="mes-24" class=" text-center mes">23,0</td>
+                    
+                    <td id="taxa-24" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-25">
+                    <td id="estacao-25" class=" number">25</td>
+                    <td id="nome-25" class=" station">Grota Funda
+                        
+                    </td>
+                    <td id="bacia-25" class=" location">Barra/Jacarepaguá</td>
+                    <td id="horaLeitura-25" class=" text-center leitura"><a id="data-25" href="/estacoes/pluviometricos/24horas/25/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-25" class=" text-center m05">0,0</td>
+                    <td id="m10-25" class=" text-center m10">0,0</td>
+                    <td id="m15-25" class=" text-center m15">0,0</td>
+                    <td id="m30-25" class=" text-center m30">0,0</td>
+                    <td id="h01-25" class=" text-center h01">0,0</td>
+                    <td id="h02-25" class=" text-center h02">0,0</td>
+                    <td id="h03-25" class=" text-center h03">0,0</td>
+                    <td id="h04-25" class=" text-center h04">0,0</td>
+                    <td id="h06-25" class=" text-center h06">0,0</td>
+                    <td id="h12-25" class=" text-center h12">0,0</td>
+                    <td id="h24-25" class=" text-center h24">0,0</td>
+                    <td id="h96-25" class=" text-center h96">0,0</td>
+                    <td id="mes-25" class=" text-center mes">67,2</td>
+                    
+                    <td id="taxa-25" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-26">
+                    <td id="estacao-26" class=" number">26</td>
+                    <td id="nome-26" class=" station">Campo Grande
+                        
+                    </td>
+                    <td id="bacia-26" class=" location">Baía de Sepetiba</td>
+                    <td id="horaLeitura-26" class=" text-center leitura"><a id="data-26" href="/estacoes/pluviometricos/24horas/26/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-26" class=" text-center m05">0,0</td>
+                    <td id="m10-26" class=" text-center m10">0,0</td>
+                    <td id="m15-26" class=" text-center m15">0,0</td>
+                    <td id="m30-26" class=" text-center m30">0,0</td>
+                    <td id="h01-26" class=" text-center h01">0,0</td>
+                    <td id="h02-26" class=" text-center h02">0,0</td>
+                    <td id="h03-26" class=" text-center h03">0,0</td>
+                    <td id="h04-26" class=" text-center h04">0,0</td>
+                    <td id="h06-26" class=" text-center h06">0,0</td>
+                    <td id="h12-26" class=" text-center h12">0,0</td>
+                    <td id="h24-26" class=" text-center h24">0,0</td>
+                    <td id="h96-26" class=" text-center h96">0,0</td>
+                    <td id="mes-26" class=" text-center mes">17,2</td>
+                    
+                    <td id="taxa-26" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-27">
+                    <td id="estacao-27" class=" number">27</td>
+                    <td id="nome-27" class=" station">Sepetiba
+                        
+                    </td>
+                    <td id="bacia-27" class=" location">Baía de Sepetiba</td>
+                    <td id="horaLeitura-27" class=" text-center leitura"><a id="data-27" href="/estacoes/pluviometricos/24horas/27/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-27" class=" text-center m05">0,0</td>
+                    <td id="m10-27" class=" text-center m10">0,0</td>
+                    <td id="m15-27" class=" text-center m15">0,0</td>
+                    <td id="m30-27" class=" text-center m30">0,0</td>
+                    <td id="h01-27" class=" text-center h01">0,0</td>
+                    <td id="h02-27" class=" text-center h02">0,0</td>
+                    <td id="h03-27" class=" text-center h03">0,0</td>
+                    <td id="h04-27" class=" text-center h04">0,0</td>
+                    <td id="h06-27" class=" text-center h06">0,0</td>
+                    <td id="h12-27" class=" text-center h12">0,0</td>
+                    <td id="h24-27" class=" text-center h24">0,0</td>
+                    <td id="h96-27" class=" text-center h96">0,2</td>
+                    <td id="mes-27" class=" text-center mes">53,0</td>
+                    
+                    <td id="taxa-27" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-28">
+                    <td id="estacao-28" class=" number">28</td>
+                    <td id="nome-28" class=" station">Alto da Boa Vista
+                        
+                    </td>
+                    <td id="bacia-28" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-28" class=" text-center leitura"><a id="data-28" href="/estacoes/pluviometricos/24horas/28/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-28" class=" text-center m05">0,0</td>
+                    <td id="m10-28" class=" text-center m10">0,0</td>
+                    <td id="m15-28" class=" text-center m15">0,0</td>
+                    <td id="m30-28" class=" text-center m30">0,0</td>
+                    <td id="h01-28" class=" text-center h01">0,0</td>
+                    <td id="h02-28" class=" text-center h02">0,0</td>
+                    <td id="h03-28" class=" text-center h03">0,0</td>
+                    <td id="h04-28" class=" text-center h04">0,0</td>
+                    <td id="h06-28" class=" text-center h06">0,0</td>
+                    <td id="h12-28" class=" text-center h12">0,0</td>
+                    <td id="h24-28" class=" text-center h24">0,0</td>
+                    <td id="h96-28" class=" text-center h96">0,0</td>
+                    <td id="mes-28" class=" text-center mes">141,2</td>
+                    
+                    <td id="taxa-28" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-29">
+                    <td id="estacao-29" class=" number">29</td>
+                    <td id="nome-29" class=" station">Av. Brasil/Mendanha
+                        
+                    </td>
+                    <td id="bacia-29" class=" location">Baía de Sepetiba</td>
+                    <td id="horaLeitura-29" class=" text-center leitura"><a id="data-29" href="/estacoes/pluviometricos/24horas/29/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-29" class=" text-center m05">0,0</td>
+                    <td id="m10-29" class=" text-center m10">0,0</td>
+                    <td id="m15-29" class=" text-center m15">0,0</td>
+                    <td id="m30-29" class=" text-center m30">0,0</td>
+                    <td id="h01-29" class=" text-center h01">0,0</td>
+                    <td id="h02-29" class=" text-center h02">0,0</td>
+                    <td id="h03-29" class=" text-center h03">0,0</td>
+                    <td id="h04-29" class=" text-center h04">0,0</td>
+                    <td id="h06-29" class=" text-center h06">0,0</td>
+                    <td id="h12-29" class=" text-center h12">0,0</td>
+                    <td id="h24-29" class=" text-center h24">0,0</td>
+                    <td id="h96-29" class=" text-center h96">0,0</td>
+                    <td id="mes-29" class=" text-center mes">18,2</td>
+                    
+                    <td id="taxa-29" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-30">
+                    <td id="estacao-30" class=" number">30</td>
+                    <td id="nome-30" class=" station">Recreio dos Bandeirantes
+                        
+                    </td>
+                    <td id="bacia-30" class=" location">Barra/Jacarepaguá</td>
+                    <td id="horaLeitura-30" class=" text-center leitura"><a id="data-30" href="/estacoes/pluviometricos/24horas/30/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-30" class=" text-center m05">0,0</td>
+                    <td id="m10-30" class=" text-center m10">0,0</td>
+                    <td id="m15-30" class=" text-center m15">0,0</td>
+                    <td id="m30-30" class=" text-center m30">0,0</td>
+                    <td id="h01-30" class=" text-center h01">0,0</td>
+                    <td id="h02-30" class=" text-center h02">0,0</td>
+                    <td id="h03-30" class=" text-center h03">0,0</td>
+                    <td id="h04-30" class=" text-center h04">0,0</td>
+                    <td id="h06-30" class=" text-center h06">0,0</td>
+                    <td id="h12-30" class=" text-center h12">0,0</td>
+                    <td id="h24-30" class=" text-center h24">0,0</td>
+                    <td id="h96-30" class=" text-center h96">0,0</td>
+                    <td id="mes-30" class=" text-center mes">56,8</td>
+                    
+                    <td id="taxa-30" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-31">
+                    <td id="estacao-31" class=" number">31</td>
+                    <td id="nome-31" class=" station">Laranjeiras
+                        
+                    </td>
+                    <td id="bacia-31" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-31" class=" text-center leitura"><a id="data-31" href="/estacoes/pluviometricos/24horas/31/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-31" class=" text-center m05">0,0</td>
+                    <td id="m10-31" class=" text-center m10">0,0</td>
+                    <td id="m15-31" class=" text-center m15">0,0</td>
+                    <td id="m30-31" class=" text-center m30">0,0</td>
+                    <td id="h01-31" class=" text-center h01">0,0</td>
+                    <td id="h02-31" class=" text-center h02">0,0</td>
+                    <td id="h03-31" class=" text-center h03">0,0</td>
+                    <td id="h04-31" class=" text-center h04">0,0</td>
+                    <td id="h06-31" class=" text-center h06">0,0</td>
+                    <td id="h12-31" class=" text-center h12">0,0</td>
+                    <td id="h24-31" class=" text-center h24">0,0</td>
+                    <td id="h96-31" class=" text-center h96">0,0</td>
+                    <td id="mes-31" class=" text-center mes">11,0</td>
+                    
+                    <td id="taxa-31" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-32">
+                    <td id="estacao-32" class=" number">32</td>
+                    <td id="nome-32" class=" station">São Cristóvão
+                        
+                    </td>
+                    <td id="bacia-32" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-32" class=" text-center leitura"><a id="data-32" href="/estacoes/pluviometricos/24horas/32/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-32" class=" text-center m05">0,0</td>
+                    <td id="m10-32" class=" text-center m10">0,0</td>
+                    <td id="m15-32" class=" text-center m15">0,0</td>
+                    <td id="m30-32" class=" text-center m30">0,0</td>
+                    <td id="h01-32" class=" text-center h01">0,0</td>
+                    <td id="h02-32" class=" text-center h02">0,0</td>
+                    <td id="h03-32" class=" text-center h03">0,0</td>
+                    <td id="h04-32" class=" text-center h04">0,0</td>
+                    <td id="h06-32" class=" text-center h06">0,0</td>
+                    <td id="h12-32" class=" text-center h12">0,0</td>
+                    <td id="h24-32" class=" text-center h24">0,0</td>
+                    <td id="h96-32" class=" text-center h96">0,0</td>
+                    <td id="mes-32" class=" text-center mes">7,4</td>
+                    
+                    <td id="taxa-32" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+                <tr id ="linha-33">
+                    <td id="estacao-33" class=" number">33</td>
+                    <td id="nome-33" class=" station">Tijuca/Muda
+                        
+                    </td>
+                    <td id="bacia-33" class=" location">Baía de Guanabara</td>
+                    <td id="horaLeitura-33" class=" text-center leitura"><a id="data-33" href="/estacoes/pluviometricos/24horas/33/" title="Dados das últimas 24 horas">17/05/2026 - 14:35:00</a></td>
+                    
+                    <td id="m05-33" class=" text-center m05">0,0</td>
+                    <td id="m10-33" class=" text-center m10">0,0</td>
+                    <td id="m15-33" class=" text-center m15">0,0</td>
+                    <td id="m30-33" class=" text-center m30">0,0</td>
+                    <td id="h01-33" class=" text-center h01">0,0</td>
+                    <td id="h02-33" class=" text-center h02">0,0</td>
+                    <td id="h03-33" class=" text-center h03">0,0</td>
+                    <td id="h04-33" class=" text-center h04">0,0</td>
+                    <td id="h06-33" class=" text-center h06">0,0</td>
+                    <td id="h12-33" class=" text-center h12">0,0</td>
+                    <td id="h24-33" class=" text-center h24">0,0</td>
+                    <td id="h96-33" class=" text-center h96">0,0</td>
+                    <td id="mes-33" class=" text-center mes">20,0</td>
+                    
+                    <td id="taxa-33" class=" text-center taxa">0,0</td>
+                    
+                </tr>
+            
+        </tbody>
+    </table>
+    
+    <hr />
+    <h3>Dados Meteorológicos</h3>
+    <table class="table table-condensed table-bordered table-sorter" id="tabela-dados-met">
+        <thead>
+            <tr>
+                <th class="text-center sorter">N°</th>
+                <th class="sorter">Estação</th>
+                <th class="text-center sorter">Hora Leitura</th>
+                <th class="text-center sorter">Temp. (°C)</th>
+                <th class="text-center sorter">Umi. do Ar (%)</th>
+                
+                <th class="text-center sorter">P. Atm. (hPa)</th>
+                <th class="text-center sorter">P. de Orvalho (°C)</th>
+                <th class="text-center sorter">Vel. do Vento (Km/h)</th>
+                <th class="text-center sorter">Dir. do Vento (°)</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+            <tr id ="linha-met-1" >
+                <td class="text-center">1</td>
+                <td>Vidigal</td>
+                
+                <td class="text-center"><a id="data-met-1" href="/estacoes/meteorologicos/24horas/1/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                <td id="temperatura-met-1" class="text-center">-</td>
+                <td id="umidade-met-1" class="text-center">-</td>
+                
+                <td id="pressao-met-1" class="text-center">-</td>
+                <td id="ponto-met-1" class="text-center">-</td>
+                <td id="velocidade-met-1" class="text-center ">0,0</td>
+                <td id="direcao-met-1" class="text-center">
+                    
+                        -
+                    
+                </td>
+                
+            </tr>
+        
+            <tr id ="linha-met-11" >
+                <td class="text-center">11</td>
+                <td>Irajá</td>
+                
+                <td class="text-center"><a id="data-met-11" href="/estacoes/meteorologicos/24horas/11/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                <td id="temperatura-met-11" class="text-center">29,9</td>
+                <td id="umidade-met-11" class="text-center">100,0</td>
+                
+                <td id="pressao-met-11" class="text-center">-</td>
+                <td id="ponto-met-11" class="text-center">29,9</td>
+                <td id="velocidade-met-11" class="text-center ">-</td>
+                <td id="direcao-met-11" class="text-center">
+                    
+                        -
+                    
+                </td>
+                
+            </tr>
+        
+            <tr id ="linha-met-16" >
+                <td class="text-center">16</td>
+                <td>Jardim Botânico</td>
+                
+                <td class="text-center"><a id="data-met-16" href="/estacoes/meteorologicos/24horas/16/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                <td id="temperatura-met-16" class="text-center">29,8</td>
+                <td id="umidade-met-16" class="text-center">91,8</td>
+                
+                <td id="pressao-met-16" class="text-center">-</td>
+                <td id="ponto-met-16" class="text-center">28,3</td>
+                <td id="velocidade-met-16" class="text-center ">-</td>
+                <td id="direcao-met-16" class="text-center">
+                    
+                        -
+                    
+                </td>
+                
+            </tr>
+        
+            <tr id ="linha-met-19" >
+                <td class="text-center">19</td>
+                <td>Barra/Riocentro</td>
+                
+                <td class="text-center"><a id="data-met-19" href="/estacoes/meteorologicos/24horas/19/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                <td id="temperatura-met-19" class="text-center">27,6</td>
+                <td id="umidade-met-19" class="text-center">88,4</td>
+                
+                <td id="pressao-met-19" class="text-center">-</td>
+                <td id="ponto-met-19" class="text-center">25,6</td>
+                <td id="velocidade-met-19" class="text-center ">-</td>
+                <td id="direcao-met-19" class="text-center">
+                    
+                        -
+                    
+                </td>
+                
+            </tr>
+        
+            <tr id ="linha-met-20" >
+                <td class="text-center">20</td>
+                <td>Guaratiba</td>
+                
+                <td class="text-center"><a id="data-met-20" href="/estacoes/meteorologicos/24horas/20/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                <td id="temperatura-met-20" class="text-center">26,3</td>
+                <td id="umidade-met-20" class="text-center">100,0</td>
+                
+                <td id="pressao-met-20" class="text-center">1006,6</td>
+                <td id="ponto-met-20" class="text-center">26,3</td>
+                <td id="velocidade-met-20" class="text-center ">0,0</td>
+                <td id="direcao-met-20" class="text-center">
+                    
+                        -
+                    
+                </td>
+                
+            </tr>
+        
+            <tr id ="linha-met-22" >
+                <td class="text-center">22</td>
+                <td>Santa Cruz</td>
+                
+                <td class="text-center"><a id="data-met-22" href="/estacoes/meteorologicos/24horas/22/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                <td id="temperatura-met-22" class="text-center">31,4</td>
+                <td id="umidade-met-22" class="text-center">77,6</td>
+                
+                <td id="pressao-met-22" class="text-center">-</td>
+                <td id="ponto-met-22" class="text-center">27,0</td>
+                <td id="velocidade-met-22" class="text-center ">-</td>
+                <td id="direcao-met-22" class="text-center">
+                    
+                        -
+                    
+                </td>
+                
+            </tr>
+        
+            <tr id ="linha-met-28" >
+                <td class="text-center">28</td>
+                <td>Alto da Boa Vista</td>
+                
+                <td class="text-center"><a id="data-met-28" href="/estacoes/meteorologicos/24horas/28/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                <td id="temperatura-met-28" class="text-center">27,4</td>
+                <td id="umidade-met-28" class="text-center">78,9</td>
+                
+                <td id="pressao-met-28" class="text-center">-</td>
+                <td id="ponto-met-28" class="text-center">23,4</td>
+                <td id="velocidade-met-28" class="text-center ">-</td>
+                <td id="direcao-met-28" class="text-center">
+                    
+                        -
+                    
+                </td>
+                
+            </tr>
+        
+            <tr id ="linha-met-32" >
+                <td class="text-center">32</td>
+                <td>São Cristóvão</td>
+                
+                <td class="text-center"><a id="data-met-32" href="/estacoes/meteorologicos/24horas/32/" title="Dados das últimas 24 horas">17/05/2026 - 14:30:00</a></td>
+                <td id="temperatura-met-32" class="text-center">29,2</td>
+                <td id="umidade-met-32" class="text-center">79,8</td>
+                
+                <td id="pressao-met-32" class="text-center">1007,0</td>
+                <td id="ponto-met-32" class="text-center">25,3</td>
+                <td id="velocidade-met-32" class="text-center ">9,9</td>
+                <td id="direcao-met-32" class="text-center">
+                    
+                        182,5
+                    
+                </td>
+                
+            </tr>
+        
+        </tbody>
+    </table>
+    
+</div>
+
+<div class="col-md-2">
+<h4><strong>Situação Atual</strong></h4>
+<table class="table table-bordered table-condensed">
+    <thead>
+        <tr class="info">
+            <th colspan="2" class="text-center" >Condições de Chuva</th>
+        </tr>
+    </thead>
+    <tbody class="text-center">
+        
+        <tr>
+            <td>Baía de Guanabara</td>
+            <td id="condicao-2" style="color: #008200" 
+                data-toggle="tooltip" data-placement="bottom" title="Estágio 1">
+                Estágio 1
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Baía de Sepetiba</td>
+            <td id="condicao-3" style="color: #008200" 
+                data-toggle="tooltip" data-placement="bottom" title="Estágio 1">
+                Estágio 1
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Barra/Jacarepaguá</td>
+            <td id="condicao-4" style="color: #008200" 
+                data-toggle="tooltip" data-placement="bottom" title="Estágio 1">
+                Estágio 1
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Zona Sul</td>
+            <td id="condicao-1" style="color: #008200" 
+                data-toggle="tooltip" data-placement="bottom" title="Estágio 1">
+                Estágio 1
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+<table class="table table-bordered table-condensed">
+    <thead>
+        <tr class="info">
+            <th colspan="2" class="text-center">Probabilidade de Escorregamento</th>
+        </tr>
+    </thead>
+    <tbody class="text-center">
+        
+        <tr>
+            <td>Baía de Guanabara</td>
+            <td id="escorregamento-2" style="color: #008200" 
+                data-toggle="tooltip" data-placement="bottom" title="Possibilidade de ocorrências de escorregamentos circunstanciais">
+                Baixa
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Baía de Sepetiba</td>
+            <td id="escorregamento-3" style="color: #008200" 
+                data-toggle="tooltip" data-placement="bottom" title="Possibilidade de ocorrências de escorregamentos circunstanciais">
+                Baixa
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Barra/Jacarepaguá</td>
+            <td id="escorregamento-4" style="color: #008200" 
+                data-toggle="tooltip" data-placement="bottom" title="Possibilidade de ocorrências de escorregamentos circunstanciais">
+                Baixa
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Zona Sul</td>
+            <td id="escorregamento-1" style="color: #008200" 
+                data-toggle="tooltip" data-placement="bottom" title="Possibilidade de ocorrências de escorregamentos circunstanciais">
+                Baixa
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+</div>
+
+
+<div class="col-md-2">
+    <h4><strong>Legenda de Chuva</strong></h4>
+    <table class="table table-condensed">
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span style="color: #CFCFCF; background-color: #CFCFCF;" 
+                          class="glyphicon glyphicon-stop"></span></td>
+                <td>Atrasada</td>
+            </tr>
+            <tr>
+                <td><span style="color: #63bbff" class="ch-fraca glyphicon glyphicon-stop"></span></td>
+                <td>Chuva Fraca<br>(0,2 a 5,0mm/h)</td>
+            </tr>
+            <tr>
+                <td><span style="color: #ee0" class="ch-moderada glyphicon glyphicon-stop"></span></td>
+                <td>Chuva Moderada<br>(5,1 a 25,0mm/h)</td>
+            </tr>
+            <tr>
+                <td><span style="color: #ffa500" class="ch-forte glyphicon glyphicon-stop"></span></td>
+                <td>Chuva Forte<br>(25,1 a 50,0mm/h)</td>
+            </tr>
+            <tr>
+                <td><span style="color: #e00" class="ch-muito-forte glyphicon glyphicon-stop"></span></td>
+                <td>Chuva Muito Forte<br>(acima a 50,0mm/h)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+        </div>
+    </div>
+
+    <div class="row-fluid">
+    <div id="footer" class="col-sm-12 col-md-12">
+        <div class="col-md-4 col-sm-4">
+            <p>
+                <strong>Alerta Rio</strong> <br>
+                Centro de Operações Rio<br>
+                R. Ulisses Guimarães, 300 - Cidade Nova<br>
+                <strong>Tel:</strong> +55 (21) 2976-4573<br>
+                <strong>E-mail:</strong> <a href="mailto:alertario@centrodeoperacoesrio.com.br">alertario@centrodeoperacoesrio.com.br</a>
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <p>
+                <strong>Fundação Instituto de Geotécnica</strong> <br />
+                Rua Cpo. de S. Cristóvão, 268 , 1º e 3º andares<br />
+                Rio de Janeiro - CEP: 20921-440 <br />
+                <strong>Tel:</strong> +55 (21) 3878-7878 / <strong>Fax:</strong> +55 (21) 3878-6397 <br />
+                e-mail: <a href="mailto:georio@pcrj.rj.gov.br">georio@pcrj.rj.gov.br</a>
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <p class="text-right">
+                <strong>Squitter&reg; Meteorologia e Hidrologia</strong><br>
+                Estrada Dr. Altino Bondensan, 500 - CE II, SL 2204 <br>
+                Distrito de Eugênio de Melo - São José dos Campos/SP - CEP: 12247-016 <br>
+                <strong>Tel:</strong> +55 (12) 3923-5522<br/>
+                <a href="http://www.squitter.com.br">http://www.squitter.com.br/</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+    
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/app/common/tablesorter.js"></script>
+    <script type="text/javascript" src="/static/app/common/ws4redis.js" ></script>
+    <script type="text/javascript" src="/static/app/common/dados.js" ></script>
+    <script type="text/javascript" src="/static/js/moment-with-locales.min.js" ></script>
+    <script type="text/javascript" src="/static/js/moment-pt-br.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap-datetimepicker.min.js" ></script>
+    <script type="text/javascript" src="/static/js/c3.min.js"></script>
+    <script src="/static/js/d3.min.js" charset="utf-8"></script>
+    
+<script type="text/javascript" src="/static/estacoes/situacao_atual.js"></script>
+
+
+
+</body>
+</html>

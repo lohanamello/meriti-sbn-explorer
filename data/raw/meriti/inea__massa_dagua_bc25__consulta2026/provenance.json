@@ -1,0 +1,35 @@
+{
+  "source_id": "inea__massa_dagua_bc25__consulta2026",
+  "source_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/118",
+  "query_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/118/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects",
+  "query_parameters": {
+    "where": "1=1",
+    "outFields": "*",
+    "f": "geojson",
+    "outSR": "4326",
+    "returnZ": "false",
+    "returnM": "false",
+    "resultRecordCount": 2000,
+    "geometry": "-43.425,-22.83,-43.315,-22.74",
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": "4326",
+    "spatialRel": "esriSpatialRelIntersects"
+  },
+  "retrieved_at": "2026-10-03T04:06:42.420204+00:00",
+  "files": [
+    {
+      "path": "features.geojson",
+      "sha256": "f974ba145c6403ea623708f39a9f6c075d3bfcf41df6e5b93df8d328fbf23a3c",
+      "size_bytes": 179359,
+      "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/118/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects"
+    },
+    {
+      "path": "layer-metadata.json",
+      "sha256": "80f757db66ea7113db7b462318cc42b0b13d9c1958ae9e7cee9282499ed90b6d",
+      "size_bytes": 10791,
+      "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/118?f=json"
+    }
+  ],
+  "feature_count": 11,
+  "license": "Publicly accessible governmental geodata; layer does not state an explicit reuse license."
+}

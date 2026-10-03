@@ -1,0 +1,1559 @@
+{
+  "sourceId": "dageop__meriti_bairros_localidades__2024",
+  "sourceTitle": "Atlas escolar de São João de Meriti, DAGEOP/UERJ-FFP",
+  "sourceUrl": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+  "sourceDate": null,
+  "municipalListUrl": "https://meriti.rj.gov.br/inicio/a-cidade/",
+  "limitation": "Cinco contornos aproximados digitalizados do atlas escolar DAGEOP/UERJ e um ponto na posição do rótulo Vila São João. PDF criado em 05/11/2024; data e exatidão dos limites não informadas. Coordenadas impressas usadas para georreferenciar o desenho, sem validação independente de posição. Trechos encobertos pela Linha Vermelha foram interpolados no sul de Parque Novo Rio e Parque Analândia. Não são limites cadastrais atuais nem base para redistribuir indicadores.",
+  "localities": [
+    {
+      "id": "atlas-parque-alian",
+      "name": "Parque Alian",
+      "geometry": {
+        "type": "Feature",
+        "id": "atlas-parque-alian",
+        "properties": {
+          "id": "atlas-parque-alian",
+          "name": "Parque Alian",
+          "geometryType": "Polygon",
+          "representation": "derived-boundary",
+          "source": "Atlas escolar de São João de Meriti, DAGEOP/UERJ-FFP",
+          "sourceUrl": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+          "sourcePageUrl": "https://www.dageop.com.br/sao-joao-de-meriti",
+          "sourcePdfCreatedAt": "2024-11-05T15:27:43-03:00",
+          "boundaryReferenceDate": null,
+          "quality": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+          "note": "Mantém os indicadores na divisão IBGE 2022. A fonte não informa a data nem a precisão dos limites. A resolução gráfica é de aproximadamente 2,5 m por pixel, sem validar a exatidão geográfica.",
+          "restorationNote": null,
+          "areaM2": 919636.82,
+          "ibgeIntersections": [
+            {
+              "id": "3305109013",
+              "name": "Coelho da Rocha",
+              "intersectionAreaM2": 674820.77,
+              "shareOfDerivedAreaPct": 73.3791
+            },
+            {
+              "id": "3305109002",
+              "name": "Vilar dos Teles",
+              "intersectionAreaM2": 244816.22,
+              "shareOfDerivedAreaPct": 26.621
+            }
+          ],
+          "outsideIbgeMunicipalityPct": 0.0,
+          "displayClippedToIbgeMunicipality": true,
+          "localityId": "atlas-parque-alian",
+          "overlayColor": "#dfb3ff",
+          "geometryMethod": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+          "sourceDate": "PDF criado em 05/11/2024; data dos limites não informada."
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -43.39054143203338,
+                -22.77151225944705
+              ],
+              [
+                -43.390164443704634,
+                -22.77097332188823
+              ],
+              [
+                -43.389136342265296,
+                -22.76994522044889
+              ],
+              [
+                -43.3858464176594,
+                -22.76704368972008
+              ],
+              [
+                -43.385183880273686,
+                -22.766541063178757
+              ],
+              [
+                -43.38161979884986,
+                -22.765947049188988
+              ],
+              [
+                -43.380417109798856,
+                -22.765946195447665
+              ],
+              [
+                -43.37935797568331,
+                -22.765672888805163
+              ],
+              [
+                -43.37892397301914,
+                -22.765627194403653
+              ],
+              [
+                -43.37882549897975,
+                -22.765954687415416
+              ],
+              [
+                -43.37837565308052,
+                -22.76635827188532
+              ],
+              [
+                -43.37829613467545,
+                -22.766578949030965
+              ],
+              [
+                -43.3778501613073,
+                -22.76681522356258
+              ],
+              [
+                -43.37694491846218,
+                -22.767670744669083
+              ],
+              [
+                -43.37581682283149,
+                -22.76859724835322
+              ],
+              [
+                -43.37609098321531,
+                -22.768985570929388
+              ],
+              [
+                -43.376405874158046,
+                -22.769274158203245
+              ],
+              [
+                -43.376662132977394,
+                -22.76973949428068
+              ],
+              [
+                -43.377954875345324,
+                -22.76979688536727
+              ],
+              [
+                -43.37810063913056,
+                -22.770188327715417
+              ],
+              [
+                -43.37800512766213,
+                -22.770497456069574
+              ],
+              [
+                -43.37766740542231,
+                -22.77083622482112
+              ],
+              [
+                -43.37769025129193,
+                -22.770927523439614
+              ],
+              [
+                -43.378628035120954,
+                -22.771315969842355
+              ],
+              [
+                -43.378981258225394,
+                -22.770914213071396
+              ],
+              [
+                -43.37932583689312,
+                -22.77078323000334
+              ],
+              [
+                -43.379509556354186,
+                -22.770825593122126
+              ],
+              [
+                -43.379837824090025,
+                -22.77127022309037
+              ],
+              [
+                -43.380714116881336,
+                -22.77063136909425
+              ],
+              [
+                -43.380834664876005,
+                -22.77066566623156
+              ],
+              [
+                -43.38127716610511,
+                -22.771133142898456
+              ],
+              [
+                -43.38134563490014,
+                -22.771133142898456
+              ],
+              [
+                -43.381555281201265,
+                -22.770860829762643
+              ],
+              [
+                -43.38187511199829,
+                -22.7709553475492
+              ],
+              [
+                -43.382122251805136,
+                -22.771160382156513
+              ],
+              [
+                -43.3818026570493,
+                -22.771818544687044
+              ],
+              [
+                -43.382714304863406,
+                -22.772323985941316
+              ],
+              [
+                -43.38271251906459,
+                -22.772460913393513
+              ],
+              [
+                -43.38239667221846,
+                -22.77298381092852
+              ],
+              [
+                -43.38248804113366,
+                -22.773143652379837
+              ],
+              [
+                -43.38824540562808,
+                -22.775839562645597
+              ],
+              [
+                -43.38842809460708,
+                -22.775862410348456
+              ],
+              [
+                -43.388668450942404,
+                -22.775489076584194
+              ],
+              [
+                -43.38906780134031,
+                -22.775108486168136
+              ],
+              [
+                -43.38910351312356,
+                -22.7749792279712
+              ],
+              [
+                -43.389227729059904,
+                -22.774948542402374
+              ],
+              [
+                -43.3897988965262,
+                -22.77435452823742
+              ],
+              [
+                -43.3897887024408,
+                -22.7742316865184
+              ],
+              [
+                -43.38991314689466,
+                -22.774217447216483
+              ],
+              [
+                -43.390918384760155,
+                -22.77312080651021
+              ],
+              [
+                -43.39095466727068,
+                -22.772974315431515
+              ],
+              [
+                -43.39112400504802,
+                -22.772915186222342
+              ],
+              [
+                -43.39148955139743,
+                -22.772549655919107
+              ],
+              [
+                -43.39054143203338,
+                -22.77151225944705
+              ]
+            ]
+          ]
+        }
+      },
+      "geometryStatus": "approximate_boundary",
+      "method": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+      "ibgeOverlaps": [
+        {
+          "id": "3305109013",
+          "name": "Coelho da Rocha",
+          "intersectionPct": 73.3791
+        },
+        {
+          "id": "3305109002",
+          "name": "Vilar dos Teles",
+          "intersectionPct": 26.621
+        }
+      ]
+    },
+    {
+      "id": "atlas-parque-analandia",
+      "name": "Parque Analândia",
+      "geometry": {
+        "type": "Feature",
+        "id": "atlas-parque-analandia",
+        "properties": {
+          "id": "atlas-parque-analandia",
+          "name": "Parque Analândia",
+          "geometryType": "Polygon",
+          "representation": "derived-boundary",
+          "source": "Atlas escolar de São João de Meriti, DAGEOP/UERJ-FFP",
+          "sourceUrl": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+          "sourcePageUrl": "https://www.dageop.com.br/sao-joao-de-meriti",
+          "sourcePdfCreatedAt": "2024-11-05T15:27:43-03:00",
+          "boundaryReferenceDate": null,
+          "quality": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+          "note": "Mantém os indicadores na divisão IBGE 2022. A fonte não informa a data nem a precisão dos limites. A resolução gráfica é de aproximadamente 2,5 m por pixel, sem validar a exatidão geográfica.",
+          "restorationNote": "O trecho sul, encoberto pela Linha Vermelha, foi continuado entre segmentos visíveis do limite e da borda municipal no próprio atlas.",
+          "areaM2": 507739.87,
+          "ibgeIntersections": [
+            {
+              "id": "3305109009",
+              "name": "Parque Araruama",
+              "intersectionAreaM2": 357277.57,
+              "shareOfDerivedAreaPct": 70.3663
+            },
+            {
+              "id": "3305109010",
+              "name": "Jardim Sumaré",
+              "intersectionAreaM2": 150461.15,
+              "shareOfDerivedAreaPct": 29.6335
+            }
+          ],
+          "outsideIbgeMunicipalityPct": 0.0002,
+          "displayClippedToIbgeMunicipality": true,
+          "localityId": "atlas-parque-analandia",
+          "overlayColor": "#dfb3ff",
+          "geometryMethod": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal. O trecho sul, encoberto pela Linha Vermelha, foi continuado entre segmentos visíveis do limite e da borda municipal no próprio atlas.",
+          "sourceDate": "PDF criado em 05/11/2024; data dos limites não informada."
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -43.3331848297921,
+                -22.802615946995655
+              ],
+              [
+                -43.33574366004113,
+                -22.80289010737948
+              ],
+              [
+                -43.3368944597443,
+                -22.801258165985875
+              ],
+              [
+                -43.3378911963597,
+                -22.80005708109631
+              ],
+              [
+                -43.33795973645565,
+                -22.799851532109077
+              ],
+              [
+                -43.33766274707758,
+                -22.79944030923775
+              ],
+              [
+                -43.33725502035493,
+                -22.799412048591833
+              ],
+              [
+                -43.337286076861055,
+                -22.798952362117138
+              ],
+              [
+                -43.33750280248261,
+                -22.7988233593691
+              ],
+              [
+                -43.337411415512825,
+                -22.79832079973356
+              ],
+              [
+                -43.33689193114002,
+                -22.797526987482076
+              ],
+              [
+                -43.33654546210011,
+                -22.79681012417917
+              ],
+              [
+                -43.336429007470784,
+                -22.796264596854876
+              ],
+              [
+                -43.33624625176115,
+                -22.796081844535898
+              ],
+              [
+                -43.33556085436743,
+                -22.79592191782051
+              ],
+              [
+                -43.33433447875417,
+                -22.795920896630243
+              ],
+              [
+                -43.333868587082996,
+                -22.795780954442005
+              ],
+              [
+                -43.332887787059306,
+                -22.79521366998712
+              ],
+              [
+                -43.33263647693997,
+                -22.795167976764994
+              ],
+              [
+                -43.33217961070173,
+                -22.79521366998712
+              ],
+              [
+                -43.331249039199,
+                -22.795533470413524
+              ],
+              [
+                -43.330944209655534,
+                -22.79550679405818
+              ],
+              [
+                -43.3302832669788,
+                -22.795167976764994
+              ],
+              [
+                -43.33014627222611,
+                -22.795213652282715
+              ],
+              [
+                -43.330397586086455,
+                -22.79781810819424
+              ],
+              [
+                -43.33058035867146,
+                -22.79898326938429
+              ],
+              [
+                -43.33059964510178,
+                -22.79873946128314
+              ],
+              [
+                -43.33068257363069,
+                -22.798663710687745
+              ],
+              [
+                -43.33078053101506,
+                -22.798710468506425
+              ],
+              [
+                -43.33078597895933,
+                -22.79886903589103
+              ],
+              [
+                -43.33101603708883,
+                -22.79885007137476
+              ],
+              [
+                -43.33115123105318,
+                -22.79904098131562
+              ],
+              [
+                -43.33112645930726,
+                -22.799300414332244
+              ],
+              [
+                -43.33102790943462,
+                -22.79940602056054
+              ],
+              [
+                -43.33083165191543,
+                -22.799394616015622
+              ],
+              [
+                -43.3306260528978,
+                -22.799485984930644
+              ],
+              [
+                -43.33090021245259,
+                -22.80199903360636
+              ],
+              [
+                -43.33088001640872,
+                -22.802261026274234
+              ],
+              [
+                -43.33088307184335,
+                -22.802296891438402
+              ],
+              [
+                -43.3331848297921,
+                -22.802615946995655
+              ]
+            ]
+          ]
+        }
+      },
+      "geometryStatus": "approximate_boundary",
+      "method": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal. O trecho sul, encoberto pela Linha Vermelha, foi continuado entre segmentos visíveis do limite e da borda municipal no próprio atlas.",
+      "ibgeOverlaps": [
+        {
+          "id": "3305109009",
+          "name": "Parque Araruama",
+          "intersectionPct": 70.3663
+        },
+        {
+          "id": "3305109010",
+          "name": "Jardim Sumaré",
+          "intersectionPct": 29.6335
+        }
+      ]
+    },
+    {
+      "id": "atlas-parque-novo-rio",
+      "name": "Parque Novo Rio",
+      "geometry": {
+        "type": "Feature",
+        "id": "atlas-parque-novo-rio",
+        "properties": {
+          "id": "atlas-parque-novo-rio",
+          "name": "Parque Novo Rio",
+          "geometryType": "Polygon",
+          "representation": "derived-boundary",
+          "source": "Atlas escolar de São João de Meriti, DAGEOP/UERJ-FFP",
+          "sourceUrl": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+          "sourcePageUrl": "https://www.dageop.com.br/sao-joao-de-meriti",
+          "sourcePdfCreatedAt": "2024-11-05T15:27:43-03:00",
+          "boundaryReferenceDate": null,
+          "quality": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+          "note": "Mantém os indicadores na divisão IBGE 2022. A fonte não informa a data nem a precisão dos limites. A resolução gráfica é de aproximadamente 2,5 m por pixel, sem validar a exatidão geográfica.",
+          "restorationNote": "O trecho sul, encoberto pela Linha Vermelha, foi continuado entre segmentos visíveis do limite e da borda municipal no próprio atlas.",
+          "areaM2": 1396286.55,
+          "ibgeIntersections": [
+            {
+              "id": "3305109009",
+              "name": "Parque Araruama",
+              "intersectionAreaM2": 1230599.98,
+              "shareOfDerivedAreaPct": 88.1338
+            },
+            {
+              "id": "3305109010",
+              "name": "Jardim Sumaré",
+              "intersectionAreaM2": 156649.14,
+              "shareOfDerivedAreaPct": 11.219
+            },
+            {
+              "id": "3305109016",
+              "name": "Centro",
+              "intersectionAreaM2": 5762.59,
+              "shareOfDerivedAreaPct": 0.4127
+            },
+            {
+              "id": "3305109008",
+              "name": "Venda Velha",
+              "intersectionAreaM2": 3275.12,
+              "shareOfDerivedAreaPct": 0.2346
+            }
+          ],
+          "outsideIbgeMunicipalityPct": 0.0,
+          "displayClippedToIbgeMunicipality": true,
+          "localityId": "atlas-parque-novo-rio",
+          "overlayColor": "#dfb3ff",
+          "geometryMethod": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal. O trecho sul, encoberto pela Linha Vermelha, foi continuado entre segmentos visíveis do limite e da borda municipal no próprio atlas.",
+          "sourceDate": "PDF criado em 05/11/2024; data dos limites não informada."
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -43.351484999762064,
+                -22.801542098804283
+              ],
+              [
+                -43.35233031073682,
+                -22.801016730615704
+              ],
+              [
+                -43.35219324742028,
+                -22.800948191348784
+              ],
+              [
+                -43.35155360759283,
+                -22.80094819152396
+              ],
+              [
+                -43.35044605328273,
+                -22.801153515723033
+              ],
+              [
+                -43.349383107051914,
+                -22.800742571236093
+              ],
+              [
+                -43.3485606223346,
+                -22.8005597974717
+              ],
+              [
+                -43.347371507944686,
+                -22.800491204021018
+              ],
+              [
+                -43.34614808920855,
+                -22.800552388121833
+              ],
+              [
+                -43.344843960134114,
+                -22.80037600286739
+              ],
+              [
+                -43.344506966534205,
+                -22.800254272263924
+              ],
+              [
+                -43.343991265728825,
+                -22.79973731549119
+              ],
+              [
+                -43.34322352261689,
+                -22.799239008421623
+              ],
+              [
+                -43.342437689216275,
+                -22.796812917622525
+              ],
+              [
+                -43.342264941162306,
+                -22.796474155349845
+              ],
+              [
+                -43.34186681783877,
+                -22.795041723733494
+              ],
+              [
+                -43.34187232851979,
+                -22.794528866191968
+              ],
+              [
+                -43.34330586394023,
+                -22.792654750733046
+              ],
+              [
+                -43.34355717745022,
+                -22.791992200037967
+              ],
+              [
+                -43.3436028710227,
+                -22.7900274516887
+              ],
+              [
+                -43.34338052460456,
+                -22.789942592519782
+              ],
+              [
+                -43.34259763398642,
+                -22.78838250709016
+              ],
+              [
+                -43.342552029769344,
+                -22.7884509617469
+              ],
+              [
+                -43.34270051450617,
+                -22.78972107827171
+              ],
+              [
+                -43.34179806726841,
+                -22.78975330918446
+              ],
+              [
+                -43.341118813016685,
+                -22.789958875942425
+              ],
+              [
+                -43.340503087390225,
+                -22.789912214884755
+              ],
+              [
+                -43.339869086707836,
+                -22.78965340408938
+              ],
+              [
+                -43.33885077540749,
+                -22.788313966994203
+              ],
+              [
+                -43.33793806482206,
+                -22.78824537354352
+              ],
+              [
+                -43.33725157423665,
+                -22.788382507265336
+              ],
+              [
+                -43.334144444490214,
+                -22.790964166333435
+              ],
+              [
+                -43.33400736447348,
+                -22.791375403343338
+              ],
+              [
+                -43.33402280164709,
+                -22.79282837869184
+              ],
+              [
+                -43.333961671076175,
+                -22.79295182555033
+              ],
+              [
+                -43.33398349658456,
+                -22.79335572001211
+              ],
+              [
+                -43.3338223697482,
+                -22.793999980244973
+              ],
+              [
+                -43.33363793410845,
+                -22.794575552738806
+              ],
+              [
+                -43.33349621880266,
+                -22.794789355147316
+              ],
+              [
+                -43.33302495625626,
+                -22.79516788758477
+              ],
+              [
+                -43.33380172630603,
+                -22.795624803853404
+              ],
+              [
+                -43.33435004350784,
+                -22.795830423966095
+              ],
+              [
+                -43.33584592752605,
+                -22.795853566753543
+              ],
+              [
+                -43.33641405341356,
+                -22.796070781305705
+              ],
+              [
+                -43.33672612161307,
+                -22.796995627042765
+              ],
+              [
+                -43.337000281821716,
+                -22.797543944244584
+              ],
+              [
+                -43.337485098425475,
+                -22.798234214362505
+              ],
+              [
+                -43.337594296161846,
+                -22.798800516236277
+              ],
+              [
+                -43.33773613224262,
+                -22.798995066019913
+              ],
+              [
+                -43.33768562942655,
+                -22.799075830414925
+              ],
+              [
+                -43.33777677366227,
+                -22.79924660160349
+              ],
+              [
+                -43.33773137534955,
+                -22.799394509960027
+              ],
+              [
+                -43.33808907448488,
+                -22.79987906189332
+              ],
+              [
+                -43.33804271183442,
+                -22.800021249138634
+              ],
+              [
+                -43.337617142685325,
+                -22.800468392972682
+              ],
+              [
+                -43.33574366004113,
+                -22.80289010737948
+              ],
+              [
+                -43.33821110349555,
+                -22.80302718757139
+              ],
+              [
+                -43.34026730637424,
+                -22.803118574366
+              ],
+              [
+                -43.34392277815856,
+                -22.803392734749824
+              ],
+              [
+                -43.34620744802376,
+                -22.803484121544432
+              ],
+              [
+                -43.34762390768987,
+                -22.80364399508027
+              ],
+              [
+                -43.351484999762064,
+                -22.801542098804283
+              ]
+            ]
+          ]
+        }
+      },
+      "geometryStatus": "approximate_boundary",
+      "method": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal. O trecho sul, encoberto pela Linha Vermelha, foi continuado entre segmentos visíveis do limite e da borda municipal no próprio atlas.",
+      "ibgeOverlaps": [
+        {
+          "id": "3305109009",
+          "name": "Parque Araruama",
+          "intersectionPct": 88.1338
+        },
+        {
+          "id": "3305109010",
+          "name": "Jardim Sumaré",
+          "intersectionPct": 11.219
+        },
+        {
+          "id": "3305109016",
+          "name": "Centro",
+          "intersectionPct": 0.4127
+        },
+        {
+          "id": "3305109008",
+          "name": "Venda Velha",
+          "intersectionPct": 0.2346
+        }
+      ]
+    },
+    {
+      "id": "atlas-parque-tiete",
+      "name": "Parque Tietê",
+      "geometry": {
+        "type": "Feature",
+        "id": "atlas-parque-tiete",
+        "properties": {
+          "id": "atlas-parque-tiete",
+          "name": "Parque Tietê",
+          "geometryType": "Polygon",
+          "representation": "derived-boundary",
+          "source": "Atlas escolar de São João de Meriti, DAGEOP/UERJ-FFP",
+          "sourceUrl": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+          "sourcePageUrl": "https://www.dageop.com.br/sao-joao-de-meriti",
+          "sourcePdfCreatedAt": "2024-11-05T15:27:43-03:00",
+          "boundaryReferenceDate": null,
+          "quality": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+          "note": "Mantém os indicadores na divisão IBGE 2022. A fonte não informa a data nem a precisão dos limites. A resolução gráfica é de aproximadamente 2,5 m por pixel, sem validar a exatidão geográfica.",
+          "restorationNote": null,
+          "areaM2": 423809.19,
+          "ibgeIntersections": [
+            {
+              "id": "3305109010",
+              "name": "Jardim Sumaré",
+              "intersectionAreaM2": 213836.4,
+              "shareOfDerivedAreaPct": 50.4558
+            },
+            {
+              "id": "3305109009",
+              "name": "Parque Araruama",
+              "intersectionAreaM2": 209972.8,
+              "shareOfDerivedAreaPct": 49.5442
+            }
+          ],
+          "outsideIbgeMunicipalityPct": 0.0,
+          "displayClippedToIbgeMunicipality": true,
+          "localityId": "atlas-parque-tiete",
+          "overlayColor": "#dfb3ff",
+          "geometryMethod": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+          "sourceDate": "PDF criado em 05/11/2024; data dos limites não informada."
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -43.33869083081252,
+                -22.786029279424593
+              ],
+              [
+                -43.338285396831424,
+                -22.785571659282095
+              ],
+              [
+                -43.338073969948915,
+                -22.78511541147851
+              ],
+              [
+                -43.3377144122915,
+                -22.78473283623693
+              ],
+              [
+                -43.33766272937318,
+                -22.784384317121646
+              ],
+              [
+                -43.33745710908531,
+                -22.78399592324456
+              ],
+              [
+                -43.336691763309695,
+                -22.783255462553182
+              ],
+              [
+                -43.33640617865172,
+                -22.782785065920407
+              ],
+              [
+                -43.33583501118542,
+                -22.782419518741975
+              ],
+              [
+                -43.33530634142123,
+                -22.7823978976903
+              ],
+              [
+                -43.334692676252814,
+                -22.78171127108376
+              ],
+              [
+                -43.334464209266294,
+                -22.78157419089185
+              ],
+              [
+                -43.33419013788752,
+                -22.78152847979014
+              ],
+              [
+                -43.33443929835063,
+                -22.781720371703276
+              ],
+              [
+                -43.33431414381536,
+                -22.781931219944987
+              ],
+              [
+                -43.33394647157358,
+                -22.78191937720964
+              ],
+              [
+                -43.33396156419155,
+                -22.781345706200923
+              ],
+              [
+                -43.333635200489134,
+                -22.781202523145037
+              ],
+              [
+                -43.33355817248795,
+                -22.781076228902688
+              ],
+              [
+                -43.33389302392041,
+                -22.780774470999813
+              ],
+              [
+                -43.33380265831607,
+                -22.780073569455556
+              ],
+              [
+                -43.33387869552223,
+                -22.77987365604756
+              ],
+              [
+                -43.33416720218382,
+                -22.779654961495623
+              ],
+              [
+                -43.33419003117807,
+                -22.779563663706064
+              ],
+              [
+                -43.33364171123945,
+                -22.778878279621875
+              ],
+              [
+                -43.333527498187394,
+                -22.77880974053013
+              ],
+              [
+                -43.333390482164454,
+                -22.77883258722878
+              ],
+              [
+                -43.33223614913903,
+                -22.77942630530494
+              ],
+              [
+                -43.33201800449218,
+                -22.779399871508488
+              ],
+              [
+                -43.33136848252377,
+                -22.77909736339851
+              ],
+              [
+                -43.331387694789335,
+                -22.77900338554374
+              ],
+              [
+                -43.33160835423038,
+                -22.77885534474721
+              ],
+              [
+                -43.33160835423038,
+                -22.778261401882897
+              ],
+              [
+                -43.33144844861006,
+                -22.778101492871915
+              ],
+              [
+                -43.331253741096994,
+                -22.77816973687908
+              ],
+              [
+                -43.33088267382078,
+                -22.778143654536553
+              ],
+              [
+                -43.33083186238983,
+                -22.777975239840416
+              ],
+              [
+                -43.331128573383516,
+                -22.775177093999037
+              ],
+              [
+                -43.330808741047804,
+                -22.774765874868717
+              ],
+              [
+                -43.32982641761594,
+                -22.774994340851027
+              ],
+              [
+                -43.32964334894214,
+                -22.779323195060886
+              ],
+              [
+                -43.32948366461047,
+                -22.781072631877112
+              ],
+              [
+                -43.32948371713616,
+                -22.78132277132626
+              ],
+              [
+                -43.32955215218073,
+                -22.78134561802491
+              ],
+              [
+                -43.32966050841012,
+                -22.7812280637931
+              ],
+              [
+                -43.32982612253136,
+                -22.78147078473418
+              ],
+              [
+                -43.32975787834902,
+                -22.781551326488792
+              ],
+              [
+                -43.329720738157754,
+                -22.781881442739987
+              ],
+              [
+                -43.32961156352198,
+                -22.78194113613598
+              ],
+              [
+                -43.329415177040204,
+                -22.781894043843945
+              ],
+              [
+                -43.329323791074636,
+                -22.78331045098436
+              ],
+              [
+                -43.32939224573138,
+                -22.783356126502078
+              ],
+              [
+                -43.330093211444606,
+                -22.783014447212565
+              ],
+              [
+                -43.33094588897452,
+                -22.783493206869167
+              ],
+              [
+                -43.332659387807595,
+                -22.78426999444816
+              ],
+              [
+                -43.33364846837968,
+                -22.784293389238847
+              ],
+              [
+                -43.334860477905224,
+                -22.78462458528103
+              ],
+              [
+                -43.33488059121808,
+                -22.78469925572305
+              ],
+              [
+                -43.3347976147122,
+                -22.78478413342323
+              ],
+              [
+                -43.33431017231187,
+                -22.785086592963246
+              ],
+              [
+                -43.333756050613125,
+                -22.785298185067727
+              ],
+              [
+                -43.33405303642537,
+                -22.78550371617537
+              ],
+              [
+                -43.33437280559632,
+                -22.785503717179584
+              ],
+              [
+                -43.334618317521354,
+                -22.785258392186392
+              ],
+              [
+                -43.33531872674099,
+                -22.78500324220226
+              ],
+              [
+                -43.336028043634684,
+                -22.784841276356556
+              ],
+              [
+                -43.33624297715791,
+                -22.784868449198548
+              ],
+              [
+                -43.33701657430236,
+                -22.785822979083886
+              ],
+              [
+                -43.33750289148766,
+                -22.786851671571018
+              ],
+              [
+                -43.33798258398334,
+                -22.786828825701402
+              ],
+              [
+                -43.33803925486063,
+                -22.786653858828622
+              ],
+              [
+                -43.33869083164155,
+                -22.78612057804319
+              ],
+              [
+                -43.33869083081252,
+                -22.786029279424593
+              ]
+            ]
+          ]
+        }
+      },
+      "geometryStatus": "approximate_boundary",
+      "method": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+      "ibgeOverlaps": [
+        {
+          "id": "3305109010",
+          "name": "Jardim Sumaré",
+          "intersectionPct": 50.4558
+        },
+        {
+          "id": "3305109009",
+          "name": "Parque Araruama",
+          "intersectionPct": 49.5442
+        }
+      ]
+    },
+    {
+      "id": "atlas-vila-norma",
+      "name": "Vila Norma",
+      "geometry": {
+        "type": "Feature",
+        "id": "atlas-vila-norma",
+        "properties": {
+          "id": "atlas-vila-norma",
+          "name": "Vila Norma",
+          "geometryType": "Polygon",
+          "representation": "derived-boundary",
+          "source": "Atlas escolar de São João de Meriti, DAGEOP/UERJ-FFP",
+          "sourceUrl": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+          "sourcePageUrl": "https://www.dageop.com.br/sao-joao-de-meriti",
+          "sourcePdfCreatedAt": "2024-11-05T15:27:43-03:00",
+          "boundaryReferenceDate": null,
+          "quality": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+          "note": "Mantém os indicadores na divisão IBGE 2022. A fonte não informa a data nem a precisão dos limites. A resolução gráfica é de aproximadamente 2,5 m por pixel, sem validar a exatidão geográfica.",
+          "restorationNote": null,
+          "areaM2": 377197.97,
+          "ibgeIntersections": [
+            {
+              "id": "3305109004",
+              "name": "Éden",
+              "intersectionAreaM2": 377197.97,
+              "shareOfDerivedAreaPct": 100.0
+            }
+          ],
+          "outsideIbgeMunicipalityPct": 0.0,
+          "displayClippedToIbgeMunicipality": true,
+          "localityId": "atlas-vila-norma",
+          "overlayColor": "#dfb3ff",
+          "geometryMethod": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+          "sourceDate": "PDF criado em 05/11/2024; data dos limites não informada."
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -43.40993544903052,
+                -22.791385662957648
+              ],
+              [
+                -43.409469903236584,
+                -22.79053007905918
+              ],
+              [
+                -43.40912720358583,
+                -22.790073161961338
+              ],
+              [
+                -43.40809751100274,
+                -22.789680885901625
+              ],
+              [
+                -43.40790301818905,
+                -22.78949029763478
+              ],
+              [
+                -43.407350138501904,
+                -22.78875196829256
+              ],
+              [
+                -43.406705452524506,
+                -22.78717161079144
+              ],
+              [
+                -43.406248519555675,
+                -22.78639484347836
+              ],
+              [
+                -43.405631675567264,
+                -22.785960757032996
+              ],
+              [
+                -43.40440075084879,
+                -22.785547295496258
+              ],
+              [
+                -43.403798121038875,
+                -22.785269366552026
+              ],
+              [
+                -43.40315246622874,
+                -22.784711077586884
+              ],
+              [
+                -43.40273197438224,
+                -22.784060437327405
+              ],
+              [
+                -43.40252450684636,
+                -22.78276220151749
+              ],
+              [
+                -43.40241029105733,
+                -22.7826708324271
+              ],
+              [
+                -43.40231897556364,
+                -22.782693679125753
+              ],
+              [
+                -43.40222760664843,
+                -22.7828078913489
+              ],
+              [
+                -43.40209052645652,
+                -22.7833790588152
+              ],
+              [
+                -43.400948191523916,
+                -22.788313945724042
+              ],
+              [
+                -43.40094819051971,
+                -22.788588021497645
+              ],
+              [
+                -43.40158385519352,
+                -22.78868125471124
+              ],
+              [
+                -43.40380401097602,
+                -22.789296268326833
+              ],
+              [
+                -43.4039839875565,
+                -22.789275642589182
+              ],
+              [
+                -43.405788876750016,
+                -22.789778269959527
+              ],
+              [
+                -43.40607609019091,
+                -22.789944587709982
+              ],
+              [
+                -43.40664797583391,
+                -22.790545050995892
+              ],
+              [
+                -43.406749405558344,
+                -22.790739654059383
+              ],
+              [
+                -43.40672840628288,
+                -22.79201504673654
+              ],
+              [
+                -43.40800782040319,
+                -22.793819915488964
+              ],
+              [
+                -43.41010961162787,
+                -22.791466810579113
+              ],
+              [
+                -43.40993544903052,
+                -22.791385662957648
+              ]
+            ]
+          ]
+        }
+      },
+      "geometryStatus": "approximate_boundary",
+      "method": "Contorno aproximado digitalizado de mapa educacional; não é cadastro legal.",
+      "ibgeOverlaps": [
+        {
+          "id": "3305109004",
+          "name": "Éden",
+          "intersectionPct": 100.0
+        }
+      ]
+    },
+    {
+      "id": "atlas-vila-sao-joao",
+      "name": "Vila São João",
+      "geometry": {
+        "type": "Feature",
+        "id": "atlas-vila-sao-joao",
+        "properties": {
+          "id": "atlas-vila-sao-joao",
+          "name": "Vila São João",
+          "geometryType": "Point",
+          "representation": "approximate-label-location",
+          "source": "Atlas escolar de São João de Meriti, DAGEOP/UERJ-FFP",
+          "sourceUrl": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+          "sourcePageUrl": "https://www.dageop.com.br/sao-joao-de-meriti",
+          "sourcePdfCreatedAt": "2024-11-05T15:27:43-03:00",
+          "boundaryReferenceDate": null,
+          "quality": "Localização aproximada do texto no atlas, sem perímetro próprio.",
+          "note": "O atlas identifica Vila São João por rótulo em itálico. O ponto marca a posição do rótulo, não um centro territorial, endereço ou limite. Nenhuma estatística é atribuída ao ponto.",
+          "restorationNote": null,
+          "areaM2": null,
+          "ibgeIntersections": [
+            {
+              "id": "3305109002",
+              "name": "Vilar dos Teles"
+            }
+          ],
+          "outsideIbgeMunicipalityPct": null,
+          "localityId": "atlas-vila-sao-joao",
+          "overlayColor": "#dfb3ff",
+          "geometryMethod": "Localização aproximada do texto no atlas, sem perímetro próprio.",
+          "sourceDate": "PDF criado em 05/11/2024; data dos limites não informada."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -43.35518620059402,
+            -22.766860863605206
+          ]
+        }
+      },
+      "geometryStatus": "label_point",
+      "method": "Localização aproximada do texto no atlas, sem perímetro próprio.",
+      "ibgeOverlaps": [
+        {
+          "id": "3305109002",
+          "name": "Vilar dos Teles",
+          "intersectionPct": null
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "name": "Agostinho Porto",
+      "ibgeId": "3305109006",
+      "ibgeName": "Agostinho Porto",
+      "localityId": null
+    },
+    {
+      "name": "Centro",
+      "ibgeId": "3305109016",
+      "ibgeName": "Centro",
+      "localityId": null
+    },
+    {
+      "name": "Coelho da Rocha",
+      "ibgeId": "3305109013",
+      "ibgeName": "Coelho da Rocha",
+      "localityId": null
+    },
+    {
+      "name": "Éden",
+      "ibgeId": "3305109004",
+      "ibgeName": "Éden",
+      "localityId": null
+    },
+    {
+      "name": "Engenheiro Belford",
+      "ibgeId": "3305109005",
+      "ibgeName": "Engenheiro Belford",
+      "localityId": null
+    },
+    {
+      "name": "Jardim Meriti",
+      "ibgeId": "3305109003",
+      "ibgeName": "Jardim Meriti",
+      "localityId": null
+    },
+    {
+      "name": "Jardim Metrópole",
+      "ibgeId": "3305109011",
+      "ibgeName": "Jardim Metrópole",
+      "localityId": null
+    },
+    {
+      "name": "Jardim Sumaré",
+      "ibgeId": "3305109010",
+      "ibgeName": "Jardim Sumaré",
+      "localityId": null
+    },
+    {
+      "name": "Parque Alian",
+      "ibgeId": null,
+      "ibgeName": null,
+      "localityId": "atlas-parque-alian"
+    },
+    {
+      "name": "Parque Analândia",
+      "ibgeId": null,
+      "ibgeName": null,
+      "localityId": "atlas-parque-analandia"
+    },
+    {
+      "name": "Parque Araruama",
+      "ibgeId": "3305109009",
+      "ibgeName": "Parque Araruama",
+      "localityId": null
+    },
+    {
+      "name": "Parque Novo Rio",
+      "ibgeId": null,
+      "ibgeName": null,
+      "localityId": "atlas-parque-novo-rio"
+    },
+    {
+      "name": "Parque Tietê",
+      "ibgeId": null,
+      "ibgeName": null,
+      "localityId": "atlas-parque-tiete"
+    },
+    {
+      "name": "São Mateus",
+      "ibgeId": "3305109015",
+      "ibgeName": "São Matheus",
+      "localityId": null
+    },
+    {
+      "name": "Tomazinho",
+      "ibgeId": "3305109014",
+      "ibgeName": "Tomazinho",
+      "localityId": null
+    },
+    {
+      "name": "Venda Velha",
+      "ibgeId": "3305109008",
+      "ibgeName": "Venda Velha",
+      "localityId": null
+    },
+    {
+      "name": "Vila Norma",
+      "ibgeId": null,
+      "ibgeName": null,
+      "localityId": "atlas-vila-norma"
+    },
+    {
+      "name": "Vila Rosali",
+      "ibgeId": "3305109007",
+      "ibgeName": "Vila Rosali",
+      "localityId": null
+    },
+    {
+      "name": "Vila São João",
+      "ibgeId": null,
+      "ibgeName": null,
+      "localityId": "atlas-vila-sao-joao"
+    },
+    {
+      "name": "Vila Tiradentes",
+      "ibgeId": "3305109001",
+      "ibgeName": "Vila Tiradentes",
+      "localityId": null
+    },
+    {
+      "name": "Vilar dos Teles",
+      "ibgeId": "3305109002",
+      "ibgeName": "Vilar dos Teles",
+      "localityId": null
+    }
+  ]
+}

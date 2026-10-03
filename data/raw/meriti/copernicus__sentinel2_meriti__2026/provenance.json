@@ -1,0 +1,267 @@
+{
+  "id": "copernicus__sentinel2_meriti__2026",
+  "source_url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a",
+  "downloaded_at": "2026-10-03T04:24:43+00:00",
+  "searchQuery": {
+    "collections": [
+      "sentinel-2-c1-l2a"
+    ],
+    "bbox": [
+      -43.411,
+      -22.815,
+      -43.329,
+      -22.755
+    ],
+    "datetime": "2025-01-01T00:00:00Z/2026-10-03T00:00:00Z",
+    "limit": 100,
+    "query": {
+      "eo:cloud_cover": {
+        "lt": 50
+      }
+    },
+    "sortby": [
+      {
+        "field": "properties.datetime",
+        "direction": "desc"
+      }
+    ]
+  },
+  "collection": "sentinel-2-c1-l2a",
+  "files": [
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/item.json",
+      "sha256": "0c637141d80aba5e12b5ed912e8e1a6887b97da95399e2f3e8d40ef42cbb1167",
+      "bytes": 26548
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/nir.json",
+      "sha256": "0dae15c8d99b850af86f8d4cd972865dc65a10968d5b7b3d1faa8bb59abd5b36",
+      "bytes": 1337
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/nir.tif",
+      "sha256": "66901b2208352d32efe65ad9eac1439d45915cac2bfbf6d958d0132bed49f7cc",
+      "bytes": 941879
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/red.json",
+      "sha256": "d71a6e3469aec7b52178b36c26e5d2a691ce826d39dd2e980974dd91279e2439",
+      "bytes": 1335
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/red.tif",
+      "sha256": "1e962dcdfb32713219159e09fb347c3ac1028ce89faf6bd53e648d94712b1091",
+      "bytes": 933471
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/scl.json",
+      "sha256": "d4635bacf006b749e3e4a52a286cc1d51d4b9dac4e94eb5daec35b32d2a70349",
+      "bytes": 1103
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/scl.tif",
+      "sha256": "18d0a9177f0fa0d009cf22c6b29e2bc8a689bab9fea93491b1e2811b315f805d",
+      "bytes": 12482
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/item.json",
+      "sha256": "ebec071deb717a1e9b73454c6c6052cd0e1d0db256f7321ffbb98e6c1720b7b0",
+      "bytes": 26521
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/nir.json",
+      "sha256": "ff9bad64bb7d6cf716acac908b33253d670c1f3d807268f429d1aff2206f9b0b",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/nir.tif",
+      "sha256": "72c0d24e634cddcb30e324292fb618f74420c03af28f0d43dd13fbd3d8bb14bd",
+      "bytes": 932781
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/red.json",
+      "sha256": "3187c0e77f47bda175191e30e16052c0751b1429f36ac8cac2bee2fcf08ae3fc",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/red.tif",
+      "sha256": "f50b3dc92b4dedeec9002ef2398424cab3d9f5762c9bcb2e43b646d64a2053a0",
+      "bytes": 920245
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/scl.json",
+      "sha256": "1d6483b3832defa8457ab60a3573e1fa4654957ad82ba6ed78e007c8fccfa7d7",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/scl.tif",
+      "sha256": "f946e1dd1b1747d05220a19faba49ed98e55ce0002354948349568865d26a803",
+      "bytes": 10785
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/visual.json",
+      "sha256": "76ab0f1a56b8c5f761c2e2b54b5d264834eca376fa7f64bc0ddeacc56055a8d3",
+      "bytes": 1780
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/visual.tif",
+      "sha256": "658b559862e84b50da831561daf815bafccbab66d50bfaa74df71d7d53248821",
+      "bytes": 1565613
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/item.json",
+      "sha256": "e488d49c1fdbfdaaa1921e3b8ac911ce68b4ecb7b0daf7d97af1ff4a1d23c14e",
+      "bytes": 26521
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/nir.json",
+      "sha256": "f8d0f9a28b6227ae5872e338a25d40ee5796e759d2b96c9e78ae6cbaa07ffb09",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/nir.tif",
+      "sha256": "e8850a933a7fdb34962a25ff246a9987c45a863c5cdabd2d02d91a18c4b01fca",
+      "bytes": 934894
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/red.json",
+      "sha256": "23086ab9f5439167cf73e7004e4dac4c51e239bf306f441d9fdeabfe2321b550",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/red.tif",
+      "sha256": "ba8a23953c467ca4ed9fbb84c1589bccd563d1252ff5423fd6e708cc779852d5",
+      "bytes": 924352
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/scl.json",
+      "sha256": "04b178acabb1b389bb8ea5a4950eadccc441045db8177f70d03d215dbc7c7992",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/scl.tif",
+      "sha256": "7289770c2755d669a90b9df5f3e699a0d3940d68ec6bc2b373029c16dd307b3a",
+      "bytes": 13187
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260820T130311_L2A/item.json",
+      "sha256": "8b54c0d1a4ca01e77ef579a25d03bd7c9bdf78f683b39e51e86610320191f938",
+      "bytes": 26528
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260820T130311_L2A/scl.json",
+      "sha256": "b517f1d27f65a1768eb8258d8f38b5ef88d3e565032e5bbe9424c72395471b12",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260820T130311_L2A/scl.tif",
+      "sha256": "67277bb64a4828bf35c7d9aad67ed6465f0b375538088558cab49459591b37b3",
+      "bytes": 12433
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/item.json",
+      "sha256": "575a7f4a920b23cd48140fc824eda8b3fe2a46eb763d58af4d574afffc41d3ed",
+      "bytes": 26527
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/nir.json",
+      "sha256": "b2ff3eb23215be537fb0510ff286045e194f940825437305f5a9435a2427bdd9",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/nir.tif",
+      "sha256": "e52570b9f895b66666cdd93f5c0b569f0249257e7f96e53acd8d13f9e0debda4",
+      "bytes": 935081
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/red.json",
+      "sha256": "c9ecb3c57b3f6fd55d8fa9bc4ef876326a0ca204e2cd4db43ab3a17b82200576",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/red.tif",
+      "sha256": "11a15fcb33f46e39447edc76c52f37f0280a8d7d1a6c40d927334d3e0266291b",
+      "bytes": 926542
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/scl.json",
+      "sha256": "ec8619391d6c00d431805779629783cb3edffc6b6d375626b5b90385bda1b591",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/scl.tif",
+      "sha256": "eb12d5264b2dbaa1ebc5d675139d236c28c4a744b58d90391a2f3caa44318141",
+      "bytes": 8505
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/item.json",
+      "sha256": "0aeb9e83a506f1543866e61ee2e2ead2cb2d11456e33fb8c539ebc9279dbd22d",
+      "bytes": 26528
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/nir.json",
+      "sha256": "699862ac38e618c00e021ae0554482230a260992fae0297121a3fc5e1a1ffb7e",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/nir.tif",
+      "sha256": "afe7b3578e3763742318c3e93a714c84596ca921d239c13a93258775ca1c8b94",
+      "bytes": 936207
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/red.json",
+      "sha256": "a3d10e3e9ebdf3cc9a66ef92d072a19402f0b309ffbd4e54c374d0d1ef53d45d",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/red.tif",
+      "sha256": "e1e0305c7916ac23daf57e0c4750b4308b595c75c0ef2cc4734d2207260bea1e",
+      "bytes": 926642
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/scl.json",
+      "sha256": "494458cf8738cd12467a696fab974937da7900fea1c4d8ed6d5936e9aa891e6d",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/scl.tif",
+      "sha256": "808bec438f266093922f0803f2cca9a5c60c6dc3660ddf7283cd22575a0a71ec",
+      "bytes": 13766
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/item.json",
+      "sha256": "a76ad67e72e19149e07a70dea4e6f6cb252e36aebd99fec69e12db6ae51fe1c2",
+      "bytes": 26528
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/nir.json",
+      "sha256": "72a64c27c4832fe87d69e3c286e660dcc5b9778a51a7552b12df2a8243e053c9",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/nir.tif",
+      "sha256": "b30d7b415f3942c754eb13b190f711f9c2f4dd98c26a53cb87e81576693df38a",
+      "bytes": 928530
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/red.json",
+      "sha256": "50406dc80c8a942f8b3ade636ee3c63e7e6b2969ee6bf091bca3b5b0ce91b05b",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/red.tif",
+      "sha256": "a714acea558992cf274b7b48473e610fdb67e5dc492a780eaeb7300bf356c8f0",
+      "bytes": 917148
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/scl.json",
+      "sha256": "475d0bcd7682107a07ba09ff9d29fd35e48d6d95f559fd71085061e41af48757",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/scl.tif",
+      "sha256": "21f067419c4233adb3c16857699458bf9dc8ec1f9d549c633484dc0e81eb2a56",
+      "bytes": 11463
+    }
+  ]
+}

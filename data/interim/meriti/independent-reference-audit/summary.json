@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-10-03",
+  "scientificStatus": "reference_pilot_completed_fraction_validation_pending",
+  "targetDate": "2026-10-01",
+  "sampleCells": 400,
+  "acceptedFractionLabels": 0,
+  "independentHumanReviewers": 0,
+  "openReference": {
+    "source": "INPE CBERS-4A WPM L4",
+    "itemId": "CBERS_4A_WPM_20260702_198_142_L4",
+    "acquisitionDate": "2026-07-02",
+    "daysBeforeTarget": 91,
+    "panchromaticPixelMeters": 2,
+    "multispectralPixelMeters": 8,
+    "license": "CC-BY-4.0",
+    "sourceUrl": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L4-DN-1/items/CBERS_4A_WPM_20260702_198_142_L4",
+    "preparedPanels": 400,
+    "previewFile": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/blind-pilot-sheet.png",
+    "previewBytes": 116894,
+    "attribution": "INPE, CBERS-4A/WPM, 02/07/2026, CC BY 4.0. Visualização elaborada pelo projeto.",
+    "displayMethod": "Bandas nativas separadas PAN, RGB e NIR-R-G; estiramento linear p2–p98 por banda, vizinho mais próximo, sem fusão ou geração de detalhes."
+  },
+  "aiPilot": {
+    "reviewedCells": 16,
+    "likelyVegetationPresenceCells": 3,
+    "indeterminatePresenceCells": 13,
+    "fractionLabelsProduced": 0,
+    "note": "Piloto visual de IA. Não substitui a dupla interpretação independente."
+  },
+  "registrationDiagnostic": {
+    "comparedDates": [
+      "2026-04-26",
+      "2026-07-02"
+    ],
+    "imagePatches": 16,
+    "medianRelativeTranslationM": 2.0,
+    "maximumRelativeTranslationM": 2.8284271247461903,
+    "medianGradientCorrelation": 0.583070727119331,
+    "absoluteAccuracyMeasured": false,
+    "referenceAdequacyApproved": false
+  },
+  "alternatives": {
+    "septemberAcquisition": "2026-09-02",
+    "septemberPanels": 400,
+    "septemberPilotInadequateCells": 16,
+    "esriMetadataCells": 400,
+    "esriAcquisitions": [
+      {
+        "date": "2025-06-16",
+        "sourceResolutionM": 0.34,
+        "cellsExclusive": 228
+      },
+      {
+        "date": "2025-12-24",
+        "sourceResolutionM": 0.5,
+        "cellsExclusive": 171
+      }
+    ],
+    "esriCellsCrossingBoth": 1,
+    "esriImageryDownloaded": false
+  },
+  "barriers": [
+    "Fração vegetal de plantas pequenas ainda não resolvida no piloto.",
+    "Registro absoluto e seu efeito sobre frações ainda não aprovados.",
+    "Referência de julho não confirma automaticamente estabilidade até 01/10/2026.",
+    "Duas interpretações independentes e adjudicação ainda pendentes."
+  ],
+  "reportFile": "docs/methodology/meriti-validation-reference-audit.md"
+}

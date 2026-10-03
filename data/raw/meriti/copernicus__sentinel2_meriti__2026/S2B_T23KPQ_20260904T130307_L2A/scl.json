@@ -1,0 +1,41 @@
+{
+  "sourceAsset": {
+    "href": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/23/K/PQ/2026/9/S2B_T23KPQ_20260904T130307_L2A/SCL.tif",
+    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "title": "Scene classification map (SCL)",
+    "gsd": 20,
+    "proj:shape": [
+      5490,
+      5490
+    ],
+    "proj:transform": [
+      20,
+      0,
+      600000,
+      0,
+      -20,
+      7500040
+    ],
+    "raster:bands": [
+      {
+        "nodata": 0,
+        "data_type": "uint8",
+        "spatial_resolution": 20
+      }
+    ],
+    "file:checksum": "122001cc2a85a42bb927ab3399417db9535b3bfb01c958953667864bc05129227bdb",
+    "file:size": 1234370,
+    "roles": [
+      "data"
+    ]
+  },
+  "cropBounds": [
+    663036.6919560721,
+    7475978.144810665,
+    671640.2460010868,
+    7482633.71922922
+  ],
+  "downloadedAt": "2026-10-03T04:08:36+00:00",
+  "sha256": "7289770c2755d669a90b9df5f3e699a0d3940d68ec6bc2b373029c16dd307b3a",
+  "operation": "Native-grid rectangular window. Digital numbers unchanged."
+}

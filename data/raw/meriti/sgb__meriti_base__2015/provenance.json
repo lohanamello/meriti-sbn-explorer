@@ -1,0 +1,10 @@
+{
+  "id": "sgb__meriti_base__2015",
+  "source_url": "https://rigeo.sgb.gov.br/bitstreams/4b1edd77-f8a0-4c8e-9c56-841342e1e014/download",
+  "resolved_url": "https://rigeo.sgb.gov.br/server/api/core/bitstreams/4b1edd77-f8a0-4c8e-9c56-841342e1e014/content",
+  "downloaded_at": "2026-10-03T03:00:23+00:00",
+  "stored_path": "data/raw/meriti/sgb__meriti_base__2015/base.zip",
+  "bytes_written": 3946762,
+  "sha256": "b7339f63a5e3154712fa6d9eb717c6bbb3677cb893038679c8106bea63dfe3d4",
+  "content_type": "aplication/zip;charset=UTF-8"
+}

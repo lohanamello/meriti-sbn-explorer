@@ -1,0 +1,52 @@
+{
+  "sourceAsset": {
+    "href": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/23/K/PQ/2025/7/S2C_T23KPQ_20250716T130309_L2A/B08.tif",
+    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "title": "NIR 1 - 10m",
+    "eo:bands": [
+      {
+        "name": "B08",
+        "common_name": "nir",
+        "center_wavelength": 0.842,
+        "full_width_half_max": 0.145
+      }
+    ],
+    "gsd": 10,
+    "proj:shape": [
+      10980,
+      10980
+    ],
+    "proj:transform": [
+      10,
+      0,
+      600000,
+      0,
+      -10,
+      7500040
+    ],
+    "raster:bands": [
+      {
+        "nodata": 0,
+        "data_type": "uint16",
+        "spatial_resolution": 10,
+        "scale": 0.0001,
+        "offset": -0.1
+      }
+    ],
+    "file:checksum": "1220576f677af852fa1d637bfff8f664d7a63f971a66bf477b1eec8fbbb4e1d22940",
+    "file:size": 173675383,
+    "roles": [
+      "data",
+      "reflectance"
+    ]
+  },
+  "cropBounds": [
+    663036.6919560721,
+    7475978.144810665,
+    671640.2460010868,
+    7482633.71922922
+  ],
+  "downloadedAt": "2026-10-03T05:09:17+00:00",
+  "sha256": "38d7897f6b50c6bf60181264ba14c02f0a19ecf72c5db59153b3b209d95271a1",
+  "operation": "Native-grid rectangular window. Digital numbers unchanged."
+}

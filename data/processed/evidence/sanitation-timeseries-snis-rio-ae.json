@@ -1,0 +1,908 @@
+{
+  "schemaVersion": "phase2.snis-context.v1",
+  "sourceDatasetId": "snis__serie_historica_rio_agregado_ae__1995_2022",
+  "comparableForTimeline": false,
+  "reasonTimelineNotReady": "A composição dos prestadores e seus territórios de atendimento variam ao longo do tempo; as linhas capturadas são contexto municipal/por prestador, não evidência discriminada por bairro.",
+  "years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "indicatorDictionary": {
+    "IN015": "IN015 - Índice de coleta de esgoto",
+    "IN016": "IN016 - Índice de tratamento de esgoto",
+    "IN023": "IN023 - Índice de atendimento urbano de água",
+    "IN047": "IN047 - Índice de atendimento urbano de esgoto referido aos municípios atendidos com esgoto",
+    "IN049": "IN049 - Índice de perdas na distribuição",
+    "IN055": "IN055 - Índice de atendimento total de água",
+    "IN056": "IN056 - Índice de atendimento total de esgoto referido aos municípios atendidos com água"
+  },
+  "providerRecords": [
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2022,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 20.18,
+        "IN016": 91.12,
+        "IN023": null,
+        "IN047": null,
+        "IN049": 4.06,
+        "IN055": 5.51,
+        "IN056": 0
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2022,
+      "providerCode": "33045515",
+      "provider": "Rio+ Saneamento BL3 S.A",
+      "providerAcronym": "RIO+",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 7.31,
+        "IN016": 6.07,
+        "IN023": null,
+        "IN047": null,
+        "IN049": 76.95,
+        "IN055": 23.47,
+        "IN056": 0.55
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2022,
+      "providerCode": "33045514",
+      "provider": "Iguá Rio de Janeiro S.A.",
+      "providerAcronym": "IGUARJ",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 69.14,
+        "IN016": 49.48,
+        "IN023": null,
+        "IN047": null,
+        "IN049": 59.48,
+        "IN055": 12.74,
+        "IN056": 10.94
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2022,
+      "providerCode": "33045513",
+      "provider": "ÁGUAS DO RIO 4 SPE S.A.",
+      "providerAcronym": "RIO4",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 33.33,
+        "IN016": 95.65,
+        "IN023": null,
+        "IN047": null,
+        "IN049": 68.89,
+        "IN055": 60.22,
+        "IN056": 32.79
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2022,
+      "providerCode": "33045512",
+      "provider": "ÁGUAS DO RIO 1 SPE S.A.",
+      "providerAcronym": "RIO1",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 100,
+        "IN016": 100,
+        "IN023": null,
+        "IN047": null,
+        "IN049": 65.54,
+        "IN055": 28.18,
+        "IN056": 11.84
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2022,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 64.86,
+        "IN023": null,
+        "IN047": null,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 24.14
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2021,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 50.24,
+        "IN023": null,
+        "IN047": 22.46,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 22.46
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2021,
+      "providerCode": "33045513",
+      "provider": "ÁGUAS DO RIO 4 SPE S.A.",
+      "providerAcronym": "RIO4",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 45.01,
+        "IN016": 100,
+        "IN023": null,
+        "IN047": null,
+        "IN049": 78.27,
+        "IN055": null,
+        "IN056": null
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2021,
+      "providerCode": "33045512",
+      "provider": "ÁGUAS DO RIO 1 SPE S.A.",
+      "providerAcronym": "RIO1",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 100,
+        "IN016": 100,
+        "IN023": null,
+        "IN047": null,
+        "IN049": 72.91,
+        "IN055": null,
+        "IN056": null
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2021,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 47.89,
+        "IN016": 74.67,
+        "IN023": 88.98,
+        "IN047": 54.52,
+        "IN049": 42.69,
+        "IN055": 86.78,
+        "IN056": 43.04
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2020,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 50.39,
+        "IN023": null,
+        "IN047": 21.5,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 21.5
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2020,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 55.37,
+        "IN016": 76.07,
+        "IN023": 89.12,
+        "IN047": 53.86,
+        "IN049": 48.45,
+        "IN055": 86.89,
+        "IN056": 42.42
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2019,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 44.92,
+        "IN023": null,
+        "IN047": 21.21,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 21.21
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2019,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 51.2,
+        "IN016": 67.77,
+        "IN023": 88.89,
+        "IN047": 49.18,
+        "IN049": 37.85,
+        "IN055": 86.67,
+        "IN056": 39.15
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2018,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 51.84,
+        "IN023": null,
+        "IN047": 20.06,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 20.06
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2018,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 43.84,
+        "IN016": 60.01,
+        "IN023": 88.43,
+        "IN047": 54.15,
+        "IN049": 31.89,
+        "IN055": 86.5,
+        "IN056": 45.13
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2017,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 44.84,
+        "IN016": 64.49,
+        "IN023": 89.85,
+        "IN047": 55.82,
+        "IN049": 29.8,
+        "IN055": 89.29,
+        "IN056": 46.53
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2017,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 53.17,
+        "IN023": null,
+        "IN047": 19.8,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 19.8
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2016,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 32.57,
+        "IN023": null,
+        "IN047": 18.92,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 18.92
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2016,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 45.52,
+        "IN016": 64.76,
+        "IN023": 90.26,
+        "IN047": 55.49,
+        "IN049": 30.14,
+        "IN055": 89.85,
+        "IN056": 47.09
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2015,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 17.18,
+        "IN023": null,
+        "IN047": 17.91,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 17.91
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2015,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 46.13,
+        "IN016": 63.86,
+        "IN023": 90.16,
+        "IN047": 54.77,
+        "IN049": 30.18,
+        "IN055": 89.74,
+        "IN056": 48.37
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2014,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 8.88,
+        "IN023": null,
+        "IN047": 17.71,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 17.71
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2014,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 48.54,
+        "IN016": 63.37,
+        "IN023": 86.77,
+        "IN047": 55,
+        "IN049": 30.55,
+        "IN055": 86.41,
+        "IN056": 48.62
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2013,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 48.33,
+        "IN016": 63.36,
+        "IN023": 86.76,
+        "IN047": 54.98,
+        "IN049": 30.39,
+        "IN055": 86.37,
+        "IN056": 48.64
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2013,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 9.12,
+        "IN023": null,
+        "IN047": 15.71,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 15.71
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2012,
+      "providerCode": "33045511",
+      "provider": "Fab Zona Oeste S.A.",
+      "providerAcronym": "FABZO",
+      "serviceType": "Esgoto       ",
+      "indicators": {
+        "IN015": null,
+        "IN016": 17.86,
+        "IN023": null,
+        "IN047": 13.7,
+        "IN049": null,
+        "IN055": null,
+        "IN056": 13.7
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2012,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 49.72,
+        "IN016": 63.96,
+        "IN023": 86.41,
+        "IN047": 54.55,
+        "IN049": 30.53,
+        "IN055": 85.95,
+        "IN056": 48.31
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2011,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 50.89,
+        "IN016": 62.97,
+        "IN023": 86.2,
+        "IN047": 61.58,
+        "IN049": 31.6,
+        "IN055": 85.78,
+        "IN056": 54.59
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2010,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 51.92,
+        "IN016": 63.69,
+        "IN023": 86.7,
+        "IN047": 56.62,
+        "IN049": 31.23,
+        "IN055": 86.36,
+        "IN056": 50.82
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2009,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 47.04,
+        "IN016": 95.66,
+        "IN023": 80.1,
+        "IN047": 58.77,
+        "IN049": 51.45,
+        "IN055": 78.1,
+        "IN056": 32.55
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2008,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 40.71,
+        "IN016": 83.43,
+        "IN023": 84.9,
+        "IN047": 51.45,
+        "IN049": 38.12,
+        "IN055": 81.59,
+        "IN056": 39.57
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2007,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 44.71,
+        "IN016": 84.44,
+        "IN023": 85.1,
+        "IN047": 42.91,
+        "IN049": 49.18,
+        "IN055": 81.78,
+        "IN056": 33.92
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2006,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 52.15,
+        "IN016": 81.36,
+        "IN023": 83.3,
+        "IN047": 48.67,
+        "IN049": 54.56,
+        "IN055": 79.39,
+        "IN056": 38.22
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2005,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 47.64,
+        "IN016": 84.45,
+        "IN023": 85.2,
+        "IN047": 51.02,
+        "IN049": 51.69,
+        "IN055": 81.33,
+        "IN056": 40.65
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2004,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 50.4,
+        "IN016": 83.93,
+        "IN023": 81,
+        "IN047": 50.32,
+        "IN049": 49.74,
+        "IN055": 78.32,
+        "IN056": 40.19
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2003,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 50.18,
+        "IN016": 81.47,
+        "IN023": 84.1,
+        "IN047": 50.47,
+        "IN049": 48.2,
+        "IN055": 81.36,
+        "IN056": 40.77
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2002,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 56.9,
+        "IN016": 65.98,
+        "IN023": 72.9,
+        "IN047": 50.1,
+        "IN049": 54.41,
+        "IN055": 71.64,
+        "IN056": 40.99
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2001,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 63.54,
+        "IN016": 60.03,
+        "IN023": 72.8,
+        "IN047": 50.1,
+        "IN049": 55.33,
+        "IN055": 71.54,
+        "IN056": 41.01
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 2000,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 56.14,
+        "IN016": 47.62,
+        "IN023": 87.3,
+        "IN047": 56.24,
+        "IN049": 42.24,
+        "IN055": null,
+        "IN056": null
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 1999,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 49.04,
+        "IN016": 48.8,
+        "IN023": 88.2,
+        "IN047": 70.6,
+        "IN049": 30.98,
+        "IN055": null,
+        "IN056": null
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 1998,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 60.73,
+        "IN016": 46.16,
+        "IN023": 79.8,
+        "IN047": 48.82,
+        "IN049": 55.54,
+        "IN055": null,
+        "IN056": null
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 1997,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 47.78,
+        "IN016": 53.96,
+        "IN023": 82,
+        "IN047": null,
+        "IN049": null,
+        "IN055": null,
+        "IN056": null
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 1996,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 28.81,
+        "IN016": 50.55,
+        "IN023": 81.8,
+        "IN047": null,
+        "IN049": null,
+        "IN055": null,
+        "IN056": null
+      }
+    },
+    {
+      "municipalityCode": "330455",
+      "municipality": "Rio de Janeiro",
+      "state": "RJ",
+      "year": 1995,
+      "providerCode": "33045500",
+      "provider": "Companhia Estadual de Águas e Esgotos",
+      "providerAcronym": "CEDAE",
+      "serviceType": "Água e Esgoto",
+      "indicators": {
+        "IN015": 29.83,
+        "IN016": 0,
+        "IN023": 77.5,
+        "IN047": null,
+        "IN049": null,
+        "IN055": null,
+        "IN056": null
+      }
+    }
+  ],
+  "summary": {
+    "hasTemporalEvidence": true,
+    "timelineReady": false,
+    "temporalCoverage": "1995-2022",
+    "limitation": "O SNIS é promovido apenas como contexto de saneamento; ele é intencionalmente excluído da pontuação por bairro."
+  }
+}

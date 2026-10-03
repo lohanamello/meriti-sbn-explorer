@@ -1,0 +1,19 @@
+{
+  "id": "data-rio__defesa_civil_alojamentos__atual",
+  "source_name": "Alojamentos provisorios da Defesa Civil",
+  "source_institution": "Defesa Civil Municipal / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Defesa_Civil/Defesa_Civil/FeatureServer/3/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query_paginated",
+  "downloaded_at": "2026-05-17T19:24:02+00:00",
+  "started_at": "2026-05-17T19:24:02+00:00",
+  "duration_seconds": 0.229,
+  "stored_path": "data/raw/data-rio/data-rio__defesa_civil_alojamentos__atual/defesa_civil_alojamentos_arcgis_capture.json",
+  "stored_filename": "defesa_civil_alojamentos_arcgis_capture.json",
+  "content_type": "application/json",
+  "bytes_written": 4208,
+  "sha256": "6889cfaec6cb1d1305935da1935df5f23fc0ffebf78c0ba8e6f6d68cd7641838",
+  "object_id_field": "objectid",
+  "object_id_count": 12,
+  "batch_size": 500,
+  "batch_count": 1
+}

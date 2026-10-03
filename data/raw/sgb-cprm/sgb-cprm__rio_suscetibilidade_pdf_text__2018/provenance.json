@@ -1,0 +1,17 @@
+{
+  "id": "sgb-cprm__rio_suscetibilidade_pdf_text__2018",
+  "source_name": "Carta de Suscetibilidade Rio de Janeiro - extracted PDF text",
+  "source_institution": "SGB / CPRM",
+  "source_url": "https://rigeo.sgb.gov.br/server/api/core/bitstreams/ccd0895f-0894-4394-aa07-77e282e7654b/content",
+  "acquisition_route": "direct_download",
+  "downloaded_at": "2026-05-17T17:51:22+00:00",
+  "started_at": "2026-05-17T17:51:22+00:00",
+  "duration_seconds": 0.261,
+  "stored_path": "data/raw/sgb-cprm/sgb-cprm__rio_suscetibilidade_pdf_text__2018/mapa_riodejaneiro_rj_suscet.pdf.txt",
+  "original_filename": "content",
+  "stored_filename": "mapa_riodejaneiro_rj_suscet.pdf.txt",
+  "content_type": "text/plain;charset=UTF-8",
+  "content_length_header": 19660,
+  "bytes_written": 19660,
+  "sha256": "0fa40f6b2d70632789c5edefed5fae87fa6d5c73f268594d1b01bc4114158986"
+}

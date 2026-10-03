@@ -1,0 +1,5 @@
+{
+  "url": "https://data.inpe.br/bdc/stac/v1/search?collections=CB4A-WPM-L2-DN-1&bbox=-43.411%2C-22.815%2C-43.329%2C-22.755&datetime=2026-01-01T00%3A00%3A00Z%2F2026-10-03T23%3A59%3A59Z&limit=100",
+  "retrievedAt": "2026-10-03T16:48:27+00:00",
+  "sha256": "af19c54d5591b671be8967aebe8bb532e6fa7fcbb8e56e4e7059e17d7d19013d"
+}

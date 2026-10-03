@@ -1,0 +1,19 @@
+{
+  "id": "data-rio__pracas__atual",
+  "source_name": "Pracas municipais",
+  "source_institution": "Prefeitura da Cidade do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Meio_Ambiente/Pra%C3%A7as/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query_paginated",
+  "downloaded_at": "2026-05-17T19:23:51+00:00",
+  "started_at": "2026-05-17T19:23:46+00:00",
+  "duration_seconds": 5.044,
+  "stored_path": "data/raw/data-rio/data-rio__pracas__atual/pracas_arcgis_capture.json",
+  "stored_filename": "pracas_arcgis_capture.json",
+  "content_type": "application/json",
+  "bytes_written": 5524362,
+  "sha256": "491729be97894161412e6499872386fd2719bfb5178952c98143d6e7e16d568e",
+  "object_id_field": "objectid",
+  "object_id_count": 4072,
+  "batch_size": 500,
+  "batch_count": 9
+}

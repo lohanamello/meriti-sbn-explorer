@@ -1,0 +1,22 @@
+{
+  "seed": 20261003,
+  "selection": "16 IDs uniformly selected without replacement from the blinded 400-cell file; no strata or predictors read.",
+  "ids": [
+    "MERITI-V1-0359",
+    "MERITI-V1-0384",
+    "MERITI-V1-0015",
+    "MERITI-V1-0321",
+    "MERITI-V1-0124",
+    "MERITI-V1-0214",
+    "MERITI-V1-0108",
+    "MERITI-V1-0022",
+    "MERITI-V1-0163",
+    "MERITI-V1-0130",
+    "MERITI-V1-0243",
+    "MERITI-V1-0260",
+    "MERITI-V1-0388",
+    "MERITI-V1-0128",
+    "MERITI-V1-0254",
+    "MERITI-V1-0339"
+  ]
+}

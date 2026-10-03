@@ -1,0 +1,135 @@
+.ui-review {
+  --background: oklch(0.96 0.007 155);
+  --surface: oklch(0.985 0.004 150);
+  --surface-strong: oklch(0.995 0.002 150);
+  --ink: oklch(0.28 0.026 155);
+  --ink-muted: oklch(0.48 0.021 155);
+  --line: oklch(0.86 0.012 155);
+  --green: oklch(0.43 0.073 162);
+  --green-soft: oklch(0.93 0.025 162);
+  --shadow: none;
+  height: 100dvh;
+  min-height: 640px;
+  padding: 0;
+  gap: 0;
+  overflow: hidden;
+  background: var(--background);
+}
+.ui-review .workspace-topbar {
+  min-height: 78px;
+  padding: 14px 22px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
+  background: var(--surface);
+}
+.ui-review .workspace-brand__mark { width: 38px; height: 42px; border-radius: 2px; font-size: 11px; letter-spacing: 0.04em; }
+.ui-review .workspace-brand h1 { font-size: 22px; font-weight: 650; letter-spacing: -0.045em; }
+.ui-review .workspace-brand .eyebrow { font-size: 10px; letter-spacing: 0.055em; color: var(--ink-muted); }
+.ui-review .phase-pill { padding: 5px 8px; border-radius: 4px; font-size: 10px; background: var(--green-soft); color: var(--green); }
+.ui-review .data-notice { flex: 0 0 auto; min-height: 31px; padding: 3px 22px; border: 0; border-radius: 0; background: var(--background); color: var(--ink-muted); font-size: 11px; }
+.ui-review .data-notice strong { font-weight: 550; }
+.exploration-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; min-height: 48px; padding: 7px 20px; border-bottom: 1px solid var(--line); background: var(--surface); }
+.exploration-toolbar__label { margin-right: 9px; font-size: 11px; font-weight: 650; text-transform: uppercase; letter-spacing: 0.08em; }
+.exploration-toolbar button { min-height: 32px; padding: 6px 12px; border: 1px solid transparent; border-radius: 4px; background: transparent; font-size: 12px; font-weight: 550; color: var(--ink-muted); }
+.exploration-toolbar button[aria-pressed=true] { border-color: var(--green); background: var(--green-soft); color: var(--green); }
+.exploration-toolbar__count { margin-left: auto; font-size: 11px; color: var(--ink-muted); }
+.exploration-toolbar .exploration-toolbar__clear { text-decoration: underline; text-underline-offset: 3px; font-size: 11px; }
+.ui-review .workspace-grid { grid-template-columns: 252px minmax(0, 1fr) 328px; align-items: stretch; min-height: 0; flex: 1 1 0; gap: 0; padding: 0; }
+.ui-review .control-panel, .ui-review .opportunity-card { height: 100%; max-height: none; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; border: 0; border-radius: 0; padding: 18px 16px; background: var(--surface); }
+.ui-review .control-panel { gap: 22px; border-right: 1px solid var(--line); }
+.ui-review .opportunity-card { gap: 16px; border-left: 1px solid var(--line); }
+.ui-review .panel-section { flex-shrink: 0; padding: 0 0 19px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; }
+.ui-review .panel-section:last-child { border: 0; }
+.ui-review .panel-section__header { gap: 7px; margin-bottom: 12px; }
+.ui-review .panel-section__header h2 { font-size: 13px; font-weight: 650; }
+.ui-review .panel-section__header > svg { width: 15px; height: 15px; color: var(--green); }
+.ui-review .territory-code { font-size: 11px; color: var(--ink-muted); margin: 0 0 10px; }
+.ui-review .quick-focus { min-height: 32px; font-size: 11px; border-radius: 4px; }
+.ui-review .segmented-control { gap: 3px; }
+.ui-review .segmented-control button { min-height: 31px; padding: 6px; font-size: 11px; border-radius: 4px; }
+.ui-review .territory-search { margin: 13px 0 8px; font-size: 11px; }
+.ui-review .territory-search input, .ui-review .territory-search select { border-radius: 4px; padding: 8px; font-size: 11px; background: var(--surface-strong); }
+.ui-review .panel-section > small { color: var(--ink-muted); font-size: 10px; }
+.ui-review .unit-list { max-height: 156px; margin: 8px 0 0; scrollbar-width: thin; }
+.ui-review .unit-list button { padding: 9px 8px; border-radius: 4px; box-shadow: none; }
+.ui-review .unit-list button strong { font-size: 12px; font-weight: 600; }
+.ui-review .unit-list button small { font-size: 10px; line-height: 1.4; }
+.ui-review .unit-list button[aria-pressed=true] { background: var(--green-soft); color: var(--green); border-color: var(--green-soft); }
+.ui-review .unit-list button[aria-pressed=true] small { color: var(--ink-muted); }
+.ui-review .overlay-group { padding: 0; border: 0; background: transparent; }
+.ui-review .overlay-group h3 { font-size: 10px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.06em; margin: 10px 0 4px; color: var(--ink-muted); }
+.ui-review .overlay-row { border-radius: 0; border: 0; padding: 8px 0; align-items: flex-start; }
+.ui-review .overlay-row + .overlay-row { border-top: 1px solid var(--line); }
+.ui-review .overlay-row__toggle { align-items: flex-start; gap: 8px; }
+.ui-review .overlay-row input { margin-top: 3px; accent-color: var(--green); width: 15px; height: 15px; flex: 0 0 15px; }
+.ui-review .overlay-row__main > span { font-size: 12px; font-weight: 550; line-height: 1.5; }
+.ui-review .overlay-row__main small { font-size: 11px; line-height: 1.5; color: var(--ink-muted); }
+.ui-review .map-panel { position: relative; top: auto; height: 100%; min-height: 0; width: 100%; align-self: stretch; aspect-ratio: auto; border: 0; border-radius: 0; }
+.ui-review .map-panel__controls { left: 12px; top: 12px; right: 52px; }
+.ui-review .map-panel__meta, .ui-review .map-legend { border-radius: 4px; backdrop-filter: none; background: oklch(0.25 0.025 155); box-shadow: 0 2px 9px #17231f22; }
+.ui-review .map-panel__meta { gap: 4px; padding: 5px; font-family: var(--font-geist-sans),sans-serif; font-size: 10px; }
+.ui-review .map-panel__meta span { background: transparent; padding: 3px; }
+.ui-review .map-legend summary { padding: 9px 11px; font-size: 11px; }
+.ui-review .opportunity-card__header { align-items: flex-start; padding-bottom: 2px; }
+.ui-review .opportunity-card__header h2 { font-size: 24px; line-height: 1.2; letter-spacing: -0.035em; font-weight: 650; }
+.ui-review .opportunity-card__header .eyebrow { font-size: 9px; letter-spacing: 0.06em; margin-bottom: 6px; }
+.ui-review .unit-context { font-size: 10px; margin-top: 8px; }
+.ui-review .status-badge { font-size: 9px; padding: 3px 5px; border-radius: 4px; }
+.ui-review .card-metrics { gap: 0; padding: 13px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.ui-review .card-metrics > div { padding: 0 8px; border: 0; border-radius: 0; background: transparent; }
+.ui-review .card-metrics > div:first-child { padding-left: 0; }
+.ui-review .card-metrics > div + div { border-left: 1px solid var(--line); }
+.ui-review .card-metrics dt { font-size: 9px; }
+.ui-review .card-metrics dd { font-size: 17px; line-height: 1.4; font-family: var(--font-geist-sans), sans-serif; font-variant-numeric: tabular-nums; letter-spacing: -0.03em; }
+.ui-review .card-metrics small { font-size: 9px; }
+.ui-review .lens-tabs button { min-height: 32px; font-size: 11px; border-radius: 4px; }
+.ui-review .card-section { padding-top: 16px; border-top: 1px solid var(--line); }
+.ui-review .card-section h3 { font-size: 13px; font-weight: 650; }
+.ui-review .card-section p { font-size: 12px; line-height: 1.65; }
+.ui-review .card-section--lens { border: 0; background: var(--background); border-radius: 4px; padding: 12px; }
+.ui-review .card-section--lens h3 { color: var(--ink-muted); font-size: 9px; }
+.ui-review .card-section--lens p { font-size: 11px; color: var(--ink-muted); }
+.ui-review .signal-list li { padding: 9px 0; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; font-size: 13px; }
+.ui-review .signal-list li strong { font-size: 11px; }
+.ui-review .solution-list li { padding: 10px 0; border: 0; border-radius: 0; background: transparent; }
+.ui-review .solution-list li strong { font-size: 12px; }
+.ui-review .solution-list li span { font-size: 11px; line-height: 1.6; }
+.ui-review .info-tip__trigger { width: 25px; height: 25px; }
+.ui-review .source-section .text-link, .ui-review .source-section .quick-focus { font-size: 11px; border-radius: 4px; }
+.ui-review button:focus-visible, .ui-review a:focus-visible, .ui-review input:focus-visible, .ui-review select:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+@media (hover: hover) and (pointer: fine) {
+  .ui-review .exploration-toolbar button:hover, .ui-review .unit-list button:hover { background: var(--green-soft); color: var(--green); }
+}
+@media (max-width: 1100px) {
+  .workspace-shell.ui-review { height: auto; min-height: 100dvh; overflow: visible; }
+  .ui-review .workspace-grid { flex: 0 0 auto; grid-template-columns: 240px minmax(0,1fr); align-items: start; }
+  .ui-review .control-panel { height: min(740px,82dvh); }
+  .ui-review .map-panel { height: min(740px,82dvh); min-height: 460px; }
+  .ui-review .opportunity-card { grid-column: 1 / -1; height: auto; overflow: visible; border-left: 0; border-top: 1px solid var(--line); padding: 24px; }
+  .ui-review .workspace-topbar__actions { gap: 8px; }
+}
+@media (max-width: 700px) {
+  .ui-review .workspace-topbar { padding: 14px; gap: 14px; }
+  .ui-review .workspace-brand h1 { font-size: 21px; }
+  .ui-review .workspace-brand .eyebrow { font-size: 8px; }
+  .ui-review .workspace-topbar__actions { width: 100%; justify-content: space-between; }
+  .ui-review .data-notice { padding: 8px 14px; gap: 5px; flex-wrap: wrap; }
+  .ui-review .data-notice > span { display: none; }
+  .exploration-toolbar { padding: 8px 10px; gap: 3px; }
+  .exploration-toolbar__label { display: none; }
+  .exploration-toolbar button { min-height: 40px; font-size: 11px; padding: 7px; }
+  .exploration-toolbar__count { margin-left: 7px; }
+  .ui-review .workspace-grid { grid-template-columns: minmax(0,1fr); }
+  .ui-review .map-panel { order: -1; min-height: 460px; height: 63dvh; max-height: 620px; }
+  .ui-review .control-panel { height: auto; width: 100%; border: 0; padding: 22px 18px; overflow: visible; }
+  .ui-review .opportunity-card { width: 100%; padding: 22px 18px; }
+  .ui-review .unit-list { max-height: 180px; }
+  .ui-review .segmented-control { grid-template-columns: repeat(4,minmax(0,1fr)); }
+  .ui-review .segmented-control button { min-height: 40px; }
+  .ui-review .info-tip__trigger { width: 32px; height: 32px; }
+  .ui-review .overlay-row__main > span { font-size: 13px; }
+  .ui-review .overlay-row__main small { font-size: 11px; }
+  .ui-review .card-section p { font-size: 14px; }
+}

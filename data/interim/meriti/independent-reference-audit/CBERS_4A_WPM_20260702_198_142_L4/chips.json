@@ -1,0 +1,5633 @@
+{
+  "generatedAt": "2026-10-03T16:59:27+00:00",
+  "inputCellsSha256": "22f003e6d7bc59162b4497fc48cead3d40d4a159cac9c3ed52f2f95d0a0d683a",
+  "chips": [
+    {
+      "sampleId": "MERITI-V1-0001",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0001.png",
+      "sha256": "da4dedb1b97f37863ef6a2235987d6925f61eee6a886a8700d24e1cc9d76451a"
+    },
+    {
+      "sampleId": "MERITI-V1-0002",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0002.png",
+      "sha256": "d2777ce4e5a516a879d06c3725f228bfc94af4633593f88a9da47b6191cfd22c"
+    },
+    {
+      "sampleId": "MERITI-V1-0003",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0003.png",
+      "sha256": "22e97c702ce30f60a1ad8c2fa3dd97f8d5172c43fe812c9a44714e1e812fafec"
+    },
+    {
+      "sampleId": "MERITI-V1-0004",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0004.png",
+      "sha256": "fbf66b742d5708304d84eac14eea1fce0e3e57d8e3d3a07d7cdbc6f5769e62cf"
+    },
+    {
+      "sampleId": "MERITI-V1-0005",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0005.png",
+      "sha256": "a47f75e6ac8ffc5bd651a145bb5ff71c3f0aa84030178826835782c59701424f"
+    },
+    {
+      "sampleId": "MERITI-V1-0006",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0006.png",
+      "sha256": "6df207b77211b78a182b2f1c73e2643ef3aecdafcec267eda9113c36f3862729"
+    },
+    {
+      "sampleId": "MERITI-V1-0007",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0007.png",
+      "sha256": "7af8e59fae4fd4473a51e144fce6a40f116fb846b171d4d14a54c2bd1a0722dd"
+    },
+    {
+      "sampleId": "MERITI-V1-0008",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0008.png",
+      "sha256": "22ce295d05dc37744872dc9cbc08e5fff9b4f58f0be014f59b01dbeb832efe42"
+    },
+    {
+      "sampleId": "MERITI-V1-0009",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0009.png",
+      "sha256": "a81a279c615846716a1d87161d36bd96451ca725365c86bde835db75133f919e"
+    },
+    {
+      "sampleId": "MERITI-V1-0010",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0010.png",
+      "sha256": "7a14550126103423d8ee801117c7391e34e665e8b01823bfb3f27c68f2ff2162"
+    },
+    {
+      "sampleId": "MERITI-V1-0011",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0011.png",
+      "sha256": "4940fa65a7383b842ef64add6ae750a19bf76dbdd85e2175f18a64b625d75567"
+    },
+    {
+      "sampleId": "MERITI-V1-0012",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0012.png",
+      "sha256": "e5f1013248538b95f674c361baa33663b168291822935eda220b3b6211555791"
+    },
+    {
+      "sampleId": "MERITI-V1-0013",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0013.png",
+      "sha256": "cb95bb9c26e19d33665aa23c971a91c0b0e1c49bddb068116764bce40486598a"
+    },
+    {
+      "sampleId": "MERITI-V1-0014",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0014.png",
+      "sha256": "2a25efa397608608b8656c34b3a4459f56e144d70310ae00690a9c5bbef33e2a"
+    },
+    {
+      "sampleId": "MERITI-V1-0015",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0015.png",
+      "sha256": "b8411b677397fe5c33aac113393cdbe191ed924382bf60c9f64929e0deb40fea"
+    },
+    {
+      "sampleId": "MERITI-V1-0016",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0016.png",
+      "sha256": "8b1b8b4e99c8f13a2136eb8cac94c1c2418ebccc6133799c288f8b53b3a18167"
+    },
+    {
+      "sampleId": "MERITI-V1-0017",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0017.png",
+      "sha256": "95945a9c1507632918a7e308b3ba10e377fe787f054c5604d15ea5164a9ed68f"
+    },
+    {
+      "sampleId": "MERITI-V1-0018",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0018.png",
+      "sha256": "8e92899823644a8a3b2a451d9921a80605d58a65147ada0754f3658004706e5d"
+    },
+    {
+      "sampleId": "MERITI-V1-0019",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0019.png",
+      "sha256": "69004cd53717ee2b832941184e9112e059fe18fec01137bdc5dd01638c090332"
+    },
+    {
+      "sampleId": "MERITI-V1-0020",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0020.png",
+      "sha256": "c590e5eeb5e821f9f557a7b24df7cca56e87457a100101deee950429965e10e3"
+    },
+    {
+      "sampleId": "MERITI-V1-0021",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0021.png",
+      "sha256": "f5d910d4ee576efe87671a94ea699873ee2fcfb8d23c54eb27b1696e7c985645"
+    },
+    {
+      "sampleId": "MERITI-V1-0022",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0022.png",
+      "sha256": "0c916326985f9c423f27b2173e2878faa67de6a7caea1546a47a95e944648c7d"
+    },
+    {
+      "sampleId": "MERITI-V1-0023",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0023.png",
+      "sha256": "472456c7e41881ec8040e97c9426b80935b2aaca3bda6b20a77e3a43e46a58e2"
+    },
+    {
+      "sampleId": "MERITI-V1-0024",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0024.png",
+      "sha256": "ee0f47960fa9da6d3f54967468856a7442c82bd7806d3010f2a536ae219c9883"
+    },
+    {
+      "sampleId": "MERITI-V1-0025",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0025.png",
+      "sha256": "710325399b1b0fe15946a85158a3440571ff35be06db06c8b83d070e3b0f954c"
+    },
+    {
+      "sampleId": "MERITI-V1-0026",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0026.png",
+      "sha256": "238ea3dd662dc254da320ba383a2d15ba298ac18009d8353002da4e80864d643"
+    },
+    {
+      "sampleId": "MERITI-V1-0027",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0027.png",
+      "sha256": "31785888334d69bbd077f17b8662054c13ee9ad4fe6ed566ce1223fdb63ae901"
+    },
+    {
+      "sampleId": "MERITI-V1-0028",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0028.png",
+      "sha256": "c6aa05f614a48f3366c53b0ffc526ddcc8a3b8cb34ddc578a0101ecc288f8f74"
+    },
+    {
+      "sampleId": "MERITI-V1-0029",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0029.png",
+      "sha256": "8c3eb1cbadb6674dd924774661e55b56c2ec58102253683396c8556ac173791f"
+    },
+    {
+      "sampleId": "MERITI-V1-0030",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0030.png",
+      "sha256": "f441e01c4ec44b0031fbc56416a06ae305b2ac641c1cdd8f9de822cbffab6a71"
+    },
+    {
+      "sampleId": "MERITI-V1-0031",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0031.png",
+      "sha256": "4d4e8d13aa63587af3a6f8aaa7e9d331198d8e9b8397bc99de863575bb525817"
+    },
+    {
+      "sampleId": "MERITI-V1-0032",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0032.png",
+      "sha256": "b42afe05181d8a3bdd4fd2e13d569eb6acaea7747534e79802ef3a399eb59066"
+    },
+    {
+      "sampleId": "MERITI-V1-0033",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0033.png",
+      "sha256": "5663476acba5d7bbdd3483b26755bc39ac3a849c5fe293bf965e1a803abb4865"
+    },
+    {
+      "sampleId": "MERITI-V1-0034",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0034.png",
+      "sha256": "bc3e1b8ced12f3b6c8c1ee702e089cf02d04d7f50d9ed9353355b787ae4fa947"
+    },
+    {
+      "sampleId": "MERITI-V1-0035",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0035.png",
+      "sha256": "2f58a03b96e45cab8c8c05cb6dcaefc3a492c170a41e11b596cf74f65b36c4ad"
+    },
+    {
+      "sampleId": "MERITI-V1-0036",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0036.png",
+      "sha256": "34930ce73bb675daeb7486a5f82911935f3167a97f5c4b8de9f432eef4d5a46d"
+    },
+    {
+      "sampleId": "MERITI-V1-0037",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0037.png",
+      "sha256": "96f0310b06ab3db4447cb226a66e67340b2b93c1ef10184c1c4299a11ea6d363"
+    },
+    {
+      "sampleId": "MERITI-V1-0038",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0038.png",
+      "sha256": "ee288402c7710454c54e50d9a3c035f66308e1aad836dd6dc03877e5f0cc3726"
+    },
+    {
+      "sampleId": "MERITI-V1-0039",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0039.png",
+      "sha256": "198056835a84e540877204f6195fdd6847634e09cd7ba10d3eacdb56b7b96d81"
+    },
+    {
+      "sampleId": "MERITI-V1-0040",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0040.png",
+      "sha256": "215f6302e13ddfbc106ef526e615a035ed834ac7aa4109bd48398fbf7c0b862b"
+    },
+    {
+      "sampleId": "MERITI-V1-0041",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0041.png",
+      "sha256": "d5bf6c33ee23119b6b2a243f02302a6ea27d4c5f80e7200846116e2035cb274e"
+    },
+    {
+      "sampleId": "MERITI-V1-0042",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0042.png",
+      "sha256": "5d354c551809f9aef9dca2dd78fc8caa622adfeb4cc811ac8a4b16a2475df3f6"
+    },
+    {
+      "sampleId": "MERITI-V1-0043",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0043.png",
+      "sha256": "109bfc45a51501961c78f114998b4ca2492d24962a966bc4b1a311ebc83c6e7b"
+    },
+    {
+      "sampleId": "MERITI-V1-0044",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0044.png",
+      "sha256": "64acc69a71ee06a6f337b1f90bdbcd8de322f33868f01e34fc0dfbb8cfb9b831"
+    },
+    {
+      "sampleId": "MERITI-V1-0045",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0045.png",
+      "sha256": "e5bee611ce8bf96784c9544ecc8cbfcdfb1d7a698d58d54d5bbec6acc5834985"
+    },
+    {
+      "sampleId": "MERITI-V1-0046",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0046.png",
+      "sha256": "06475e9668ae8f26cb89240dc826333bf7f2c83aa99d696b53f3bfdab850dace"
+    },
+    {
+      "sampleId": "MERITI-V1-0047",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0047.png",
+      "sha256": "802ee19ed2259b33155f98ed490ca32aa09f56c58858695188b880529c2b5d5e"
+    },
+    {
+      "sampleId": "MERITI-V1-0048",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0048.png",
+      "sha256": "3d8ba498870a159d5740c31d8fa519dcc21129d55f42fbf89aa33a1e9950c5c3"
+    },
+    {
+      "sampleId": "MERITI-V1-0049",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0049.png",
+      "sha256": "10234ba2d0a1ddf93b354200b4a902bb3d27e8f19cc360b7d52077859ce8cb00"
+    },
+    {
+      "sampleId": "MERITI-V1-0050",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0050.png",
+      "sha256": "7cc18bd6ac7a7ce828e7ff560bc1b5e01607f905ad1053842bd7ab8721cc590f"
+    },
+    {
+      "sampleId": "MERITI-V1-0051",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0051.png",
+      "sha256": "bc666d5a0fa0278916ff7e7a77b80e641ab512277ad8dbba2943b7b30393ea89"
+    },
+    {
+      "sampleId": "MERITI-V1-0052",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0052.png",
+      "sha256": "108d34bbd4a2545effedf3a2e695e25e708a555e7702d64808137a68752ed599"
+    },
+    {
+      "sampleId": "MERITI-V1-0053",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0053.png",
+      "sha256": "64f917fc1adb47bcb913e60aa19b5cda26ccb239a258689bcff26643254f3d97"
+    },
+    {
+      "sampleId": "MERITI-V1-0054",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0054.png",
+      "sha256": "995229cc87ea5c15798647eb58c1bca398cffd77e70fbf19b0cc872f03abb982"
+    },
+    {
+      "sampleId": "MERITI-V1-0055",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0055.png",
+      "sha256": "4510d4835573b24ef472927ad3545221ea6a2050ca7d16c8baa681cf8bbd0b1f"
+    },
+    {
+      "sampleId": "MERITI-V1-0056",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0056.png",
+      "sha256": "39727b633e70c866fd8b2201655042cd7b4d468cb186d0faf79ada5c6b54ce38"
+    },
+    {
+      "sampleId": "MERITI-V1-0057",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0057.png",
+      "sha256": "7a5a1f0fad5757d69d3519988e8cc46449292f25cc5d6852872508de1e2d0ccc"
+    },
+    {
+      "sampleId": "MERITI-V1-0058",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0058.png",
+      "sha256": "26a7b1962c18759b0e44a24d7779c8f919e22058c780c74b2a90cc8b4ddffd1a"
+    },
+    {
+      "sampleId": "MERITI-V1-0059",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0059.png",
+      "sha256": "f45a5233df5b744a038edab31ade9795d6e4566ceaf242f940273045a07290ff"
+    },
+    {
+      "sampleId": "MERITI-V1-0060",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0060.png",
+      "sha256": "c485e0380df5395750e988848319678b38e66307f372b8518e44887f0ab5e407"
+    },
+    {
+      "sampleId": "MERITI-V1-0061",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0061.png",
+      "sha256": "ca72cb57ec37f3e217bd87c8af4d76ec4cdb5f6b22662571e11be06918ac3ce0"
+    },
+    {
+      "sampleId": "MERITI-V1-0062",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0062.png",
+      "sha256": "19957f09dc530d31b39236840dbc2f21cac034a93da0001216476261a96b8d9c"
+    },
+    {
+      "sampleId": "MERITI-V1-0063",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0063.png",
+      "sha256": "2955d3efd86d3b6efb192bee19ae56e9fe62891a8cc8fc6f9fe7087d013bb7d9"
+    },
+    {
+      "sampleId": "MERITI-V1-0064",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0064.png",
+      "sha256": "9b9f04d1743467456221640b4d89f2f45d899e863cc70e0a40164f06996cb4ce"
+    },
+    {
+      "sampleId": "MERITI-V1-0065",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0065.png",
+      "sha256": "a64f6d81f25effeb429e92a8e3ae3cf59c4ada0451c6666e518fa8d7fe0d4681"
+    },
+    {
+      "sampleId": "MERITI-V1-0066",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0066.png",
+      "sha256": "6cff72059d4b0198272cf943e10f95bb3778f2623dc934889777c59b45c347e5"
+    },
+    {
+      "sampleId": "MERITI-V1-0067",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0067.png",
+      "sha256": "d1ce6a7c593b245503b3a3f5d356c2157a94887a366d42432743fdab54aed889"
+    },
+    {
+      "sampleId": "MERITI-V1-0068",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0068.png",
+      "sha256": "7c80c48987b374688ea877557ab0013f7bf8c3de0193f4e8e7782b91585cb6a7"
+    },
+    {
+      "sampleId": "MERITI-V1-0069",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0069.png",
+      "sha256": "880a2a439778a9038d4393d8f58b3f57ea8c49638127e777503a5bbe25eadb78"
+    },
+    {
+      "sampleId": "MERITI-V1-0070",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0070.png",
+      "sha256": "2913377084e29e2855f88a52f6ef8858f7c83709541ebacb6650ce4db054b777"
+    },
+    {
+      "sampleId": "MERITI-V1-0071",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0071.png",
+      "sha256": "c950c613f8e98fc1189081a14c8709920f265b7df7118d370873297e6694ff81"
+    },
+    {
+      "sampleId": "MERITI-V1-0072",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0072.png",
+      "sha256": "2962ea5e9ab6c8b1d41894c8ea00b35e29af89662ce96486401af061343974f9"
+    },
+    {
+      "sampleId": "MERITI-V1-0073",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0073.png",
+      "sha256": "c98357426bfa700b83d986751492edf1222e6b9484cc427c6a62afe7250d1d9d"
+    },
+    {
+      "sampleId": "MERITI-V1-0074",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0074.png",
+      "sha256": "c935aeed8481909e5832a1cd8e8373ddf01daa7bdd6a3e9c412b5ea20b35d888"
+    },
+    {
+      "sampleId": "MERITI-V1-0075",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0075.png",
+      "sha256": "004912d9a1f04a35b60d76978c7c8ebdbc5d110721af7aede705f133af268ec1"
+    },
+    {
+      "sampleId": "MERITI-V1-0076",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0076.png",
+      "sha256": "536f7fdec10c304b65ca550b0feeab6bd727661ae621b19b6fb5e6eba1d55851"
+    },
+    {
+      "sampleId": "MERITI-V1-0077",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0077.png",
+      "sha256": "ac8d8e15beec51037421c29d5b2a6c3f2d2c30870598b058291dd038a717eaaf"
+    },
+    {
+      "sampleId": "MERITI-V1-0078",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0078.png",
+      "sha256": "8321c2a8c1757e4559992769ad7714c99ff4697dfbb1bb43e74d755796467206"
+    },
+    {
+      "sampleId": "MERITI-V1-0079",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0079.png",
+      "sha256": "315305adc20e6c64edfc2ba8acd72b031b1ecfd4ed4b46fec9c88815c372835a"
+    },
+    {
+      "sampleId": "MERITI-V1-0080",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0080.png",
+      "sha256": "f52fc77178d0a5ef86ebcf1e5cd38010ffa80306e20f19ab8fb95970363bf35c"
+    },
+    {
+      "sampleId": "MERITI-V1-0081",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0081.png",
+      "sha256": "4d1cbe89e1d445260c83c2d3ae6de84a359f8a6efe1b17032fe771b2029178f2"
+    },
+    {
+      "sampleId": "MERITI-V1-0082",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0082.png",
+      "sha256": "7d45b863ca5cb0b85d420c0456db22feb34262ff1109eef31a6013b11a82a193"
+    },
+    {
+      "sampleId": "MERITI-V1-0083",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0083.png",
+      "sha256": "012f082608249d9c3921a6873767f3801ffbb1c18d7de9a968d3f0c0c9670ee3"
+    },
+    {
+      "sampleId": "MERITI-V1-0084",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0084.png",
+      "sha256": "4ce11142d2bca4ab0d431faa6686fda505202f72795b7b67c69a31daa2a196c5"
+    },
+    {
+      "sampleId": "MERITI-V1-0085",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0085.png",
+      "sha256": "23a44a0785df0572b8c3f00c8afb2437edd95f3516eb2cb18f9b608a5555e41c"
+    },
+    {
+      "sampleId": "MERITI-V1-0086",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0086.png",
+      "sha256": "9aba6c7a92dc6c8d4c5cd8c6387b7bf0bc729546f6256b0d78a6f666515200f1"
+    },
+    {
+      "sampleId": "MERITI-V1-0087",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0087.png",
+      "sha256": "d308c222fef7a893d0faf64f68266f143674b4a170f8c20432df9ad3811f7ca5"
+    },
+    {
+      "sampleId": "MERITI-V1-0088",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0088.png",
+      "sha256": "8b05982b63b4d8e6f1ab03e8c2f29ea2ca550f554d717d8e6bbf2b5c3e097c6d"
+    },
+    {
+      "sampleId": "MERITI-V1-0089",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0089.png",
+      "sha256": "1a62856b2e66b2bfb2d888ad35db6564beda443ea84988dacdba9961313a543f"
+    },
+    {
+      "sampleId": "MERITI-V1-0090",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0090.png",
+      "sha256": "4d9bbcc03a8074a4439c874f7d482031582bb08f37f59310fa51beeeaa7a6670"
+    },
+    {
+      "sampleId": "MERITI-V1-0091",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0091.png",
+      "sha256": "77b1251f476f5782ecdb1731d2bb0420f0629ec5083c66d64bb5c97369e4ac1d"
+    },
+    {
+      "sampleId": "MERITI-V1-0092",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0092.png",
+      "sha256": "4e0f100f919388728d8e85d235caf9dfae8b0c7eb0726bf948c35b814adcf7c1"
+    },
+    {
+      "sampleId": "MERITI-V1-0093",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0093.png",
+      "sha256": "bd05d75deb06c142bb73ba1bbc3157583a8796494f950cb9261862533f6afaac"
+    },
+    {
+      "sampleId": "MERITI-V1-0094",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0094.png",
+      "sha256": "9a68be73c519af914ec249048f927af57c8813850d6763b4d2cb659fd8c19a7d"
+    },
+    {
+      "sampleId": "MERITI-V1-0095",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0095.png",
+      "sha256": "dc3570e75c6c3604478cc79740f59a39fcf434da018723457034054dbf312b61"
+    },
+    {
+      "sampleId": "MERITI-V1-0096",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0096.png",
+      "sha256": "48f4b7f4bd64b57ccc0165a40284138a173dc4b3a0337fc2fd3d754cb550e889"
+    },
+    {
+      "sampleId": "MERITI-V1-0097",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0097.png",
+      "sha256": "a44295471210516b69f10e9186a70622c0936890c24c3a4a945194359bb23d35"
+    },
+    {
+      "sampleId": "MERITI-V1-0098",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0098.png",
+      "sha256": "de3a6c674f34428c0bf05051d73b7cdd14fa45d583571376d0ca9a2894633b81"
+    },
+    {
+      "sampleId": "MERITI-V1-0099",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0099.png",
+      "sha256": "8eccb55421e4da9fed60c36e10e14d1f73705a547b70b73ffaf2029d5921dd36"
+    },
+    {
+      "sampleId": "MERITI-V1-0100",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0100.png",
+      "sha256": "45514231d9389b17b25e902b7d42ae8188a1a83c96da8a55208a1436053c0ca8"
+    },
+    {
+      "sampleId": "MERITI-V1-0101",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0101.png",
+      "sha256": "52c199845a4d548a5ca5d4e2e117f262b4396a2d81a44a16a9add1524392a8fd"
+    },
+    {
+      "sampleId": "MERITI-V1-0102",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0102.png",
+      "sha256": "a4c3f3f8595149def320d2c9dee3cd123c84227f833ac788586627b4eb7f856f"
+    },
+    {
+      "sampleId": "MERITI-V1-0103",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0103.png",
+      "sha256": "449939dfdf05eec7b3e787196ba7f24d84fd8af7306bd180062f5fb855ffd656"
+    },
+    {
+      "sampleId": "MERITI-V1-0104",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0104.png",
+      "sha256": "f323920b4d031cadfdbf2cbebbbac9c384deecbfd4ceafb9536d0bae570ca264"
+    },
+    {
+      "sampleId": "MERITI-V1-0105",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0105.png",
+      "sha256": "c7172cd5dd25ba65eade572ed965812d3150d207c653535f5d185af89887f587"
+    },
+    {
+      "sampleId": "MERITI-V1-0106",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0106.png",
+      "sha256": "9449616394c07e4c5bf178e50dffc763067fd57cec399394bd2d244f69514723"
+    },
+    {
+      "sampleId": "MERITI-V1-0107",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0107.png",
+      "sha256": "5fcde871d6bd8b6ad624b05098aa635731649e6c57614b4e46bf97310ea60b87"
+    },
+    {
+      "sampleId": "MERITI-V1-0108",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0108.png",
+      "sha256": "b5ec6218cfa18947ebfab3892c4ca64d26b2fe606b6ea38c9a0ac79fbcc0999c"
+    },
+    {
+      "sampleId": "MERITI-V1-0109",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0109.png",
+      "sha256": "09a913270a80ca3940edaaebaaec5ac9f77168efd16a01c16a3065628ee58a54"
+    },
+    {
+      "sampleId": "MERITI-V1-0110",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0110.png",
+      "sha256": "08b26f6ef5a3d5308f952c386193e9876394f7688bcaeae3c47e62185310aae0"
+    },
+    {
+      "sampleId": "MERITI-V1-0111",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0111.png",
+      "sha256": "83654d258640f5c8166a005327cd1adc6be9ae98fbd143bac39db299293cb0f6"
+    },
+    {
+      "sampleId": "MERITI-V1-0112",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0112.png",
+      "sha256": "f39e5e71d7bb30249b0b945593ca939afe6b07a4ce0ad5840c958930089ed97a"
+    },
+    {
+      "sampleId": "MERITI-V1-0113",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0113.png",
+      "sha256": "9fb37aa60a2971542047bfb922e19d139ff93c919e8635fcb6fb1e14631dd356"
+    },
+    {
+      "sampleId": "MERITI-V1-0114",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": null,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0114.png",
+      "sha256": "b8fe45c57ba42e31fb28dfd291e84a0a6fa3557615ed5ef53249522c68cd3307"
+    },
+    {
+      "sampleId": "MERITI-V1-0115",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0115.png",
+      "sha256": "fd2a68820a3da6ccc8a80e199b538c0207cbe633054547ccae4fd433588cf88a"
+    },
+    {
+      "sampleId": "MERITI-V1-0116",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0116.png",
+      "sha256": "018f70da698e58da98c501b25e3200604d9772505f4f6d6ac08d972924e5fb07"
+    },
+    {
+      "sampleId": "MERITI-V1-0117",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0117.png",
+      "sha256": "018e65e26cd3a14b514bf8274b83acb48f7497483ed0cd1ca03d7706e9c99aa4"
+    },
+    {
+      "sampleId": "MERITI-V1-0118",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0118.png",
+      "sha256": "4b49dd3378d866107e38b6599cb15a5030f5a09868040764d183298340e56c77"
+    },
+    {
+      "sampleId": "MERITI-V1-0119",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0119.png",
+      "sha256": "6cdea33b9f23fbc2c1e9f0d8827073fe6871e02ce2b53a93a7196251586614d0"
+    },
+    {
+      "sampleId": "MERITI-V1-0120",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0120.png",
+      "sha256": "c618203cc560e9dfdfc6b468c2eabf25cd0217fd0a4bb4b2db5312a2626027f0"
+    },
+    {
+      "sampleId": "MERITI-V1-0121",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0121.png",
+      "sha256": "39fe8b6c5560ab749240526691be1741334b8ac96acdf7ac790780a45e8cbc4d"
+    },
+    {
+      "sampleId": "MERITI-V1-0122",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0122.png",
+      "sha256": "3c33edc1eb31fc33f1029b2bd26697d7177fadd298b9ea3adc4949d17b56719f"
+    },
+    {
+      "sampleId": "MERITI-V1-0123",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0123.png",
+      "sha256": "32a4a17360d344427aa45ef5b53697d4f485e18f5d69de2a67b66f2570fea62a"
+    },
+    {
+      "sampleId": "MERITI-V1-0124",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0124.png",
+      "sha256": "1b22f865699405eb1cf1a41b43840d2335eec18325ceb055f8119e5bfdda6c9b"
+    },
+    {
+      "sampleId": "MERITI-V1-0125",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0125.png",
+      "sha256": "268701b2efd4c71cda0efc2750bf34fd4d31fd898d61ee355dc56abd91ca94cb"
+    },
+    {
+      "sampleId": "MERITI-V1-0126",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0126.png",
+      "sha256": "f1789e891149362990c76d626ea12c1219fd4e734a048c2f54e281028c653a46"
+    },
+    {
+      "sampleId": "MERITI-V1-0127",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0127.png",
+      "sha256": "a3960ceb9f0783dc1d15a8018e2300ff8f96fb9964738cd59bb839449e12ed41"
+    },
+    {
+      "sampleId": "MERITI-V1-0128",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0128.png",
+      "sha256": "bf8ac0356a33b9a931b0aa91374a7050edaa68bd1646860f4e893321b9f2bd91"
+    },
+    {
+      "sampleId": "MERITI-V1-0129",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0129.png",
+      "sha256": "b8c4358410cbb8f5d8cf2f6085c00feaf1b0f81f0877333c93ca5cde27404611"
+    },
+    {
+      "sampleId": "MERITI-V1-0130",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0130.png",
+      "sha256": "38325b2c9bb632bc5bbeef339dcf739893d437850fad61c62e340fb4de70dc70"
+    },
+    {
+      "sampleId": "MERITI-V1-0131",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0131.png",
+      "sha256": "603bcd0e3325e66ab069f0734fef1904e6d94cc16081f5568ba2af3f8a0e34c9"
+    },
+    {
+      "sampleId": "MERITI-V1-0132",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0132.png",
+      "sha256": "8d451b43eec84f3ff9fdc56c953aa4b90c40daf0109334d801fb2c1e6e7f95ff"
+    },
+    {
+      "sampleId": "MERITI-V1-0133",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0133.png",
+      "sha256": "24f03d1b6acd73e4061c62fc623156df991bc862971dde53ab214bddc75493a0"
+    },
+    {
+      "sampleId": "MERITI-V1-0134",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0134.png",
+      "sha256": "01101d0696cd456560dbb612896796a70f738434b95fdcd62148433e67bb334f"
+    },
+    {
+      "sampleId": "MERITI-V1-0135",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0135.png",
+      "sha256": "64e1ae82d8b4d18647aa1e950c920b2618e3d5a42c210f602753e18046bc44ec"
+    },
+    {
+      "sampleId": "MERITI-V1-0136",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0136.png",
+      "sha256": "acbba2951e9785440e0683b5f1f5a0847663da61463a6cbc6b2bae6fccf4f4f4"
+    },
+    {
+      "sampleId": "MERITI-V1-0137",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0137.png",
+      "sha256": "ad9498659a19b8432d2849f6e0c524209dd75caa685aeb13ef8a6f0083ae0256"
+    },
+    {
+      "sampleId": "MERITI-V1-0138",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0138.png",
+      "sha256": "89d1b91b5194f83ac45e3b6c4823182d4541828643df501a0f8b751dd7330fcb"
+    },
+    {
+      "sampleId": "MERITI-V1-0139",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0139.png",
+      "sha256": "c3192cd7dbd5ce7b790d483208f88b160186cb612d634988291f7e2ceedf7d12"
+    },
+    {
+      "sampleId": "MERITI-V1-0140",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0140.png",
+      "sha256": "7fb6ba77f71d05815416fe18588df4193a313e46d3b3b9d1b5e0d62fad86996d"
+    },
+    {
+      "sampleId": "MERITI-V1-0141",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0141.png",
+      "sha256": "5b7eb4eed4584face71458b2e9aa6f6d46d1a40f9b2be662b3c9c00da7b2b213"
+    },
+    {
+      "sampleId": "MERITI-V1-0142",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0142.png",
+      "sha256": "96c776b82ab20cdc246325adc9ca6f4618d6014336734659b307a9ad6adcbae1"
+    },
+    {
+      "sampleId": "MERITI-V1-0143",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0143.png",
+      "sha256": "14d5617b57e32b256fe2469817f487a349529c0d46f220a834232c15a1d6e597"
+    },
+    {
+      "sampleId": "MERITI-V1-0144",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0144.png",
+      "sha256": "8b8bddb0de89c903e5dfb88467cec227db400a88f947e33fcb63cc8dfc90baff"
+    },
+    {
+      "sampleId": "MERITI-V1-0145",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0145.png",
+      "sha256": "964a3ae43acae75ad9b93fa395605066dbe0a4900eb48c11ba6b6364475ca90a"
+    },
+    {
+      "sampleId": "MERITI-V1-0146",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0146.png",
+      "sha256": "3e77485bae88470b4c7d24d6b6e60be0163e63a2b2cba5bee919c60bd2011b1b"
+    },
+    {
+      "sampleId": "MERITI-V1-0147",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0147.png",
+      "sha256": "241104949aeaaea8ff1cf0e6702919b6c74917a47d78966ad053031404569768"
+    },
+    {
+      "sampleId": "MERITI-V1-0148",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0148.png",
+      "sha256": "3e3a07a1ae3cf04a7ed3d5899745fb48fe1a5c3eab53b7f78b43c0ef628a8684"
+    },
+    {
+      "sampleId": "MERITI-V1-0149",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0149.png",
+      "sha256": "ed9b343fa1c0c92aedd62c712ecc78a53fc20f03054d2c64150cd512ab494afb"
+    },
+    {
+      "sampleId": "MERITI-V1-0150",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0150.png",
+      "sha256": "2cefc2acf0727741298d7bdd96183ad1905f1e49b21e22061f780062fbbd4d40"
+    },
+    {
+      "sampleId": "MERITI-V1-0151",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0151.png",
+      "sha256": "1f33ef9cc2ef3ccb14a2e14d5844d500f7546d74bffc9a6c2f655201d8924372"
+    },
+    {
+      "sampleId": "MERITI-V1-0152",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0152.png",
+      "sha256": "b361bc2d38243e42c33209ce6a5d8af6854bf4945651420fc06097082ab69371"
+    },
+    {
+      "sampleId": "MERITI-V1-0153",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0153.png",
+      "sha256": "778d16d80e5619a385ace5cf36fb28f6377209199ef696e5a6906d8ec50376f2"
+    },
+    {
+      "sampleId": "MERITI-V1-0154",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0154.png",
+      "sha256": "632670e82189fd4074627ab0a99591dede038a796aac7202d42876ce2d7f5e8c"
+    },
+    {
+      "sampleId": "MERITI-V1-0155",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0155.png",
+      "sha256": "f84f1ea5e459cee577fb311539cf5248b82df917352a4e8bdee0d6a08e5ac13d"
+    },
+    {
+      "sampleId": "MERITI-V1-0156",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0156.png",
+      "sha256": "44c4db7dec8e263d8224eb3afe08975f5ea87640a4399d9d33c2340cd6ab51b5"
+    },
+    {
+      "sampleId": "MERITI-V1-0157",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0157.png",
+      "sha256": "ea27c13288644d4bf0fda418f81fffe23eb7cf70a0663b997c12a95499c09467"
+    },
+    {
+      "sampleId": "MERITI-V1-0158",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0158.png",
+      "sha256": "d7bcce3a53c1099a34cc89489df8bf6db49ad619a77ec5d20c106813d1da780c"
+    },
+    {
+      "sampleId": "MERITI-V1-0159",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0159.png",
+      "sha256": "409b2bf95661e12c4b264986f3e47f46065cc3fedab6d73923efc30947acbd9a"
+    },
+    {
+      "sampleId": "MERITI-V1-0160",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": null,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0160.png",
+      "sha256": "2facebbcd5b48e095045db6226b3f1fb7b272828f1be36600bbc721dee63ba77"
+    },
+    {
+      "sampleId": "MERITI-V1-0161",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0161.png",
+      "sha256": "a3dcb3358182ef2d4462174cd94dd0cff13e50a2af6e9467c10e1852f766407a"
+    },
+    {
+      "sampleId": "MERITI-V1-0162",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0162.png",
+      "sha256": "9f7f93bc8f5ee845ebdea5090708084fd45426a2d5512fa6b23bcf4cb585dc50"
+    },
+    {
+      "sampleId": "MERITI-V1-0163",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0163.png",
+      "sha256": "412c5c4c302caccc09885931b1d8b122f5ad1ee7015930a820bc271e2303f6ed"
+    },
+    {
+      "sampleId": "MERITI-V1-0164",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0164.png",
+      "sha256": "77e2b04b145d39891af13b9f472d8cdf41d489930954c24c86e8c3b17ed1d200"
+    },
+    {
+      "sampleId": "MERITI-V1-0165",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0165.png",
+      "sha256": "77b8c66a9ada51eadcde7f9386a6991ed16e79f38f2da70819943d6fd42c8edb"
+    },
+    {
+      "sampleId": "MERITI-V1-0166",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0166.png",
+      "sha256": "7679b7a6aff6ceaceaff6bca4ed28dd622de1c80f1a752e16f8ca5276614e9ec"
+    },
+    {
+      "sampleId": "MERITI-V1-0167",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0167.png",
+      "sha256": "59b66af2517422f20da640da9f1136f305b68208dc35f35a23d5c1b04c089014"
+    },
+    {
+      "sampleId": "MERITI-V1-0168",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0168.png",
+      "sha256": "84f34e5db5a48dd139601652b9496bda47f48ccfb08bc114be498746f066610d"
+    },
+    {
+      "sampleId": "MERITI-V1-0169",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0169.png",
+      "sha256": "8dc5d9aeda385e0ad93cf5005ea731ae9a4a50faaaf34a6871d7f152190b305f"
+    },
+    {
+      "sampleId": "MERITI-V1-0170",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0170.png",
+      "sha256": "d0309278db4fc283173900ac51c68c6092d9d574f72b2388437ef90e14c29592"
+    },
+    {
+      "sampleId": "MERITI-V1-0171",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0171.png",
+      "sha256": "9fc0762d9be06038d966cefba512d9014135954fd289fa5d17d1b591d7aa40f1"
+    },
+    {
+      "sampleId": "MERITI-V1-0172",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0172.png",
+      "sha256": "a4859b1a3ba797e86c7a1cf7ecd815181dd8f2ecd099b38599ecec93fe480fb8"
+    },
+    {
+      "sampleId": "MERITI-V1-0173",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0173.png",
+      "sha256": "3cffc5be60b1b2f2d463433d79c22374ab527a0637690ac6f2116ede30e48d63"
+    },
+    {
+      "sampleId": "MERITI-V1-0174",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0174.png",
+      "sha256": "9c9a6535982f18f3538ed3e89011842812f9745cbc2af920b97bd18b657de1bc"
+    },
+    {
+      "sampleId": "MERITI-V1-0175",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0175.png",
+      "sha256": "ea08f35b33d6d2777ef153b7ec7de0eba8dcabc50af9114ac926ac350d514445"
+    },
+    {
+      "sampleId": "MERITI-V1-0176",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0176.png",
+      "sha256": "cbea79ed73bee69485281885a7449027eaef7a3986e319c03571011286ac620c"
+    },
+    {
+      "sampleId": "MERITI-V1-0177",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0177.png",
+      "sha256": "f24643a2d6b1de226bd8b4aff9fe23c739c0173310e036341a673846ee1a98a0"
+    },
+    {
+      "sampleId": "MERITI-V1-0178",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0178.png",
+      "sha256": "29e1420373fa07dcba5706954ef8891e6beb17536df7670da9c652048d7871ba"
+    },
+    {
+      "sampleId": "MERITI-V1-0179",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0179.png",
+      "sha256": "79a43bc2dd15de09e1c07872147869bb714f877dbf132d1939f4811106df37b5"
+    },
+    {
+      "sampleId": "MERITI-V1-0180",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0180.png",
+      "sha256": "443d70e2c2610810ef0af24f682f3bd26bcc3132105babd95fccb24a9c311a3d"
+    },
+    {
+      "sampleId": "MERITI-V1-0181",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0181.png",
+      "sha256": "d980768d529f908e1fbf29bce73ff5b21cb813037b3e6e68150bc48b5666c2b5"
+    },
+    {
+      "sampleId": "MERITI-V1-0182",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0182.png",
+      "sha256": "b007866a344328977296dad00e5bf60027b21ce24cd46087ace47b4e4e387147"
+    },
+    {
+      "sampleId": "MERITI-V1-0183",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0183.png",
+      "sha256": "bf21e142146f8ce40884ac6283d7495a6406f1b7dfe5e92760fafd232612606f"
+    },
+    {
+      "sampleId": "MERITI-V1-0184",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0184.png",
+      "sha256": "33c4a8aabd8f8c2913c34d8a913a017732b81fdf06df84021adf5076aa87f93c"
+    },
+    {
+      "sampleId": "MERITI-V1-0185",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0185.png",
+      "sha256": "d5b5f2db3e0063743e4da54a9527e7ba7962d91f5656762927c7eeaf903ebb0f"
+    },
+    {
+      "sampleId": "MERITI-V1-0186",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": null,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0186.png",
+      "sha256": "a45ff50d9d5e1e54beeedc25ebf47f557a95971ff7fe04db4d5551ba85feebab"
+    },
+    {
+      "sampleId": "MERITI-V1-0187",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0187.png",
+      "sha256": "1f7bf4b5489a88c2dd1828fa44f9190622af9cff6cac6a8f77fb54655c7f5c5a"
+    },
+    {
+      "sampleId": "MERITI-V1-0188",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0188.png",
+      "sha256": "5b5b4348d72a411111ea3ab65242abce3a35591daec0549958e7db96a03c7c6a"
+    },
+    {
+      "sampleId": "MERITI-V1-0189",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0189.png",
+      "sha256": "4ff7005cd23ea81dcb2ff58bab69f68f1e7324551f3b4c581f7e0d3f4d99b689"
+    },
+    {
+      "sampleId": "MERITI-V1-0190",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0190.png",
+      "sha256": "18cf8051f1e0d9a769b4609247e49a284d888fa153140598359ac41d1fea4a49"
+    },
+    {
+      "sampleId": "MERITI-V1-0191",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0191.png",
+      "sha256": "18255d12f7d238f3d100e2a08731e56a788aa69da297004d10717a4f9162f272"
+    },
+    {
+      "sampleId": "MERITI-V1-0192",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0192.png",
+      "sha256": "1be2dc90ed2289d44539e1e3e607caa03d844e029c5f4139bdad9d417188d079"
+    },
+    {
+      "sampleId": "MERITI-V1-0193",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0193.png",
+      "sha256": "d4c3f345a25ae8bafda8ac3e631522f82e7061e63721371f9ea6a83a3df09a59"
+    },
+    {
+      "sampleId": "MERITI-V1-0194",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0194.png",
+      "sha256": "c838dadea11feb58ee620dc2741f96f1c972b13b79a11aa93b0fbefc18cc5613"
+    },
+    {
+      "sampleId": "MERITI-V1-0195",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0195.png",
+      "sha256": "20d86b92e4ad45d57adf80c3de57192a588414d661f800c9f488ad01c764b573"
+    },
+    {
+      "sampleId": "MERITI-V1-0196",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0196.png",
+      "sha256": "b528e97b8ac91db308ffd6338006f035b4b75ec1e2764c31e1486cf533a4ea46"
+    },
+    {
+      "sampleId": "MERITI-V1-0197",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0197.png",
+      "sha256": "49afd551f54ef1b2094279bd181828ca3ed4e30e6d90b32fb06c502c07cc148b"
+    },
+    {
+      "sampleId": "MERITI-V1-0198",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0198.png",
+      "sha256": "1bef412ffef8f9946fbaa05f532057502fbf88adfe83d4661f1c28d97ca26ce5"
+    },
+    {
+      "sampleId": "MERITI-V1-0199",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0199.png",
+      "sha256": "7c7e23cbdaf63daf18fa6635ef15416be639fbca17bcc6c848d367b90bc4d237"
+    },
+    {
+      "sampleId": "MERITI-V1-0200",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0200.png",
+      "sha256": "6cf840e4b179430ceff46a2cb4323de0c7124addd66a809e95651ef8d86b1f3c"
+    },
+    {
+      "sampleId": "MERITI-V1-0201",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0201.png",
+      "sha256": "163728ed60dfb0bbcb6f1e23652a16acd5ca2a953f917be06c765ac30b9cdc50"
+    },
+    {
+      "sampleId": "MERITI-V1-0202",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0202.png",
+      "sha256": "4fa4111d1d664b7238fec661fe9a937b6f760cf19d3e6f13f689132203c6df27"
+    },
+    {
+      "sampleId": "MERITI-V1-0203",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0203.png",
+      "sha256": "d94da7b1dc2fe50b1f97726ce03b1d86cb5dd91b1ae64ea9a64cdef7613d604d"
+    },
+    {
+      "sampleId": "MERITI-V1-0204",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0204.png",
+      "sha256": "17927de6d3336c316fe7b76d9cdeec01d05027402e514c13251036c808377316"
+    },
+    {
+      "sampleId": "MERITI-V1-0205",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0205.png",
+      "sha256": "e5b9dc37ef7e842f5a4e2237845e8f430ead895929451c868b125e956b63070c"
+    },
+    {
+      "sampleId": "MERITI-V1-0206",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0206.png",
+      "sha256": "02281fd50f7c0ccab4567d57e49316c218cc0fa1970dc2651877828fbfb9bb0c"
+    },
+    {
+      "sampleId": "MERITI-V1-0207",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0207.png",
+      "sha256": "b3a1011dabe96568eae56e03e3c934bf9b087e798060765eb3e79c547518bb31"
+    },
+    {
+      "sampleId": "MERITI-V1-0208",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0208.png",
+      "sha256": "b51a1a4134d4bd592258a858cd3224ed0a065394ff658f48077f6f4db90bc61c"
+    },
+    {
+      "sampleId": "MERITI-V1-0209",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0209.png",
+      "sha256": "8e524e16958cdae2f7001c6b6a10ba5aef21b6772915689b9612fe70cb865d94"
+    },
+    {
+      "sampleId": "MERITI-V1-0210",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0210.png",
+      "sha256": "1a916d1d48936c1a14eecbf95df282582f31be0314998171113bf5ed645a352c"
+    },
+    {
+      "sampleId": "MERITI-V1-0211",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0211.png",
+      "sha256": "4ed76a2805ab59cf0a4940872b15c1dff1de1e039ef398c2e24386454438500b"
+    },
+    {
+      "sampleId": "MERITI-V1-0212",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0212.png",
+      "sha256": "9b958a41b51e876d49dbd594124869a6abc5133341a73ac1b2d0f4c3f2325564"
+    },
+    {
+      "sampleId": "MERITI-V1-0213",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0213.png",
+      "sha256": "460b088b79cb9379534818ef50a6e19c6d6dedc3f274dbfa73068e09dca632da"
+    },
+    {
+      "sampleId": "MERITI-V1-0214",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0214.png",
+      "sha256": "a43de311ed6bc53ff2b22d3e100777decd97d0ef2bb84d3a2825a308a3d14042"
+    },
+    {
+      "sampleId": "MERITI-V1-0215",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0215.png",
+      "sha256": "ea34d7ec978d833b30561fe840badce5d8aa6d7f79c365458c660a9407c5d2dc"
+    },
+    {
+      "sampleId": "MERITI-V1-0216",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0216.png",
+      "sha256": "3f39cc2d957f39dc74b04c39dd476fa2e575cb279ffb66283242dbcd4f005aa4"
+    },
+    {
+      "sampleId": "MERITI-V1-0217",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0217.png",
+      "sha256": "903faa9ee6d3597b07f6e1813dbe3a945f361c35a2f4726480f0dd9edcb07b32"
+    },
+    {
+      "sampleId": "MERITI-V1-0218",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0218.png",
+      "sha256": "2f6205a90624ea918cee94d58060de2c55ad4e76177a4bff193c85bf345604ee"
+    },
+    {
+      "sampleId": "MERITI-V1-0219",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0219.png",
+      "sha256": "ad30dfecb5f160c7cf48d0419d98d082ff621612cf54d97649bd8e3b9f2cf8d9"
+    },
+    {
+      "sampleId": "MERITI-V1-0220",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0220.png",
+      "sha256": "d033b7ce2e2a8201490b41bf7caaeb917bcfe391e510cad4cc1a05d2efb2e650"
+    },
+    {
+      "sampleId": "MERITI-V1-0221",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0221.png",
+      "sha256": "f0c56b0b2cb88461e5597966c5ca6473a940021b5390b266fa78ca95932d30b2"
+    },
+    {
+      "sampleId": "MERITI-V1-0222",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0222.png",
+      "sha256": "c4e03e2061c997998a4893b2ebe3fcd531afbc72ae8a79635b7d4dd3b39eb4f1"
+    },
+    {
+      "sampleId": "MERITI-V1-0223",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0223.png",
+      "sha256": "d344b55800653463d167ed255609d5fc282d62a66cbf144ac37b6a778b172bfb"
+    },
+    {
+      "sampleId": "MERITI-V1-0224",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0224.png",
+      "sha256": "95d411e85a8e95f09befe2b3b3fbc84011c21ba97f6c002d9708d45dcc23783d"
+    },
+    {
+      "sampleId": "MERITI-V1-0225",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0225.png",
+      "sha256": "cb247247d7461e0fd48bb851ecf48133ee8ebbfaa0ff7ea08dd4a68e59fa126f"
+    },
+    {
+      "sampleId": "MERITI-V1-0226",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0226.png",
+      "sha256": "98bf789a91a703cbc8c3b79e40dcaaa54ef68055140fb668388bfdd420a0b6dc"
+    },
+    {
+      "sampleId": "MERITI-V1-0227",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0227.png",
+      "sha256": "764204de15f259d2d0d0820b167d057b536716a33eb69317b334d3da5d5726fd"
+    },
+    {
+      "sampleId": "MERITI-V1-0228",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0228.png",
+      "sha256": "0b51ab5bdb3a55e631703a1d5d54abf9bb5512d60ca352096608c4df683fb424"
+    },
+    {
+      "sampleId": "MERITI-V1-0229",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0229.png",
+      "sha256": "1074d917e189c6ac7b765039bc23fee743843d8e03daaafa135add2005ddaf0c"
+    },
+    {
+      "sampleId": "MERITI-V1-0230",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0230.png",
+      "sha256": "41135cbfb9b323e2335edd5f783de1584691edc64d2736901b50925a032b459c"
+    },
+    {
+      "sampleId": "MERITI-V1-0231",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0231.png",
+      "sha256": "34a0fd8759f2e0108e70a1f1edfd9f4ce5524086a14b4cabca17d3975a614b28"
+    },
+    {
+      "sampleId": "MERITI-V1-0232",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0232.png",
+      "sha256": "e2c306cdcd6de6c1935e7546d6e689e6c140b3822add8a3d54f202846e00825d"
+    },
+    {
+      "sampleId": "MERITI-V1-0233",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0233.png",
+      "sha256": "a26640f0d0412d81377aa96ef89f1f327a4f91b416c6c29c05da865e0a909137"
+    },
+    {
+      "sampleId": "MERITI-V1-0234",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0234.png",
+      "sha256": "36ec1e23036f26b7532b4d7bd4849e831923e2769b743b3e6740643031eed9da"
+    },
+    {
+      "sampleId": "MERITI-V1-0235",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0235.png",
+      "sha256": "4cb0ba68954d8d4f4a34ea304922808a0e2914ef1eb8a0d078d3bf8340b2ce97"
+    },
+    {
+      "sampleId": "MERITI-V1-0236",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0236.png",
+      "sha256": "a56240a7e726af672b6f2c57995fba6ca0024ba7ae735d853f8a51c5a9f7edc1"
+    },
+    {
+      "sampleId": "MERITI-V1-0237",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0237.png",
+      "sha256": "b2d092947fa15309514edcbee8d3e9df1660a2cb70ae3b777d7aabf1f39d6d84"
+    },
+    {
+      "sampleId": "MERITI-V1-0238",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0238.png",
+      "sha256": "e3ca7ef1747cc95e75563e01eca5e9f3c4c078583a7963512132687241f83bf2"
+    },
+    {
+      "sampleId": "MERITI-V1-0239",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0239.png",
+      "sha256": "e816a0876e0b0cefdbfb89cccd72402ad7438d496c43b72d93f387ade797bfdb"
+    },
+    {
+      "sampleId": "MERITI-V1-0240",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0240.png",
+      "sha256": "911d2f790acbd6c30cef51af97d125fdf7e1a5d9a6f7c63a3ff29035b5951cb4"
+    },
+    {
+      "sampleId": "MERITI-V1-0241",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0241.png",
+      "sha256": "15f3babdff33d90c0b2d99e01e7cd362332490818355e5f1f4b3f8f92e6e1fa4"
+    },
+    {
+      "sampleId": "MERITI-V1-0242",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0242.png",
+      "sha256": "1e35cf1dbe0f08b67b0feb8b6886023001c879df5f2cc8e60214c87866dffa77"
+    },
+    {
+      "sampleId": "MERITI-V1-0243",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0243.png",
+      "sha256": "c5d48114a73145b5f01ba93c271f9d73625a66d26ee071b11aa923c001158603"
+    },
+    {
+      "sampleId": "MERITI-V1-0244",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0244.png",
+      "sha256": "5b90748cf3a917bac35a65675662ff1fefed6e1670a684921c9cf11c06866d87"
+    },
+    {
+      "sampleId": "MERITI-V1-0245",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0245.png",
+      "sha256": "4b1737e08302b2c7e902a16b6d85cfbf176318debdd30e151b83f40c5e0700f5"
+    },
+    {
+      "sampleId": "MERITI-V1-0246",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0246.png",
+      "sha256": "9088047669d9c6adb5e846bd7a5d0803c1142417e6a8674e3e5b08cbdf07c0fd"
+    },
+    {
+      "sampleId": "MERITI-V1-0247",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0247.png",
+      "sha256": "6618ab82402c5f7faaeb7d21f0c0efe5c24eea77c7de784c92b9f60be4c655ca"
+    },
+    {
+      "sampleId": "MERITI-V1-0248",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0248.png",
+      "sha256": "af39dbd0ec2f650497b2e63c4a1c83d50bad2bb0b9bd0f94f03593c50e52bbaa"
+    },
+    {
+      "sampleId": "MERITI-V1-0249",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0249.png",
+      "sha256": "355bbc7c3de4d5d434c619ed16e44a41fa11ea555d102ff65bafad7fca4b43b4"
+    },
+    {
+      "sampleId": "MERITI-V1-0250",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0250.png",
+      "sha256": "c09c19b3fbeb4c23a397a3bdfad887f83edad0e528c93100674e704f901c9520"
+    },
+    {
+      "sampleId": "MERITI-V1-0251",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0251.png",
+      "sha256": "81c67d515681a90848c85bcdde8c0d2de85464b9e63e02a01a9122b0a93e0711"
+    },
+    {
+      "sampleId": "MERITI-V1-0252",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0252.png",
+      "sha256": "cbf77da86d9a0a3bcd0f4aa1ba1e8346da04600e57fc8ddf5ca8e4a4281d578c"
+    },
+    {
+      "sampleId": "MERITI-V1-0253",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0253.png",
+      "sha256": "e3aa891fb84bfc0124980e6b0a04514cc7cfd70352ec397b59d5fae1cd7ee213"
+    },
+    {
+      "sampleId": "MERITI-V1-0254",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0254.png",
+      "sha256": "ced793e449486468085aa1ef4a23ed07206a739f3f80ccafc28dbed980cdf398"
+    },
+    {
+      "sampleId": "MERITI-V1-0255",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0255.png",
+      "sha256": "f42ebfd32d67e9c6e97632d730495afa4789dca9acba95b85458a8df7165cf2b"
+    },
+    {
+      "sampleId": "MERITI-V1-0256",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0256.png",
+      "sha256": "87ca0176ed63022e8046cd06353f4c05774f55dfeba18167ba36301108278f1b"
+    },
+    {
+      "sampleId": "MERITI-V1-0257",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0257.png",
+      "sha256": "1f306a959f7e5f739a0be18b95acbd1e743e35201bf4ce48fb58497aaa48b678"
+    },
+    {
+      "sampleId": "MERITI-V1-0258",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0258.png",
+      "sha256": "dc5d67dcd8f35d24baf1aefc33b20caa9defe444ff2fad766d7e85c5b13eeedb"
+    },
+    {
+      "sampleId": "MERITI-V1-0259",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0259.png",
+      "sha256": "e985d7b40bd9fd606cb0aaf5ef90a468fd3805fc2ef0c7894eecfe806088f3b6"
+    },
+    {
+      "sampleId": "MERITI-V1-0260",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0260.png",
+      "sha256": "77abaa57ffcf91779bb65aaa1c686e8d5a36ec74d328bef58da889ec170d193c"
+    },
+    {
+      "sampleId": "MERITI-V1-0261",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0261.png",
+      "sha256": "332c4951fa68e172b37b02f73efb07f171d294f9124b1b74314fc38abb9a5ff5"
+    },
+    {
+      "sampleId": "MERITI-V1-0262",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0262.png",
+      "sha256": "7834357f92b88ae1f15ec3695050bbf74ac9c60a9fea8cb4c583a281fe0b3b46"
+    },
+    {
+      "sampleId": "MERITI-V1-0263",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0263.png",
+      "sha256": "5cb8e937e88721197d56d87c764d4ba2f222ca0c9da19a7819a2e8d665039f09"
+    },
+    {
+      "sampleId": "MERITI-V1-0264",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0264.png",
+      "sha256": "b53cdf340f16824918fe7525537506bb77ef566bbeb0355e05120d439c6b3be8"
+    },
+    {
+      "sampleId": "MERITI-V1-0265",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0265.png",
+      "sha256": "79ac3087b273294d9abd9d765fa13a36c60540c317badeabfbbea183153acc26"
+    },
+    {
+      "sampleId": "MERITI-V1-0266",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0266.png",
+      "sha256": "91f29c7009d9ee06dd11f479922a972bbbf83717acddec731eaa40d3f742ff48"
+    },
+    {
+      "sampleId": "MERITI-V1-0267",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0267.png",
+      "sha256": "7489731633bbc7da1a3dba1c48f2ddb29649140038dffecb98aeeb0dc3b0397f"
+    },
+    {
+      "sampleId": "MERITI-V1-0268",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0268.png",
+      "sha256": "f2077c2ca2cee0c4da3e4251008c970184468b5fe2e13f7ff8c7e6ff7bcb714d"
+    },
+    {
+      "sampleId": "MERITI-V1-0269",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0269.png",
+      "sha256": "5b3660a8c96eb9ef66c936d1b80c808dee35402f7481d0daead1980a47cf9b40"
+    },
+    {
+      "sampleId": "MERITI-V1-0270",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0270.png",
+      "sha256": "69968277ee9dc458f7cf17d69d265a7e0ff057d409e6e18275cd49e4f0fbca2c"
+    },
+    {
+      "sampleId": "MERITI-V1-0271",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0271.png",
+      "sha256": "d30906748433a238bc4dce410078bdd0ea5c548ec02ea9278d54dcb4f303cc60"
+    },
+    {
+      "sampleId": "MERITI-V1-0272",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0272.png",
+      "sha256": "5fb9515f47125a9cf46df3090020335920ad7a4241c2a22bc9c60cf92e7012c3"
+    },
+    {
+      "sampleId": "MERITI-V1-0273",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0273.png",
+      "sha256": "883a37b16f989f21ada73c914a3c24fc5891bd9e7d8b6ce0bcab019b01ca284d"
+    },
+    {
+      "sampleId": "MERITI-V1-0274",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0274.png",
+      "sha256": "a1c00292aa880d692ebabae9d10883c200ac44428fbd13a7af4bb6f406e4bea5"
+    },
+    {
+      "sampleId": "MERITI-V1-0275",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0275.png",
+      "sha256": "6e03b5fbf07c79b11c67977eb8627c7e8dcf1bc402dbbb26f81703c1f9440919"
+    },
+    {
+      "sampleId": "MERITI-V1-0276",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0276.png",
+      "sha256": "b307cf17f4402c9e7aae98d3b455409b6be62658da83d623805154f6f44f19e4"
+    },
+    {
+      "sampleId": "MERITI-V1-0277",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0277.png",
+      "sha256": "f753fbe1615fcb7a551e3bc5f6970d0df347e37a671792ce7b97166b809757b9"
+    },
+    {
+      "sampleId": "MERITI-V1-0278",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0278.png",
+      "sha256": "2a5dadfba46b7d56db643f8b6df087cb25c521a760aae198836548d17b2583db"
+    },
+    {
+      "sampleId": "MERITI-V1-0279",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0279.png",
+      "sha256": "56f6fbe51a6810309526e80a222158980daeb0bb75a373fdf4b89be67e36ca0c"
+    },
+    {
+      "sampleId": "MERITI-V1-0280",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0280.png",
+      "sha256": "cf09d0465cca9f14a6981af9dbe540169ed05cd816c90cf55707c5424e5fa6f5"
+    },
+    {
+      "sampleId": "MERITI-V1-0281",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0281.png",
+      "sha256": "83bf2ae7fe642659730b9cb5d8c313e45d63ac88332c3e6c1331273e342a53cf"
+    },
+    {
+      "sampleId": "MERITI-V1-0282",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0282.png",
+      "sha256": "0300cda940ba42d9b3d042e1596a6f5044439497d85dde778e08b2aef8571ff1"
+    },
+    {
+      "sampleId": "MERITI-V1-0283",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0283.png",
+      "sha256": "b7b200b0559ab2f7a2e27161710ba6e4ccce11bf68988e37e8928f3306656934"
+    },
+    {
+      "sampleId": "MERITI-V1-0284",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0284.png",
+      "sha256": "094f5dfbadba03c7e483d404a6c53fcdc9f6acc5ba8689c462b15625d2053d2b"
+    },
+    {
+      "sampleId": "MERITI-V1-0285",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0285.png",
+      "sha256": "1321720c93e254297d17791d773d9176575a355d43f9916ef16f7534a55d95dc"
+    },
+    {
+      "sampleId": "MERITI-V1-0286",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0286.png",
+      "sha256": "3bb24777baddf015c2739ed0b396c0876841ba0042ba4373baf7af5d76ada588"
+    },
+    {
+      "sampleId": "MERITI-V1-0287",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0287.png",
+      "sha256": "bfc68b6aa0c812fa13e95369f252f274d969c5604ddfaf81ffe37611fbef0695"
+    },
+    {
+      "sampleId": "MERITI-V1-0288",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0288.png",
+      "sha256": "27bd9471861fa7fa5c8085302d620a96f79f07956a9aec287004353ccdec821c"
+    },
+    {
+      "sampleId": "MERITI-V1-0289",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0289.png",
+      "sha256": "3ece9714214f6b30e2c13188244d2c2f18f5ebf13318c094422b7d2c0beaac9b"
+    },
+    {
+      "sampleId": "MERITI-V1-0290",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0290.png",
+      "sha256": "83fd74159a161d0b2be3beebd35b712c9cd78f5eef7e4eb3c7c03f3ec8a5b654"
+    },
+    {
+      "sampleId": "MERITI-V1-0291",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0291.png",
+      "sha256": "9ca562048ad604e3b7cf01cd616ff1a9f8a99889b0404567e251c9f2389a765f"
+    },
+    {
+      "sampleId": "MERITI-V1-0292",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0292.png",
+      "sha256": "a52558ad7b9fa18a2528c4d4a9ca530e42bcb0f1ec43e3c8ef596ea5a3af997a"
+    },
+    {
+      "sampleId": "MERITI-V1-0293",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0293.png",
+      "sha256": "3de537dbf5f76050dd3c71a0a150906afce5729fdf6468db64fc194aca62798e"
+    },
+    {
+      "sampleId": "MERITI-V1-0294",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0294.png",
+      "sha256": "105aea12cfd4863a1d3ae7024b9cced94c4664feef0deac8730e38682db204de"
+    },
+    {
+      "sampleId": "MERITI-V1-0295",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0295.png",
+      "sha256": "4eadbc4070355be75a575c52d58f753b0a9c00dcf0b45565ef9d4277f2eae964"
+    },
+    {
+      "sampleId": "MERITI-V1-0296",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0296.png",
+      "sha256": "53d3d42ffb84964923f96a773865b19604d0483057d569b355802614e938a006"
+    },
+    {
+      "sampleId": "MERITI-V1-0297",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0297.png",
+      "sha256": "597e7320fc929c88655fa86a578188c8c0c36628fd695f9a5f118942aa53f97b"
+    },
+    {
+      "sampleId": "MERITI-V1-0298",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0298.png",
+      "sha256": "0ce1c2d25650646e7738c2508a5b8ad6f373fdfdbd2f58434678f330aa5bea41"
+    },
+    {
+      "sampleId": "MERITI-V1-0299",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0299.png",
+      "sha256": "6f08767fee6e3de88ea4d4c523cdf7099b01de259958d375c5eba35b9cd3c9a8"
+    },
+    {
+      "sampleId": "MERITI-V1-0300",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0300.png",
+      "sha256": "89edbd6fcaeddd5bf5c986bce6f724fbeeefc5595f61082434b39cda7104d925"
+    },
+    {
+      "sampleId": "MERITI-V1-0301",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0301.png",
+      "sha256": "f11fac85495672b717df53e2fc3d1d6bd863ae435dcd61789a033a2413a230fe"
+    },
+    {
+      "sampleId": "MERITI-V1-0302",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0302.png",
+      "sha256": "ffbf27d76feb436afc6e4648dab627657d8482f9f791ca80c74fa39cd7215578"
+    },
+    {
+      "sampleId": "MERITI-V1-0303",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0303.png",
+      "sha256": "829c68b1c268bedd86180cb2ecd842fb2712dbbd830f814e6ee8c878825eeef2"
+    },
+    {
+      "sampleId": "MERITI-V1-0304",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0304.png",
+      "sha256": "2cdf30f46b514be825f518b54c7ef8e7419b083711ce09098857dc81ca925569"
+    },
+    {
+      "sampleId": "MERITI-V1-0305",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0305.png",
+      "sha256": "04561487d6cac42b6f94195cc2bbb5a04ba68822fa6c3525a20ace871edba345"
+    },
+    {
+      "sampleId": "MERITI-V1-0306",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0306.png",
+      "sha256": "aa996d8c1f75e7bef490827975c7c0803019d3df6cf6622f1f57fef0c0022c36"
+    },
+    {
+      "sampleId": "MERITI-V1-0307",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0307.png",
+      "sha256": "22c615b232a971fb42e2fd2690a7b5efa8ca2f7592c41330425bdd7f3d812666"
+    },
+    {
+      "sampleId": "MERITI-V1-0308",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0308.png",
+      "sha256": "38dc7d9930f2e1243bcc70260dcd2d8eeceedddd2d117508bfffcc167a26e374"
+    },
+    {
+      "sampleId": "MERITI-V1-0309",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0309.png",
+      "sha256": "0a49bd920b937411d6b8df689232c5dfff79612a5d85c368766f39b3199563bd"
+    },
+    {
+      "sampleId": "MERITI-V1-0310",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0310.png",
+      "sha256": "eb53385dadfb5817ba40332a176d1282ae3967a3837e03f39d562791466b9023"
+    },
+    {
+      "sampleId": "MERITI-V1-0311",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0311.png",
+      "sha256": "7eefa629b825c029bc4509419edc9a8310f945335f1f27c3c3d0ffdab78c532a"
+    },
+    {
+      "sampleId": "MERITI-V1-0312",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0312.png",
+      "sha256": "5673738c74396fbfbe82a65b175513af7c0182a7bd4248eeb1bf314ba2475d6b"
+    },
+    {
+      "sampleId": "MERITI-V1-0313",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0313.png",
+      "sha256": "ef45988d97eea494cff63b70954ce1f7b9446d5357e8e581ff33bda49e950cd8"
+    },
+    {
+      "sampleId": "MERITI-V1-0314",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0314.png",
+      "sha256": "65bef258e6e06b3c053a01f48277f2fe48b41c34c7f37dc12012517710e54fc6"
+    },
+    {
+      "sampleId": "MERITI-V1-0315",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0315.png",
+      "sha256": "12dd8cfbb8e98939a89a3e92042743df45310ea093be435dcfa6f139674a3792"
+    },
+    {
+      "sampleId": "MERITI-V1-0316",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0316.png",
+      "sha256": "de4d6887ad93293e29e877967bb630a417560fbf37838a1a74c3697c0165f973"
+    },
+    {
+      "sampleId": "MERITI-V1-0317",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0317.png",
+      "sha256": "c577bbd20f3f51767e131b275271d2ffd022d33e8eb72ffb8c87a381bb93a503"
+    },
+    {
+      "sampleId": "MERITI-V1-0318",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0318.png",
+      "sha256": "33de6f53ccb3c06d613fb35a2fbb359057a784e8f92f7a5c126f4fc24653477f"
+    },
+    {
+      "sampleId": "MERITI-V1-0319",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0319.png",
+      "sha256": "b6a40cc7de910f231feb9e89d3541d0a064a6bf699b5c684f5719a6ba2596e39"
+    },
+    {
+      "sampleId": "MERITI-V1-0320",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0320.png",
+      "sha256": "7bc6af4062fe87df11c1589cf509cbe6f3a127143da4ae7ea033b6b92e9b8236"
+    },
+    {
+      "sampleId": "MERITI-V1-0321",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0321.png",
+      "sha256": "51b447c29540a2bbc370f060d13a0f4f11eab8f19c42ea7980f160d6c3c01589"
+    },
+    {
+      "sampleId": "MERITI-V1-0322",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0322.png",
+      "sha256": "a0c26424d87b8c1cd5e9fbdb076d5d2de1222c249b889474560e16e2f480bf4c"
+    },
+    {
+      "sampleId": "MERITI-V1-0323",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0323.png",
+      "sha256": "2a54d576f51fbeb2bb20e8fde816ba86549b2a4573426d3eef141c3b0274190d"
+    },
+    {
+      "sampleId": "MERITI-V1-0324",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0324.png",
+      "sha256": "37d8ed479dbf64d2b50df9a1bbe6a85074bcf4200c9fb98dbc70b6d4f3bd4040"
+    },
+    {
+      "sampleId": "MERITI-V1-0325",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0325.png",
+      "sha256": "37efa1f9a38bcb1477085573c119e28dcf52bd7a04eaab2770e48f86a5526a10"
+    },
+    {
+      "sampleId": "MERITI-V1-0326",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0326.png",
+      "sha256": "555e7848e9e6c4ec277e80ff1d14e5b2335797043a08dd909fb5dcba06d419cd"
+    },
+    {
+      "sampleId": "MERITI-V1-0327",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0327.png",
+      "sha256": "06e2325b6ff01f257db7f71d7e0e29b736079f9ae2fcdf4277e4de983526fe07"
+    },
+    {
+      "sampleId": "MERITI-V1-0328",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0328.png",
+      "sha256": "3b2d4e50b533e77811d5e7bd53d06f260dcfccdfa745beb20e4bd1099e907657"
+    },
+    {
+      "sampleId": "MERITI-V1-0329",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0329.png",
+      "sha256": "7a47efe812060b904215476ad1be96730ee10bd8058be2c7f876a579fe4f9c88"
+    },
+    {
+      "sampleId": "MERITI-V1-0330",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0330.png",
+      "sha256": "59d94bf9baeccca154d16f6917f7516320667af5d4ca7d4fbb90a5e26db84140"
+    },
+    {
+      "sampleId": "MERITI-V1-0331",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0331.png",
+      "sha256": "885f780bd70c632895a4e292f79c2049619d25fc17bf90c92e005267cc54aef7"
+    },
+    {
+      "sampleId": "MERITI-V1-0332",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0332.png",
+      "sha256": "0aa9f792058cf756a047563381934275acd9ac498cae379691132b2ebbc8b634"
+    },
+    {
+      "sampleId": "MERITI-V1-0333",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0333.png",
+      "sha256": "f55070d47e459e7534434c45d77212c2ea593dea63febf8dd55aefeaa408b1ec"
+    },
+    {
+      "sampleId": "MERITI-V1-0334",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0334.png",
+      "sha256": "253ff098d0e125af8d797a93cdee853f1b240db07600a3e6525254711c4bfd5f"
+    },
+    {
+      "sampleId": "MERITI-V1-0335",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0335.png",
+      "sha256": "5c9e99207ae362b3ee37fbd78263a06d1492db5157b1462e2839dc918b8b1959"
+    },
+    {
+      "sampleId": "MERITI-V1-0336",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0336.png",
+      "sha256": "8cdb11e84be704a112a08d446795fc4f806f82d3735463368793e2764bc315d1"
+    },
+    {
+      "sampleId": "MERITI-V1-0337",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0337.png",
+      "sha256": "4c3bad9adaf7fff77c2d9edc930e7b1bf33cdf5e233cc10988bc3ba9fefd1e6f"
+    },
+    {
+      "sampleId": "MERITI-V1-0338",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0338.png",
+      "sha256": "3ee432ca2e75a9f8a5bb63181c2bf713ad0d76ad529612ef0f6f5b17b5843bd8"
+    },
+    {
+      "sampleId": "MERITI-V1-0339",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0339.png",
+      "sha256": "4ea788c730afe4fe95a7bf8aa3939e4597deaf8a2acc531ade9b696170628c10"
+    },
+    {
+      "sampleId": "MERITI-V1-0340",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0340.png",
+      "sha256": "3f72445827e9d677e896c26940d92e2ddf7e56d56ed810d89a0e6b7d3bb73daf"
+    },
+    {
+      "sampleId": "MERITI-V1-0341",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0341.png",
+      "sha256": "08b3ec9dfb7a759d42e3e2ba963925671c121f678a51cc10d482a6e1989b07a3"
+    },
+    {
+      "sampleId": "MERITI-V1-0342",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0342.png",
+      "sha256": "1cb9c05eb6ab5328a76adde102e7962737913092a72765b86f608158aa35babc"
+    },
+    {
+      "sampleId": "MERITI-V1-0343",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0343.png",
+      "sha256": "af187eefaaac606a548c106641d03f18857b8fd0a8876c107713dc28ce6d4912"
+    },
+    {
+      "sampleId": "MERITI-V1-0344",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0344.png",
+      "sha256": "ac39002382f210ee18f9614667222d3aa1127b30a67b9a964cc4135527588b9c"
+    },
+    {
+      "sampleId": "MERITI-V1-0345",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0345.png",
+      "sha256": "ffb21bba76b407acd476a51229bbaf5dd8158c024a349aa65dfef3b9dcc337b9"
+    },
+    {
+      "sampleId": "MERITI-V1-0346",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0346.png",
+      "sha256": "59a8bd3f524dc42caf18ced2afbea4b7721a7d346c61a9126515ae3236f778bf"
+    },
+    {
+      "sampleId": "MERITI-V1-0347",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0347.png",
+      "sha256": "da31653ec63554c54f90542ab352054072145a515217c3f767938e8c8017d636"
+    },
+    {
+      "sampleId": "MERITI-V1-0348",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0348.png",
+      "sha256": "21b663344fcaed5b60e807e0534a3186c2b284b894d06681fdd42a6678ceebd0"
+    },
+    {
+      "sampleId": "MERITI-V1-0349",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0349.png",
+      "sha256": "eeaf68a7a04bcbaa2ae12e52c4f344599c31cdf2f47a8597c6cea28e957143ef"
+    },
+    {
+      "sampleId": "MERITI-V1-0350",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0350.png",
+      "sha256": "836173dc6f9e43a2883ab3a2cc6e6188d1969343964a84ebd9e9aac6cce9be69"
+    },
+    {
+      "sampleId": "MERITI-V1-0351",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0351.png",
+      "sha256": "6ab3ae17ce45c051f5adea8d58aea8860af4b09726d420bcf86dff3ff7ccd02f"
+    },
+    {
+      "sampleId": "MERITI-V1-0352",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0352.png",
+      "sha256": "a7f3cc2f223a578541cbc82c4b9967c330cc7ac00a3103199debfc22176959a6"
+    },
+    {
+      "sampleId": "MERITI-V1-0353",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": null,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0353.png",
+      "sha256": "f4982bdcc81041148b20925c1a8b7e09fbed3dc32c4ab2035577dd0085e330ec"
+    },
+    {
+      "sampleId": "MERITI-V1-0354",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0354.png",
+      "sha256": "d631c8dd1ecb90efd384f74bb028059b640baeb7d4febbaedfcdc76dff944ad0"
+    },
+    {
+      "sampleId": "MERITI-V1-0355",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0355.png",
+      "sha256": "32c5fd627759629ff961b7cdc2ea2832d468445035bdbdfe5f7f25545f336ec8"
+    },
+    {
+      "sampleId": "MERITI-V1-0356",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0356.png",
+      "sha256": "9f7b43d99d24f14e46a958a5fb9cbc4487419a6a50888292167dd8c04bd8be26"
+    },
+    {
+      "sampleId": "MERITI-V1-0357",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0357.png",
+      "sha256": "5401afb86e5194efd7281d313aca8471d5cf9ac956e702d8fd265e53cb5a9eec"
+    },
+    {
+      "sampleId": "MERITI-V1-0358",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0358.png",
+      "sha256": "bbd8f5278c0f3c4db9592a817eda25a8acf8a62133c6aa45f19d664e1618f1b7"
+    },
+    {
+      "sampleId": "MERITI-V1-0359",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0359.png",
+      "sha256": "30ade26c2f5be093bda5d090d6ac78526778e66e2bf3087abb504b56f89f4d89"
+    },
+    {
+      "sampleId": "MERITI-V1-0360",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0360.png",
+      "sha256": "a79a8e2bad765770b6fc8d394ec395c24afcc7e9b19ee59b9a14e213e2bd2405"
+    },
+    {
+      "sampleId": "MERITI-V1-0361",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0361.png",
+      "sha256": "da1c19fdcb7b90cdb17a91624b595c89d9129bdd8e472d5e22c8ce6b80e928c4"
+    },
+    {
+      "sampleId": "MERITI-V1-0362",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0362.png",
+      "sha256": "74d71411e6aa6af52c5661f05bcfed5f53b32c0233314c8f1fc3e073fba26b82"
+    },
+    {
+      "sampleId": "MERITI-V1-0363",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0363.png",
+      "sha256": "adb4ba0383f310483e5701f68e0ad03485a50d572079120c10a773cfed9d2a8f"
+    },
+    {
+      "sampleId": "MERITI-V1-0364",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0364.png",
+      "sha256": "5b88ef8d91744ba1231e784d30acea304d65723f9110be60bf493441147a357a"
+    },
+    {
+      "sampleId": "MERITI-V1-0365",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0365.png",
+      "sha256": "1e255cc25650e141328a929b9706c54eff9fcc2cabbb53e601f2d33dc46e29f4"
+    },
+    {
+      "sampleId": "MERITI-V1-0366",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0366.png",
+      "sha256": "325974bc9959a29c7c266fed7facfdc4bc9d5531966bc680ec5de167fd2454b1"
+    },
+    {
+      "sampleId": "MERITI-V1-0367",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0367.png",
+      "sha256": "2ea617835933119e937f747156f5deb7139f0f5940c9e5f6db09039fec80fd9f"
+    },
+    {
+      "sampleId": "MERITI-V1-0368",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0368.png",
+      "sha256": "8fe7961ccf8dcb152b17d8df0683b18e5ee8eadec69eb99a3e3fc7c9f36e902d"
+    },
+    {
+      "sampleId": "MERITI-V1-0369",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0369.png",
+      "sha256": "3682b46344d003f8d2bdd136808554889434fb3d625dd20ed786426339df2eca"
+    },
+    {
+      "sampleId": "MERITI-V1-0370",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0370.png",
+      "sha256": "bd3db0af724e810498aab483a113089af6c36950dea7d593093300ffe417df9d"
+    },
+    {
+      "sampleId": "MERITI-V1-0371",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0371.png",
+      "sha256": "b8e65ac9d4216405ab40e24d2d9c4943a4f3fd4395aaa1094941b76c4d24c723"
+    },
+    {
+      "sampleId": "MERITI-V1-0372",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0372.png",
+      "sha256": "77609d7527249c8b56413df08a1610e15dfdcfcb0fb2177493dd3bc312e73213"
+    },
+    {
+      "sampleId": "MERITI-V1-0373",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0373.png",
+      "sha256": "223052ada4d449ea6907de424f08c1b9923bfae4d53100a3307fdcf29d64501e"
+    },
+    {
+      "sampleId": "MERITI-V1-0374",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0374.png",
+      "sha256": "460f6611d6d380c0c9ab95ae4a4615b16661c79cdf5e8258a49df6eae8dc5abc"
+    },
+    {
+      "sampleId": "MERITI-V1-0375",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0375.png",
+      "sha256": "8eab8309890e3caee6cf5c7638f16b5e3fd54d3ab56b2d99cfdb393e2098043d"
+    },
+    {
+      "sampleId": "MERITI-V1-0376",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0376.png",
+      "sha256": "f6db0e0d18baf41dc58087ea15afef6fcaf16af57abac2776e9ab97474bdd57c"
+    },
+    {
+      "sampleId": "MERITI-V1-0377",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0377.png",
+      "sha256": "9b85a86a7382a3f8cf24ed8fea818d7c1154e92b06fac6080c2e62eb80301b13"
+    },
+    {
+      "sampleId": "MERITI-V1-0378",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0378.png",
+      "sha256": "8fc306fbfb3b9134d37cfa1ebafd265ba20bb08bfd9c4eb99607f69d9e96f999"
+    },
+    {
+      "sampleId": "MERITI-V1-0379",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0379.png",
+      "sha256": "c57c6d7c33647295778a40d59e750002112ae60cb7dab718fa6a44fb5c1e0568"
+    },
+    {
+      "sampleId": "MERITI-V1-0380",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0380.png",
+      "sha256": "a0b6b0d1979584ef341096479e46ad57cebf867d127215a62a8383ed5a696053"
+    },
+    {
+      "sampleId": "MERITI-V1-0381",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0381.png",
+      "sha256": "41677fd862c9340f2eff51199c6b4660efdb0461ed76f3c31f7fa9f1be08e77d"
+    },
+    {
+      "sampleId": "MERITI-V1-0382",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0382.png",
+      "sha256": "f76334902a79266df93f32c47288fb6a6db1f5bc7afa5c048798f317151f1e47"
+    },
+    {
+      "sampleId": "MERITI-V1-0383",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0383.png",
+      "sha256": "071fd588134b06c6ef6347644d53923124da3fe708106b2477fcf70a3056f7da"
+    },
+    {
+      "sampleId": "MERITI-V1-0384",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0384.png",
+      "sha256": "ec999ae60a650dfe241df2747c96bd7395c21292cc75341f052f1eb708c46d36"
+    },
+    {
+      "sampleId": "MERITI-V1-0385",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0385.png",
+      "sha256": "0b5790afb32ec171a1a6840863e1ce3aedea906a84f304cdd1839c86a1ac283d"
+    },
+    {
+      "sampleId": "MERITI-V1-0386",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0386.png",
+      "sha256": "0b77fa2a4824636def2e8f4d9333a4529cf228fcd6885c598d2d6a5adbd8eb66"
+    },
+    {
+      "sampleId": "MERITI-V1-0387",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0387.png",
+      "sha256": "3ddaad42e00d39e17dbb5ed510d9ea414336366999bac9de427981fe70fcdf46"
+    },
+    {
+      "sampleId": "MERITI-V1-0388",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0388.png",
+      "sha256": "ac35e0af7e4156580feca56df6425f606e93b8964f563ee5711ccb1b479eefc5"
+    },
+    {
+      "sampleId": "MERITI-V1-0389",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0389.png",
+      "sha256": "3e9fd789a1221537a7f7c015a550a2ab06075f32693a2cbd4d4d3918904484dd"
+    },
+    {
+      "sampleId": "MERITI-V1-0390",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0390.png",
+      "sha256": "352eae73deed8f19e3ed8bd5dd38e418bed0d8b4489bd615a8b69f93d4658716"
+    },
+    {
+      "sampleId": "MERITI-V1-0391",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0391.png",
+      "sha256": "fd7ee437e9f5543136b1af5e9dd81c804b2047f4bc51292c801375ad6c5382dd"
+    },
+    {
+      "sampleId": "MERITI-V1-0392",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0392.png",
+      "sha256": "8672719f193ada8ff46ad5134c1bcedfbba0e0fda240f60a7ff9be1e66664b4d"
+    },
+    {
+      "sampleId": "MERITI-V1-0393",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0393.png",
+      "sha256": "0d03964d389806a08adf1aeea6f2e1125f85d6763718706e47c30937722adea3"
+    },
+    {
+      "sampleId": "MERITI-V1-0394",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0394.png",
+      "sha256": "ad73ce55642eadc42095ebe465dd4260aad6263a660ea5ea6aa317c5d4d3c6ad"
+    },
+    {
+      "sampleId": "MERITI-V1-0395",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0395.png",
+      "sha256": "a46dfe3e6e029d70e15e8706697fad68346ba8499712d8c9af09eabaa8e45cbc"
+    },
+    {
+      "sampleId": "MERITI-V1-0396",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": null,
+        "BAND2": null,
+        "BAND1": null,
+        "BAND4": null
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0396.png",
+      "sha256": "8f2e0ecda5552bf91eb7764be3656d0af110aad42ca399ab9b9b819a8a95e19d"
+    },
+    {
+      "sampleId": "MERITI-V1-0397",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0397.png",
+      "sha256": "0efb2b98341646b9167e21295046d2a5bbbb0c1bc9dd77442a4c642e083d249c"
+    },
+    {
+      "sampleId": "MERITI-V1-0398",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0398.png",
+      "sha256": "1b54a8dc9237c4e604187da27b4bb797cc11c57a90a46819e8b48dbab8ba7d30"
+    },
+    {
+      "sampleId": "MERITI-V1-0399",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0399.png",
+      "sha256": "29c0f1ef10a1e85eb55831127442c5c21f552500f99ffe61492ecdcdcbb98fa6"
+    },
+    {
+      "sampleId": "MERITI-V1-0400",
+      "date": "2026-07-02",
+      "dataPresenceByBand": {
+        "BAND0": 1.0,
+        "BAND3": 1.0,
+        "BAND2": 1.0,
+        "BAND1": 1.0,
+        "BAND4": 1.0
+      },
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/MERITI-V1-0400.png",
+      "sha256": "129faaba8105d69db76978a65a21ce98bccf8a26096934e650493ae28d31a259"
+    }
+  ],
+  "sourceIds": [
+    {
+      "band": 0,
+      "sha256": "e32ba2ffc97134eb12043d97b4d41f0b71847f16595e4959a9d06883fb04c2ca"
+    },
+    {
+      "band": 1,
+      "sha256": "6ddb8c0bd5ee7b3f0bef004415c26a67af54a2b5b3cfd1524dcc3fa7f4703a46"
+    },
+    {
+      "band": 2,
+      "sha256": "2c2b5c8c9c107d2a70b557216325dcbd85327105871aff5c447daae9b91ca37f"
+    },
+    {
+      "band": 3,
+      "sha256": "a13b2e8216c10138e02562a204f63248c04a93690aeb028be01278766598ff4f"
+    },
+    {
+      "band": 4,
+      "sha256": "6f25df74aa76b6b11103197df86d6b49fe197c505b2d4d94d3a7927c17fcd976"
+    }
+  ],
+  "limitations": [
+    "PAN has 2m pixels, color and NIR have 8m pixels. Pixel dimensions do not certify reference fraction precision.",
+    "Display uses per-band 2nd/98th percentiles and nearest-neighbor zoom. Raw DN is preserved.",
+    "No cloud model, photointerpretation label or validated fraction is generated by this function."
+  ]
+}

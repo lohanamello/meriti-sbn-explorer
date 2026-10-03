@@ -1,0 +1,17 @@
+{
+  "id": "data-rio__limites_ap__atual",
+  "source_name": "Limite Areas de Planejamento (AP)",
+  "source_institution": "Instituto Pereira Passos / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Cartografia/Limites_administrativos/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query",
+  "downloaded_at": "2026-05-17T17:36:57+00:00",
+  "started_at": "2026-05-17T17:36:57+00:00",
+  "duration_seconds": 0.247,
+  "stored_path": "data/raw/data-rio/data-rio__limites_ap__atual/limites_ap.json",
+  "original_filename": "query",
+  "stored_filename": "limites_ap.json",
+  "content_type": "application/json; charset=UTF-8",
+  "content_length_header": null,
+  "bytes_written": 1932865,
+  "sha256": "1487d1a593a4a50edc5d704e82ebba0321d87c842d0e1c251c85630d70aa5b64"
+}

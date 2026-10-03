@@ -1,0 +1,447 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/1753543548",
+        "name": "Posto de Saúde Municipal - Parque Araruama",
+        "kind": "facility",
+        "category": "clinic",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3367338,
+          -22.7938211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/1756875602",
+        "name": "Centro Vocacional Tecnológico Parque Araruama",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3342285,
+          -22.7911492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/2876259502",
+        "name": "Centro Educacional São João Batista",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3649318,
+          -22.8024091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/2912270805",
+        "name": "Clínica Diags",
+        "kind": "facility",
+        "category": "clinic",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.364722,
+          -22.8027244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/2912270902",
+        "name": "Prosim",
+        "kind": "facility",
+        "category": "hospital",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3628828,
+          -22.8021899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/4963268218",
+        "name": "OCUPA Ciep Brizolão 114",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3655813,
+          -22.7695125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/5706138897",
+        "name": "Colégio Meriti",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3490536,
+          -22.7796445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/8998965034",
+        "name": "Elite Rede de Ensino - São João de Meriti",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3690754,
+          -22.8026705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/11296427037",
+        "name": "Escola Vera Cruz",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3322678,
+          -22.795156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/11296427041",
+        "name": "C.E Oscar Pimenta",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3345669,
+          -22.7944458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/11296427043",
+        "name": "Externato José Levy",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3332305,
+          -22.7970142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/12086509921",
+        "name": "Colégio Meu Futuro",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3336529,
+          -22.7934957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/12091160863",
+        "name": "Colégio Ponciano dos Santos",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3336695,
+          -22.7943396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/12091223021",
+        "name": "Centro de Educação Malvina Queiroz",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3347586,
+          -22.7956619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/13011956883",
+        "name": "PAM Meriti",
+        "kind": "facility",
+        "category": "hospital",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.373102,
+          -22.7807627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/549045705",
+        "name": "Colegio Estadual Professora Sandra Maria Santos de Sousa",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.333579549999996,
+          -22.7592939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/549046114",
+        "name": "CIEP 115",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33002247840551,
+          -22.7630847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/549452823",
+        "name": "Centro educacional metropolitano",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33520335,
+          -22.7651334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119923",
+        "name": "UPA Jardim Irís",
+        "kind": "facility",
+        "category": "clinic",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35071908877106,
+          -22.77917355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/586149558",
+        "name": "Instituto de Educação Professor Moysés Henrique dos Santos",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35415925859563,
+          -22.80186225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/611898801",
+        "name": "UBS Vila São João",
+        "kind": "facility",
+        "category": "clinic",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35109315260756,
+          -22.766535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/611898802",
+        "name": "Unidade Porto Alegre",
+        "kind": "facility",
+        "category": "clinic",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.341105571004604,
+          -22.7629386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1021647377",
+        "name": "GRES Unidos da Ponte",
+        "kind": "facility",
+        "category": "community_centre",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.38597487194292,
+          -22.7803173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1052172683",
+        "name": "GRES Independente da Praça da Bandeira",
+        "kind": "facility",
+        "category": "community_centre",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.37113230125,
+          -22.77224555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1304364151",
+        "name": "Centro Especializado em Reabilitação Norma Bastos Fernandes (CER)",
+        "kind": "facility",
+        "category": "clinic",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33954177390068,
+          -22.7940814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1332063866",
+        "name": "CIEP 180 - Presidente João Goulart",
+        "kind": "facility",
+        "category": "school",
+        "overlayColor": "#4f8cc9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.34500664556157,
+          -22.8016
+        ]
+      }
+    }
+  ]
+}

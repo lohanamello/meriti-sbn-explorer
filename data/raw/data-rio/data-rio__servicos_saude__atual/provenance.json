@@ -1,0 +1,19 @@
+{
+  "id": "data-rio__servicos_saude__atual",
+  "source_name": "Servicos de saude municipais",
+  "source_institution": "Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Hosted/Servi%C3%A7os_de_Sa%C3%BAde/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query_paginated",
+  "downloaded_at": "2026-05-17T19:23:58+00:00",
+  "started_at": "2026-05-17T19:23:57+00:00",
+  "duration_seconds": 0.184,
+  "stored_path": "data/raw/data-rio/data-rio__servicos_saude__atual/servicos_saude_arcgis_capture.json",
+  "stored_filename": "servicos_saude_arcgis_capture.json",
+  "content_type": "application/json",
+  "bytes_written": 142424,
+  "sha256": "0313b193d86c16288ec9e0810a06835a2fa92efc64f18f9cde620e760cfbd58a",
+  "object_id_field": "objectid",
+  "object_id_count": 176,
+  "batch_size": 500,
+  "batch_count": 1
+}

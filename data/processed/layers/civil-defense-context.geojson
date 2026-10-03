@@ -1,0 +1,6528 @@
+{
+  "type": "FeatureCollection",
+  "name": "civil-defense-context",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vila Cabuçu 1 / Barro Preto",
+        "community": "Barro Preto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2757085,
+          -22.914673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Cachoeirinha 1",
+        "community": "Cachoeirinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2822293,
+          -22.9140388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Cotia 1",
+        "community": "Morro da Cotia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2817175,
+          -22.9178084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Nossa Senhora da Guia 1",
+        "community": "Morro Nossa Senhora da Guia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2851532,
+          -22.9143332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Macacos 1",
+        "community": "Morro dos Macacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2526208,
+          -22.9120045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Macacos 3",
+        "community": "Travessa Antonina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2552369,
+          -22.9139308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Sumaré 1",
+        "community": "Sumaré"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2169338,
+          -22.9313741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Matinha",
+        "community": "Matinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2155142,
+          -22.9255305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Santos Rodrigues 2 / Azevedo Lima 1 (P)",
+        "community": "Morro Santos Rodrigues"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2035919,
+          -22.9226341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "São Carlos",
+        "community": "São Carlos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2007897,
+          -22.9180516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Catumbi 1",
+        "community": "Catumbi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1966409,
+          -22.9214515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vila Pereira da Silva 1",
+        "community": "Vila Pereira da Silva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1916127,
+          -22.9307521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Santa Marta 1",
+        "community": "Morro Santa Marta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1937817,
+          -22.9482077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Ladeira dos Tabajaras 1",
+        "community": "Ladeira dos Tabajaras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1881753,
+          -22.9617669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Cabritos 1",
+        "community": "Morro dos Cabritos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1949861,
+          -22.9646019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "PavÃƒÂ£o-PavÃƒÂ£ozinho 2",
+        "community": "PavÃƒÂ£o-PavÃƒÂ£ozinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1934614,
+          -22.9795247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Cantagalo 1",
+        "community": "Morro do Cantagalo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1971894,
+          -22.9812809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Chapéu Mangueira 1",
+        "community": "Chapéu Mangueira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1679245,
+          -22.9606018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vidigal 3",
+        "community": "Vidigal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2421948,
+          -22.9973934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "ChÃ¡cara do CÃ©u 1",
+        "community": "ChÃ¡cara do CÃ©u"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2334412,
+          -22.9906056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Tuiuti 2 / TelÃƒÂ©grafos",
+        "community": "Tuiuti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2333306,
+          -22.898917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque CandelÃ¡ria 1",
+        "community": "Parque CandelÃ¡ria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2342055,
+          -22.9073045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Mangueira 1",
+        "community": "Mangueira (RA - SÃ£o CristÃ³vÃ£o)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2387869,
+          -22.9042411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Salgueiro 1",
+        "community": "Salgueiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2259014,
+          -22.9300541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Liberdade 1",
+        "community": "Morro da Liberdade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2180385,
+          -22.9266116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Formiga 1",
+        "community": "Morro da Formiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2432307,
+          -22.9422813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Chacrinha 1",
+        "community": "Morro do Chacrinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2196084,
+          -22.9264069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Borel 2",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2531822,
+          -22.9405622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Borel 3",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.251282,
+          -22.9316006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "JamelÃ£o 2",
+        "community": "JamelÃ£o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2609646,
+          -22.9331645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Andarai­ 1",
+        "community": "Morro do Andarai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2567141,
+          -22.9329932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque João Paulo II 1",
+        "community": "Parque João Paulo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2622739,
+          -22.9291265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Nova DivinÃƒÆ’Ã‚Â©ia",
+        "community": "Nova DivinÃƒÆ’Ã‚Â©ia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2652663,
+          -22.9284674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Cariri 1",
+        "community": "Morro do Cariri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2805346,
+          -22.8484122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Morro da Fé 1",
+        "community": "Morro da Fé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2977522,
+          -22.8457841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Guaíba / Vila Pequiri 1",
+        "community": "Morro da Guaíba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2952714,
+          -22.8344768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Caracol 1",
+        "community": "Morro do Caracol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2905403,
+          -22.8443628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Sereno 1",
+        "community": "Morro do Sereno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2932234,
+          -22.8415336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque Silva Vale 3",
+        "community": "Parque Silva Vale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3133635,
+          -22.8683978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque Nova Maracá 1",
+        "community": "Parque Nova Maracá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3027325,
+          -22.8606535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Engenho da Rainha 2",
+        "community": "Morro do Engenho da Rainha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2893812,
+          -22.8712815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Relicário 1",
+        "community": "Relicário"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2863263,
+          -22.8607731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Urubu 2",
+        "community": "Morro do Urubu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3010888,
+          -22.8766087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "São João 2",
+        "community": "Morro São João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2667177,
+          -22.9080423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "São João 4",
+        "community": "Morro São João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.263443,
+          -22.9118873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Morro do Céu 2",
+        "community": "Morro do Céu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2941722,
+          -22.9135584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Ouro Preto 2",
+        "community": "Bairro Ouro Preto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2979217,
+          -22.916638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Mineiros 1",
+        "community": "Morro dos Mineiros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3064084,
+          -22.8758501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Matriz 1",
+        "community": "Morro da Matriz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2639553,
+          -22.9046692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rua Brício de Moraes 1",
+        "community": "Rua Brício de Moraes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3110043,
+          -22.8633805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Juramento 2",
+        "community": "Morro do Juramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3130675,
+          -22.8578342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Jardim do Carmo 1",
+        "community": "Jardim do Carmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.304529,
+          -22.8514895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Sapê 1",
+        "community": "Morro do Sapê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3329556,
+          -22.857499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "São Miguel Arcanjo 1",
+        "community": "Comunidade de São Miguel Arcanjo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3317183,
+          -22.8607518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rio das Pedras 2",
+        "community": "A.M. e Amigos de Rio das Pedras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3320812,
+          -22.9717634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Barão 1",
+        "community": "Barão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3434684,
+          -22.902352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Quiririm2",
+        "community": "Rua Quiririm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3568724,
+          -22.8879967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Espírito Santo 1",
+        "community": "Espírito Santo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3438666,
+          -22.8900097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Comandante Luiz Souto 1",
+        "community": "Comandante Luis Souto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3594667,
+          -22.9017249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Unidos de Sta Tereza 3",
+        "community": "Unidos de Santa Tereza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1993948,
+          -22.9269267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Ocidental Fallet 1",
+        "community": "Ocidental Fallet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1939963,
+          -22.9257627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Escondidinho 1",
+        "community": "Morro do Escondidinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2011252,
+          -22.9324091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "JÃƒÂºlio Otoni 1",
+        "community": "JÃƒÂºlio Otoni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1937665,
+          -22.9334504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Morro dos Prazeres 1",
+        "community": "Morro dos Prazeres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2031703,
+          -22.934008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Fazenda Catete 1",
+        "community": "Fazenda Catete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.183909,
+          -22.9245884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Santa Alexandrina 1 / Paula Ramos",
+        "community": "Santa Alexandrina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2123579,
+          -22.9359835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "SÃ­tio Pai JoÃ£o 1",
+        "community": "SÃ­tio do Pai JoÃ£o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3118293,
+          -22.9907973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rocinha 4",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2470828,
+          -22.9898068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rocinha 8 A",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2495452,
+          -22.9841204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rocinha 9",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2451656,
+          -22.9858305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque Alvorada 2",
+        "community": "Parque Alvorada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2804998,
+          -22.8652744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Palmeiras 1",
+        "community": "Morro das Palmeiras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2830272,
+          -22.8641773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Nova Brasilia 1",
+        "community": "Nova Brasília (RA - Alemão)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2755783,
+          -22.8645824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vila Cruzeiro 1",
+        "community": "Vila Cruzeiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.278272,
+          -22.852186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Baiana 1",
+        "community": "Morro da Baiana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2657338,
+          -22.8595573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Joaquim de Queiróz 1",
+        "community": "Joaquim de Queiróz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2796029,
+          -22.8597794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Alemão 1",
+        "community": "Morro do Alemão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2724659,
+          -22.8547701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Piancó 2",
+        "community": "Morro do Piancó"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.258612,
+          -22.8651725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Adeus 1",
+        "community": "Morro do Adeus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.264028,
+          -22.8641114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Encontro 1",
+        "community": "Morro do Encontro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2669775,
+          -22.9153784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Encontro 2",
+        "community": "Morro do Encontro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2676327,
+          -22.9155767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Barro Vermelho 1",
+        "community": "Barro Vermelho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2736433,
+          -22.9165381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Dona Francisca 1",
+        "community": "Dona Francisca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2790799,
+          -22.9156772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Cachoeirinha 2",
+        "community": "Cachoeirinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2809254,
+          -22.9144547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Cachoeira Grande 1",
+        "community": "Morro da Cachoeira Grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.283568,
+          -22.9173147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Santa Terezinha 1",
+        "community": "Santa Terezinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2857371,
+          -22.9160957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Macacos 2",
+        "community": "Morro dos Macacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2499359,
+          -22.9120946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque Vila Isabel 1",
+        "community": "Parque Vila Isabel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2592962,
+          -22.9138377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Macacos 3",
+        "community": "Morro dos Macacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.25907,
+          -22.9158341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Sumaré 2",
+        "community": "Sumaré"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2156766,
+          -22.9307826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rato 1",
+        "community": "Rato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.204212,
+          -22.9182334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Santos Rodrigues 1",
+        "community": "Morro Santos Rodrigues"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2031016,
+          -22.9208313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Catumbi 2",
+        "community": "Catumbi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2003198,
+          -22.9207067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Santa Marta 2",
+        "community": "Morro Santa Marta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.19383,
+          -22.9463373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Guararapes 1",
+        "community": "Guararapes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2059031,
+          -22.9433418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Cabritos 2",
+        "community": "Morro dos Cabritos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1939336,
+          -22.9658559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Pavão-Pavãozinho 1",
+        "community": "Pavão-Pavãozinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1958925,
+          -22.9817036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "PavÃ£o-PavÃ£ozinho 3",
+        "community": "PavÃ£o-PavÃ£ozinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.191982,
+          -22.9799443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Cantagalo 2",
+        "community": "Morro do Cantagalo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1985604,
+          -22.982727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "BabilÃ´nia 1",
+        "community": "BabilÃ´nia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1712216,
+          -22.9597696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Chapéu Mangueira 2",
+        "community": "Chapéu Mangueira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1693097,
+          -22.9604515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vidigal 1",
+        "community": "Vidigal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2458308,
+          -22.9963305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vidigal 2",
+        "community": "Vidigal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.239234,
+          -22.9948723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vidigal 4",
+        "community": "Vidigal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2454953,
+          -22.9968121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Tuiuti 1 / TelÃƒÂ©grafos",
+        "community": "Morro dos TelÃƒÂ©grafos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2346544,
+          -22.898537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque CandelÃ¡ria 2",
+        "community": "Parque CandelÃ¡ria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.234059,
+          -22.9056269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Salgueiro 2",
+        "community": "Salgueiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2257089,
+          -22.9282128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Liberdade 2",
+        "community": "Morro da Liberdade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.215996,
+          -22.9248654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Formiga 2",
+        "community": "Morro da Formiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2416891,
+          -22.9434433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Formiga 3",
+        "community": "Morro da Formiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2430347,
+          -22.9382625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Borel 1",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.253755,
+          -22.9382953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Borel 4",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2544662,
+          -22.9359155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "JamelÃ£o 1",
+        "community": "JamelÃ£o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2615007,
+          -22.9365223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Arrelia 1",
+        "community": "Arrelia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2573084,
+          -22.934473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque João Paulo II 2",
+        "community": "Parque João Paulo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2601209,
+          -22.9304366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rua Frey Gaspar 1",
+        "community": "Rua Frey Gaspar 279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2963168,
+          -22.8439027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Morro da Fé 2",
+        "community": "Morro da Fé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2968952,
+          -22.8469513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Caixa d´Água 1",
+        "community": "Morro da Caixa D`água (RA - Penha)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2876014,
+          -22.8428787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Caixa d´Água 2",
+        "community": "Morro da Caixa D`água (RA - Penha)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2910628,
+          -22.8400736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Caixa d´Água 3",
+        "community": "Morro da Caixa D`água (RA - Penha)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2901591,
+          -22.8412194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Laudelino Freire 1",
+        "community": "Rua Laudelino Freire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2928341,
+          -22.8491171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Pq Proletário Grotão 1",
+        "community": "Parque Proletário do Grotão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2925228,
+          -22.8452591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque Silva Vale 1",
+        "community": "Parque Silva Vale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.311319,
+          -22.8653674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque Silva Vale 2",
+        "community": "Parque Silva Vale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.311366,
+          -22.8692119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque Nova Maracá 2",
+        "community": "Parque Nova Maracá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3047836,
+          -22.8608762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Engenho da Rainha 1",
+        "community": "Morro do Engenho da Rainha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2924409,
+          -22.8714225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Urubu 1",
+        "community": "Morro do Urubu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3007316,
+          -22.8753535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Urubu 3",
+        "community": "Morro do Urubu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3025332,
+          -22.8799891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Urubu 4",
+        "community": "Morro do Urubu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3063749,
+          -22.8794357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "São João 1",
+        "community": "Morro São João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2647464,
+          -22.9063025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "São João 3",
+        "community": "Morro São João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2674983,
+          -22.9107845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Pretos Forros 2",
+        "community": "Pretos Forros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2975896,
+          -22.9129945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Ouro Preto 1",
+        "community": "Bairro Ouro Preto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3002848,
+          -22.91683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Morro do Céu 1",
+        "community": "Morro do Céu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2938388,
+          -22.9100042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Queto 1",
+        "community": "Morro do Queto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.260355,
+          -22.9052773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Juramento 1",
+        "community": "Morro do Juramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3097736,
+          -22.862694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Juramento 3",
+        "community": "Morro do Juramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3164421,
+          -22.856857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Juramento 4",
+        "community": "Morro do Juramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3183423,
+          -22.8603496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Jardim do Carmo 2",
+        "community": "Jardim do Carmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3029541,
+          -22.8531813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Jardim do Carmo 3",
+        "community": "Jardim do Carmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2986693,
+          -22.8534421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Sapê 2",
+        "community": "Morro do Sapê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.333271,
+          -22.8538507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rio das Pedras 1",
+        "community": "A.M. e Amigos de Rio das Pedras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3336905,
+          -22.9701921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Inácio Dias 1",
+        "community": "Inácio Dias (RA - Jacarepaguá)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3381325,
+          -22.9157689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vila José de Anchieta 1",
+        "community": "Vila Anchieta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3431885,
+          -22.8928143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Barão 2",
+        "community": "Barão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3439406,
+          -22.9048357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Barão 3",
+        "community": "Barão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3432975,
+          -22.90121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Quiririm 1",
+        "community": "Rua Quiririm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.357911,
+          -22.8864011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Unidos de Sta Tereza1",
+        "community": "Unidos de Santa Tereza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1971508,
+          -22.9259638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Unidos de Sta Tereza 2",
+        "community": "Unidos de Santa Tereza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1992305,
+          -22.9305065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vila Elza 1",
+        "community": "Vila Elza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2047328,
+          -22.9305425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rocinha 1",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.251566,
+          -22.9896314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rocinha 2 A",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2491906,
+          -22.988631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rocinha 3 A",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2452919,
+          -22.9886595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rocinha 5",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2497187,
+          -22.990799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vila Matinha 1",
+        "community": "Vila Matinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2850832,
+          -22.858683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Parque Alvorada 1",
+        "community": "Parque Alvorada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.277555,
+          -22.8635018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Palmeiras 2",
+        "community": "Morro das Palmeiras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2847899,
+          -22.8634526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Vila Cruzeiro 2",
+        "community": "Vila Cruzeiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2834039,
+          -22.8516697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Joaquim de Queiróz 2",
+        "community": "Joaquim de Queiróz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2769899,
+          -22.8606459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Joaquim de Queiróz 3",
+        "community": "Joaquim de Queiróz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2721247,
+          -22.8594245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Alemão 2",
+        "community": "Morro do Alemão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2807164,
+          -22.8584051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Piancó 1",
+        "community": "Morro do Piancó"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.259314,
+          -22.8629945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_sirenes__atual",
+        "assetType": "siren",
+        "name": "Rua Mira",
+        "community": "Rua Mira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2804249,
+          -22.8533318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Encontro/Bacia 2",
+        "community": "Morro do Encontro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2624481,
+          -22.9156852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Encontro/Bacia 1",
+        "community": "Morro do Encontro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2636111,
+          -22.9167732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Encontro/Bacia 3",
+        "community": "Morro do Encontro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2641071,
+          -22.9173162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Barro Preto 1/Barro Vermelho 1/Dona Francisca 1/Vila Cabuçu 1",
+        "community": "Barro Preto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2753031,
+          -22.9143661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Dona francisca 2",
+        "community": "Dona Francisca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.277699,
+          -22.9146061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cachoeira Grande 1",
+        "community": "Morro da Cachoeira Grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2835551,
+          -22.9173183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cachoeira Grande 2/Cotia 1",
+        "community": "Morro da Cachoeira Grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2821279,
+          -22.917698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cachoeirinha 1",
+        "community": "Cachoeirinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.282273,
+          -22.9142841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Santa Teresinha 1",
+        "community": "Santa Terezinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2856299,
+          -22.917703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cachoeira Grande 3/ Nossa Senhora da Guia 1/ Santa Terezinha 2",
+        "community": "Morro Nossa Senhora da Guia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2855839,
+          -22.916145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Macacos 1/ Parque Vila Isabel",
+        "community": "Morro dos Macacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2589949,
+          -22.9166123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Macacos 2/ Parque Vila Isabel 1",
+        "community": "Morro dos Macacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2590598,
+          -22.9159207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Macacos 3/ Parque Vila Isabel 3",
+        "community": "Morro dos Macacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2593046,
+          -22.9141202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Macacos 4",
+        "community": "Morro dos Macacos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2476473,
+          -22.9116883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque Vila Isabel 4",
+        "community": "Parque João Paulo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2555702,
+          -22.9160422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Moreira Pinto 1",
+        "community": "Moreira Pinto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2031714,
+          -22.9051596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Moreira Pinto 2",
+        "community": "Moreira Pinto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.205705,
+          -22.904987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Sumaré 1",
+        "community": "Sumaré"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2084176,
+          -22.9244443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Bispo 1/ Pantanal 1/ Matinha 1",
+        "community": "Bispo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2161223,
+          -22.9268404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Bispo 2/ Pantanal 2/ Matinha 2",
+        "community": "Bispo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2155004,
+          -22.9255184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Bispo 3/ Pantanal 3/ Matinha 3",
+        "community": "Bispo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2162598,
+          -22.9250213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Santos Rodrigues 1/ São Carlos 1/ Azevedo Lima 1",
+        "community": "Morro Santos Rodrigues"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2044425,
+          -22.9242095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio São Carlos 4",
+        "community": "São Carlos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.203634,
+          -22.9240063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio JamelÃ£o 2",
+        "community": "JamelÃ£o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2607909,
+          -22.9331727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Santos Rodrigues 1/ São Carlos 1",
+        "community": "Morro Santos Rodrigues"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2033947,
+          -22.9176758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio São Carlos 3",
+        "community": "São Carlos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2005856,
+          -22.9174595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rato 1",
+        "community": "Rato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2042896,
+          -22.9155275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Catumbi/Mineira 1",
+        "community": "Catumbi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2004936,
+          -22.9207465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Catumbi/ Mineira 2",
+        "community": "Catumbi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1980566,
+          -22.9187166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Catumbi/ Mineira 3",
+        "community": "Catumbi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1963014,
+          -22.9215328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Vila Pereira da Silva",
+        "community": "Vila Pereira da Silva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1916445,
+          -22.9308572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Santa Marta 1",
+        "community": "Morro Santa Marta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1935701,
+          -22.9488034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Santa marta 2",
+        "community": "Morro Santa Marta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1935772,
+          -22.9461385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cabritos 2/ Ladeira dos Tabajaras 1",
+        "community": "Morro dos Cabritos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.191567,
+          -22.9605754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Ladeira dos Tabajaras 2",
+        "community": "Ladeira dos Tabajaras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1947869,
+          -22.9636704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Guararapes 1",
+        "community": "Guararapes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2064861,
+          -22.9427704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cabritos 1",
+        "community": "Morro dos Cabritos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1949999,
+          -22.9646034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cantagalo 1/ PavÃ£o-PavÃ£ozinho 1",
+        "community": "Morro do Cantagalo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1985648,
+          -22.9804702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cantagalo 2/ Pavão-Pavãzinho 2",
+        "community": "Morro do Cantagalo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1973536,
+          -22.9808353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Pavão-Pavãozinho 3",
+        "community": "Pavão-Pavãozinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1945496,
+          -22.9807973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Babilônia 1/ Ponto de Apoio Chapéu-Mangueira 2",
+        "community": "Babilônia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1694828,
+          -22.9604537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio BabilÃ´nia 2",
+        "community": "BabilÃ´nia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1712507,
+          -22.9597394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Chapéu-Mangueira 1",
+        "community": "Chapéu Mangueira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1679225,
+          -22.9606436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Vidigal 1",
+        "community": "Vidigal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2392366,
+          -22.9949622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Vidigal 2",
+        "community": "Vidigal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2386045,
+          -22.993237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Vidigal 3",
+        "community": "Vidigal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2421552,
+          -22.9973875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio ChÃ¡cara do CÃ©u 1",
+        "community": "ChÃ¡cara do CÃ©u"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2322755,
+          -22.9900891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Tuiuti 1",
+        "community": "Tuiuti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2315187,
+          -22.8988825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Tuiuti 2",
+        "community": "Tuiuti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.233008,
+          -22.8985525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Telégrafos 1",
+        "community": "Morro dos Telégrafos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2369926,
+          -22.9024314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Telégrafos 2",
+        "community": "Morro dos Telégrafos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2368628,
+          -22.9025277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque CandelÃ¡ria 1",
+        "community": "Parque CandelÃ¡ria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2318183,
+          -22.9067673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque CandelÃ¡ria 2",
+        "community": "Parque CandelÃ¡ria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2331607,
+          -22.9054668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Mangueira 1",
+        "community": "Mangueira (RA - São Cristóvão)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2391246,
+          -22.9042551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Mangueira 2",
+        "community": "Mangueira (RA - SÃ£o CristÃ³vÃ£o)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2404481,
+          -22.9035769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Mangueira 3",
+        "community": "Mangueira (RA - SÃ£o CristÃ³vÃ£o)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2398707,
+          -22.9041931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Salgueiro 1",
+        "community": "Salgueiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2260622,
+          -22.9301034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Liberdade 2",
+        "community": "Morro da Liberdade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2160687,
+          -22.9248412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Liberdade 1",
+        "community": "Morro da Liberdade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.217795,
+          -22.9259693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Formiga 1",
+        "community": "Morro da Formiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2431811,
+          -22.9420102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Formiga 2",
+        "community": "Morro da Formiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2431954,
+          -22.942226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Formiga 3",
+        "community": "Morro da Formiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2427104,
+          -22.9417544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Formiga 4",
+        "community": "Morro da Formiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2426359,
+          -22.9419761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Formiga 5",
+        "community": "Morro da Formiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2440314,
+          -22.941078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Chacrinha 1",
+        "community": "Morro do Chacrinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2208413,
+          -22.9205989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Borel 1",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2533464,
+          -22.9407124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Borel 2",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2537908,
+          -22.9415836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Borel 3",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.253807,
+          -22.9383622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Borel 4",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2540732,
+          -22.9381675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Borel 5",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2544646,
+          -22.9379973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Borel 6",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2515452,
+          -22.9316384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Borel 7",
+        "community": "Borel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2541425,
+          -22.9357026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio JamelÃ£o 1",
+        "community": "JamelÃ£o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2618361,
+          -22.9365308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio AndaraÃ­ 1/ Arrelia 1",
+        "community": "Morro do AndaraÃ­"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2567327,
+          -22.9319673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Andaraí 2/ Arrelia 2",
+        "community": "Morro do Andaraí"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2557057,
+          -22.9321231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Andaraí 3/ Arrelia 3",
+        "community": "Morro do Andaraí"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2577547,
+          -22.9337431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Andaraí 4/ Arrelia 4",
+        "community": "Morro do Andaraí"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2567163,
+          -22.9328229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio João Paulo II 1/ JK 1",
+        "community": "Parque João Paulo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.25853,
+          -22.9281441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio João Paulo II 2/ JK 2",
+        "community": "Parque João Paulo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2598189,
+          -22.9301131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio João Paulo II 3/ JK 3",
+        "community": "Parque João Paulo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2622069,
+          -22.9292981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio João Paulo II 4/ JK 4",
+        "community": "Parque João Paulo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2629889,
+          -22.9300941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio João Paulo II 5/ JK 5",
+        "community": "Parque Vila Isabel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2619289,
+          -22.9294321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio João Paulo II 6/ JK 6",
+        "community": "Parque João Paulo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2619399,
+          -22.9292981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Nova Divinéia 1",
+        "community": "Nova Divinéia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2640269,
+          -22.9290041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Nova DivinÃ©ia 2",
+        "community": "Nova DivinÃ©ia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2637348,
+          -22.9287553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Nova Divinéia 3",
+        "community": "Nova Divinéia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2641829,
+          -22.9294761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Nova DivinÃ©ia 4",
+        "community": "Nova DivinÃ©ia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2638146,
+          -22.928917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Nova DivinÃƒÂ©ia 5",
+        "community": "Nova DivinÃƒÂ©ia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.265251,
+          -22.9296495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cariri 1 (Merendiba) 1/ Vila Cruzeiro 1",
+        "community": "Morro do Cariri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2822741,
+          -22.8488374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Cariri 2",
+        "community": "Morro do Cariri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2764722,
+          -22.8461405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Caixa D'Água 1/ Frey gaspar 1/ Sereno 1",
+        "community": "Morro da Caixa D`água (RA - Penha)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2951871,
+          -22.8394734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Morro da Fé 1",
+        "community": "Morro da Fé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.297582,
+          -22.8456864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Morro da Fé 2",
+        "community": "Morro da Fé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.297548,
+          -22.8461034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Caixa D'Água 2",
+        "community": "Morro da Caixa D`água (RA - Penha)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.290167,
+          -22.8412153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rua Laudelino Freire 1",
+        "community": "Rua Laudelino Freire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.288511,
+          -22.8454804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Guaíba e Vila Periqui",
+        "community": "Morro da Guaíba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2938702,
+          -22.8348735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque Proletário Grotão 1",
+        "community": "Parque Proletário do Grotão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.291631,
+          -22.8461634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque do Caracol 1",
+        "community": "Morro do Caracol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2895711,
+          -22.8441814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio parque do Caracol 2",
+        "community": "Morro do Caracol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.290529,
+          -22.8445264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque do Caracol 3",
+        "community": "Morro do Caracol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2894801,
+          -22.8439334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque Silva Vale 1",
+        "community": "Parque Silva Vale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3099105,
+          -22.8659112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque Silva Vale 2",
+        "community": "Parque Silva Vale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3109145,
+          -22.8676582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque Nova Maracá 1",
+        "community": "Parque Nova Maracá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3022506,
+          -22.8641092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Nova Maracá 2",
+        "community": "Parque Nova Maracá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3016027,
+          -22.8596073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Nova Maracá 3",
+        "community": "Parque Nova Maracá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3078829,
+          -22.8583344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Engenho da Rainha 1",
+        "community": "Morro do Engenho da Rainha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2939115,
+          -22.8748552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio engenho da Rainha 2",
+        "community": "Morro do Engenho da Rainha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2952436,
+          -22.8711202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Relicário 1",
+        "community": "Relicário"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2876887,
+          -22.8663271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Mineiros 1",
+        "community": "Morro dos Mineiros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3063577,
+          -22.8757906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Urubu 2",
+        "community": "Morro do Urubu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2991476,
+          -22.873953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio urubu 3",
+        "community": "Morro do Urubu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3020949,
+          -22.8752992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Urubu 1",
+        "community": "Morro do Urubu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3058743,
+          -22.8802811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio São João 1",
+        "community": "Morro São João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2650533,
+          -22.9076762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio São João 2",
+        "community": "Morro São João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2634132,
+          -22.9123072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio São João 3",
+        "community": "Morro São João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2655832,
+          -22.9108642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Ouro Preto 1/ Pretos Forros 1",
+        "community": "Bairro Ouro Preto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2985829,
+          -22.9148796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Ouro Preto 2/ pretos Forros 2",
+        "community": "Bairro Ouro Preto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2978209,
+          -22.914606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Ouro Preto 3/ Pretos Forros 3",
+        "community": "Bairro Ouro Preto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2974929,
+          -22.913393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Pretos Forros 4",
+        "community": "Pretos Forros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2961539,
+          -22.912422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Morro do Céu 1/ Pretos Forros 3",
+        "community": "Morro do Céu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2943839,
+          -22.912664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Morro do Céu 2",
+        "community": "Morro do Céu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2943459,
+          -22.914137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Queto 1",
+        "community": "Morro do Queto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2609793,
+          -22.9045482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Matriz1/ Queto 2",
+        "community": "Morro da Matriz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2614512,
+          -22.9030096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Matriz 2",
+        "community": "Morro da Matriz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2639389,
+          -22.9046726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Juramento 4/ Brício de Moraes 1",
+        "community": "Morro do Juramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3103917,
+          -22.8563272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Juramento 1/ Brício de Moraes 2",
+        "community": "Morro do Juramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3079466,
+          -22.8600582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Juramento 2",
+        "community": "Morro do Juramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3165066,
+          -22.8570542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Juramento 3",
+        "community": "Morro do Juramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3189745,
+          -22.8602102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Juramento 5",
+        "community": "Morro do Juramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3135846,
+          -22.8564112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Jardim do Carmo 1",
+        "community": "Jardim do Carmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3045018,
+          -22.8514883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Jardim do Carmo 2",
+        "community": "Jardim do Carmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3036208,
+          -22.8516733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Jardim do Carmo 3",
+        "community": "Jardim do Carmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3028238,
+          -22.8532033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Jardim do Carmo 4",
+        "community": "Jardim do Carmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2986618,
+          -22.8535553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Jardim do Carmo 5",
+        "community": "Jardim do Carmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3008859,
+          -22.8499893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Sapê 1",
+        "community": "Morro do Sapê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3283997,
+          -22.8572758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Sapê 2",
+        "community": "Morro do Sapê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3327724,
+          -22.8585071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Sapê 3",
+        "community": "Morro do Sapê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3339094,
+          -22.8568931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Sapê 4",
+        "community": "Morro do Sapê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3341304,
+          -22.8569301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio São Miguel do Arcanjo 1",
+        "community": "Comunidade de São Miguel Arcanjo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3329854,
+          -22.8608031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de apoio Rio das Pedras 1",
+        "community": "A.M. e Amigos de Rio das Pedras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3337017,
+          -22.9734504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Inácio Dias 1",
+        "community": "Inácio Dias (RA - Jacarepaguá)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3421918,
+          -22.9167902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Espírito Santo 1/ Vila José de Anchieta 1",
+        "community": "Espírito Santo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3459544,
+          -22.8896286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Barão 1",
+        "community": "Barão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3428344,
+          -22.9004836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Barão 3",
+        "community": "Barão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3446342,
+          -22.9024236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Barão 4",
+        "community": "Barão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3440859,
+          -22.9047636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Comandante Luis Souto 1",
+        "community": "Comandante Luis Souto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3579706,
+          -22.9042042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Comandante Luis Souto 2",
+        "community": "Comandante Luis Souto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3604455,
+          -22.9021232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Comandante Luis Souto 3",
+        "community": "Comandante Luis Souto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3596106,
+          -22.9015762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Unidos de Santa Tereza 1",
+        "community": "Unidos de Santa Tereza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1994255,
+          -22.9274655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Ociental Fallet 1",
+        "community": "Ocidental Fallet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1942796,
+          -22.9248146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Prazeres 1/ Vila Elza 1",
+        "community": "Morro dos Prazeres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2031793,
+          -22.9341295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio JÃºlio Otoni 1",
+        "community": "JÃºlio Otoni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1938013,
+          -22.9334588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Júlio Otoni 2",
+        "community": "Júlio Otoni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1931124,
+          -22.9336515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Escondidinho 1",
+        "community": "Morro do Escondidinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2011424,
+          -22.9323825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Escondidinho 2",
+        "community": "Morro do Escondidinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2018864,
+          -22.9310995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Santa Alexandrina e Paula Ramos 1",
+        "community": "Santa Alexandrina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2106942,
+          -22.9358254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Santa Alexandrina e Paula Ramos 2",
+        "community": "Santa Alexandrina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2119762,
+          -22.9350584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Sítio Pai João 1",
+        "community": "Sítio do Pai João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3118395,
+          -22.9912944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Sítio Pai João 2",
+        "community": "Sítio do Pai João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3113276,
+          -22.9883685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rocinha 1",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.252517,
+          -22.9889829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rocinha 2",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2436101,
+          -22.9871459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rocinha 3",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.250102,
+          -22.9884929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rocinha 4",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2453421,
+          -22.9857879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rocinha 5",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.250396,
+          -22.9914829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rocinha 6",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.251907,
+          -22.9912199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rocinha 7",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2521739,
+          -22.9931618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rocinha 8",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2478401,
+          -22.9875699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rocinha 9",
+        "community": "Rocinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2488211,
+          -22.9874459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Vila Matinha 1",
+        "community": "Vila Matinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.285058,
+          -22.8587695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque Alvorada 1",
+        "community": "Parque Alvorada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2776309,
+          -22.8634324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Parque Alvorada 2",
+        "community": "Parque Alvorada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2804811,
+          -22.8651947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Palmeiras 1",
+        "community": "Morro das Palmeiras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2829948,
+          -22.8640733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Palmeiras 2",
+        "community": "Morro das Palmeiras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2836998,
+          -22.8643153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Nova Brasília 1",
+        "community": "Nova Brasília (RA - Alemão)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2725309,
+          -22.8649464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Nova Brasília 2",
+        "community": "Nova Brasília (RA - Alemão)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2716919,
+          -22.8670294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Rua Mira 1/ Vila Cruzeiro 2",
+        "community": "Rua Mira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.277612,
+          -22.8525544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Vila Cruzeiro 3",
+        "community": "Vila Cruzeiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2811024,
+          -22.8504987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Vila Cruzeiro 4",
+        "community": "Vila Cruzeiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2834991,
+          -22.8512739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Baiana 1",
+        "community": "Morro da Baiana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.266382,
+          -22.8596575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Baiana 2",
+        "community": "Morro da Baiana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2643491,
+          -22.8569395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Baiana 3",
+        "community": "Morro da Baiana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2664811,
+          -22.8576925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Alemão 1/ Joaquim de Queiróz 1",
+        "community": "Morro do Alemão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2745864,
+          -22.8596164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Alemão 2/ Joaquim de Queiróz 2",
+        "community": "Morro do Alemão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2794697,
+          -22.8598124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Alemão 3/ Joaquim de Queiróz 3/ Palmeiras 3",
+        "community": "Morro do Alemão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2720887,
+          -22.8594167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Alemão 4",
+        "community": "Morro do Alemão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.275903,
+          -22.8557284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Alemão 5",
+        "community": "Morro do Alemão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2698315,
+          -22.8574455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Adeus 1/ Piancó 1",
+        "community": "Morro do Adeus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.264013,
+          -22.8640994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "Ponto de Apoio Adeus 2/ Piancó 2",
+        "community": "Morro do Adeus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2676479,
+          -22.8641154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+        "assetType": "support_point",
+        "name": "",
+        "community": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1814328,
+          -22.9241064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC 3ª IDADE",
+        "risk": "N/A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2889619,
+          -22.9001016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC ACARI",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3473194,
+          -22.8266265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC ANDARAÍ",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2565544,
+          -22.9320019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC ARTICULADOR",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2671043,
+          -22.86357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC BANGU",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4826381,
+          -22.88393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC BANGU 2",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4717063,
+          -22.8747983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC BELA BRISA",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.659726,
+          -22.9843005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC BOREL",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2515506,
+          -22.9394445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC BOREL (T II)",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2543572,
+          -22.9420301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC CAMARISTA MÉIER",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2986852,
+          -22.9147351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC COLONIA Z-10",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1773569,
+          -22.8232089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC CURUCICA",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3924837,
+          -22.9515067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC FAZENDA BOTAFOGO",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3556911,
+          -22.8263472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC FORMIGA",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2448998,
+          -22.9398037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC GUARATIBA",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6419133,
+          -22.9999257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC GUARARAPES",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2057853,
+          -22.9434928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC INHAÚMA",
+        "risk": "N/A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.281603,
+          -22.8726067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC IRAJÁ",
+        "risk": "N/A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3251568,
+          -22.8476035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC JARDIM AMÉRICA",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3182323,
+          -22.8050191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC JARDIM MARAVILHA",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6064567,
+          -22.9653423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC JARDIM MARAVILHA (T II)",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6031643,
+          -22.9593335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC JARDIM MARAVILHA (T III)",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6133466,
+          -22.9663079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC LINS DE VASCONCELOS",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2848473,
+          -22.9145482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC MANGUEIRA",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2371191,
+          -22.9025112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC MATINHA",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2636557,
+          -22.9113136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC MATRIZ",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2641232,
+          -22.9045215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC MENDANHA",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.570757,
+          -22.8407725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC MUQUIÇO",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4315714,
+          -22.8823168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC NOVA DIVINEIA/BORDA DO MATO",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.262437,
+          -22.9256384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC PAVÃO-PAVÃOZINHO E CANTAGALO",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1938204,
+          -22.980947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC PEREIRÃO",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.191592,
+          -22.9309816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC REALENGO",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4429515,
+          -22.8995854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC RIO DAS PEDRAS",
+        "risk": "Hidrológico e geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3320594,
+          -22.9761918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC RIO DAS PEDRAS (T II)",
+        "risk": "Hidrológico e geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3323708,
+          -22.9722547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC SANTA CRUZ",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7191871,
+          -22.8924922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC SANTA CRUZ (T II)",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6857651,
+          -22.9192656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC SÃO CARLOS",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2001469,
+          -22.9165114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC SOMOJA",
+        "risk": "N/A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3214648,
+          -22.8077053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC TUBIACANGA",
+        "risk": "N/A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2263032,
+          -22.784531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC VAZ LOBO",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3329042,
+          -22.8585664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC VILA KOSMOS",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4909604,
+          -22.8715712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC VILA SÃO JORGE",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3322422,
+          -22.8358273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC VILA UNIVERSITÁRIA",
+        "risk": "Hidrológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2180032,
+          -22.8685948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_nupdec__atual",
+        "assetType": "nupdec",
+        "name": "NUPDEC QUETO",
+        "risk": "Geológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2610409,
+          -22.9041497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "Arena Carioca Jovelina Pérola Negra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.358524,
+          -22.807578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "Arena Carioca Abelardo Barbosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.627739,
+          -22.997835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "Clube do Servidor Municipal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.20482,
+          -22.91274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "V.O. da Mangueira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.242006,
+          -22.903387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "V.O. Dr. Sócrates"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.625221,
+          -22.989919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "V.O. do Sampaio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.261326,
+          -22.902728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "V.O. do Complexo do Alemão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.267663,
+          -22.859798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "V.O. Mato Alto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35786,
+          -22.90732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "V.O. Artur da Távola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.259545,
+          -22.915106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "Centro Municipal de Cidadania Rinaldo de Lamare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.252888,
+          -22.993535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "Centro Coreográfico da Cidade do Rio de Janeiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.239424,
+          -22.927537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__defesa_civil_alojamentos__atual",
+        "assetType": "shelter",
+        "name": "Centro de Artes Calouste Gulbenkian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.195832,
+          -22.908327
+        ]
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  }
+}

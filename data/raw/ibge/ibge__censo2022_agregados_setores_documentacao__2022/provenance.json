@@ -1,0 +1,17 @@
+{
+  "id": "ibge__censo2022_agregados_setores_documentacao__2022",
+  "source_name": "Censo 2022 Agregados por Setores Censitarios - Documentacao",
+  "source_institution": "IBGE",
+  "source_url": "https://www.ibge.gov.br/estatisticas/sociais/administracao-publica-e-participacao-politica/22827-censo-demografico-2022.html?edicao=41851",
+  "acquisition_route": "portal_documentation",
+  "downloaded_at": "2026-05-17T17:45:03+00:00",
+  "started_at": "2026-05-17T17:45:02+00:00",
+  "duration_seconds": 1.085,
+  "stored_path": "data/raw/ibge/ibge__censo2022_agregados_setores_documentacao__2022/ibge_censo2022_agregados_setores_documentacao.html",
+  "original_filename": "22827-censo-demografico-2022.html",
+  "stored_filename": "ibge_censo2022_agregados_setores_documentacao.html",
+  "content_type": "text/html; charset=utf-8",
+  "content_length_header": null,
+  "bytes_written": 411633,
+  "sha256": "8b2810b69ce711cf8d38e53c9dcb785ee6fe42262543af4f0e4ee0d933ef30cf"
+}

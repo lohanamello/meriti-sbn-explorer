@@ -1,0 +1,121 @@
+{
+  "sourceId": "ibge__entorno_arborizacao__2022",
+  "sourceUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/",
+  "institution": "IBGE",
+  "referencePeriod": "2022-06-20/2023-05-28",
+  "publicationDate": "2025-04-17",
+  "files": [
+    {
+      "file": "dictionary.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/dicionarios_de_dados_entorno.zip",
+      "sha256": "eda4e2c9968e753fa2c158380ae537c284ccbddde5b74a6d5fec0b3c2250d1b4",
+      "bytes": 27093,
+      "collectedAt": "2026-10-03T17:01:29+00:00",
+      "lastModified": "Wed, 07 May 2025 20:06:34 GMT"
+    },
+    {
+      "file": "publication.pdf",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102168.pdf",
+      "sha256": "f056eb333f5bd942f86e0f87b8193469e3e29dbc81d2da13df7c577834bf712d",
+      "bytes": 8857725,
+      "collectedAt": "2026-10-03T17:01:29+00:00",
+      "lastModified": "Thu, 24 Apr 2025 13:00:02 GMT"
+    },
+    {
+      "file": "municipios-moradores.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Municipio_csv/Agregados_por_municipios_entorno_moradores_BR.zip",
+      "sha256": "438dcaffe0ce5e59eea46d2837a59f69564725974f2380a8d4188bebaca48863",
+      "bytes": 445257,
+      "collectedAt": "2026-10-03T17:01:30+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+    },
+    {
+      "file": "municipios-domic%c3%adlios.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Municipio_csv/Agregados_por_municipios_entorno_domic%c3%adlios_BR.zip",
+      "sha256": "f421b8199f99597e4edfd1efeb1f86ba2c00edc14694d9730f34a2c739ad3d06",
+      "bytes": 412287,
+      "collectedAt": "2026-10-03T17:01:31+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+    },
+    {
+      "file": "municipios-faces.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Municipio_csv/Agregados_por_municipios_entorno_faces_BR.zip",
+      "sha256": "066bf8be22256d26906a35b2ef6724fe178ffa6c4593c39cf906c5bf02736096",
+      "bytes": 388380,
+      "collectedAt": "2026-10-03T17:01:32+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+    },
+    {
+      "file": "distritos-moradores.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Distrito_csv/Agregados_por_distritos_entorno_moradores_BR.zip",
+      "sha256": "9d7cb278213356e34b7a25c93beae05f8f5c397936c5b4dbeb09a7aa491f2d46",
+      "bytes": 717892,
+      "collectedAt": "2026-10-03T17:01:32+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+    },
+    {
+      "file": "distritos-domic%c3%adlios.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Distrito_csv/Agregados_por_distritos_entorno_domic%c3%adlios_BR.zip",
+      "sha256": "885e4c8409e3aac36be64c20d8fcac98145641875a89354598183973db91fa08",
+      "bytes": 667792,
+      "collectedAt": "2026-10-03T17:01:33+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+    },
+    {
+      "file": "distritos-faces.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Distrito_csv/Agregados_por_distritos_entorno_faces_BR.zip",
+      "sha256": "2239e74e4376a0e0a8312245b962aff3444ff67edb463cb0697b03d9039db35d",
+      "bytes": 617296,
+      "collectedAt": "2026-10-03T17:01:33+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+    },
+    {
+      "file": "bairros-moradores.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Bairro_csv/Agregados_por_bairros_entorno_moradores_BR.zip",
+      "sha256": "979453ae120409f10933859b3b8d31275cca47c837826da327221e7c2d1637b9",
+      "bytes": 1122582,
+      "collectedAt": "2026-10-03T17:01:34+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+    },
+    {
+      "file": "bairros-domic%c3%adlios.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Bairro_csv/Agregados_por_bairros_entorno_domic%c3%adlios_BR.zip",
+      "sha256": "056f1c2aa1d84880b6efff0af1007d7c91ff50dc2f9f0f51366dd419f53393ff",
+      "bytes": 1043569,
+      "collectedAt": "2026-10-03T17:01:34+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+    },
+    {
+      "file": "bairros-faces.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Bairro_csv/Agregados_por_bairros_entorno_faces_BR.zip",
+      "sha256": "abfb9b9e5ba0b0e51f0df4b571b9cd5cd23851fdbfae324dcb81bf83c11a200a",
+      "bytes": 933664,
+      "collectedAt": "2026-10-03T17:01:35+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+    },
+    {
+      "file": "setores-moradores.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Setor_csv/Agregados_por_setores_entorno_moradores_BR.zip",
+      "sha256": "76979c0b020f4913d46336a53591cfaa219372b0076f4282e768da7d8abb774a",
+      "bytes": 13000482,
+      "collectedAt": "2026-10-03T17:01:36+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:39 GMT"
+    },
+    {
+      "file": "setores-domic%c3%adlios.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Setor_csv/Agregados_por_setores_entorno_domic%c3%adlios_BR.zip",
+      "sha256": "945ad03f2cca535c51b8956188ed9a7e3e017caa5ae2a79449e2202d359ffa60",
+      "bytes": 11890606,
+      "collectedAt": "2026-10-03T17:01:38+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:39 GMT"
+    },
+    {
+      "file": "setores-faces.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Setor_csv/Agregados_por_setores_entorno_faces_BR.zip",
+      "sha256": "ad654f2cc4680c6fbfbb0d9bf1b58fea3e690f3b0e873fcc9e2815c1f4212a4b",
+      "bytes": 10319175,
+      "collectedAt": "2026-10-03T17:01:39+00:00",
+      "lastModified": "Thu, 17 Apr 2025 13:02:39 GMT"
+    }
+  ]
+}

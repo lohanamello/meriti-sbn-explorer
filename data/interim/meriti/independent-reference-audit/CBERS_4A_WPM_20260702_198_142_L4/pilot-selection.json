@@ -1,0 +1,79 @@
+{
+  "seed": 20261003,
+  "samples": [
+    {
+      "sampleId": "MERITI-V1-0359"
+    },
+    {
+      "sampleId": "MERITI-V1-0384"
+    },
+    {
+      "sampleId": "MERITI-V1-0015"
+    },
+    {
+      "sampleId": "MERITI-V1-0321"
+    },
+    {
+      "sampleId": "MERITI-V1-0124"
+    },
+    {
+      "sampleId": "MERITI-V1-0214"
+    },
+    {
+      "sampleId": "MERITI-V1-0108"
+    },
+    {
+      "sampleId": "MERITI-V1-0022"
+    },
+    {
+      "sampleId": "MERITI-V1-0163"
+    },
+    {
+      "sampleId": "MERITI-V1-0130"
+    },
+    {
+      "sampleId": "MERITI-V1-0243"
+    },
+    {
+      "sampleId": "MERITI-V1-0260"
+    },
+    {
+      "sampleId": "MERITI-V1-0388"
+    },
+    {
+      "sampleId": "MERITI-V1-0128"
+    },
+    {
+      "sampleId": "MERITI-V1-0254"
+    },
+    {
+      "sampleId": "MERITI-V1-0339"
+    }
+  ],
+  "inputCellsSha256": "22f003e6d7bc59162b4497fc48cead3d40d4a159cac9c3ed52f2f95d0a0d683a",
+  "viewContextMeters": 80,
+  "displayScales": {
+    "0": [
+      75.0,
+      303.0
+    ],
+    "1": [
+      115.0,
+      265.0
+    ],
+    "2": [
+      76.0,
+      236.0
+    ],
+    "3": [
+      57.0,
+      267.0
+    ],
+    "4": [
+      66.0,
+      301.0
+    ]
+  },
+  "display": "Native DN, per-band whole-crop 2nd/98th percentile stretch; no pansharpening; nearest-neighbor zoom only.",
+  "limitation": "Display transformation only. DN is not surface reflectance; no NDVI or area estimate produced."
+}

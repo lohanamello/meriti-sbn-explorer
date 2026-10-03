@@ -1,0 +1,17 @@
+{
+  "id": "inea__geoinea_camadas_ambientais__atual",
+  "source_name": "Portal GeoInea Camadas Ambientais",
+  "source_institution": "INEA",
+  "source_url": "https://www.inea.rj.gov.br/biodiversidade-territorio/informacoes-geoespaciais/",
+  "acquisition_route": "portal_download_or_geoservice",
+  "downloaded_at": "2026-05-17T18:02:53+00:00",
+  "started_at": "2026-05-17T18:02:52+00:00",
+  "duration_seconds": 0.281,
+  "stored_path": "data/raw/inea/inea__geoinea_camadas_ambientais__atual/inea_informacoes_geoespaciais.html",
+  "original_filename": "informacoes-geoespaciais",
+  "stored_filename": "inea_informacoes_geoespaciais.html",
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_header": null,
+  "bytes_written": 45579,
+  "sha256": "0f59bd34dfbc8f4f8de8dfe385eb80c9ed92afd2dad13a1c0ea08b9728c2d42a"
+}

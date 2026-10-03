@@ -1,0 +1,19 @@
+{
+  "id": "data-rio__sub_bacias_hidrograficas__atual",
+  "source_name": "Sub-bacias hidrograficas",
+  "source_institution": "Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Meio_Ambiente/Sub_bacias_hidrograficas/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query_paginated",
+  "downloaded_at": "2026-05-17T19:23:46+00:00",
+  "started_at": "2026-05-17T19:23:40+00:00",
+  "duration_seconds": 6.627,
+  "stored_path": "data/raw/data-rio/data-rio__sub_bacias_hidrograficas__atual/sub_bacias_hidrograficas_arcgis_capture.json",
+  "stored_filename": "sub_bacias_hidrograficas_arcgis_capture.json",
+  "content_type": "application/json",
+  "bytes_written": 3046395,
+  "sha256": "b996b549d7f87d75577952ecd878ab6245aa6bb317cb9bfe1ee51d0e2c07c936",
+  "object_id_field": "objectid",
+  "object_id_count": 55,
+  "batch_size": 500,
+  "batch_count": 1
+}

@@ -1,0 +1,203 @@
+{
+  "id": "CB4A-WPM-PCA-FUSED-1",
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+  ],
+  "title": "CBERS-4A/WPM - Multispectral and Panchromatic Bands Fusioned",
+  "version": "1",
+  "deprecated": false,
+  "description": "This collection contains 2 meter high-resolution, RGB products, generated using the Principal Components Fusion (PCA) method, with values coded between 1 and 255, with 0 being reserved for 'No Data'. This product is derived from the original CBERS-4A WPM Level-4 Digital Number with 10 bit of quantization.",
+  "keywords": [
+    "cbers-4a",
+    "wpm",
+    "optical",
+    "cloud optimized geotiff",
+    "cog",
+    "earth observation",
+    "brazil",
+    "visible imagery"
+  ],
+  "providers": [
+    {
+      "url": "https://data.inpe.br/big/",
+      "name": "National Institute for Space Research (INPE)",
+      "roles": [
+        "producer",
+        "licensor",
+        "processor",
+        "host"
+      ],
+      "processing:level": "FUSED",
+      "processing:lineage": "Generation of fused images, using the Principal Components Fusion (PCA) method",
+      "processing:facility": "LGI",
+      "processing:software": {
+        "wpm-fusion-processor": "1.0"
+      }
+    }
+  ],
+  "summaries": {
+    "gsd": [
+      2
+    ],
+    "platform": [
+      "cbers-4a"
+    ],
+    "proj:epsg": {
+      "maximum": 32725,
+      "minimum": 32718
+    },
+    "instruments": [
+      "wpm"
+    ],
+    "constellation": [
+      "cbers-4a"
+    ],
+    "view:off_nadir": [
+      0
+    ]
+  },
+  "item_assets": {
+    "rgb": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "rgb"
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Thumbnail"
+    }
+  },
+  "properties": {
+    "renders": {
+      "tci": {
+        "title": "True Color Image",
+        "assets": [
+          "tci"
+        ],
+        "resampling": "nearest"
+      }
+    },
+    "sources": [
+      "http://www.inpe.br"
+    ],
+    "bdc:visual": {
+      "tci": "tci"
+    },
+    "bdc:applications": [
+      "BDCExplorer"
+    ],
+    "created": "2023-03-24T21:08:21.173263Z",
+    "updated": "2023-03-24T21:08:21.173282Z",
+    "eo:bands": [
+      {
+        "name": "BAND1",
+        "common_name": "red",
+        "description": "Red channel in the fused true color images.",
+        "min": 0.0,
+        "max": 255.0,
+        "nodata": 0.0,
+        "scale": 1.0,
+        "scale_add": null,
+        "data_type": "int8",
+        "resolution_x": 2.0,
+        "resolution_y": 2.0,
+        "center_wavelength": 0.66,
+        "full_width_half_max": 0.06
+      },
+      {
+        "name": "BAND2",
+        "common_name": "green",
+        "description": "Green channel in the fused true color images.",
+        "min": 0.0,
+        "max": 255.0,
+        "nodata": 0.0,
+        "scale": 1.0,
+        "scale_add": null,
+        "data_type": "int8",
+        "resolution_x": 2.0,
+        "resolution_y": 2.0,
+        "center_wavelength": 0.555,
+        "full_width_half_max": 0.07
+      },
+      {
+        "name": "BAND3",
+        "common_name": "blue",
+        "description": "Blue channel in the fused true color images.",
+        "min": 0.0,
+        "max": 255.0,
+        "nodata": 0.0,
+        "scale": 1.0,
+        "scale_add": null,
+        "data_type": "int8",
+        "resolution_x": 2.0,
+        "resolution_y": 2.0,
+        "center_wavelength": 0.485,
+        "full_width_half_max": 0.07
+      }
+    ]
+  },
+  "bdc:type": "collection",
+  "bdc:public": true,
+  "license": "Creative-Commons-Attribution-4.0-International",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -74.90461,
+          -34.574367,
+          -33.983062,
+          6.02882
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-03-02T00:00:00.000000Z",
+          "2026-09-29T00:00:00.000000Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+      "rel": "self",
+      "type": "application/json",
+      "title": "Link to this document"
+    },
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items",
+      "rel": "items",
+      "type": "application/json",
+      "title": "Items of the collection CB4A-WPM-PCA-FUSED-1"
+    },
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/",
+      "rel": "parent",
+      "type": "application/json",
+      "title": "Link to catalog collections"
+    },
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/",
+      "rel": "root",
+      "type": "application/json",
+      "title": "API landing page (root catalog)"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative-Commons-Attribution-4.0-International"
+    }
+  ]
+}

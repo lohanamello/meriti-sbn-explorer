@@ -1,0 +1,20 @@
+{
+  "amendmentId": "single-date-estimand-20261001",
+  "registeredOn": "2026-10-03",
+  "beforeReferenceAnnotation": true,
+  "referenceLabelsCompleted": 0,
+  "estimandDate": "2026-10-01",
+  "stratificationImagePeriod": {
+    "start": "2026-08-05",
+    "end": "2026-10-01"
+  },
+  "previousDesignFile": "sampling-design-before-target-date.json",
+  "previousDesignSha256": "466c007c6390e946e5d9622a85c0fb20c7434d06153d4266a3e9902a81f69f51",
+  "revisedDesignSha256": "e10515cf06e937b30015196869cc5ff05e8e9059556d27c86f52e212bb4c5cc2",
+  "unchangedSamplingFiles": {
+    "sample-master.csv": "a84ffb05350917a860d02bbb7993bf8d89687a258b76199900d3593cae4ed18f",
+    "sample-points-blinded.geojson": "4ef2e2f7a3a69ac6d9b41c08c3eaf9a45f5e985b0c8aad20ca188c1adca4e649",
+    "sample-cells-blinded.geojson": "22f003e6d7bc59162b4497fc48cead3d40d4a159cac9c3ed52f2f95d0a0d683a"
+  },
+  "temporalRule": "Every different reference acquisition date requires a documented stable_at_target assessment. No automatic day-window acceptance. Unresolved change or ambiguity prevents estimation."
+}

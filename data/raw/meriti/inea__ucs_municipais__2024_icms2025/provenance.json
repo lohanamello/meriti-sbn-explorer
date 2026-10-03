@@ -1,0 +1,35 @@
+{
+  "source_id": "inea__ucs_municipais__2024_icms2025",
+  "source_url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+  "query_url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11/query?where=1%3D1&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false",
+  "query_parameters": {
+    "where": "1=1",
+    "geometry": "-43.425,-22.83,-43.315,-22.74",
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": "4326",
+    "spatialRel": "esriSpatialRelIntersects",
+    "outFields": "*",
+    "f": "geojson",
+    "outSR": "4326",
+    "returnZ": "false",
+    "returnM": "false"
+  },
+  "retrieved_at": "2026-10-03T04:07:21.676606+00:00",
+  "files": [
+    {
+      "path": "features.geojson",
+      "sha256": "38a54c906952021fc3ecbe2b4f881c86e48d53bdaa0ab1f4bba1e1fad553175a",
+      "size_bytes": 45684,
+      "url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11/query?where=1%3D1&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false"
+    },
+    {
+      "path": "layer-metadata.json",
+      "sha256": "8782d91032a77171197b3656933e0b4d66e29ad8d2ed23b15ef5c850219498c2",
+      "size_bytes": 9370,
+      "url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11?f=json"
+    }
+  ],
+  "feature_count": 12,
+  "note": "First query with municipality LIKE Meriti returned zero; spatial query used instead. Original response preserved.",
+  "license": "Public governmental geodata; layer metadata does not state a reuse license."
+}

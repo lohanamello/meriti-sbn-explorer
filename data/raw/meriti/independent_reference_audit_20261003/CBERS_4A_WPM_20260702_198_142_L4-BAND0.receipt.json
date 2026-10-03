@@ -1,0 +1,22 @@
+{
+  "itemId": "CBERS_4A_WPM_20260702_198_142_L4",
+  "band": "BAND0",
+  "acquisitionDate": "2026-07-02T12:40:04.000000Z",
+  "url": "https://data.inpe.br/bdc/data/CB4A-WPM-L4-DN/2026_07/CBERS_4A_WPM_RAW_2026_07_02.12_33_21_ETC2/198_142_0/4_BC_UTM_WGS84/CBERS_4A_WPM_20260702_198_142_L4_BAND0.tif",
+  "retrievedAt": "2026-10-03T16:55:43+00:00",
+  "operation": "Native DN crop by HTTP range, no reflectance conversion.",
+  "sha256": "e32ba2ffc97134eb12043d97b4d41f0b71847f16595e4959a9d06883fb04c2ca",
+  "resolution": [
+    2.0,
+    2.0
+  ],
+  "dtype": "int16",
+  "crs": "EPSG:32723",
+  "bounds": [
+    663036.6919560721,
+    7475978.144810665,
+    671640.2460010868,
+    7482633.71922922
+  ],
+  "bytes": 16028442
+}

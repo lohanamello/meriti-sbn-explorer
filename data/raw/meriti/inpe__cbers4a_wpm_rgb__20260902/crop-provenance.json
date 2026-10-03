@@ -1,0 +1,39 @@
+{
+  "sourceId": "inpe__cbers4a_wpm_rgb__20260902",
+  "sourceUrl": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/9/CBERS4A_WPM_PCA_RGB321_20260902_198_142.tif",
+  "itemId": "CBERS4A_WPM_PCA_RGB321_20260902_198_142",
+  "retrievedAt": "2026-10-03T05:12:12+00:00",
+  "sha256": "5eb5025247ce7b1937d2f5f54b10b4d30252a607aba2894968912041148451cd",
+  "sourceAsset": {
+    "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/9/CBERS4A_WPM_PCA_RGB321_20260902_198_142.tif",
+    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "roles": [
+      "data"
+    ],
+    "created": "2026-09-03T23:36:30",
+    "updated": "2026-09-03T23:36:52",
+    "bdc:size": 4223266963,
+    "bdc:chunk_size": {
+      "x": 512,
+      "y": 512
+    },
+    "bdc:raster_size": {
+      "x": 57538,
+      "y": 59072
+    },
+    "checksum:multihash": "1220073b4bc5d3a7fabaf172e672ab79b480873648945f0c6ede55f04b273cd01ee9"
+  },
+  "operation": "Native-grid rectangular crop. Original INPE PCA-fused RGB values unchanged.",
+  "crs": "EPSG:32723",
+  "resolution": [
+    2.0,
+    2.0
+  ],
+  "nodata": 0.0,
+  "cropBounds": [
+    663036.0,
+    7475978.0,
+    671642.0,
+    7482634.0
+  ]
+}

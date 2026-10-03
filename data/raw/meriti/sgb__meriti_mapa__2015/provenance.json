@@ -1,0 +1,10 @@
+{
+  "id": "sgb__meriti_mapa__2015",
+  "source_url": "https://rigeo.sgb.gov.br/bitstreams/4b6e06f2-9eef-4a3a-903c-d62c1860730a/download",
+  "resolved_url": "https://rigeo.sgb.gov.br/server/api/core/bitstreams/4b6e06f2-9eef-4a3a-903c-d62c1860730a/content",
+  "downloaded_at": "2026-10-03T03:00:24+00:00",
+  "stored_path": "data/raw/meriti/sgb__meriti_mapa__2015/mapa.pdf",
+  "bytes_written": 4358014,
+  "sha256": "4e754ae0ecb41617c8c4146f002626b79af692a567c00287d18d6890ce6b8f00",
+  "content_type": "application/pdf;charset=UTF-8"
+}

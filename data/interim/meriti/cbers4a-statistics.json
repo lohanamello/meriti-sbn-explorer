@@ -1,0 +1,78 @@
+{
+  "sourceId": "inpe__cbers4a_wpm_rgb__20260426",
+  "generatedAt": "2026-10-03T05:21:06+00:00",
+  "sourceUrl": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260426_199_142",
+  "date": "2026-04-26",
+  "resolutionMeters": 2,
+  "crs": "EPSG:32723",
+  "license": "CC-BY-4.0",
+  "itemId": "CBERS4A_WPM_PCA_RGB321_20260426_199_142",
+  "title": "CBERS-4A/WPM, RGB fusionado de 26 de abril de 2026",
+  "dataPresencePct": 99.998978,
+  "cloudFreePct": null,
+  "dataPresenceIsCloudFree": false,
+  "pixelValueRange": [
+    0,
+    255
+  ],
+  "sceneSelection": {
+    "method": "Latest 2026 candidate accepted by qualitative visual screening of local previews. No quantitative cloud assessment.",
+    "reviewed": [
+      {
+        "date": "2026-09-02",
+        "decision": "rejected",
+        "reason": "Clouds and cloud shadows visibly obscure extensive portions of Meriti."
+      },
+      {
+        "date": "2026-04-26",
+        "decision": "selected",
+        "reason": "No conspicuous cloud obstruction in local preview; fine haze/shadow not quantitatively assessed."
+      },
+      {
+        "date": "2026-03-31",
+        "decision": "rejected",
+        "reason": "Local overview preview contains no valid RGB data."
+      },
+      {
+        "date": "2026-02-23",
+        "decision": "rejected",
+        "reason": "Clouds and cloud shadows visibly obscure extensive portions of Meriti."
+      },
+      {
+        "date": "2026-01-28",
+        "decision": "rejected",
+        "reason": "Local overview preview contains no valid RGB data."
+      }
+    ]
+  },
+  "image": {
+    "file": "data/interim/meriti/cbers4a-rgb-20260426.png",
+    "width": 3137,
+    "height": 2454,
+    "coordinates": [
+      [
+        -43.41210341320338,
+        -22.754986922795492
+      ],
+      [
+        -43.32756296181489,
+        -22.754986922795492
+      ],
+      [
+        -43.32756296181489,
+        -22.815959885706818
+      ],
+      [
+        -43.41210341320338,
+        -22.815959885706818
+      ]
+    ],
+    "resampling": "Nearest neighbor to 3m EPSG3857 display grid. Native 2m RGB TIFF retained."
+  },
+  "limitations": [
+    "RGB fusion via PCA, not surface reflectance and no NIR; cannot calculate valid NDVI from this product.",
+    "No pixel cloud classification asset in selected STAC item; valid DN coverage is not cloud-free coverage.",
+    "Visual interpretation requires separate protocol and uncertainty labels; image alone is not validated canopy coverage.",
+    "This sensor is independent of Sentinel-2 imagery. Interpretation using CHM or NDVI as labels is not independent validation."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "type": "Feature",
+  "id": "CBERS4A_WPM_PCA_RGB321_20260902_198_142",
+  "collection": "CB4A-WPM-PCA-FUSED-1",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -43.795814,
+          -23.559347
+        ],
+        [
+          -43.795814,
+          -22.480108
+        ],
+        [
+          -42.659315,
+          -22.480108
+        ],
+        [
+          -42.659315,
+          -23.559347
+        ],
+        [
+          -43.795814,
+          -23.559347
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260902_198_142",
+      "rel": "self"
+    },
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+      "rel": "parent"
+    },
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+      "rel": "collection"
+    },
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/",
+      "rel": "root"
+    }
+  ],
+  "bbox": [
+    -43.780582,
+    -23.515271,
+    -42.681555,
+    -22.524945
+  ],
+  "assets": {
+    "tci": {
+      "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/9/CBERS4A_WPM_PCA_RGB321_20260902_198_142.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "created": "2026-09-03T23:36:30",
+      "updated": "2026-09-03T23:36:52",
+      "bdc:size": 4223266963,
+      "bdc:chunk_size": {
+        "x": 512,
+        "y": 512
+      },
+      "bdc:raster_size": {
+        "x": 57538,
+        "y": 59072
+      },
+      "checksum:multihash": "1220073b4bc5d3a7fabaf172e672ab79b480873648945f0c6ede55f04b273cd01ee9"
+    },
+    "thumbnail": {
+      "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/9/CBERS4A_WPM_PCA_RGB321_20260902_198_142.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ],
+      "created": "2026-09-03T23:36:52",
+      "updated": "2026-09-03T23:36:52",
+      "bdc:size": 284061,
+      "checksum:multihash": "122009f59833f5cee892959eb5f483845ec384f46dbc7657359753ff0355b56843ef"
+    }
+  },
+  "properties": {
+    "datetime": "2026-09-02T00:00:00.000000Z",
+    "start_datetime": "2026-09-02T00:00:00.000000Z",
+    "end_datetime": "2026-09-02T00:00:00.000000Z",
+    "created": "2026-09-03T23:36:52.668786Z",
+    "updated": "2026-09-03T23:36:52.667213Z",
+    "eo:cloud_cover": null
+  }
+}

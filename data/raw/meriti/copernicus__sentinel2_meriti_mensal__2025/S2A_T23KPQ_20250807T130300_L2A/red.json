@@ -1,0 +1,52 @@
+{
+  "sourceAsset": {
+    "href": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/23/K/PQ/2025/8/S2A_T23KPQ_20250807T130300_L2A/B04.tif",
+    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "title": "Red - 10m",
+    "eo:bands": [
+      {
+        "name": "B04",
+        "common_name": "red",
+        "center_wavelength": 0.665,
+        "full_width_half_max": 0.038
+      }
+    ],
+    "gsd": 10,
+    "proj:shape": [
+      10980,
+      10980
+    ],
+    "proj:transform": [
+      10,
+      0,
+      600000,
+      0,
+      -10,
+      7500040
+    ],
+    "raster:bands": [
+      {
+        "nodata": 0,
+        "data_type": "uint16",
+        "spatial_resolution": 10,
+        "scale": 0.0001,
+        "offset": -0.1
+      }
+    ],
+    "file:checksum": "122032f7665ef3ca69014702db7c99b88f9bbd752240c7285568119546add44d6c52",
+    "file:size": 184727460,
+    "roles": [
+      "data",
+      "reflectance"
+    ]
+  },
+  "cropBounds": [
+    663036.6919560721,
+    7475978.144810665,
+    671640.2460010868,
+    7482633.71922922
+  ],
+  "downloadedAt": "2026-10-03T05:09:23+00:00",
+  "sha256": "d20e34e528b70d2a186113fd1ebc35e15d67bdcf9bd928cc9c60b659827cf645",
+  "operation": "Native-grid rectangular window. Digital numbers unchanged."
+}

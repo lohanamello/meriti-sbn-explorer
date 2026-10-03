@@ -1,0 +1,17 @@
+{
+  "id": "sgb-cprm__cartografia_riscos_geologicos__atual",
+  "source_name": "Cartografia de Riscos Geologicos",
+  "source_institution": "SGB / CPRM",
+  "source_url": "https://www.sgb.gov.br/cartografia-de-riscos-geologicos",
+  "acquisition_route": "portal_dashboard",
+  "downloaded_at": "2026-05-17T18:03:41+00:00",
+  "started_at": "2026-05-17T18:03:41+00:00",
+  "duration_seconds": 0.513,
+  "stored_path": "data/raw/sgb-cprm/sgb-cprm__cartografia_riscos_geologicos__atual/sgb_cartografia_riscos_geologicos.html",
+  "original_filename": "cartografia-de-riscos-geologicos",
+  "stored_filename": "sgb_cartografia_riscos_geologicos.html",
+  "content_type": "text/html;charset=UTF-8",
+  "content_length_header": null,
+  "bytes_written": 291910,
+  "sha256": "2377fed5dd4e83a175744fed19bec41f9fc5de5aa7087fb02bebaacd8f49929f"
+}

@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-03",
+  "scriptSyntax": "passed_ast_parse",
+  "uniqueBlindedSampleIds": 400,
+  "nativeSourceAndMetadataHashes": "all_match_provenance",
+  "panelCollections": [
+    { "date": "2026-04-26", "panels": 400, "sampleIdsMatchBlindedInput": true, "imageHashesMatch": true },
+    { "date": "2026-07-02", "panels": 400, "sampleIdsMatchBlindedInput": true, "imageHashesMatch": true },
+    { "date": "2026-09-02", "panels": 400, "sampleIdsMatchBlindedInput": true, "imageHashesMatch": true }
+  ],
+  "pilotImageDimensions": [2160, 1160],
+  "acceptedFractionLabels": 0,
+  "scope": "File integrity and preparation checks. Does not certify photointerpretation accuracy, temporal stability or positional adequacy."
+}

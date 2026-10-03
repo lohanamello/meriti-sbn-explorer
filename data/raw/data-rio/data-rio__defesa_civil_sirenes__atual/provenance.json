@@ -1,0 +1,19 @@
+{
+  "id": "data-rio__defesa_civil_sirenes__atual",
+  "source_name": "Sirenes da Defesa Civil",
+  "source_institution": "Defesa Civil Municipal / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Defesa_Civil/Defesa_Civil/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query_paginated",
+  "downloaded_at": "2026-05-17T19:24:01+00:00",
+  "started_at": "2026-05-17T19:23:58+00:00",
+  "duration_seconds": 3.527,
+  "stored_path": "data/raw/data-rio/data-rio__defesa_civil_sirenes__atual/defesa_civil_sirenes_arcgis_capture.json",
+  "stored_filename": "defesa_civil_sirenes_arcgis_capture.json",
+  "content_type": "application/json",
+  "bytes_written": 62782,
+  "sha256": "b460ab585541c8cdeba44fbf3adf193570cae8ee78c6e990ad08095263e6bd5b",
+  "object_id_field": "objectid",
+  "object_id_count": 163,
+  "batch_size": 500,
+  "batch_count": 1
+}

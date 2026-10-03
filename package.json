@@ -1,0 +1,53 @@
+{
+  "name": "meriti-nbs-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/prepare-meriti-web-assets.mjs",
+    "prebuild": "node scripts/prepare-meriti-web-assets.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "prepare:rio-boundary": "node scripts/prepare-rio-boundary.mjs",
+    "curate:phase2": "python scripts/curate/prepare_interim_sources.py && node scripts/curate/build_phase2_outputs.mjs && python scripts/curate/apply_phase2_decisions.py",
+    "validate:phase2": "node scripts/validate/validate_phase2_outputs.mjs",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "collect:meriti": ".venv\\Scripts\\python.exe scripts/meriti/collect.py",
+    "collect:meriti-environment": ".venv\\Scripts\\python.exe scripts/meriti/collect_environment.py",
+    "collect:meriti-vegetation": ".venv\\Scripts\\python.exe scripts/meriti/supplemental_sources.py --source all && .venv\\Scripts\\python.exe scripts/meriti/seasonality.py",
+    "test:meriti-sampling": ".venv\\Scripts\\python.exe -m unittest discover -s scripts/meriti -p test_validation_sampling.py",
+    "curate:meriti": ".venv\\Scripts\\python.exe scripts/meriti/curate.py && .venv\\Scripts\\python.exe scripts/meriti/satellite.py && .venv\\Scripts\\python.exe scripts/meriti/environment.py && .venv\\Scripts\\python.exe scripts/meriti/supplemental_sources.py --source all && .venv\\Scripts\\python.exe scripts/meriti/seasonality.py && .venv\\Scripts\\python.exe scripts/meriti/build.py",
+    "validate:meriti": ".venv\\Scripts\\python.exe scripts/meriti/validate.py"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "maplibre-gl": "^5.0.0",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@playwright/test": "^1.49.1",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^16.1.6",
+    "jsdom": "^25.0.1",
+    "playwright": "^1.49.1",
+    "polygon-clipping": "^0.15.7",
+    "proj4": "^2.20.8",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

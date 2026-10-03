@@ -1,0 +1,17 @@
+{
+  "id": "sinisa__saneamento_basico__2024_atual",
+  "source_name": "SINISA Saneamento Basico",
+  "source_institution": "SINISA / Ministerio das Cidades",
+  "source_url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/sinisa-1/sinisa",
+  "acquisition_route": "portal_download",
+  "downloaded_at": "2026-05-17T18:03:34+00:00",
+  "started_at": "2026-05-17T18:03:32+00:00",
+  "duration_seconds": 1.523,
+  "stored_path": "data/raw/sinisa/sinisa__saneamento_basico__2024_atual/sinisa_page.html",
+  "original_filename": "sinisa",
+  "stored_filename": "sinisa_page.html",
+  "content_type": "text/html;charset=utf-8",
+  "content_length_header": 169989,
+  "bytes_written": 169989,
+  "sha256": "376985c7768a8f626f4186f32fe09cd883a6e3a00579eedba2f457d2d69103a3"
+}

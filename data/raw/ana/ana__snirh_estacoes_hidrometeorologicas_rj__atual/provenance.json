@@ -1,0 +1,18 @@
+{
+  "id": "ana__snirh_estacoes_hidrometeorologicas_rj__atual",
+  "source_name": "Estacoes Hidrometeorologicas SNIRH - RJ",
+  "source_institution": "ANA / SNIRH",
+  "source_url": "https://portal1.snirh.gov.br/server/rest/services/Esta%C3%A7%C3%B5es_Hidrometeorol%C3%B3gicas_SNIRH/FeatureServer/0/query?where=UF%3D%27RJ%27&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query",
+  "downloaded_at": "2026-05-17T19:14:56+00:00",
+  "started_at": "2026-05-17T19:14:55+00:00",
+  "duration_seconds": 0.643,
+  "stored_path": "data/raw/ana/ana__snirh_estacoes_hidrometeorologicas_rj__atual/snirh_estacoes_hidrometeorologicas_rj.json",
+  "original_filename": "query",
+  "stored_filename": "snirh_estacoes_hidrometeorologicas_rj.json",
+  "content_type": "application/json; charset=UTF-8",
+  "content_encoding": null,
+  "content_length_header": 153,
+  "bytes_written": 153,
+  "sha256": "2d428af21d94c7166439fa5de1aeaf405b1dc7a7b30a34b7437e16ae1566dd88"
+}

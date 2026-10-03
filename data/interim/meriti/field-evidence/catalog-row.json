@@ -1,0 +1,22 @@
+{
+  "id": "ibge__entorno_arborizacao__2022",
+  "source_name": "Censo 2022, arborização observada no entorno dos domicílios",
+  "source_institution": "IBGE",
+  "source_url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/",
+  "acquisition_route": "direct_download",
+  "access_status": "public",
+  "license": "Downloads públicos do IBGE; atribuição ao IBGE. Os arquivos não declaram licença Creative Commons específica.",
+  "spatial_coverage": "São João de Meriti; arquivos originais nacionais",
+  "spatial_resolution": "Setores, bairros, distritos e município do IBGE",
+  "temporal_coverage": "Coleta de 20/06/2022 a 28/05/2023; divulgação em 17/04/2025",
+  "format": "CSV em ZIP; dicionários XLSX; metodologia PDF",
+  "crs": "Estatísticas sem geometria; junção à malha IBGE por código",
+  "evidence_family": "Arborização urbana observada em campo",
+  "potential_use": "Corroborar presença histórica de árvores e mostrar moradores ou faces com arborização por território.",
+  "known_limitations": "Não mede área de copas nem toda vegetação viva. Não valida pixels de 2026. X e setores sem registro permanecem nulos. Percentuais usam universos distintos.",
+  "raw_storage_path": "data/raw/meriti/ibge__entorno_arborizacao__2022",
+  "collection_status": "downloaded",
+  "promotion_status": "not_reviewed",
+  "collected_at": "2026-10-03T17:01:39+00:00",
+  "notes": "806 de 809 setores com faces publicadas; 761 com ao menos uma face com árvores. Moradores/domicílios suprimidos em um setor. Ver metodologia e proveniência."
+}

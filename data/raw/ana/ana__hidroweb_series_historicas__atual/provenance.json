@@ -1,0 +1,17 @@
+{
+  "id": "ana__hidroweb_series_historicas__atual",
+  "source_name": "HidroWeb Series Historicas",
+  "source_institution": "ANA / SNIRH",
+  "source_url": "https://www.snirh.gov.br/hidroweb/",
+  "acquisition_route": "portal_or_api",
+  "downloaded_at": "2026-05-17T18:02:45+00:00",
+  "started_at": "2026-05-17T18:02:45+00:00",
+  "duration_seconds": 0.591,
+  "stored_path": "data/raw/ana/ana__hidroweb_series_historicas__atual/ana_hidroweb.html",
+  "original_filename": "hidroweb",
+  "stored_filename": "ana_hidroweb.html",
+  "content_type": "text/html",
+  "content_length_header": 3122,
+  "bytes_written": 3122,
+  "sha256": "5c311378dc90d5d8fd111f5bba5272cf26d29b2acb9e713cc299e350e8a41130"
+}

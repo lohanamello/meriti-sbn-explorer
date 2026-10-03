@@ -1,0 +1,19 @@
+{
+  "id": "mapbiomas__cobertura_uso_solo_10m_tif__2023",
+  "source_name": "Cobertura e Uso da Terra 10m - Colecao 2 beta 2023",
+  "source_institution": "MapBiomas",
+  "source_url": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+  "acquisition_route": "direct_download",
+  "downloaded_at": "2026-05-17T18:46:28+00:00",
+  "started_at": "2026-05-17T18:43:31+00:00",
+  "duration_seconds": 181.416,
+  "stored_path": "data/raw/mapbiomas/mapbiomas__cobertura_uso_solo_10m_tif__2023/mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+  "original_filename": "mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+  "stored_filename": "mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+  "content_type": "image/tiff",
+  "content_encoding": null,
+  "content_length_header": 5499290793,
+  "bytes_written": 5499290793,
+  "sha256": "08730f0ae409ce8e8b92ddf4b1351ea3b0bc39bbf4106c7189c7043f48a0000c",
+  "resumable": true
+}

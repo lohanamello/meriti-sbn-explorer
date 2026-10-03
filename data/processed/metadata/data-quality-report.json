@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "phase2.quality.v1",
+  "generatedAt": "2026-05-17T22:37:36.162Z",
+  "sourceFeatureCounts": {
+    "planningAreas": 5,
+    "administrativeRegions": 33,
+    "neighborhoods": 166,
+    "hydrology": 3663,
+    "subBasins": 55,
+    "plazas": 4072,
+    "protectedAreas": 94,
+    "schools": 1590,
+    "health": 176,
+    "civilDefenseSirens": 163,
+    "civilDefenseSupportPoints": 189,
+    "civilDefenseNupdec": 44,
+    "civilDefenseShelters": 12,
+    "alertaRioStations": 33
+  },
+  "territorialUnits": {
+    "planningAreas": 5,
+    "administrativeRegions": 33,
+    "neighborhoods": 166,
+    "ap3Neighborhoods": 81
+  },
+  "censusJoin": {
+    "neighborhoodsWithCensusMetrics": 162,
+    "neighborhoodsWithoutCensusMetrics": [
+      "Ilha de Guaratiba",
+      "Barra Olímpica",
+      "Argentino",
+      "Jabour"
+    ]
+  },
+  "scoreCoverage": {
+    "scoredNeighborhoods": 166,
+    "ap3ScoredNeighborhoods": 81
+  },
+  "temporalEvidence": {
+    "hasTemporalEvidence": true,
+    "timelineReady": false,
+    "temporalCoverage": "1995-2022",
+    "limitation": "O SNIS é promovido apenas como contexto de saneamento; ele é intencionalmente excluído da pontuação por bairro."
+  },
+  "limitations": [
+    "Dados raster de cobertura do solo do MapBiomas foram diferidos até haver um pipeline reprodutível de estatística zonal raster.",
+    "SINISA, INEA, IDE.RJ, séries temporais ANA, OSM e alguns produtos de referência SGB permanecem visíveis no catálogo, mas não entram na primeira pontuação.",
+    "A alocação dos polígonos SGB usa centróides; isso é aceitável para triagem, mas não para quantificação de perigo com precisão de limite.",
+    "A pontuação usa área de praças públicas como proxy de déficit de áreas verdes, não cobertura vegetal completa."
+  ]
+}

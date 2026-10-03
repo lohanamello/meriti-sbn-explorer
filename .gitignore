@@ -1,0 +1,46 @@
+# Phase 1 raw source files can be large and should stay local by default.
+data/raw/**
+!data/raw/
+!data/raw/**/
+!data/raw/**/.gitkeep
+!data/raw/**/README.md
+!data/raw/**/provenance.json
+
+# Local runtime artifacts.
+*.part
+*.log
+.codex-*.log
+__pycache__/
+*.py[cod]
+
+# Web app runtime artifacts.
+node_modules/
+.venv/
+.next/
+out/
+coverage/
+test-results/
+playwright-report/
+.playwright-browsers/
+.pip-cache/
+*.tsbuildinfo
+public/meriti/evidence/
+public/meriti/validation/
+
+# Local atlas extraction and visual inspection products.
+data/interim/meriti/municipal-neighborhoods/*.png
+data/interim/meriti/municipal-neighborhoods/*.jpg
+data/interim/meriti/municipal-neighborhoods/*.txt
+data/interim/meriti/municipal-neighborhoods/pixel-components.geojson
+
+# Local recovery and installation artifacts.
+.npm-cache/
+*.download-*
+.env
+.env.*
+!.env.example
+
+# Vercel local project link (not source code).
+.vercel/
+.vercel
+.env*

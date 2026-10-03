@@ -1,0 +1,20 @@
+{
+  "matchedNeighborhoodRows": 162,
+  "neighborhoodRows": 166,
+  "notes": [
+    "Census sectors are aggregated by IBGE NM_BAIRRO after conservative name normalization.",
+    "Freguesia (Ilha do Governador), Oswaldo Cruz, and Sao Cristovao are harmonized to municipal names used by Data.Rio.",
+    "Neighborhoods with no Census 2022 name match are kept with null census metrics rather than imputed."
+  ],
+  "officialAreaKm2": 1204.150798,
+  "officialNeighborhoodsWithoutCensusNameMatch": [
+    "Argentino",
+    "Barra Olímpica",
+    "Ilha de Guaratiba",
+    "Jabour"
+  ],
+  "populationTotalMatched": 6229245,
+  "rioMunicipalityCode": "3304557",
+  "source": "data/raw/ibge/ibge__setores_censitarios_agregados_rj__2022/RJ_setores_CD2022_agregados.gpkg",
+  "unmatchedCensusNeighborhoodNames": []
+}

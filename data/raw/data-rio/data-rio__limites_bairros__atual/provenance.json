@@ -1,0 +1,17 @@
+{
+  "id": "data-rio__limites_bairros__atual",
+  "source_name": "Limite de Bairros",
+  "source_institution": "Instituto Pereira Passos / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Cartografia/Limites_administrativos/FeatureServer/4/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query",
+  "downloaded_at": "2026-05-17T17:37:30+00:00",
+  "started_at": "2026-05-17T17:37:29+00:00",
+  "duration_seconds": 0.425,
+  "stored_path": "data/raw/data-rio/data-rio__limites_bairros__atual/limites_bairros.json",
+  "original_filename": "query",
+  "stored_filename": "limites_bairros.json",
+  "content_type": "application/json; charset=UTF-8",
+  "content_length_header": null,
+  "bytes_written": 3943415,
+  "sha256": "264906655e2312d4b100884acbbb184cbf7c664e3a3d131ad439ead0e22c4c02"
+}

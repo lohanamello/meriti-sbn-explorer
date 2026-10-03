@@ -1,0 +1,6 @@
+data/catalog/meriti/** -text
+data/raw/meriti/** -text
+data/interim/meriti/** -text
+data/processed/meriti/** -text
+
+data/** -text

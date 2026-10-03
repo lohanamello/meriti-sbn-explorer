@@ -1,0 +1,510 @@
+{
+  "type": "FeatureCollection",
+  "links": [],
+  "context": {
+    "matched": 5,
+    "returned": 5
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260902_198_142",
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -43.795814,
+              -23.559347
+            ],
+            [
+              -43.795814,
+              -22.480108
+            ],
+            [
+              -42.659315,
+              -22.480108
+            ],
+            [
+              -42.659315,
+              -23.559347
+            ],
+            [
+              -43.795814,
+              -23.559347
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260902_198_142",
+          "rel": "self"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "parent"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "collection"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/",
+          "rel": "root"
+        }
+      ],
+      "bbox": [
+        -43.780582,
+        -23.515271,
+        -42.681555,
+        -22.524945
+      ],
+      "assets": {
+        "tci": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/9/CBERS4A_WPM_PCA_RGB321_20260902_198_142.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-09-03T23:36:30",
+          "updated": "2026-09-03T23:36:52",
+          "bdc:size": 4223266963,
+          "bdc:chunk_size": {
+            "x": 512,
+            "y": 512
+          },
+          "bdc:raster_size": {
+            "x": 57538,
+            "y": 59072
+          },
+          "checksum:multihash": "1220073b4bc5d3a7fabaf172e672ab79b480873648945f0c6ede55f04b273cd01ee9"
+        },
+        "thumbnail": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/9/CBERS4A_WPM_PCA_RGB321_20260902_198_142.png",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ],
+          "created": "2026-09-03T23:36:52",
+          "updated": "2026-09-03T23:36:52",
+          "bdc:size": 284061,
+          "checksum:multihash": "122009f59833f5cee892959eb5f483845ec384f46dbc7657359753ff0355b56843ef"
+        }
+      },
+      "properties": {
+        "datetime": "2026-09-02T00:00:00.000000Z",
+        "start_datetime": "2026-09-02T00:00:00.000000Z",
+        "end_datetime": "2026-09-02T00:00:00.000000Z",
+        "created": "2026-09-03T23:36:52.668786Z",
+        "updated": "2026-09-03T23:36:52.667213Z",
+        "eo:cloud_cover": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260426_199_142",
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -44.135292,
+              -23.555807
+            ],
+            [
+              -44.135292,
+              -22.483927
+            ],
+            [
+              -43.006548,
+              -22.483927
+            ],
+            [
+              -43.006548,
+              -23.555807
+            ],
+            [
+              -44.135292,
+              -23.555807
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260426_199_142",
+          "rel": "self"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "parent"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "collection"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/",
+          "rel": "root"
+        }
+      ],
+      "bbox": [
+        -44.122163,
+        -23.513704,
+        -43.026629,
+        -22.526843
+      ],
+      "assets": {
+        "tci": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/199/142/2026/4/CBERS4A_WPM_PCA_RGB321_20260426_199_142.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-04-27T16:19:10",
+          "updated": "2026-04-27T16:19:25",
+          "bdc:size": 2443760757,
+          "bdc:chunk_size": {
+            "x": 512,
+            "y": 512
+          },
+          "bdc:raster_size": {
+            "x": 57272,
+            "y": 58792
+          },
+          "checksum:multihash": "12206400a95abb34a968e238f4520db5278210189128059ea8a1aeac3981ddf15b48"
+        },
+        "thumbnail": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/199/142/2026/4/CBERS4A_WPM_PCA_RGB321_20260426_199_142.png",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ],
+          "created": "2026-04-27T16:19:25",
+          "updated": "2026-04-27T16:19:25",
+          "bdc:size": 190649,
+          "checksum:multihash": "12205a9d87df0831ed7d5ae09a16fe01878d6606581e7a13c0b69d570a9948fc60cb"
+        }
+      },
+      "properties": {
+        "datetime": "2026-04-26T00:00:00.000000Z",
+        "start_datetime": "2026-04-26T00:00:00.000000Z",
+        "end_datetime": "2026-04-26T00:00:00.000000Z",
+        "created": "2026-04-27T16:19:25.955318Z",
+        "updated": "2026-04-27T16:19:25.953353Z",
+        "eo:cloud_cover": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260331_198_142",
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -43.411035,
+              -23.559702
+            ],
+            [
+              -43.411035,
+              -22.480116
+            ],
+            [
+              -42.273789,
+              -22.480116
+            ],
+            [
+              -42.273789,
+              -23.559702
+            ],
+            [
+              -43.411035,
+              -23.559702
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260331_198_142",
+          "rel": "self"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "parent"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "collection"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/",
+          "rel": "root"
+        }
+      ],
+      "bbox": [
+        -43.393484,
+        -23.513383,
+        -42.298363,
+        -22.527057
+      ],
+      "assets": {
+        "tci": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/3/CBERS4A_WPM_PCA_RGB321_20260331_198_142.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-04-01T14:29:19",
+          "updated": "2026-04-01T14:29:36",
+          "bdc:size": 3910021389,
+          "bdc:chunk_size": {
+            "x": 512,
+            "y": 512
+          },
+          "bdc:raster_size": {
+            "x": 57436,
+            "y": 58955
+          },
+          "checksum:multihash": "12205128205e1d688d2313c77001bf777419124171aee1c7e3f0137e49ba66d11c29"
+        },
+        "thumbnail": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/3/CBERS4A_WPM_PCA_RGB321_20260331_198_142.png",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ],
+          "created": "2026-04-01T14:29:35",
+          "updated": "2026-04-01T14:29:36",
+          "bdc:size": 250183,
+          "checksum:multihash": "1220a7bbe53360bb1db4b6ce306db743f16aaf89dfba6e80254bc234aa7f4dda7338"
+        }
+      },
+      "properties": {
+        "datetime": "2026-03-31T00:00:00.000000Z",
+        "start_datetime": "2026-03-31T00:00:00.000000Z",
+        "end_datetime": "2026-03-31T00:00:00.000000Z",
+        "created": "2026-04-01T14:29:36.004392Z",
+        "updated": "2026-04-01T14:29:36.002455Z",
+        "eo:cloud_cover": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260223_198_142",
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -43.910639,
+              -23.554934
+            ],
+            [
+              -43.910639,
+              -22.485072
+            ],
+            [
+              -42.783913,
+              -22.485072
+            ],
+            [
+              -42.783913,
+              -23.554934
+            ],
+            [
+              -43.910639,
+              -23.554934
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260223_198_142",
+          "rel": "self"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "parent"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "collection"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/",
+          "rel": "root"
+        }
+      ],
+      "bbox": [
+        -43.896158,
+        -23.511614,
+        -42.805316,
+        -22.529139
+      ],
+      "assets": {
+        "tci": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/2/CBERS4A_WPM_PCA_RGB321_20260223_198_142.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-02-24T13:33:54",
+          "updated": "2026-02-24T13:34:21",
+          "bdc:size": 4211287839,
+          "bdc:chunk_size": {
+            "x": 512,
+            "y": 512
+          },
+          "bdc:raster_size": {
+            "x": 57087,
+            "y": 58601
+          },
+          "checksum:multihash": "12208016a6de29705e052ef8104e50734ae9cd1ab0f492b59560fa3367e4b55c6019"
+        },
+        "thumbnail": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/2/CBERS4A_WPM_PCA_RGB321_20260223_198_142.png",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ],
+          "created": "2026-02-24T13:34:19",
+          "updated": "2026-02-24T13:34:21",
+          "bdc:size": 276472,
+          "checksum:multihash": "12209f12d3fba7876ae81ad6e5c3902b217ada1dbad994c56e21a93b2857f611fec5"
+        }
+      },
+      "properties": {
+        "datetime": "2026-02-23T00:00:00.000000Z",
+        "start_datetime": "2026-02-23T00:00:00.000000Z",
+        "end_datetime": "2026-02-23T00:00:00.000000Z",
+        "created": "2026-02-24T13:34:21.765829Z",
+        "updated": "2026-02-24T13:34:21.761991Z",
+        "eo:cloud_cover": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260128_198_142",
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -43.373509,
+              -23.559073
+            ],
+            [
+              -43.373509,
+              -22.48068
+            ],
+            [
+              -42.237429,
+              -22.48068
+            ],
+            [
+              -42.237429,
+              -23.559073
+            ],
+            [
+              -43.373509,
+              -23.559073
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260128_198_142",
+          "rel": "self"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "parent"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1",
+          "rel": "collection"
+        },
+        {
+          "href": "https://data.inpe.br/bdc/stac/v1/",
+          "rel": "root"
+        }
+      ],
+      "bbox": [
+        -43.355743,
+        -23.512547,
+        -42.262199,
+        -22.527817
+      ],
+      "assets": {
+        "tci": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/1/CBERS4A_WPM_PCA_RGB321_20260128_198_142.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "created": "2026-01-29T12:55:12",
+          "updated": "2026-01-29T12:55:33",
+          "bdc:size": 4110345568,
+          "bdc:chunk_size": {
+            "x": 512,
+            "y": 512
+          },
+          "bdc:raster_size": {
+            "x": 57364,
+            "y": 58877
+          },
+          "checksum:multihash": "122021100f24d9f91bd7103551d948e5fcf20eafa75063b1039ff93ebd4b960ce4af"
+        },
+        "thumbnail": {
+          "href": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/1/CBERS4A_WPM_PCA_RGB321_20260128_198_142.png",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ],
+          "created": "2026-01-29T12:55:33",
+          "updated": "2026-01-29T12:55:33",
+          "bdc:size": 209122,
+          "checksum:multihash": "1220ab6c9c2feeef938575b97407c046f9c0742b15330f05ee5ce8c772dca080397c"
+        }
+      },
+      "properties": {
+        "datetime": "2026-01-28T00:00:00.000000Z",
+        "start_datetime": "2026-01-28T00:00:00.000000Z",
+        "end_datetime": "2026-01-28T00:00:00.000000Z",
+        "created": "2026-01-29T12:55:33.255182Z",
+        "updated": "2026-01-29T12:55:33.253068Z",
+        "eo:cloud_cover": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "itemId": "CBERS4A_WPM_PCA_RGB321_20260902_198_142",
+  "date": "2026-09-02T00:00:00.000000Z",
+  "url": "https://data.inpe.br/bdc/data/CB4A-WPM-PCA-FUSED/v001/198/142/2026/9/CBERS4A_WPM_PCA_RGB321_20260902_198_142.tif",
+  "retrievedAt": "2026-10-03T16:49:10+00:00",
+  "operation": "Native values cropped by HTTP range. No cloud screening or enhancement.",
+  "sha256": "5eb5025247ce7b1937d2f5f54b10b4d30252a607aba2894968912041148451cd",
+  "resolution": [
+    2.0,
+    2.0
+  ],
+  "crs": "EPSG:32723",
+  "bounds": [
+    663036.6919560721,
+    7475978.144810665,
+    671640.2460010868,
+    7482633.71922922
+  ],
+  "bytes": 26398861
+}

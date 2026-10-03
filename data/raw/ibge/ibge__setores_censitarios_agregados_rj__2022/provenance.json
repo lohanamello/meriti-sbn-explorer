@@ -1,0 +1,17 @@
+{
+  "id": "ibge__setores_censitarios_agregados_rj__2022",
+  "source_name": "Agregados por Setores Censitarios com Malha - RJ",
+  "source_institution": "IBGE",
+  "source_url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/malha_com_atributos/setores/gpkg/UF/RJ/RJ_setores_CD2022.gpkg",
+  "acquisition_route": "direct_download",
+  "downloaded_at": "2026-05-17T17:44:52+00:00",
+  "started_at": "2026-05-17T17:44:49+00:00",
+  "duration_seconds": 2.37,
+  "stored_path": "data/raw/ibge/ibge__setores_censitarios_agregados_rj__2022/RJ_setores_CD2022_agregados.gpkg",
+  "original_filename": "RJ_setores_CD2022.gpkg",
+  "stored_filename": "RJ_setores_CD2022_agregados.gpkg",
+  "content_type": null,
+  "content_length_header": 75198464,
+  "bytes_written": 75198464,
+  "sha256": "ec6cecdc0297d1b79e25e2772f531cad5c99ac57bc3ac1b30fb08418dc513222"
+}

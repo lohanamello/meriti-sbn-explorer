@@ -1,0 +1,16 @@
+{
+  "id": "academic__cem_setores_rm_rio_zip__2022",
+  "source_name": "Setores Censitarios 2022 da Regiao Metropolitana do Rio de Janeiro - ZIP",
+  "source_institution": "CEM / USP",
+  "source_url": "https://drive.google.com/file/d/1scCSn-rR67DwtB8UfAYWZvYTxzpM6s3C/view?usp=drive_link",
+  "acquisition_route": "google_drive_public_download",
+  "downloaded_at": "2026-05-17T18:06:33+00:00",
+  "started_at": "2026-05-17T18:06:28+00:00",
+  "duration_seconds": 5.076,
+  "stored_path": "data/raw/academic/academic__cem_setores_rm_rio_zip__2022/SC2022_RMRIO_CEM_V1.zip",
+  "stored_filename": "SC2022_RMRIO_CEM_V1.zip",
+  "content_type": "application/octet-stream",
+  "content_length_header": 46287985,
+  "bytes_written": 46287985,
+  "sha256": "fe7ab84158c75e6333429df446bdfb0a9632353c5f1e9e8a953e6252ed8a3862"
+}

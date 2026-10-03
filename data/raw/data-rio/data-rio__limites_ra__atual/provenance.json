@@ -1,0 +1,17 @@
+{
+  "id": "data-rio__limites_ra__atual",
+  "source_name": "Limite Regioes Administrativas (RA)",
+  "source_institution": "Instituto Pereira Passos / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Cartografia/Limites_administrativos/FeatureServer/3/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query",
+  "downloaded_at": "2026-05-17T17:37:20+00:00",
+  "started_at": "2026-05-17T17:37:19+00:00",
+  "duration_seconds": 0.323,
+  "stored_path": "data/raw/data-rio/data-rio__limites_ra__atual/limites_ra.json",
+  "original_filename": "query",
+  "stored_filename": "limites_ra.json",
+  "content_type": "application/json; charset=UTF-8",
+  "content_length_header": null,
+  "bytes_written": 2723386,
+  "sha256": "6af6621be823f65dd18ae39960c65b8c963a505bd2d85bff57db7712e2c94dae"
+}

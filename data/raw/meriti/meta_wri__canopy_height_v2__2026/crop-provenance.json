@@ -1,0 +1,33 @@
+{
+  "sourceId": "meta_wri__canopy_height_v2__2026",
+  "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/2112000120.tif",
+  "tile": "2112000120",
+  "retrievedAt": "2026-10-03T05:04:28+00:00",
+  "sha256": "903c34ff2fd792a9c23476d91e30cacbc2c160a8c93d60adf57504092cffc663",
+  "operation": "Native-grid rectangular crop, unchanged digital numbers and source dataset mask.",
+  "crs": "EPSG:3857",
+  "resolution": [
+    1.1943285669558747,
+    1.1943285669558747
+  ],
+  "dtype": "uint8",
+  "units": "meters",
+  "sourceNodata": null,
+  "sourceMaskFlags": [
+    [
+      "MaskFlags.per_dataset"
+    ]
+  ],
+  "window": {
+    "colOffset": 16977,
+    "rowOffset": 16298,
+    "width": 7765,
+    "height": 6123
+  },
+  "cropBounds": [
+    -4832557.93568806,
+    -2609738.100612394,
+    -4823283.974365647,
+    -2602425.226796923
+  ]
+}

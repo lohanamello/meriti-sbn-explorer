@@ -1,0 +1,17 @@
+{
+  "id": "mapbiomas__cobertura_uso_solo_10m__colecao2_beta",
+  "source_name": "Cobertura e Uso da Terra 10m - Colecao 2 beta",
+  "source_institution": "MapBiomas",
+  "source_url": "https://brasil.mapbiomas.org/mapbiomas-cobertura-10m/",
+  "acquisition_route": "portal_download_or_google_earth_engine",
+  "downloaded_at": "2026-05-17T18:03:09+00:00",
+  "started_at": "2026-05-17T18:03:08+00:00",
+  "duration_seconds": 1.028,
+  "stored_path": "data/raw/mapbiomas/mapbiomas__cobertura_uso_solo_10m__colecao2_beta/mapbiomas_cobertura_10m.html",
+  "original_filename": "mapbiomas-cobertura-10m",
+  "stored_filename": "mapbiomas_cobertura_10m.html",
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_header": null,
+  "bytes_written": 137878,
+  "sha256": "a4f1ca45a21fd6474d5be54e80b46adbc994a249688839adfc17453affc61a30"
+}

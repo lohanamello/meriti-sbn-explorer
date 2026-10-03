@@ -1,0 +1,1528 @@
+{
+  "generatedAt": "2026-10-03T18:01:28+00:00",
+  "sources": [
+    {
+      "datasetId": "ibge__setores_censitarios_agregados_rj__2022",
+      "sourceUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/malha_com_atributos/setores/gpkg/UF/RJ/RJ_setores_CD2022.gpkg",
+      "rawProvenance": {
+        "id": "ibge__setores_censitarios_agregados_rj__2022",
+        "source_name": "Agregados por Setores Censitarios com Malha - RJ",
+        "source_institution": "IBGE",
+        "source_url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/malha_com_atributos/setores/gpkg/UF/RJ/RJ_setores_CD2022.gpkg",
+        "acquisition_route": "direct_download",
+        "downloaded_at": "2026-05-17T17:44:52+00:00",
+        "started_at": "2026-05-17T17:44:49+00:00",
+        "duration_seconds": 2.37,
+        "stored_path": "data/raw/ibge/ibge__setores_censitarios_agregados_rj__2022/RJ_setores_CD2022_agregados.gpkg",
+        "original_filename": "RJ_setores_CD2022.gpkg",
+        "stored_filename": "RJ_setores_CD2022_agregados.gpkg",
+        "content_type": null,
+        "content_length_header": 75198464,
+        "bytes_written": 75198464,
+        "sha256": "ec6cecdc0297d1b79e25e2772f531cad5c99ac57bc3ac1b30fb08418dc513222"
+      }
+    },
+    {
+      "datasetId": "mapbiomas__cobertura_uso_solo_10m_tif__2019",
+      "sourceUrl": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2019.tif",
+      "rawProvenance": {
+        "id": "mapbiomas__cobertura_uso_solo_10m_tif__2019",
+        "source_name": "Cobertura e Uso da Terra 10m - Colecao 2 beta 2019",
+        "source_institution": "MapBiomas",
+        "source_url": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2019.tif",
+        "acquisition_route": "direct_download",
+        "downloaded_at": "2026-05-17T18:59:58+00:00",
+        "started_at": "2026-05-17T18:57:02+00:00",
+        "duration_seconds": 181.84,
+        "stored_path": "data/raw/mapbiomas/mapbiomas__cobertura_uso_solo_10m_tif__2019/mapbiomas_10m_collection2_integration_v1-classification_2019.tif",
+        "original_filename": "mapbiomas_10m_collection2_integration_v1-classification_2019.tif",
+        "stored_filename": "mapbiomas_10m_collection2_integration_v1-classification_2019.tif",
+        "content_type": "image/tiff",
+        "content_encoding": null,
+        "content_length_header": 5386211531,
+        "bytes_written": 5386211531,
+        "sha256": "7ea50f6a18a3ed64ef249a96dc51cd0572d08093b40a4436cbd8ba7751f24424",
+        "resumable": true
+      }
+    },
+    {
+      "datasetId": "mapbiomas__cobertura_uso_solo_10m_tif__2020",
+      "sourceUrl": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2020.tif",
+      "rawProvenance": {
+        "id": "mapbiomas__cobertura_uso_solo_10m_tif__2020",
+        "source_name": "Cobertura e Uso da Terra 10m - Colecao 2 beta 2020",
+        "source_institution": "MapBiomas",
+        "source_url": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2020.tif",
+        "acquisition_route": "direct_download",
+        "downloaded_at": "2026-05-17T18:56:46+00:00",
+        "started_at": "2026-05-17T18:53:46+00:00",
+        "duration_seconds": 184.796,
+        "stored_path": "data/raw/mapbiomas/mapbiomas__cobertura_uso_solo_10m_tif__2020/mapbiomas_10m_collection2_integration_v1-classification_2020.tif",
+        "original_filename": "mapbiomas_10m_collection2_integration_v1-classification_2020.tif",
+        "stored_filename": "mapbiomas_10m_collection2_integration_v1-classification_2020.tif",
+        "content_type": "image/tiff",
+        "content_encoding": null,
+        "content_length_header": 5379993201,
+        "bytes_written": 5379993201,
+        "sha256": "cbb11dee906747f477dff827f8bb460e13202d3285bc6df43721ceb97ebe2dc9",
+        "resumable": true
+      }
+    },
+    {
+      "datasetId": "mapbiomas__cobertura_uso_solo_10m_tif__2021",
+      "sourceUrl": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2021.tif",
+      "rawProvenance": {
+        "id": "mapbiomas__cobertura_uso_solo_10m_tif__2021",
+        "source_name": "Cobertura e Uso da Terra 10m - Colecao 2 beta 2021",
+        "source_institution": "MapBiomas",
+        "source_url": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2021.tif",
+        "acquisition_route": "direct_download",
+        "downloaded_at": "2026-05-17T18:53:28+00:00",
+        "started_at": "2026-05-17T18:50:16+00:00",
+        "duration_seconds": 196.967,
+        "stored_path": "data/raw/mapbiomas/mapbiomas__cobertura_uso_solo_10m_tif__2021/mapbiomas_10m_collection2_integration_v1-classification_2021.tif",
+        "original_filename": "mapbiomas_10m_collection2_integration_v1-classification_2021.tif",
+        "stored_filename": "mapbiomas_10m_collection2_integration_v1-classification_2021.tif",
+        "content_type": "image/tiff",
+        "content_encoding": null,
+        "content_length_header": 5412817164,
+        "bytes_written": 5412817164,
+        "sha256": "e5bf1eb9bf232ad8dab60842982573b476b2f6a331b4b7f39078729b4fbc5a5e",
+        "resumable": true
+      }
+    },
+    {
+      "datasetId": "mapbiomas__cobertura_uso_solo_10m_tif__2022",
+      "sourceUrl": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2022.tif",
+      "rawProvenance": {
+        "id": "mapbiomas__cobertura_uso_solo_10m_tif__2022",
+        "source_name": "Cobertura e Uso da Terra 10m - Colecao 2 beta 2022",
+        "source_institution": "MapBiomas",
+        "source_url": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2022.tif",
+        "acquisition_route": "direct_download",
+        "downloaded_at": "2026-05-17T18:50:01+00:00",
+        "started_at": "2026-05-17T18:46:47+00:00",
+        "duration_seconds": 199.916,
+        "stored_path": "data/raw/mapbiomas/mapbiomas__cobertura_uso_solo_10m_tif__2022/mapbiomas_10m_collection2_integration_v1-classification_2022.tif",
+        "original_filename": "mapbiomas_10m_collection2_integration_v1-classification_2022.tif",
+        "stored_filename": "mapbiomas_10m_collection2_integration_v1-classification_2022.tif",
+        "content_type": "image/tiff",
+        "content_encoding": null,
+        "content_length_header": 5461395716,
+        "bytes_written": 5461395716,
+        "sha256": "71f81d291e66bb28a0f3647340d069ffa01d3dd147e1a6328152871822e5264f",
+        "resumable": true
+      }
+    },
+    {
+      "datasetId": "mapbiomas__cobertura_uso_solo_10m_tif__2023",
+      "sourceUrl": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+      "rawProvenance": {
+        "id": "mapbiomas__cobertura_uso_solo_10m_tif__2023",
+        "source_name": "Cobertura e Uso da Terra 10m - Colecao 2 beta 2023",
+        "source_institution": "MapBiomas",
+        "source_url": "https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection_2/integration/mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+        "acquisition_route": "direct_download",
+        "downloaded_at": "2026-05-17T18:46:28+00:00",
+        "started_at": "2026-05-17T18:43:31+00:00",
+        "duration_seconds": 181.416,
+        "stored_path": "data/raw/mapbiomas/mapbiomas__cobertura_uso_solo_10m_tif__2023/mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+        "original_filename": "mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+        "stored_filename": "mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+        "content_type": "image/tiff",
+        "content_encoding": null,
+        "content_length_header": 5499290793,
+        "bytes_written": 5499290793,
+        "sha256": "08730f0ae409ce8e8b92ddf4b1351ea3b0bc39bbf4106c7189c7043f48a0000c",
+        "resumable": true
+      }
+    },
+    {
+      "datasetId": "ibge__bairros_domicilios1__2022",
+      "sourceUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Bairro_csv/Agregados_por_bairros_caracteristicas_domicilio1_BR.zip",
+      "rawProvenance": {
+        "id": "ibge__bairros_domicilios1__2022",
+        "source_url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Bairro_csv/Agregados_por_bairros_caracteristicas_domicilio1_BR.zip",
+        "resolved_url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Bairro_csv/Agregados_por_bairros_caracteristicas_domicilio1_BR.zip",
+        "downloaded_at": "2026-10-03T03:05:30+00:00",
+        "stored_path": "data/raw/meriti/ibge__bairros_domicilios1__2022/domicilios1.zip",
+        "bytes_written": 1340156,
+        "sha256": "a020c3d29761cb10838ce7db90018c049515eeab400468fdab7ecf73e2d2517d",
+        "content_type": "application/zip"
+      }
+    },
+    {
+      "datasetId": "ibge__bairros_domicilios2__2022",
+      "sourceUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Bairro_csv/Agregados_por_bairros_caracteristicas_domicilio2_BR_20250417.zip",
+      "rawProvenance": {
+        "id": "ibge__bairros_domicilios2__2022",
+        "source_url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Bairro_csv/Agregados_por_bairros_caracteristicas_domicilio2_BR_20250417.zip",
+        "resolved_url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Bairro_csv/Agregados_por_bairros_caracteristicas_domicilio2_BR_20250417.zip",
+        "downloaded_at": "2026-10-03T03:05:30+00:00",
+        "stored_path": "data/raw/meriti/ibge__bairros_domicilios2__2022/domicilios2.zip",
+        "bytes_written": 4756303,
+        "sha256": "4a4f570003df6e9b549ca3c122713372b420cae251b5f7f0dfe8dacb5a7c186d",
+        "content_type": "application/zip"
+      }
+    },
+    {
+      "datasetId": "osm__meriti_bbox__snapshot",
+      "sourceUrl": "https://overpass-api.de/api/interpreter",
+      "rawProvenance": {
+        "id": "osm__meriti_bbox__snapshot",
+        "source_url": "https://overpass-api.de/api/interpreter",
+        "resolved_url": "https://overpass-api.de/api/interpreter",
+        "downloaded_at": "2026-10-03T03:05:37+00:00",
+        "stored_path": "data/raw/meriti/osm__meriti_bbox__snapshot/osm.json",
+        "bytes_written": 272842,
+        "sha256": "59d72fd90724c2b088a8935ed87dc63fad595751170875eddfb406a0641f619e",
+        "content_type": "application/json",
+        "query": "[out:json][timeout:60][bbox:-22.815,-43.411,-22.755,-43.329];(nwr[\"amenity\"~\"^(school|hospital|clinic|health_post|community_centre)$\"];nwr[\"leisure\"~\"^(park|garden|playground)$\"];way[\"waterway\"];);out geom;"
+      }
+    },
+    {
+      "datasetId": "sgb__meriti_sig__2015",
+      "sourceUrl": "https://rigeo.sgb.gov.br/bitstreams/c609802b-ba56-4438-8e0f-ed0416136bcf/download",
+      "rawProvenance": {
+        "id": "sgb__meriti_sig__2015",
+        "source_url": "https://rigeo.sgb.gov.br/bitstreams/c609802b-ba56-4438-8e0f-ed0416136bcf/download",
+        "resolved_url": "https://rigeo.sgb.gov.br/server/api/core/bitstreams/c609802b-ba56-4438-8e0f-ed0416136bcf/content",
+        "downloaded_at": "2026-10-03T03:00:22+00:00",
+        "stored_path": "data/raw/meriti/sgb__meriti_sig__2015/susceptibility.zip",
+        "bytes_written": 81489369,
+        "sha256": "d6b07ffb705ff2cdf4829cb369cfcd4a6d43753c7a07ee953367cec65da39f78",
+        "content_type": "aplication/zip;charset=UTF-8"
+      }
+    },
+    {
+      "datasetId": "copernicus__sentinel2_meriti__2026",
+      "sourceUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a",
+      "rawProvenance": {
+        "id": "copernicus__sentinel2_meriti__2026",
+        "source_url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a",
+        "downloaded_at": "2026-10-03T04:24:43+00:00",
+        "searchQuery": {
+          "collections": [
+            "sentinel-2-c1-l2a"
+          ],
+          "bbox": [
+            -43.411,
+            -22.815,
+            -43.329,
+            -22.755
+          ],
+          "datetime": "2025-01-01T00:00:00Z/2026-10-03T00:00:00Z",
+          "limit": 100,
+          "query": {
+            "eo:cloud_cover": {
+              "lt": 50
+            }
+          },
+          "sortby": [
+            {
+              "field": "properties.datetime",
+              "direction": "desc"
+            }
+          ]
+        },
+        "collection": "sentinel-2-c1-l2a",
+        "files": [
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/item.json",
+            "sha256": "0c637141d80aba5e12b5ed912e8e1a6887b97da95399e2f3e8d40ef42cbb1167",
+            "bytes": 26548
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/nir.json",
+            "sha256": "0dae15c8d99b850af86f8d4cd972865dc65a10968d5b7b3d1faa8bb59abd5b36",
+            "bytes": 1337
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/nir.tif",
+            "sha256": "66901b2208352d32efe65ad9eac1439d45915cac2bfbf6d958d0132bed49f7cc",
+            "bytes": 941879
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/red.json",
+            "sha256": "d71a6e3469aec7b52178b36c26e5d2a691ce826d39dd2e980974dd91279e2439",
+            "bytes": 1335
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/red.tif",
+            "sha256": "1e962dcdfb32713219159e09fb347c3ac1028ce89faf6bd53e648d94712b1091",
+            "bytes": 933471
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/scl.json",
+            "sha256": "d4635bacf006b749e3e4a52a286cc1d51d4b9dac4e94eb5daec35b32d2a70349",
+            "bytes": 1103
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2A_T23KPQ_20261001T130754_L2A/scl.tif",
+            "sha256": "18d0a9177f0fa0d009cf22c6b29e2bc8a689bab9fea93491b1e2811b315f805d",
+            "bytes": 12482
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/item.json",
+            "sha256": "ebec071deb717a1e9b73454c6c6052cd0e1d0db256f7321ffbb98e6c1720b7b0",
+            "bytes": 26521
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/nir.json",
+            "sha256": "ff9bad64bb7d6cf716acac908b33253d670c1f3d807268f429d1aff2206f9b0b",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/nir.tif",
+            "sha256": "72c0d24e634cddcb30e324292fb618f74420c03af28f0d43dd13fbd3d8bb14bd",
+            "bytes": 932781
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/red.json",
+            "sha256": "3187c0e77f47bda175191e30e16052c0751b1429f36ac8cac2bee2fcf08ae3fc",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/red.tif",
+            "sha256": "f50b3dc92b4dedeec9002ef2398424cab3d9f5762c9bcb2e43b646d64a2053a0",
+            "bytes": 920245
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/scl.json",
+            "sha256": "1d6483b3832defa8457ab60a3573e1fa4654957ad82ba6ed78e007c8fccfa7d7",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/scl.tif",
+            "sha256": "f946e1dd1b1747d05220a19faba49ed98e55ce0002354948349568865d26a803",
+            "bytes": 10785
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/visual.json",
+            "sha256": "76ab0f1a56b8c5f761c2e2b54b5d264834eca376fa7f64bc0ddeacc56055a8d3",
+            "bytes": 1780
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260805T130245_L2A/visual.tif",
+            "sha256": "658b559862e84b50da831561daf815bafccbab66d50bfaa74df71d7d53248821",
+            "bytes": 1565613
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/item.json",
+            "sha256": "e488d49c1fdbfdaaa1921e3b8ac911ce68b4ecb7b0daf7d97af1ff4a1d23c14e",
+            "bytes": 26521
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/nir.json",
+            "sha256": "f8d0f9a28b6227ae5872e338a25d40ee5796e759d2b96c9e78ae6cbaa07ffb09",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/nir.tif",
+            "sha256": "e8850a933a7fdb34962a25ff246a9987c45a863c5cdabd2d02d91a18c4b01fca",
+            "bytes": 934894
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/red.json",
+            "sha256": "23086ab9f5439167cf73e7004e4dac4c51e239bf306f441d9fdeabfe2321b550",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/red.tif",
+            "sha256": "ba8a23953c467ca4ed9fbb84c1589bccd563d1252ff5423fd6e708cc779852d5",
+            "bytes": 924352
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/scl.json",
+            "sha256": "04b178acabb1b389bb8ea5a4950eadccc441045db8177f70d03d215dbc7c7992",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2B_T23KPQ_20260904T130307_L2A/scl.tif",
+            "sha256": "7289770c2755d669a90b9df5f3e699a0d3940d68ec6bc2b373029c16dd307b3a",
+            "bytes": 13187
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260820T130311_L2A/item.json",
+            "sha256": "8b54c0d1a4ca01e77ef579a25d03bd7c9bdf78f683b39e51e86610320191f938",
+            "bytes": 26528
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260820T130311_L2A/scl.json",
+            "sha256": "b517f1d27f65a1768eb8258d8f38b5ef88d3e565032e5bbe9424c72395471b12",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260820T130311_L2A/scl.tif",
+            "sha256": "67277bb64a4828bf35c7d9aad67ed6465f0b375538088558cab49459591b37b3",
+            "bytes": 12433
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/item.json",
+            "sha256": "575a7f4a920b23cd48140fc824eda8b3fe2a46eb763d58af4d574afffc41d3ed",
+            "bytes": 26527
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/nir.json",
+            "sha256": "b2ff3eb23215be537fb0510ff286045e194f940825437305f5a9435a2427bdd9",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/nir.tif",
+            "sha256": "e52570b9f895b66666cdd93f5c0b569f0249257e7f96e53acd8d13f9e0debda4",
+            "bytes": 935081
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/red.json",
+            "sha256": "c9ecb3c57b3f6fd55d8fa9bc4ef876326a0ca204e2cd4db43ab3a17b82200576",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/red.tif",
+            "sha256": "11a15fcb33f46e39447edc76c52f37f0280a8d7d1a6c40d927334d3e0266291b",
+            "bytes": 926542
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/scl.json",
+            "sha256": "ec8619391d6c00d431805779629783cb3edffc6b6d375626b5b90385bda1b591",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260830T130330_L2A/scl.tif",
+            "sha256": "eb12d5264b2dbaa1ebc5d675139d236c28c4a744b58d90391a2f3caa44318141",
+            "bytes": 8505
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/item.json",
+            "sha256": "0aeb9e83a506f1543866e61ee2e2ead2cb2d11456e33fb8c539ebc9279dbd22d",
+            "bytes": 26528
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/nir.json",
+            "sha256": "699862ac38e618c00e021ae0554482230a260992fae0297121a3fc5e1a1ffb7e",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/nir.tif",
+            "sha256": "afe7b3578e3763742318c3e93a714c84596ca921d239c13a93258775ca1c8b94",
+            "bytes": 936207
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/red.json",
+            "sha256": "a3d10e3e9ebdf3cc9a66ef92d072a19402f0b309ffbd4e54c374d0d1ef53d45d",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/red.tif",
+            "sha256": "e1e0305c7916ac23daf57e0c4750b4308b595c75c0ef2cc4734d2207260bea1e",
+            "bytes": 926642
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/scl.json",
+            "sha256": "494458cf8738cd12467a696fab974937da7900fea1c4d8ed6d5936e9aa891e6d",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260919T130636_L2A/scl.tif",
+            "sha256": "808bec438f266093922f0803f2cca9a5c60c6dc3660ddf7283cd22575a0a71ec",
+            "bytes": 13766
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/item.json",
+            "sha256": "a76ad67e72e19149e07a70dea4e6f6cb252e36aebd99fec69e12db6ae51fe1c2",
+            "bytes": 26528
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/nir.json",
+            "sha256": "72a64c27c4832fe87d69e3c286e660dcc5b9778a51a7552b12df2a8243e053c9",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/nir.tif",
+            "sha256": "b30d7b415f3942c754eb13b190f711f9c2f4dd98c26a53cb87e81576693df38a",
+            "bytes": 928530
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/red.json",
+            "sha256": "50406dc80c8a942f8b3ade636ee3c63e7e6b2969ee6bf091bca3b5b0ce91b05b",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/red.tif",
+            "sha256": "a714acea558992cf274b7b48473e610fdb67e5dc492a780eaeb7300bf356c8f0",
+            "bytes": 917148
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/scl.json",
+            "sha256": "475d0bcd7682107a07ba09ff9d29fd35e48d6d95f559fd71085061e41af48757",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti__2026/S2C_T23KPQ_20260929T130246_L2A/scl.tif",
+            "sha256": "21f067419c4233adb3c16857699458bf9dc8ec1f9d549c633484dc0e81eb2a56",
+            "bytes": 11463
+          }
+        ]
+      }
+    },
+    {
+      "datasetId": "inea__ucs_municipais__2024_icms2025",
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+      "rawProvenance": {
+        "source_id": "inea__ucs_municipais__2024_icms2025",
+        "source_url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+        "query_url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11/query?where=1%3D1&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false",
+        "query_parameters": {
+          "where": "1=1",
+          "geometry": "-43.425,-22.83,-43.315,-22.74",
+          "geometryType": "esriGeometryEnvelope",
+          "inSR": "4326",
+          "spatialRel": "esriSpatialRelIntersects",
+          "outFields": "*",
+          "f": "geojson",
+          "outSR": "4326",
+          "returnZ": "false",
+          "returnM": "false"
+        },
+        "retrieved_at": "2026-10-03T04:07:21.676606+00:00",
+        "files": [
+          {
+            "path": "features.geojson",
+            "sha256": "38a54c906952021fc3ecbe2b4f881c86e48d53bdaa0ab1f4bba1e1fad553175a",
+            "size_bytes": 45684,
+            "url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11/query?where=1%3D1&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false"
+          },
+          {
+            "path": "layer-metadata.json",
+            "sha256": "8782d91032a77171197b3656933e0b4d66e29ad8d2ed23b15ef5c850219498c2",
+            "size_bytes": 9370,
+            "url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11?f=json"
+          }
+        ],
+        "feature_count": 12,
+        "note": "First query with municipality LIKE Meriti returned zero; spatial query used instead. Original response preserved.",
+        "license": "Public governmental geodata; layer metadata does not state a reuse license."
+      }
+    },
+    {
+      "datasetId": "inea__hidrografia_bc25__consulta2026",
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/84",
+      "rawProvenance": {
+        "source_id": "inea__hidrografia_bc25__consulta2026",
+        "source_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/84",
+        "query_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/84/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects",
+        "query_parameters": {
+          "where": "1=1",
+          "outFields": "*",
+          "f": "geojson",
+          "outSR": "4326",
+          "returnZ": "false",
+          "returnM": "false",
+          "resultRecordCount": 2000,
+          "geometry": "-43.425,-22.83,-43.315,-22.74",
+          "geometryType": "esriGeometryEnvelope",
+          "inSR": "4326",
+          "spatialRel": "esriSpatialRelIntersects"
+        },
+        "retrieved_at": "2026-10-03T04:06:41.824391+00:00",
+        "files": [
+          {
+            "path": "features.geojson",
+            "sha256": "e604709a789a9c8356419271071d87754a92f1727cddaca9906e1f574ea8e7b4",
+            "size_bytes": 263074,
+            "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/84/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects"
+          },
+          {
+            "path": "layer-metadata.json",
+            "sha256": "fea9ee5c7067f8bbc25cc93cb76e73a017fd291613fa02b7a28bcc24989fec4b",
+            "size_bytes": 9940,
+            "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/84?f=json"
+          }
+        ],
+        "feature_count": 197,
+        "license": "Publicly accessible governmental geodata; layer does not state an explicit reuse license."
+      }
+    },
+    {
+      "datasetId": "inea__canal_bc25__consulta2026",
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/89",
+      "rawProvenance": {
+        "source_id": "inea__canal_bc25__consulta2026",
+        "source_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/89",
+        "query_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/89/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects",
+        "query_parameters": {
+          "where": "1=1",
+          "outFields": "*",
+          "f": "geojson",
+          "outSR": "4326",
+          "returnZ": "false",
+          "returnM": "false",
+          "resultRecordCount": 2000,
+          "geometry": "-43.425,-22.83,-43.315,-22.74",
+          "geometryType": "esriGeometryEnvelope",
+          "inSR": "4326",
+          "spatialRel": "esriSpatialRelIntersects"
+        },
+        "retrieved_at": "2026-10-03T04:06:48.963732+00:00",
+        "files": [
+          {
+            "path": "features.geojson",
+            "sha256": "137ea323a99f152ade058fa6e99e0d52cc3754b80bf33d880b2a61920733ba1a",
+            "size_bytes": 32660,
+            "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/89/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects"
+          },
+          {
+            "path": "layer-metadata.json",
+            "sha256": "d1e58af1224fc4a87165ac1b484f7c1eafe4da1d1d39e68361783e92622b3349",
+            "size_bytes": 10134,
+            "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/89?f=json"
+          }
+        ],
+        "feature_count": 26,
+        "license": "Publicly accessible governmental geodata; layer does not state an explicit reuse license."
+      }
+    },
+    {
+      "datasetId": "inea__massa_dagua_bc25__consulta2026",
+      "sourceUrl": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/118",
+      "rawProvenance": {
+        "source_id": "inea__massa_dagua_bc25__consulta2026",
+        "source_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/118",
+        "query_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/118/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects",
+        "query_parameters": {
+          "where": "1=1",
+          "outFields": "*",
+          "f": "geojson",
+          "outSR": "4326",
+          "returnZ": "false",
+          "returnM": "false",
+          "resultRecordCount": 2000,
+          "geometry": "-43.425,-22.83,-43.315,-22.74",
+          "geometryType": "esriGeometryEnvelope",
+          "inSR": "4326",
+          "spatialRel": "esriSpatialRelIntersects"
+        },
+        "retrieved_at": "2026-10-03T04:06:42.420204+00:00",
+        "files": [
+          {
+            "path": "features.geojson",
+            "sha256": "f974ba145c6403ea623708f39a9f6c075d3bfcf41df6e5b93df8d328fbf23a3c",
+            "size_bytes": 179359,
+            "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/118/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects"
+          },
+          {
+            "path": "layer-metadata.json",
+            "sha256": "80f757db66ea7113db7b462318cc42b0b13d9c1958ae9e7cee9282499ed90b6d",
+            "size_bytes": 10791,
+            "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/118?f=json"
+          }
+        ],
+        "feature_count": 11,
+        "license": "Publicly accessible governmental geodata; layer does not state an explicit reuse license."
+      }
+    },
+    {
+      "datasetId": "meta_wri__canopy_height_v2__2026",
+      "sourceUrl": "https://registry.opendata.aws/dataforgood-fb-forestsv2/",
+      "rawProvenance": {
+        "sourceId": "meta_wri__canopy_height_v2__2026",
+        "retrievedAt": "2026-10-03T05:21:00+00:00",
+        "sourceUrl": "https://registry.opendata.aws/dataforgood-fb-forestsv2/",
+        "license": "CC-BY-4.0",
+        "crop": {
+          "sourceId": "meta_wri__canopy_height_v2__2026",
+          "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/2112000120.tif",
+          "tile": "2112000120",
+          "retrievedAt": "2026-10-03T05:04:28+00:00",
+          "sha256": "903c34ff2fd792a9c23476d91e30cacbc2c160a8c93d60adf57504092cffc663",
+          "operation": "Native-grid rectangular crop, unchanged digital numbers and source dataset mask.",
+          "crs": "EPSG:3857",
+          "resolution": [
+            1.1943285669558747,
+            1.1943285669558747
+          ],
+          "dtype": "uint8",
+          "units": "meters",
+          "sourceNodata": null,
+          "sourceMaskFlags": [
+            [
+              "MaskFlags.per_dataset"
+            ]
+          ],
+          "window": {
+            "colOffset": 16977,
+            "rowOffset": 16298,
+            "width": 7765,
+            "height": 6123
+          },
+          "cropBounds": [
+            -4832557.93568806,
+            -2609738.100612394,
+            -4823283.974365647,
+            -2602425.226796923
+          ]
+        },
+        "files": [
+          {
+            "file": "data\\raw\\meriti\\meta_wri__canopy_height_v2__2026\\2112000120-imagery-dates.geojson",
+            "sizeBytes": 9192523,
+            "sha256": "208f0ab2cc2931393bf2a6d146d24294fdd38f26052bdbfa3887bfc1b03dc9e2"
+          },
+          {
+            "file": "data\\raw\\meriti\\meta_wri__canopy_height_v2__2026\\2112000120-imagery-dates.receipt.json",
+            "sizeBytes": 392,
+            "sha256": "f744bea63b904526c994962a981d8da18a495dfbf02613d1c40c4a869680873f"
+          },
+          {
+            "file": "data\\raw\\meriti\\meta_wri__canopy_height_v2__2026\\canopy-height-native.tif",
+            "sizeBytes": 4124103,
+            "sha256": "903c34ff2fd792a9c23476d91e30cacbc2c160a8c93d60adf57504092cffc663"
+          },
+          {
+            "file": "data\\raw\\meriti\\meta_wri__canopy_height_v2__2026\\crop-provenance.json",
+            "sizeBytes": 903,
+            "sha256": "fe105f11eb78ae25ca03069a65bce84d0b0eec88f1e8b29c8e2ae0044545a18c"
+          }
+        ]
+      }
+    },
+    {
+      "datasetId": "inpe__cbers4a_wpm_rgb__20260426",
+      "sourceUrl": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260426_199_142",
+      "rawProvenance": {
+        "sourceId": "inpe__cbers4a_wpm_rgb__20260426",
+        "retrievedAt": "2026-10-03T05:21:06+00:00",
+        "sourceUrl": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260426_199_142",
+        "license": "CC-BY-4.0",
+        "query": {
+          "url": "https://data.inpe.br/bdc/stac/v1/search",
+          "parameters": {
+            "collections": "CB4A-WPM-PCA-FUSED-1",
+            "bbox": "-43.411,-22.815,-43.329,-22.755",
+            "datetime": "2025-01-01T00:00:00Z/2026-10-03T00:00:00Z",
+            "limit": 100
+          }
+        },
+        "files": [
+          {
+            "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260426/collection.json",
+            "sizeBytes": 5353,
+            "sha256": "724a5c3be1f9962c7cc7289f4b35eece9b504ac030a100a267d599d386b409dc"
+          },
+          {
+            "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260426/crop-provenance.json",
+            "sizeBytes": 1246,
+            "sha256": "5a29a7b0cc421feec431d4261925d225e6524331a385e8a742c0690da4380126"
+          },
+          {
+            "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260426/rgb-native.tif",
+            "sizeBytes": 30139007,
+            "sha256": "712381960370157ae4f38a2d9ebc0b635ec53ccb7489f68d9e5df6fc588a1b2e"
+          },
+          {
+            "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260426/search.json",
+            "sizeBytes": 46418,
+            "sha256": "c465ed7b383267d44050afa3ddbeda3903ac6b63fd983bd8170811d728fbf2bf"
+          },
+          {
+            "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260426/selected-item.json",
+            "sizeBytes": 2685,
+            "sha256": "6526e5a3e6f4adc4c70c0f2b254096eb6757a76d42c045420dc0870a86498187"
+          }
+        ]
+      }
+    },
+    {
+      "datasetId": "copernicus__sentinel2_meriti_mensal__2025",
+      "sourceUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a",
+      "rawProvenance": {
+        "id": "copernicus__sentinel2_meriti_mensal__2025",
+        "source_url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a",
+        "downloaded_at": "2026-10-03T05:09:50+00:00",
+        "searchQuery": {
+          "collections": [
+            "sentinel-2-c1-l2a"
+          ],
+          "bbox": [
+            -43.411,
+            -22.815,
+            -43.329,
+            -22.755
+          ],
+          "datetime": "2025-01-01T00:00:00Z/2025-12-31T23:59:59Z",
+          "limit": 100,
+          "query": {
+            "eo:cloud_cover": {
+              "lt": 50
+            }
+          }
+        },
+        "files": [
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/item.json",
+            "sha256": "3e4f58ef8b9b8a5e6a560ba64f5296a09166627bc2a0131542cf8997acac8360",
+            "bytes": 26328
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/nir.json",
+            "sha256": "b4c4d0a8102b0f33f1519088969f1181333fc836866a91d92837baaa6ec6c2c2",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/nir.tif",
+            "sha256": "4b05388775c4664d836e30046afa216a2b603ea7fd9a3d8990154c52b41087ff",
+            "bytes": 940085
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/red.json",
+            "sha256": "c88252afcedf833c573c959e23c0e263544d3118c4c86bc6fd2211dba70bbacf",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/red.tif",
+            "sha256": "200d1ef72f548d17b4022b9e87bccbd83ae43f1c02dc6dd1259426796b724d07",
+            "bytes": 908361
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/scl.json",
+            "sha256": "3a53662841b314f6f5c5f1c0f585d408f51af68dea5c81e4eb12f852b07aabd5",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/scl.tif",
+            "sha256": "ff4bcd25435b12c5bec94aa768419568806281d0878b86a96b4a47fc5884b112",
+            "bytes": 15380
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/item.json",
+            "sha256": "027affeeed2f5cc359b984c83ade284b4b2488db3d72a6db86a17bb687f22df3",
+            "bytes": 26524
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/nir.json",
+            "sha256": "2e9a9d9053caf5081c6cb1bb2f1de515925724154b25b94ffb88eb96e7e284d3",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/nir.tif",
+            "sha256": "1a8a7847dda323acf01e1166f10583ea306ee5945bc098a398ee11dc5977f34d",
+            "bytes": 936429
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/red.json",
+            "sha256": "e81f261938715419d85a44fd5e1663dedb5bf868a6e7a434f3ebf718160fb251",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/red.tif",
+            "sha256": "d20e34e528b70d2a186113fd1ebc35e15d67bdcf9bd928cc9c60b659827cf645",
+            "bytes": 895887
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/scl.json",
+            "sha256": "b56fc5e4d539cf775f675d76754dce68d1ab01668a2de806cd5c53c65ccdc3cd",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/scl.tif",
+            "sha256": "40f451dd9fc628614a4e7a217964eb7a1f642d5ca187df5272210e2d188c3248",
+            "bytes": 11182
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250827T130259_L2A/item.json",
+            "sha256": "58d1daa2fc78fdc08b458f82e8041385afca102675c8ad460ec2628325fd9d58",
+            "bytes": 26526
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250827T130259_L2A/scl.json",
+            "sha256": "85ecc7c3ed61e4e3ec652c0ec0df5f9e8a01aea5978737c72111a307f763eddb",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250827T130259_L2A/scl.tif",
+            "sha256": "95342ed07495ab0302e437065de9020c6f417dac4fabfd40caa72c4875ff1603",
+            "bytes": 13912
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/item.json",
+            "sha256": "f0109f593f48886147684973a745f5487fb20638bc515572a0c4807584cd1c08",
+            "bytes": 26547
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/nir.json",
+            "sha256": "5de52b68f23024be18ee8738f60c5c64b3dcd2ab1bb7365df3ab01141934eaec",
+            "bytes": 1337
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/nir.tif",
+            "sha256": "84a75178b36ebf8714001b74624c295b3992baad7b93a0daa024aa0b16995fd9",
+            "bytes": 936520
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/red.json",
+            "sha256": "bd4e0a1632d746c0e86525830067e56876f3e29941b93ffd9751cf2921c13fbe",
+            "bytes": 1335
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/red.tif",
+            "sha256": "0157ff7df6b377c2006401dd9f4cb4ebfa76a0b61005f2ab6380f17fa90a3a97",
+            "bytes": 899440
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/scl.json",
+            "sha256": "cfe4cb3d13a6d389b9e96592d6a2deeb436e521290da5f91a278e7900abb9a9e",
+            "bytes": 1103
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/scl.tif",
+            "sha256": "a99def7773be169e8eb26b801f50180ec1d62ed01ed1246e28dffae5f4c3cc76",
+            "bytes": 12761
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251125T130610_L2A/item.json",
+            "sha256": "7ae76ce1bf81f16ce8505bcea0e687ede96b40cbd2963d700ae716e782c4790e",
+            "bytes": 26549
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251125T130610_L2A/scl.json",
+            "sha256": "5f62f5a3bab4e17e99be2f34c057107317d7b127b91b9558a7ed1efe20b7b42f",
+            "bytes": 1103
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251125T130610_L2A/scl.tif",
+            "sha256": "f569764bd18b4aba76a0a450219db45571e28dd218f932f0e39634d5f7789cf0",
+            "bytes": 16186
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250102T130726_L2A/item.json",
+            "sha256": "f7012421830ac7af5d4daa5ae91ccc70bcb0b06c44d9ddc3857acc3149c73ee6",
+            "bytes": 26324
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250102T130726_L2A/scl.json",
+            "sha256": "54f26c7884395fb3913bbf5d1ad48ca5507d8fead7d047d867f6a1b5d5285453",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250102T130726_L2A/scl.tif",
+            "sha256": "7276f735dc61f2b506a95ae7b215df3994998f0081311e760954547f673852c0",
+            "bytes": 15048
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/item.json",
+            "sha256": "9d68bea17af7d1bee24a630e3f14cbba309172ad95d998ca5d6523b1c9834356",
+            "bytes": 26324
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/nir.json",
+            "sha256": "172c2fa2e4315d88a09f1fc72cef76ef6b025754089c40143d9af7a2c784936c",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/nir.tif",
+            "sha256": "4cdc26a7348417874468c1357827c5972261ebeadc8f41a04475197bbf12b337",
+            "bytes": 951256
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/red.json",
+            "sha256": "aff5faf333c3c6b1b48bc53506d9008c4574452ccba0a6f5326b17b1aa4b03d4",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/red.tif",
+            "sha256": "1306e6d8fc3501117c1095b3d336f7057fb5ddcae6b52699dc49dbe16ec6416a",
+            "bytes": 903912
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/scl.json",
+            "sha256": "93d3f73383d10c85d266d02de4117d2b03110c962f9a5a0105e5fe50a57543c3",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/scl.tif",
+            "sha256": "7e0dcf65d8fcbfbe69c1e0926b5a5ebf803aaebb6c136b41cec6584bf48c9f6c",
+            "bytes": 13163
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250313T130247_L2A/item.json",
+            "sha256": "14cabea4a1594ed3046332c954a4d9b81a57e6ba3f557f6b61aae342b3ad6002",
+            "bytes": 26326
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250313T130247_L2A/scl.json",
+            "sha256": "395732ab8aa993dd25df5afd2e6f4d94721954c9504fb0e8a5f8fc9e2e9926a0",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250313T130247_L2A/scl.tif",
+            "sha256": "dcb7b1e072bb3f6270d15413ff987750531606271d17d659c72d8a859df64df4",
+            "bytes": 12534
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250323T130248_L2A/item.json",
+            "sha256": "3048cafad91a9ee52b44ee9390ffc56ccfdeb159b50f610f2095c10c1b7f45cf",
+            "bytes": 26327
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250323T130248_L2A/scl.json",
+            "sha256": "63af7ca59425a7b8ba10e5dc18241a37cdce826a574bb37be524531fa6cb35bc",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250323T130248_L2A/scl.tif",
+            "sha256": "8ffe617de07377bf5b430ed00ac0a551adcbcaaf32abac5467a83229db63a385",
+            "bytes": 14576
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/item.json",
+            "sha256": "2702351d7c6c377729b01e7531ba1db34c9225ddbfa6e17d1415b78f7ebdd792",
+            "bytes": 26324
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/nir.json",
+            "sha256": "0a80af501e5dcc2351853366255cf30c23e9e7b3645fb9c0d94856ffa809316b",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/nir.tif",
+            "sha256": "5b05601d84837dbb445adf51698c8c2a0502c52f051256fba6ac7d65dd0411bf",
+            "bytes": 943740
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/red.json",
+            "sha256": "1a603ea428589d1166189407f475d75b109f7f9d13e3c3c6b14f6d2fdbae6724",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/red.tif",
+            "sha256": "4eb0a4ff3f5304c08f349907fd5ad4cf5b359515198f48cd3f07c99270c80ee8",
+            "bytes": 901031
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/scl.json",
+            "sha256": "d2f80d55a4107d7641116a356fa45bde06151342940aef6b5587d54e42448fb9",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/scl.tif",
+            "sha256": "b41b885dc9901e1a20cec4fa4966576c57e658c77b7e4e62ae81b909851be65d",
+            "bytes": 14314
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250820T130247_L2A/item.json",
+            "sha256": "749f73cb28ffa8cc69f05723e7cb0536a7590a7be4b7e605fd0af75462de529d",
+            "bytes": 26528
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250820T130247_L2A/scl.json",
+            "sha256": "314acd920f1d602ac3ede733de1e766ed3fa06a1b01d3f90ff923667fb8eb7db",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250820T130247_L2A/scl.tif",
+            "sha256": "4d255a71913ac9ffa1ffc7de5ce93d5206e715812568ea5678f9f319a44ce842",
+            "bytes": 12191
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/item.json",
+            "sha256": "2c24d4f9e69bd4fb3865c647c3c631099e9ee84b42d63acbaa94b4ad945af684",
+            "bytes": 26521
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/nir.json",
+            "sha256": "dd95903e6cb970bec706240286d061c734733ecb6e22302bf4ead0a107006a86",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/nir.tif",
+            "sha256": "ab27182e69b28d648287a9e6ec9a7eb93a13f18a9f897a3b68706e75d77a5f9e",
+            "bytes": 934897
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/red.json",
+            "sha256": "6c19a8c8a3d4de1cb0276a53136571fe0ffb7563fe877a0d8281d38bdbc117ee",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/red.tif",
+            "sha256": "528ae6f6c584dc39ff0e732f93924ddf80c86fefc407498f04783cd5bdf11367",
+            "bytes": 897193
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/scl.json",
+            "sha256": "7657f68399410ae52d46af401600a1c1d989b70df31005a2a475ce618464047d",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/scl.tif",
+            "sha256": "b56bdf19bb2821f35dbd2354540867e47ba0caccbe6cf5161786a9626df1a0a4",
+            "bytes": 11111
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20251128T130318_L2A/item.json",
+            "sha256": "9f8f09601f92372fc25a8ed528f345a2a69354168b552ea768d312513b894feb",
+            "bytes": 26550
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20251128T130318_L2A/scl.json",
+            "sha256": "ce8f7f401d53eeebb328739193ff28fcfb61190130353a283b70879839b78a49",
+            "bytes": 1103
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20251128T130318_L2A/scl.tif",
+            "sha256": "b44c5f03a6c5b2d9f30651d34313196acb14e818827dce206418d6ad0cbb9152",
+            "bytes": 14604
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/item.json",
+            "sha256": "c82fe54eb665ce4e8f74954f51970c117abeb6e9e7535f19e6aba880d396a6c1",
+            "bytes": 26324
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/nir.json",
+            "sha256": "21654bc76841f5fc46f44ceefaa675ed2d7f2ef9b06be1951591fcaf3f46637f",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/nir.tif",
+            "sha256": "589fa3dd31a2572a310be2366f7c12318fe3d0b534ad633c3895e7c2fe382881",
+            "bytes": 949684
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/red.json",
+            "sha256": "ad7e48e4e06b5431ac01233836fbc975c73d1a07ce055fe4108aacc3c9520269",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/red.tif",
+            "sha256": "64f4190c054c5237c233bc8eb96e98638f7cbe7ac0fab0ce2456ad9d49643083",
+            "bytes": 901339
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/scl.json",
+            "sha256": "e5b9727c44f08977a0ad49ece1c3eeaf39d19639ce73c60220029e77feeb3af9",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/scl.tif",
+            "sha256": "e9fc6d7a2e283cf6d8b4dc339d6a49288a9d7afe02de57fed36bfef6ca63559e",
+            "bytes": 13406
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250308T130700_L2A/item.json",
+            "sha256": "c4c55b081e8d2e3976c18c043b2bacf2b926147b851869c78fd91b16d877f6b7",
+            "bytes": 26325
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250308T130700_L2A/scl.json",
+            "sha256": "9945a4b92e84ebd9b7d71e59a8c89b6f2557661b45e36ec084bd1ab24bf71674",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250308T130700_L2A/scl.tif",
+            "sha256": "cbfc34234bc7184f354537bc502062051018cae70d3a30e95e6d8e9a3afca257",
+            "bytes": 17241
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250318T130631_L2A/item.json",
+            "sha256": "154402317ec045040ea03d886564db7bbbf0df43231d651cfdc42ad086ca0b98",
+            "bytes": 26327
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250318T130631_L2A/scl.json",
+            "sha256": "a63f36c19e6900d6b1b49da7a3aea401749b29766f7007dbbbefa0fff3efccd0",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250318T130631_L2A/scl.tif",
+            "sha256": "da109a2603a6ecb998f909d848cd2b2d80d92b590d1dde2631f6dbc82dad197a",
+            "bytes": 13686
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250328T130502_L2A/item.json",
+            "sha256": "08aae08d9159851c4894b5fb6aa5fccc059dddb747e587ed95855e4ffaf18d06",
+            "bytes": 26326
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250328T130502_L2A/scl.json",
+            "sha256": "eea5fa038d88ae5b74749fb5d50d4d95770b173093b47623590eeae34cc18e78",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250328T130502_L2A/scl.tif",
+            "sha256": "65596bd1bfa63561d31938a803b4d9ce8fbbc2637bce3fb5019068b0e123f60a",
+            "bytes": 17168
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/item.json",
+            "sha256": "5bd3d40d172e8e6c4310584c39dd1ba96199017ee097cfd385d0b69b3cc12587",
+            "bytes": 26325
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/nir.json",
+            "sha256": "d057f21ceba25d7727ddee16ca9132bb15bf1e05d1cf723519b3db197e628edd",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/nir.tif",
+            "sha256": "a3eeaab8d887182e40904a86bf6de0a674eb6bcdea57a43698e05089850b6d43",
+            "bytes": 949816
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/red.json",
+            "sha256": "26af404c540b51fcd46aa7b8227c26d4395b9c618527da98f85da5d538c56b35",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/red.tif",
+            "sha256": "a52f9d2af7790d8984549286c618c52f0dab15146e9113ac5c1f575561ef27f0",
+            "bytes": 902786
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/scl.json",
+            "sha256": "17f8a7f521be6f5de543fe964fc591f735de91f9665cb5351af1871bccd4a3e2",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/scl.tif",
+            "sha256": "4d50c1bd063942609fa39326f643d2f6884213be7311a2e912e7f729dfd775aa",
+            "bytes": 14435
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/item.json",
+            "sha256": "9f6ec6098de5d68bd75403ac71bf3b97af9c5e72a6e894725dffa7b01d6a0b50",
+            "bytes": 26524
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/nir.json",
+            "sha256": "a55de6f9ef8894d13a78fa8ea1f1ea2ae157e63e7de27413b42b74834b67ff49",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/nir.tif",
+            "sha256": "2c55b232cc225f8fcfc0c0fb797763800a31bd9f7305573c994fd594fa152023",
+            "bytes": 945827
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/red.json",
+            "sha256": "65d65ac1eb698f0bef456b30a4c1985bc82fd0e1be84882ee7d47ec9093d486c",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/red.tif",
+            "sha256": "e64d603f54a17ae0c88a0b9292cd0483fbf3740d16717520abc63ffdaddda47b",
+            "bytes": 902070
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/scl.json",
+            "sha256": "8a3c0db6e5ce22314505735baea31bf8b3de5e4619a008fe9732e866f476bd0b",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/scl.tif",
+            "sha256": "9fa9b06eb33eaa6942d6071fce960f012633ee9205a649222545486c61a1d6ae",
+            "bytes": 13658
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/item.json",
+            "sha256": "e8412caa91c1f70be8865f41ce908b2550a8d5298886b48de606c39d73195482",
+            "bytes": 26524
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/nir.json",
+            "sha256": "4e7877cf00ec34cd9d16ac5b3a6fbe57d5cf761414e50d2ad840e9e8af72f7aa",
+            "bytes": 1336
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/nir.tif",
+            "sha256": "38d7897f6b50c6bf60181264ba14c02f0a19ecf72c5db59153b3b209d95271a1",
+            "bytes": 940551
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/red.json",
+            "sha256": "029b4d8761f1394dd96dd7768fb7b06f89be120a6797f636773f2da08cd424a1",
+            "bytes": 1334
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/red.tif",
+            "sha256": "2b4b724af179c308e154402a996090771fe4ee03d865dc23a42ea74cc8724e12",
+            "bytes": 896816
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/scl.json",
+            "sha256": "66934df0d4fc12f0a69bcf5e11dc35711484b9f4f06818fe4bb9ecd3b79d7b3e",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/scl.tif",
+            "sha256": "403d246d7e9bee77624550b22cf02ea4296db44d90bc05dce7e962e19d5eff70",
+            "bytes": 11683
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250825T130609_L2A/item.json",
+            "sha256": "2bad05b641e1a1b3a486f93fc6fe30c99f80610523e5220ec6d4ee9882df9d1a",
+            "bytes": 26523
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250825T130609_L2A/scl.json",
+            "sha256": "f249e6861b2171a5ebd0b0b9fe94617bbf770d253b345010f5a63fbf9051322c",
+            "bytes": 1102
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250825T130609_L2A/scl.tif",
+            "sha256": "6ab88b6a0817626ae2878018785bf8dbd7dd022d1b7cbdfbdc9650ca33e1c5d7",
+            "bytes": 16230
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/item.json",
+            "sha256": "bf9134d38cc3e82d652237b2ac5d26772859fd6746df53d4045e27fd5a71c325",
+            "bytes": 26547
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/nir.json",
+            "sha256": "b2b1af3f7e05248f58542d760556ebe43bda7b8050f749ada624ee35d62579ba",
+            "bytes": 1337
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/nir.tif",
+            "sha256": "12161aa3a8405537b41af4a612dc0763fb0a22d1e433eb4282d74387be81ca59",
+            "bytes": 943892
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/red.json",
+            "sha256": "d178c8da044cf9e55279cfb2049a85f0cd40a493b9c955db4ecda0ef0ec5f57b",
+            "bytes": 1335
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/red.tif",
+            "sha256": "d631e90c8bae0f37ee39edbcd8932df30267674f70f3b8e3530aa0243b1422c7",
+            "bytes": 902669
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/scl.json",
+            "sha256": "f31c660ad73cac27d34f0d53bfb4d975e1d641c33b0c68c5f5fedad7ad712e14",
+            "bytes": 1103
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/scl.tif",
+            "sha256": "1899071d16958792504fc64f9677599f144a1af4b3e361a7ca5b3b198d4371e9",
+            "bytes": 12473
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/item.json",
+            "sha256": "38594e15fccece86ade65b2e17406132865a495e9b417a74f7c639c0eadc448b",
+            "bytes": 26545
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/nir.json",
+            "sha256": "a9bb87b5268b7bae57007a64e26787e1d76f56284da6a892bf68b7af186ba784",
+            "bytes": 1337
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/nir.tif",
+            "sha256": "7bce00fdecdb7f863c05df5ff019e3ba4c595e0eb650c087f0bd28ba6b28fad0",
+            "bytes": 948822
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/red.json",
+            "sha256": "6a004e3c806763e2910b73c291fc179aaf15645010ff83673d92214398f4653c",
+            "bytes": 1335
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/red.tif",
+            "sha256": "de31200e2566d8e8e88a42e959e084bdb2ca420b33f741cc0cedd8c046371e31",
+            "bytes": 912343
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/scl.json",
+            "sha256": "bb518e1031b2892f8cf897cd3bcfbd1b917fe54b8d1064b312e1e06f72706d08",
+            "bytes": 1103
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/scl.tif",
+            "sha256": "c14fdd6ce39febfa659880ef22cd89dc111aa0c80204667c023815e42f23b199",
+            "bytes": 13755
+          },
+          {
+            "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/search.json",
+            "sha256": "7c2c73a212845e929f5b21c35f204a5b4902ea4c5cff36de142974c9dc518d97",
+            "bytes": 1718969
+          }
+        ]
+      }
+    },
+    {
+      "datasetId": "ibge__entorno_arborizacao__2022",
+      "sourceUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/",
+      "rawProvenance": {
+        "sourceId": "ibge__entorno_arborizacao__2022",
+        "sourceUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/",
+        "institution": "IBGE",
+        "referencePeriod": "2022-06-20/2023-05-28",
+        "publicationDate": "2025-04-17",
+        "files": [
+          {
+            "file": "dictionary.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/dicionarios_de_dados_entorno.zip",
+            "sha256": "eda4e2c9968e753fa2c158380ae537c284ccbddde5b74a6d5fec0b3c2250d1b4",
+            "bytes": 27093,
+            "collectedAt": "2026-10-03T17:01:29+00:00",
+            "lastModified": "Wed, 07 May 2025 20:06:34 GMT"
+          },
+          {
+            "file": "publication.pdf",
+            "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102168.pdf",
+            "sha256": "f056eb333f5bd942f86e0f87b8193469e3e29dbc81d2da13df7c577834bf712d",
+            "bytes": 8857725,
+            "collectedAt": "2026-10-03T17:01:29+00:00",
+            "lastModified": "Thu, 24 Apr 2025 13:00:02 GMT"
+          },
+          {
+            "file": "municipios-moradores.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Municipio_csv/Agregados_por_municipios_entorno_moradores_BR.zip",
+            "sha256": "438dcaffe0ce5e59eea46d2837a59f69564725974f2380a8d4188bebaca48863",
+            "bytes": 445257,
+            "collectedAt": "2026-10-03T17:01:30+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+          },
+          {
+            "file": "municipios-domic%c3%adlios.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Municipio_csv/Agregados_por_municipios_entorno_domic%c3%adlios_BR.zip",
+            "sha256": "f421b8199f99597e4edfd1efeb1f86ba2c00edc14694d9730f34a2c739ad3d06",
+            "bytes": 412287,
+            "collectedAt": "2026-10-03T17:01:31+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+          },
+          {
+            "file": "municipios-faces.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Municipio_csv/Agregados_por_municipios_entorno_faces_BR.zip",
+            "sha256": "066bf8be22256d26906a35b2ef6724fe178ffa6c4593c39cf906c5bf02736096",
+            "bytes": 388380,
+            "collectedAt": "2026-10-03T17:01:32+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+          },
+          {
+            "file": "distritos-moradores.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Distrito_csv/Agregados_por_distritos_entorno_moradores_BR.zip",
+            "sha256": "9d7cb278213356e34b7a25c93beae05f8f5c397936c5b4dbeb09a7aa491f2d46",
+            "bytes": 717892,
+            "collectedAt": "2026-10-03T17:01:32+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+          },
+          {
+            "file": "distritos-domic%c3%adlios.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Distrito_csv/Agregados_por_distritos_entorno_domic%c3%adlios_BR.zip",
+            "sha256": "885e4c8409e3aac36be64c20d8fcac98145641875a89354598183973db91fa08",
+            "bytes": 667792,
+            "collectedAt": "2026-10-03T17:01:33+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+          },
+          {
+            "file": "distritos-faces.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Distrito_csv/Agregados_por_distritos_entorno_faces_BR.zip",
+            "sha256": "2239e74e4376a0e0a8312245b962aff3444ff67edb463cb0697b03d9039db35d",
+            "bytes": 617296,
+            "collectedAt": "2026-10-03T17:01:33+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+          },
+          {
+            "file": "bairros-moradores.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Bairro_csv/Agregados_por_bairros_entorno_moradores_BR.zip",
+            "sha256": "979453ae120409f10933859b3b8d31275cca47c837826da327221e7c2d1637b9",
+            "bytes": 1122582,
+            "collectedAt": "2026-10-03T17:01:34+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+          },
+          {
+            "file": "bairros-domic%c3%adlios.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Bairro_csv/Agregados_por_bairros_entorno_domic%c3%adlios_BR.zip",
+            "sha256": "056f1c2aa1d84880b6efff0af1007d7c91ff50dc2f9f0f51366dd419f53393ff",
+            "bytes": 1043569,
+            "collectedAt": "2026-10-03T17:01:34+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+          },
+          {
+            "file": "bairros-faces.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Bairro_csv/Agregados_por_bairros_entorno_faces_BR.zip",
+            "sha256": "abfb9b9e5ba0b0e51f0df4b571b9cd5cd23851fdbfae324dcb81bf83c11a200a",
+            "bytes": 933664,
+            "collectedAt": "2026-10-03T17:01:35+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:38 GMT"
+          },
+          {
+            "file": "setores-moradores.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Setor_csv/Agregados_por_setores_entorno_moradores_BR.zip",
+            "sha256": "76979c0b020f4913d46336a53591cfaa219372b0076f4282e768da7d8abb774a",
+            "bytes": 13000482,
+            "collectedAt": "2026-10-03T17:01:36+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:39 GMT"
+          },
+          {
+            "file": "setores-domic%c3%adlios.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Setor_csv/Agregados_por_setores_entorno_domic%c3%adlios_BR.zip",
+            "sha256": "945ad03f2cca535c51b8956188ed9a7e3e017caa5ae2a79449e2202d359ffa60",
+            "bytes": 11890606,
+            "collectedAt": "2026-10-03T17:01:38+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:39 GMT"
+          },
+          {
+            "file": "setores-faces.zip",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Caracteristicas_urbanisticas_do_entorno_dos_domicilios/Agregados_por_Setor_csv/Agregados_por_setores_entorno_faces_BR.zip",
+            "sha256": "ad654f2cc4680c6fbfbb0d9bf1b58fea3e690f3b0e873fcc9e2815c1f4212a4b",
+            "bytes": 10319175,
+            "collectedAt": "2026-10-03T17:01:39+00:00",
+            "lastModified": "Thu, 17 Apr 2025 13:02:39 GMT"
+          }
+        ]
+      }
+    },
+    {
+      "datasetId": "dageop__meriti_bairros_localidades__2024",
+      "sourceUrl": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+      "rawProvenance": [
+        {
+          "file": "city.html",
+          "url": "https://meriti.rj.gov.br/inicio/a-cidade/",
+          "retrievedAt": "2026-10-03T17:41:01.159448+00:00",
+          "sha256": "b75b1beda3da3af265e31d4073b5f19128b2e127b126c808b72fe8dde497f6bd",
+          "bytes": 160393
+        },
+        {
+          "file": "assistance.html",
+          "url": "https://meriti.rj.gov.br/inicio/secretaria-municipal-de-assistencia-social-4/",
+          "retrievedAt": "2026-10-03T17:41:02.370870+00:00",
+          "sha256": "8a161aa6668062b2698e7a537e779e593942ff06c7a3910d94c08b68aeceff0b",
+          "bytes": 233033
+        },
+        {
+          "file": "plan-director.pdf",
+          "url": "https://meriti.rj.gov.br/inicio/wp-content/uploads/2024/01/Plano-Diretor.pdf",
+          "retrievedAt": "2026-10-03T17:41:02.688415+00:00",
+          "sha256": "6071e64724fd55d368a25f23cf911350b93a8ea2adb0a2e49ad5baf87cd95149",
+          "bytes": 15191841
+        },
+        {
+          "file": "law205.pdf",
+          "url": "https://transparencia.meriti.rj.gov.br/ver20230623/tmp/PortalServices/DOM5856_Leicomplementar205.pdf",
+          "retrievedAt": "2026-10-03T17:41:03.331215+00:00",
+          "sha256": "a729a218ed08ecaa3ddc80cc9e9bb9fe700cd2fdbb405c9f15bd358186172396",
+          "bytes": 5814970
+        },
+        {
+          "file": "uerj-atlas.html",
+          "url": "https://www.dageop.com.br/sao-joao-de-meriti",
+          "retrievedAt": "2026-10-03T17:41:03.610609+00:00",
+          "sha256": "5d50e7fdd9a4a7c21a9f9f10240338aa1c036b426fa80cb45ce5705a63e030a8",
+          "bytes": 593355
+        },
+        {
+          "file": "uerj-bairros-localidades.pdf",
+          "url": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+          "retrievedAt": "2026-10-03T17:42:27.160355+00:00",
+          "sha256": "f93fc03f62cb7edaf9de0daac25ee8132d1a8baf72090553a7359f31ae5adc8c",
+          "bytes": 1948849
+        }
+      ]
+    }
+  ]
+}

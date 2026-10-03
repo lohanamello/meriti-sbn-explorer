@@ -1,0 +1,315 @@
+{
+  "id": "CB4A-WPM-L4-DN-1",
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+  ],
+  "title": "CBERS-4A/WPM - Level-4-DN",
+  "version": "1",
+  "deprecated": false,
+  "description": "CBERS-4A/WPM - Level-4 Digital Number product. L4 product provides orthorectified images.",
+  "keywords": [
+    "cbers",
+    "cbers-4a",
+    "wpm",
+    "level-4",
+    "digital number",
+    "earth observation",
+    "brazil",
+    "visible imagery"
+  ],
+  "providers": [
+    {
+      "url": "https://data.inpe.br/big/",
+      "name": "National Institute for Space Research (INPE)",
+      "roles": [
+        "producer",
+        "licensor",
+        "host",
+        "processor"
+      ],
+      "processing:level": "L4 DN",
+      "processing:lineage": "Generation of L4",
+      "processing:facility": "LGI",
+      "processing:software": {
+        "ms3": "0.0.0"
+      }
+    }
+  ],
+  "summaries": {
+    "gsd": [
+      2
+    ],
+    "platform": [
+      "cbers-4A"
+    ],
+    "instruments": [
+      "pan"
+    ],
+    "constellation": [
+      "cbers-4A"
+    ],
+    "view:off_nadir": [
+      0
+    ]
+  },
+  "item_assets": {
+    "BAND0": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "BAND0 pan"
+    },
+    "BAND1": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "BAND1 blue"
+    },
+    "BAND2": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "BAND2 green"
+    },
+    "BAND3": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "BAND3 red"
+    },
+    "BAND4": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "BAND4 nir"
+    },
+    "BAND0_xml": {
+      "type": "application/xml",
+      "roles": [
+        "metadata"
+      ],
+      "title": "BAND0 xml"
+    },
+    "BAND1_xml": {
+      "type": "application/xml",
+      "roles": [
+        "metadata"
+      ],
+      "title": "BAND1 xml"
+    },
+    "BAND2_xml": {
+      "type": "application/xml",
+      "roles": [
+        "metadata"
+      ],
+      "title": "BAND2 xml"
+    },
+    "BAND3_xml": {
+      "type": "application/xml",
+      "roles": [
+        "metadata"
+      ],
+      "title": "BAND3 xml"
+    },
+    "BAND4_xml": {
+      "type": "application/xml",
+      "roles": [
+        "metadata"
+      ],
+      "title": "BAND4 xml"
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "bands": {
+        "red": "BAND3",
+        "blue": "BAND2",
+        "green": "BAND4"
+      },
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Thumbnail"
+    }
+  },
+  "properties": {
+    "renders": {
+      "rgb": {
+        "title": "True Color",
+        "assets": [
+          "BAND3",
+          "BAND4",
+          "BAND2"
+        ],
+        "rescale": [
+          [
+            0,
+            1200
+          ],
+          [
+            0,
+            1200
+          ],
+          [
+            0,
+            1200
+          ]
+        ],
+        "resampling": "nearest"
+      }
+    },
+    "sources": [
+      "http://www.inpe.br"
+    ],
+    "bdc:applications": [
+      "BDCExplorer"
+    ],
+    "created": "2025-03-31T18:41:47.759778Z",
+    "updated": "2025-03-31T18:41:47.759785Z",
+    "eo:bands": [
+      {
+        "name": "BAND0",
+        "common_name": "pan",
+        "description": "WPM - BAND0 - pan",
+        "min": 0.0,
+        "max": 1024.0,
+        "nodata": 0.0,
+        "scale": 1.0,
+        "scale_add": null,
+        "data_type": "uint8",
+        "resolution_x": 2,
+        "resolution_y": 2,
+        "center_wavelength": 0.675,
+        "full_width_half_max": 0.45
+      },
+      {
+        "name": "BAND1",
+        "common_name": "blue",
+        "description": "WPM - BAND1 - blue",
+        "min": 0.0,
+        "max": 1024.0,
+        "nodata": 0.0,
+        "scale": 1.0,
+        "scale_add": null,
+        "data_type": "uint8",
+        "resolution_x": 8,
+        "resolution_y": 8,
+        "center_wavelength": 0.485,
+        "full_width_half_max": 0.07
+      },
+      {
+        "name": "BAND2",
+        "common_name": "green",
+        "description": "WPM - BAND2 - green",
+        "min": 0.0,
+        "max": 1024.0,
+        "nodata": 0.0,
+        "scale": 1.0,
+        "scale_add": null,
+        "data_type": "uint8",
+        "resolution_x": 8,
+        "resolution_y": 8,
+        "center_wavelength": 0.555,
+        "full_width_half_max": 0.07
+      },
+      {
+        "name": "BAND3",
+        "common_name": "red",
+        "description": "WPM - BAND3 - red",
+        "min": 0.0,
+        "max": 1024.0,
+        "nodata": 0.0,
+        "scale": 1.0,
+        "scale_add": null,
+        "data_type": "uint8",
+        "resolution_x": 8,
+        "resolution_y": 8,
+        "center_wavelength": 0.66,
+        "full_width_half_max": 0.06
+      },
+      {
+        "name": "BAND4",
+        "common_name": "nir",
+        "description": "WPM - BAND4 - nir",
+        "min": 0.0,
+        "max": 1024.0,
+        "nodata": 0.0,
+        "scale": 1.0,
+        "scale_add": null,
+        "data_type": "uint8",
+        "resolution_x": 8,
+        "resolution_y": 8,
+        "center_wavelength": 0.83,
+        "full_width_half_max": 0.12
+      }
+    ]
+  },
+  "bdc:type": "collection",
+  "bdc:public": true,
+  "license": "Creative-Commons-Attribution-4.0-International",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -85.80811579644225,
+          -38.553092706772134,
+          -34.04481406343426,
+          15.615588592354527
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-29T14:34:00.000000Z",
+          "2026-10-02T14:06:03.000000Z"
+        ]
+      ]
+    }
+  },
+  "bdc:bands_quicklook": [
+    "BAND3",
+    "BAND4",
+    "BAND2"
+  ],
+  "links": [
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L4-DN-1",
+      "rel": "self",
+      "type": "application/json",
+      "title": "Link to this document"
+    },
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L4-DN-1/items",
+      "rel": "items",
+      "type": "application/json",
+      "title": "Items of the collection CB4A-WPM-L4-DN-1"
+    },
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/",
+      "rel": "parent",
+      "type": "application/json",
+      "title": "Link to catalog collections"
+    },
+    {
+      "href": "https://data.inpe.br/bdc/stac/v1/",
+      "rel": "root",
+      "type": "application/json",
+      "title": "API landing page (root catalog)"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative-Commons-Attribution-4.0-International"
+    }
+  ]
+}

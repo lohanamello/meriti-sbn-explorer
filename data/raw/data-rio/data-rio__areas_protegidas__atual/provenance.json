@@ -1,0 +1,19 @@
+{
+  "id": "data-rio__areas_protegidas__atual",
+  "source_name": "Areas protegidas municipais e contextuais",
+  "source_institution": "SMAC / INEA / ICMBio / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Meio_Ambiente/%C3%81reas_Protegidas/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query_paginated",
+  "downloaded_at": "2026-05-17T19:23:53+00:00",
+  "started_at": "2026-05-17T19:23:52+00:00",
+  "duration_seconds": 1.518,
+  "stored_path": "data/raw/data-rio/data-rio__areas_protegidas__atual/areas_protegidas_arcgis_capture.json",
+  "stored_filename": "areas_protegidas_arcgis_capture.json",
+  "content_type": "application/json",
+  "bytes_written": 8673158,
+  "sha256": "1707106991a27fd0907f7f65da5de037e93254ccda84f1ff771504b66e5902d0",
+  "object_id_field": "objectid_1",
+  "object_id_count": 94,
+  "batch_size": 500,
+  "batch_count": 1
+}

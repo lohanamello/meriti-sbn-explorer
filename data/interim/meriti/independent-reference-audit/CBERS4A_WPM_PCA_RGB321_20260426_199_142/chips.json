@@ -1,0 +1,3214 @@
+{
+  "generatedAt": "2026-10-03T16:55:02+00:00",
+  "inputCellsSha256": "22f003e6d7bc59162b4497fc48cead3d40d4a159cac9c3ed52f2f95d0a0d683a",
+  "sourceSha256": "712381960370157ae4f38a2d9ebc0b635ec53ccb7489f68d9e5df6fc588a1b2e",
+  "sourceNativePixelMeters": 2,
+  "viewContextMeters": 60,
+  "display": "Nearest neighbor, no tonal enhancement; magenta exact sampled cell boundary.",
+  "limitations": [
+    "Nonzero pixels do not certify absence of clouds, shadows, haze or misregistration.",
+    "PCA color input is native 8m multispectral fused with 2m PAN; it does not resolve all small vegetation."
+  ],
+  "chips": [
+    {
+      "sampleId": "MERITI-V1-0001",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0001.png",
+      "sha256": "4bce2bca6baa5ddb10f882d9b16d7b3feb5e5739e7e362723c48443716771ec1"
+    },
+    {
+      "sampleId": "MERITI-V1-0002",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0002.png",
+      "sha256": "d8bfe165e57743f5db646f2e06f4e0633930212fded6e74ec0735494365c8cc1"
+    },
+    {
+      "sampleId": "MERITI-V1-0003",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0003.png",
+      "sha256": "33be8a8779242c83bb93705fd2e900a6415affbb92f6562c4bce17c172167fc1"
+    },
+    {
+      "sampleId": "MERITI-V1-0004",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0004.png",
+      "sha256": "3775f5ccc10a79ad96b2de38ba0e17fbfdd2b6c85a625ac382b59ebec6ffd356"
+    },
+    {
+      "sampleId": "MERITI-V1-0005",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0005.png",
+      "sha256": "709ab7044dfc5fbd8c37d59bf74cc0a9d721eed2d05015208a7746741dcfba58"
+    },
+    {
+      "sampleId": "MERITI-V1-0006",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0006.png",
+      "sha256": "e9e0661a05b15dce42ec387ff9f1fe6dbea5f85808056084ed01a361c2ff606e"
+    },
+    {
+      "sampleId": "MERITI-V1-0007",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0007.png",
+      "sha256": "231b7b6a196a7f056d95f84c5b89483225853cafb3ae03bba69d1a32a78bd28d"
+    },
+    {
+      "sampleId": "MERITI-V1-0008",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0008.png",
+      "sha256": "614cd90f18ef5c680a4bfed01e4480207860821a2bef63ae0af113447a57ae8e"
+    },
+    {
+      "sampleId": "MERITI-V1-0009",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0009.png",
+      "sha256": "9a88f1015a8a32dcc3b2e8b928ee8031fbe25f7651dcca64c6f3d07e89a572cf"
+    },
+    {
+      "sampleId": "MERITI-V1-0010",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0010.png",
+      "sha256": "363824f7dd534f0c1e4e6903167b7156fccdc79eee964c530c520a4c346342df"
+    },
+    {
+      "sampleId": "MERITI-V1-0011",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0011.png",
+      "sha256": "2357ce870fb34491b7dcc5f4a43d67aae384116e79c99b5d09a750547ea7c06d"
+    },
+    {
+      "sampleId": "MERITI-V1-0012",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0012.png",
+      "sha256": "560c3c1ef9beb61d20ebdc067619ac907f98144577f0b6d935370b1f1923249b"
+    },
+    {
+      "sampleId": "MERITI-V1-0013",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0013.png",
+      "sha256": "a129420c375d5b848fabe254b89514fec1d3e7912a48bd768f7b893951d93ae8"
+    },
+    {
+      "sampleId": "MERITI-V1-0014",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0014.png",
+      "sha256": "9b1ed3c2909e4ec9b3131ad9fa5b00177f112e50f28a1055ece4c0162906fc2d"
+    },
+    {
+      "sampleId": "MERITI-V1-0015",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0015.png",
+      "sha256": "e80005f989c8e1a1c35292908bbad7913174851b435f81aa4f17a123829927e2"
+    },
+    {
+      "sampleId": "MERITI-V1-0016",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0016.png",
+      "sha256": "193c33c94dda6279783847eed2fae561cdef04951f6fbd554dace8538e4569aa"
+    },
+    {
+      "sampleId": "MERITI-V1-0017",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0017.png",
+      "sha256": "f6332b2eeea0d23b3d6ddc2763762d7d7511f9599bbe2d09f917dab2d3753abb"
+    },
+    {
+      "sampleId": "MERITI-V1-0018",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0018.png",
+      "sha256": "2898f2c5558e9891baf667e4be73019752964ee18516053f87cd303037dc5b63"
+    },
+    {
+      "sampleId": "MERITI-V1-0019",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0019.png",
+      "sha256": "e27e61e0a59b656b5d63bd78eee159d37e99229ad32e21dfd1ccbc0c426dd133"
+    },
+    {
+      "sampleId": "MERITI-V1-0020",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0020.png",
+      "sha256": "a0bf29470412fb66c026928e8313b65e23f45985a1c30e0c2662691f19084ed0"
+    },
+    {
+      "sampleId": "MERITI-V1-0021",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0021.png",
+      "sha256": "614f10a17f50099cc03dacac3d71be16b629e271d2ed0a8ad77edd0763953bd7"
+    },
+    {
+      "sampleId": "MERITI-V1-0022",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0022.png",
+      "sha256": "c3535354ea2dae5b078d096ac4a3130eadcc02350ef151326f6830e2e8491059"
+    },
+    {
+      "sampleId": "MERITI-V1-0023",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0023.png",
+      "sha256": "1c94c1944ead7f53b198724e78a20a8de8800dbbe15b50998efa5c3ee949e47d"
+    },
+    {
+      "sampleId": "MERITI-V1-0024",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0024.png",
+      "sha256": "b4d9c874f06150b68867dbb31372cc9a72ddd9645f1e50a52c51762a43d80c9f"
+    },
+    {
+      "sampleId": "MERITI-V1-0025",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0025.png",
+      "sha256": "8f147b0497c231076874487104cacfca1bf670cb0d8e48ab0f99eead06c2c784"
+    },
+    {
+      "sampleId": "MERITI-V1-0026",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0026.png",
+      "sha256": "4bdd424f129555192a712f474085962a7766afe9daab9594a6700f896db1485f"
+    },
+    {
+      "sampleId": "MERITI-V1-0027",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0027.png",
+      "sha256": "90f1578b9c7b7438d8f6c31021ae3b7352c72d810bff2abb7e9fcb0ab870be3c"
+    },
+    {
+      "sampleId": "MERITI-V1-0028",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0028.png",
+      "sha256": "1ad5aee33ecf4976261d516d1379ed1eee0e36d99c277fe69a598fd51a68a740"
+    },
+    {
+      "sampleId": "MERITI-V1-0029",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0029.png",
+      "sha256": "fdfc7635e0f354751575f173b0d6e946f687c1b4e38f45ee12fed6396eddf519"
+    },
+    {
+      "sampleId": "MERITI-V1-0030",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0030.png",
+      "sha256": "a494f812c1af600a5897606eda14c4161f31f2b30ecfbe71572e809cb1e69ab2"
+    },
+    {
+      "sampleId": "MERITI-V1-0031",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0031.png",
+      "sha256": "9da472924b9cb2a4f3c6a8f3b014aa3e89803e0fc3c22504df761ccc42116901"
+    },
+    {
+      "sampleId": "MERITI-V1-0032",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0032.png",
+      "sha256": "9c5eb181bc64a1718d99fca5368ddc272759a043c47320644753defc5ecea229"
+    },
+    {
+      "sampleId": "MERITI-V1-0033",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0033.png",
+      "sha256": "2feea2fab8c6f16f38ed144f050bc10b0a0dacb9ba2df6381cc7203c2d9180e5"
+    },
+    {
+      "sampleId": "MERITI-V1-0034",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0034.png",
+      "sha256": "59b4c96b052b643f1d08b57ff285754a650686f7583b17b50554255f3733aa7e"
+    },
+    {
+      "sampleId": "MERITI-V1-0035",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0035.png",
+      "sha256": "421cf42acfffd26fcf05f0f0e25177ce4c6f016c4fae0e4167a5a87387289be1"
+    },
+    {
+      "sampleId": "MERITI-V1-0036",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0036.png",
+      "sha256": "c75ad8af2b19c3d756514b504458c7ef415be3c3fa9ae291de3b31f7c8444335"
+    },
+    {
+      "sampleId": "MERITI-V1-0037",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0037.png",
+      "sha256": "f06f37337f48e0dcdefb4e7110ed4878817eef806033309b9aa72b8a891a46e4"
+    },
+    {
+      "sampleId": "MERITI-V1-0038",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0038.png",
+      "sha256": "7231cb029fda869df4b8e541d1d54b3be792e5a8d038c6572a3e282d2bb8813f"
+    },
+    {
+      "sampleId": "MERITI-V1-0039",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0039.png",
+      "sha256": "dac9088720dd987a94861011904bd2154029630373d83c7238a5f3ba61857944"
+    },
+    {
+      "sampleId": "MERITI-V1-0040",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0040.png",
+      "sha256": "3f9fec64dc290ea91f63f48ce9f181b4b920cb355f9fb814feaf4abf6118f00e"
+    },
+    {
+      "sampleId": "MERITI-V1-0041",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0041.png",
+      "sha256": "e9c4770d3b73bd0c562fb889516088312dc4c1deecd3de378b1484ebcc287364"
+    },
+    {
+      "sampleId": "MERITI-V1-0042",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0042.png",
+      "sha256": "c4b4f5e98cf9a1242d00ef4d44ac8f26c9276afe4aa4387c0f67816a2bd75de3"
+    },
+    {
+      "sampleId": "MERITI-V1-0043",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0043.png",
+      "sha256": "eed284baf4ce3b9f6b43cfe1772cbb41edc2ae522f44bcdb508a90afa9f59314"
+    },
+    {
+      "sampleId": "MERITI-V1-0044",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0044.png",
+      "sha256": "9dcac1b22402c1efbce1ba928dbe37c6b711dc03a982290f87cd2205e2ba8b5f"
+    },
+    {
+      "sampleId": "MERITI-V1-0045",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0045.png",
+      "sha256": "6bd76da9152fcc4477acfae3ad17359f508be288c4b148f159a25ebddae24bd2"
+    },
+    {
+      "sampleId": "MERITI-V1-0046",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0046.png",
+      "sha256": "eb64ed42436650dcb2497492afcdf77bfcc3d14da06b55a5714be42807441f77"
+    },
+    {
+      "sampleId": "MERITI-V1-0047",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0047.png",
+      "sha256": "5c8a0e25a49ce5cc625f396c8877a4d47d12c5dd9c189c8f1ecff8f71b9bf566"
+    },
+    {
+      "sampleId": "MERITI-V1-0048",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0048.png",
+      "sha256": "1e91c0e4e64daf6d80ec57de35032ee3ab6fb315e352d56924094057b91e8f4a"
+    },
+    {
+      "sampleId": "MERITI-V1-0049",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0049.png",
+      "sha256": "dcd4dcf1939804890554d93b2fe48f4e35a30603bb76b80ff3d7c6bf9db0e028"
+    },
+    {
+      "sampleId": "MERITI-V1-0050",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0050.png",
+      "sha256": "cafe7ac4f4212578adcbd0be207a45691a7591af29c8d47a4f3c2a73e44545fa"
+    },
+    {
+      "sampleId": "MERITI-V1-0051",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0051.png",
+      "sha256": "e1811f8e6452d622396bee0e431604eee45e56fd483813b8e97c7fb208a75fab"
+    },
+    {
+      "sampleId": "MERITI-V1-0052",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0052.png",
+      "sha256": "c00b203291ccd9f20a2f5572e7aac9324e7721a50f199cf41d978ee2d1ad7ee6"
+    },
+    {
+      "sampleId": "MERITI-V1-0053",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0053.png",
+      "sha256": "4485a0ae7fc722e2d28b4dc83e03af2a315793847a2f012485b86ade419816fa"
+    },
+    {
+      "sampleId": "MERITI-V1-0054",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0054.png",
+      "sha256": "210a6db5b6d5d4d375d3254ba7ed92d8282cf339ce1b436390617a830152360a"
+    },
+    {
+      "sampleId": "MERITI-V1-0055",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0055.png",
+      "sha256": "6f067e763050b8983c1515d227392ebcf6702aed5cf1b5bd72b1c82c2175aef4"
+    },
+    {
+      "sampleId": "MERITI-V1-0056",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0056.png",
+      "sha256": "e33ec1d51340fcff9ebf4a5a4449cddd17755ea5787ef82f0d0dd58f8f079710"
+    },
+    {
+      "sampleId": "MERITI-V1-0057",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0057.png",
+      "sha256": "ee108fe261524d9206a1a4b32e13f8db0e555b8462133f76d8c05f83c2fce022"
+    },
+    {
+      "sampleId": "MERITI-V1-0058",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0058.png",
+      "sha256": "b027efe14a090a7ab04bd0f38ab5b89525316e9cddec5648871ff0398e305bd1"
+    },
+    {
+      "sampleId": "MERITI-V1-0059",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0059.png",
+      "sha256": "15db1caa68b85ba909670b507c7cf5c7c37f79b3f577ac03a66d92819f797f7f"
+    },
+    {
+      "sampleId": "MERITI-V1-0060",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0060.png",
+      "sha256": "156e45d91e392ec38e3b561832cf8d7d238e84feff7a66a1b7957b7ea541e178"
+    },
+    {
+      "sampleId": "MERITI-V1-0061",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0061.png",
+      "sha256": "e8d7b378ad80eb702d13a11f8ecc44904ec52a0a508fe792be797c755ce9e7b0"
+    },
+    {
+      "sampleId": "MERITI-V1-0062",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0062.png",
+      "sha256": "4d0a8f8002c866ff417c3f06df36febd1a50dcb0e791ea4dcbc091ae35f79889"
+    },
+    {
+      "sampleId": "MERITI-V1-0063",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0063.png",
+      "sha256": "686e888e5e131ca40272a8114c9b07a680e554eb75a95f53497d7bd8aa4ba087"
+    },
+    {
+      "sampleId": "MERITI-V1-0064",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0064.png",
+      "sha256": "2584be8d960e8bb614adf7c5e5c4218cb4b4d1c432fd224f5cd0677cad05efc7"
+    },
+    {
+      "sampleId": "MERITI-V1-0065",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0065.png",
+      "sha256": "44ee88fb421ef6e8d4520f328bec0b4ad03c5d82f43c1e156eefba027901c0ca"
+    },
+    {
+      "sampleId": "MERITI-V1-0066",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0066.png",
+      "sha256": "63a394e432457a292d47d18f54362184940536ac98aaed1746fc695a39141a76"
+    },
+    {
+      "sampleId": "MERITI-V1-0067",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0067.png",
+      "sha256": "3f9b2fa6914911ad1c5a6e999670cca0bc74acbe128d454f498154d6a2af60c3"
+    },
+    {
+      "sampleId": "MERITI-V1-0068",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0068.png",
+      "sha256": "b95addf93635adf6e690268be3fbaf113b0eb235209d3ecffe29e4aa11765c44"
+    },
+    {
+      "sampleId": "MERITI-V1-0069",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0069.png",
+      "sha256": "f4726ced2707a1de5ce0d73eafeceef952b1e8dc5ffe60a83a583c9664b85336"
+    },
+    {
+      "sampleId": "MERITI-V1-0070",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0070.png",
+      "sha256": "ecbf50195adf2a1ab5db0bde11578884fa02f8d9695070fd0a162bd8dcb904c7"
+    },
+    {
+      "sampleId": "MERITI-V1-0071",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0071.png",
+      "sha256": "13ca6b3da880355259caabe9ebd2829be8fb83fc35477a6ab0be2b6fa8e9fd14"
+    },
+    {
+      "sampleId": "MERITI-V1-0072",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0072.png",
+      "sha256": "3faf505f185417980fe67210dd5e3a8454c11e5c576dd1828f17cda65ebf6b3b"
+    },
+    {
+      "sampleId": "MERITI-V1-0073",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0073.png",
+      "sha256": "f125dfffd80259005be216c5bf8f7ee6bab79205f7f2e9186f46e77e6a8f53b3"
+    },
+    {
+      "sampleId": "MERITI-V1-0074",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0074.png",
+      "sha256": "9c484efcd8ad9fbeaa5a5818cb777f8a49fd30fc018b370839cc4ff767b2240b"
+    },
+    {
+      "sampleId": "MERITI-V1-0075",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0075.png",
+      "sha256": "3b0fb1c8e7f25ef19e0aa3ff23551719118479c581b56438f88639b506d9b5a1"
+    },
+    {
+      "sampleId": "MERITI-V1-0076",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0076.png",
+      "sha256": "1ca80ee9c6437f9ba1af04f5dd3ab43de921078b7938fde31d98e04da782457e"
+    },
+    {
+      "sampleId": "MERITI-V1-0077",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0077.png",
+      "sha256": "66aad8513934223877325c4251502461b1ba08d29b8d7e2fedec37511d0bf0a4"
+    },
+    {
+      "sampleId": "MERITI-V1-0078",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0078.png",
+      "sha256": "c5660478a3cfb85d551698d6880f99b854745cd19193d48b03bef06e76e89af5"
+    },
+    {
+      "sampleId": "MERITI-V1-0079",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0079.png",
+      "sha256": "04d10adb959085455e6239b61111b6c5b5a5743226fef2a47ef58776e8f23a4e"
+    },
+    {
+      "sampleId": "MERITI-V1-0080",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0080.png",
+      "sha256": "5949f1332bafdc58c2e0b9f32f448bd45614c396f6fae245425eda6a3adf01a2"
+    },
+    {
+      "sampleId": "MERITI-V1-0081",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0081.png",
+      "sha256": "2cfa69cc0b7aa42d587d1b9b932eb22f85bad86ed66058bcb1908a1520ed87c7"
+    },
+    {
+      "sampleId": "MERITI-V1-0082",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0082.png",
+      "sha256": "7d178966b528a4aa808fc03b812db4a67afae0f60ee44985ee8822fc7dfce77b"
+    },
+    {
+      "sampleId": "MERITI-V1-0083",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0083.png",
+      "sha256": "7e66d05a4d8bae57770e49f88d93f176df76e34bc74815587b1a42ecc6edae7a"
+    },
+    {
+      "sampleId": "MERITI-V1-0084",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0084.png",
+      "sha256": "6641e83e262a0ecae7b3784709732732db1c723f175afdb69f81d61d0771e606"
+    },
+    {
+      "sampleId": "MERITI-V1-0085",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0085.png",
+      "sha256": "6dda95ed86bc91027c7748f3629b96de8336209b926164562ec2a6d64896ee79"
+    },
+    {
+      "sampleId": "MERITI-V1-0086",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0086.png",
+      "sha256": "935506494d7632dd4e234bd4c5d2ed26508b3c1566459c43fd8ed22be542ae03"
+    },
+    {
+      "sampleId": "MERITI-V1-0087",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0087.png",
+      "sha256": "861d1ce28d1a61d193669ec1b53137cfbfd0947e83e036edc7243f29789a24da"
+    },
+    {
+      "sampleId": "MERITI-V1-0088",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0088.png",
+      "sha256": "fca49cda46f0998903c019331988550312b77f8026de9ea39f7577c4fbb828b5"
+    },
+    {
+      "sampleId": "MERITI-V1-0089",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0089.png",
+      "sha256": "d14b6c03896cf904b99372ab466214f8b1b1c007121b8aae2c38dad3be0cd3f4"
+    },
+    {
+      "sampleId": "MERITI-V1-0090",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0090.png",
+      "sha256": "e3ccc071eef3db901310cafb122c5b4d767307b94a4954859a8e11b47748bb10"
+    },
+    {
+      "sampleId": "MERITI-V1-0091",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0091.png",
+      "sha256": "1850122d3dca78f227b8853ccbf3c77e978a04ff5069975d84cb8b8cb5404488"
+    },
+    {
+      "sampleId": "MERITI-V1-0092",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0092.png",
+      "sha256": "2c2782d4b2a7fccafdeaaa6f982375a801417b884d5c2bc8e6318ab15fb8d77d"
+    },
+    {
+      "sampleId": "MERITI-V1-0093",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0093.png",
+      "sha256": "61e9c55980faee2877e4f25538a6b88cf6274cac03f0d16fcfddea6680bfcae9"
+    },
+    {
+      "sampleId": "MERITI-V1-0094",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0094.png",
+      "sha256": "5df6895ea395304b3ccffa238042e38ff17d3afd40714fc5271da4353e714a05"
+    },
+    {
+      "sampleId": "MERITI-V1-0095",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0095.png",
+      "sha256": "abedc630487139128948e3d5c00f808d3f97a4ee9216d979d15238cd1c708c61"
+    },
+    {
+      "sampleId": "MERITI-V1-0096",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0096.png",
+      "sha256": "bdf5f01c45eeb5a356240be344a5110c88d13169a9c9e6c2114e0dd248534fef"
+    },
+    {
+      "sampleId": "MERITI-V1-0097",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0097.png",
+      "sha256": "8cb690de3fa58853d9a9afbde7e8bdc7d6f60fdacf4a9dc76f0923878e3df082"
+    },
+    {
+      "sampleId": "MERITI-V1-0098",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0098.png",
+      "sha256": "abe9c00aa6869b0304eb03acb0314eed203868ef4999153b1ae53b628fb2bc01"
+    },
+    {
+      "sampleId": "MERITI-V1-0099",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0099.png",
+      "sha256": "0d6b0b64504eeff01646038754ba2c45110e4be5f0ddbfe9355462eed8ec722c"
+    },
+    {
+      "sampleId": "MERITI-V1-0100",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0100.png",
+      "sha256": "4876a53c0cb005950fc8eee8bd972bc796e99dcc6f2279674113f6f1597b7730"
+    },
+    {
+      "sampleId": "MERITI-V1-0101",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0101.png",
+      "sha256": "0be3249e13e6b5cbf248998cdd67fb41f4da4b670da6b9483512a26e7e5fb81e"
+    },
+    {
+      "sampleId": "MERITI-V1-0102",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0102.png",
+      "sha256": "139f86c54b243f764839be2bf01ecfa8c7ee475d901ecc4afe1a31772d5f1422"
+    },
+    {
+      "sampleId": "MERITI-V1-0103",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0103.png",
+      "sha256": "ea125fdb1f62ceab5ede02ab38b7dad3f85b18d308fb1592b847cb9f696939a0"
+    },
+    {
+      "sampleId": "MERITI-V1-0104",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0104.png",
+      "sha256": "ec26aa0cc345fc556d27a054218863a4b3c150c5606a3b303456140386d93e5d"
+    },
+    {
+      "sampleId": "MERITI-V1-0105",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0105.png",
+      "sha256": "dc8c40329039263e20290a60ee8b8cfa3d9d25b69605314a5e8b5b902af37c4b"
+    },
+    {
+      "sampleId": "MERITI-V1-0106",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0106.png",
+      "sha256": "d8881d4e4675c9430ec0728a44a1fe2339f44b7568f1f8cba7ac5dd86d190b28"
+    },
+    {
+      "sampleId": "MERITI-V1-0107",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0107.png",
+      "sha256": "4af7ffc07d226395285027e6c76d50c321be6922d10772acb1be8b7ef7f1a9c4"
+    },
+    {
+      "sampleId": "MERITI-V1-0108",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0108.png",
+      "sha256": "493bb31175d5e654695708fdbcebd65af89d7e2a975911b4220c8125b9534b23"
+    },
+    {
+      "sampleId": "MERITI-V1-0109",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0109.png",
+      "sha256": "24dfd1cd15b4df74dda6ffd64693ca41ba053573d56640e43b73ef0d93f31ab0"
+    },
+    {
+      "sampleId": "MERITI-V1-0110",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0110.png",
+      "sha256": "48aa7a44499faf5623905d91ea071babd7327aabd9405d3a5254f317a71a409c"
+    },
+    {
+      "sampleId": "MERITI-V1-0111",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0111.png",
+      "sha256": "06f4fdae732c1b7a381f81a63373e5f5986c823b8071a7addff8cf2a5502d0bd"
+    },
+    {
+      "sampleId": "MERITI-V1-0112",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0112.png",
+      "sha256": "de228e45e8506e7480663e095791000dc2dc1e5079b534e4cafa7b81842f2c1c"
+    },
+    {
+      "sampleId": "MERITI-V1-0113",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0113.png",
+      "sha256": "7e74914f5c69cc591d17627476db79191fb365723c857f5fbfbad718b7c7dade"
+    },
+    {
+      "sampleId": "MERITI-V1-0114",
+      "date": "20260426",
+      "dataPresenceFraction": null,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0114.png",
+      "sha256": "6f2753e888ec2461990ac1942502984af6c7c3aca2df155808834d22bad1908f"
+    },
+    {
+      "sampleId": "MERITI-V1-0115",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0115.png",
+      "sha256": "667351839dd3d1e3da4e1c0eadb893bda768b04ab6936567c9fc0cfed1344a2c"
+    },
+    {
+      "sampleId": "MERITI-V1-0116",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0116.png",
+      "sha256": "0ed01726b96eac835a92462313a85ee119681e73984bdc9945bc2b1273643f49"
+    },
+    {
+      "sampleId": "MERITI-V1-0117",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0117.png",
+      "sha256": "bf9a203304602ab478385a4c2b967fa4d59c5a5a0d322f5ca6971bf193767f9a"
+    },
+    {
+      "sampleId": "MERITI-V1-0118",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0118.png",
+      "sha256": "307a6ac4c7e13f005f2aa2da2fab4d820de9fa3e63e18f99cd32fac4e6685b7d"
+    },
+    {
+      "sampleId": "MERITI-V1-0119",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0119.png",
+      "sha256": "6f03aa14ef629d0da76eda5d870871f9bad7bdeb05ac320a1f35108da23f0a00"
+    },
+    {
+      "sampleId": "MERITI-V1-0120",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0120.png",
+      "sha256": "aa0bf8e119297205a0d00c138411222cbea2e9522c114006d45874c430e93995"
+    },
+    {
+      "sampleId": "MERITI-V1-0121",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0121.png",
+      "sha256": "7f317f49d89bbfd5169ea94044813c7db048c87ebec2f32e018db0e03422f32f"
+    },
+    {
+      "sampleId": "MERITI-V1-0122",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0122.png",
+      "sha256": "0db10562dd3fe1295816510e102d1bdae4271764853ce3826be73f4b70cb0385"
+    },
+    {
+      "sampleId": "MERITI-V1-0123",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0123.png",
+      "sha256": "200455702b844b4a1bea02728ec6c95688cc1f33f620df0f281189fbdab8444d"
+    },
+    {
+      "sampleId": "MERITI-V1-0124",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0124.png",
+      "sha256": "a11761f3abf30f8d583228dd7e67b2c42c356f43787376cb5044b64480a714dc"
+    },
+    {
+      "sampleId": "MERITI-V1-0125",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0125.png",
+      "sha256": "dead20004b6e4023934fe91abf14c22065599cfbcde66b66839866c1fc0fa0d5"
+    },
+    {
+      "sampleId": "MERITI-V1-0126",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0126.png",
+      "sha256": "51543728f165eed806a121c9e9f77697f33cabc40a22f45fc912d39ddb12ea65"
+    },
+    {
+      "sampleId": "MERITI-V1-0127",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0127.png",
+      "sha256": "4e518faed2a8c1d94ea8aead7aa574c619d0512bea921c3f8ad5d0e7939ca6c1"
+    },
+    {
+      "sampleId": "MERITI-V1-0128",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0128.png",
+      "sha256": "dd6600e20668ab0d60652bce182e4381133ca51fe48ba7fea6a2037ac8c97caa"
+    },
+    {
+      "sampleId": "MERITI-V1-0129",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0129.png",
+      "sha256": "5f602aa54da4b2fb8281fcb8f66f75a4834757027b7faaa9758a5f632129d93c"
+    },
+    {
+      "sampleId": "MERITI-V1-0130",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0130.png",
+      "sha256": "fa3e3a69218094aacb0d6b6759000ae3538fb07f500d21c451f63e7bf3cda568"
+    },
+    {
+      "sampleId": "MERITI-V1-0131",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0131.png",
+      "sha256": "d6495f691614130dc53c63c0fca2f5929ba4a38eb3f3568a3a8b4d3cf13c3367"
+    },
+    {
+      "sampleId": "MERITI-V1-0132",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0132.png",
+      "sha256": "4513cbcf20ee669f6b64d302ebd1eea1fecc71d14144daa66011755a8dfc4d0c"
+    },
+    {
+      "sampleId": "MERITI-V1-0133",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0133.png",
+      "sha256": "87cd00c5a8ab0683e3809c5b266116edab9463095b3773252d4679dda70eb6f5"
+    },
+    {
+      "sampleId": "MERITI-V1-0134",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0134.png",
+      "sha256": "103b83ce197f7abfe8de09607aa69db21a5090fe02b0be735e68aa80598547a4"
+    },
+    {
+      "sampleId": "MERITI-V1-0135",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0135.png",
+      "sha256": "cb0a970c98decb086deedf356bc32a7cceda154f3cbd188271505cd586736fcf"
+    },
+    {
+      "sampleId": "MERITI-V1-0136",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0136.png",
+      "sha256": "cce8512da5e335f9c19f9def22f10b3bfc3be2547fb83cb81a59791a31c90a3f"
+    },
+    {
+      "sampleId": "MERITI-V1-0137",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0137.png",
+      "sha256": "b7db85a5c19a4db423a1f70203ea7e1c432d6b7aff27cd6ae155ced8f105cd7b"
+    },
+    {
+      "sampleId": "MERITI-V1-0138",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0138.png",
+      "sha256": "280b9c7324765f8bcbce15bfd4378d78d7589779d53177dd59b5e240678c1a23"
+    },
+    {
+      "sampleId": "MERITI-V1-0139",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0139.png",
+      "sha256": "2ef1e4944a154ffc49870baf77229466ce732ba320fad341070bd349169efeaa"
+    },
+    {
+      "sampleId": "MERITI-V1-0140",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0140.png",
+      "sha256": "9b8175e0fbdd191e88ef32bec68619d91d687edf6ba2e00c5be23f48194f3694"
+    },
+    {
+      "sampleId": "MERITI-V1-0141",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0141.png",
+      "sha256": "68c1a8b23ffd84ef69e97f7a637d16a5dfdea160f9ec08a3709fa4cddfc8fefb"
+    },
+    {
+      "sampleId": "MERITI-V1-0142",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0142.png",
+      "sha256": "63479ab6c04f300521d5243fd135ca48a4d3fa6cf8cdd56e19103c688d2c82b2"
+    },
+    {
+      "sampleId": "MERITI-V1-0143",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0143.png",
+      "sha256": "77318dc3d798a58a260dc5ceef6a32baf6fec0b4b29dab8b3cf4263996bf0f62"
+    },
+    {
+      "sampleId": "MERITI-V1-0144",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0144.png",
+      "sha256": "33eaad207bc0326d5323e49070ad85da65223ec9b3d6c04933866111cfd56ffc"
+    },
+    {
+      "sampleId": "MERITI-V1-0145",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0145.png",
+      "sha256": "481ce2332a0ad91cef5f43040a8d8c42bc6f89c07a0c12c320b40dc5e2e840b0"
+    },
+    {
+      "sampleId": "MERITI-V1-0146",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0146.png",
+      "sha256": "17375d6e41fa156cbd29be1bca37d06f2395b8e68cd62dd9469bce00c44e1109"
+    },
+    {
+      "sampleId": "MERITI-V1-0147",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0147.png",
+      "sha256": "a43a38bfd8b095f8e5824a26a8f18dd2639d00a8283133abbcdfd396b2ee961a"
+    },
+    {
+      "sampleId": "MERITI-V1-0148",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0148.png",
+      "sha256": "1dbdeb1884c087945d626c86bfe65e7efae8a5e101dcecf2a0f0cca923b8029b"
+    },
+    {
+      "sampleId": "MERITI-V1-0149",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0149.png",
+      "sha256": "5d64ee09a11da6d148e76846e9895f8df9606349bd37368d4e33958ea1a5f571"
+    },
+    {
+      "sampleId": "MERITI-V1-0150",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0150.png",
+      "sha256": "4c4f76390dbb80f4287db73cc462158806380b6a2d6621f6e2dd2df24199197f"
+    },
+    {
+      "sampleId": "MERITI-V1-0151",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0151.png",
+      "sha256": "a9fb677c2d57f48bc0d44a47828aad62091a8f1e7a5005f7d195cf799168d312"
+    },
+    {
+      "sampleId": "MERITI-V1-0152",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0152.png",
+      "sha256": "b5b65e10be6356a04d88ed437fc395a4ad55649d074b0059239083bd8810c8a9"
+    },
+    {
+      "sampleId": "MERITI-V1-0153",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0153.png",
+      "sha256": "42a2a5e0138bc6b82b5cabc507d0ca97b78a0ab314bd3fe3832cc0574485ac65"
+    },
+    {
+      "sampleId": "MERITI-V1-0154",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0154.png",
+      "sha256": "3dbdf8cee66106c2a32235dc6ef94f1760e381c1a3db89917de462029128f711"
+    },
+    {
+      "sampleId": "MERITI-V1-0155",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0155.png",
+      "sha256": "5e3f0f46f331bd14bf30eaceee6647fb8eead294892174e548ce03e345cbf67c"
+    },
+    {
+      "sampleId": "MERITI-V1-0156",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0156.png",
+      "sha256": "5dab1fc75539e498689d5940e698a1f261ce99f4ee4b564f5171eca69c373bff"
+    },
+    {
+      "sampleId": "MERITI-V1-0157",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0157.png",
+      "sha256": "992e0ba9360157417064af7f23640a7ab3302f3101c7d83a49dada2bd9d08f28"
+    },
+    {
+      "sampleId": "MERITI-V1-0158",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0158.png",
+      "sha256": "f801aaf5d4b4febc5396892658d4a401bb5513dc18402a80c4710673a68338e2"
+    },
+    {
+      "sampleId": "MERITI-V1-0159",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0159.png",
+      "sha256": "04807ca66d7bf35c0933a3b7c51c486ef722c5bd52916be17f4403a9f6f93816"
+    },
+    {
+      "sampleId": "MERITI-V1-0160",
+      "date": "20260426",
+      "dataPresenceFraction": null,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0160.png",
+      "sha256": "8f8ad4faf38155fff6ea6c54c3dd05004266c4f02ca36c26bc1d0aac0ec9ea51"
+    },
+    {
+      "sampleId": "MERITI-V1-0161",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0161.png",
+      "sha256": "726caee1f2d0c5da64ae2d1cd64965374e0ed91490562fd5d185768ad64fccb6"
+    },
+    {
+      "sampleId": "MERITI-V1-0162",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0162.png",
+      "sha256": "4af182c2a4c92fc48d287056c83002bf6037f3e433e82bde908abee142ab7812"
+    },
+    {
+      "sampleId": "MERITI-V1-0163",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0163.png",
+      "sha256": "5555d3ff5c3a1c9b0355d9a65a40dfc3480b1c1d8c4d8734544982222490aebd"
+    },
+    {
+      "sampleId": "MERITI-V1-0164",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0164.png",
+      "sha256": "6bea7ee2778b180bff5fb181d6dc052298280c9d3015f152de812e15292a4202"
+    },
+    {
+      "sampleId": "MERITI-V1-0165",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0165.png",
+      "sha256": "6fa0198c0049007c043935e3bcd9c45820e6b6fd440618bbe131b8f666499459"
+    },
+    {
+      "sampleId": "MERITI-V1-0166",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0166.png",
+      "sha256": "fd34d80fb905494ce1f7ff5445c723780fa3f2284082a91e79083325b27d1534"
+    },
+    {
+      "sampleId": "MERITI-V1-0167",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0167.png",
+      "sha256": "ab812d133a37f2045eceb898ebae677fa525ad2ffce6dfe9f3fce2599df01db8"
+    },
+    {
+      "sampleId": "MERITI-V1-0168",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0168.png",
+      "sha256": "cab491df9d3387303952b46e46476b1f1f5bbfad4b07efb6674945ae34daba46"
+    },
+    {
+      "sampleId": "MERITI-V1-0169",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0169.png",
+      "sha256": "10cb4d77121b37c374f6517f7de84baaffa067a1b0bda415d58649af777349c7"
+    },
+    {
+      "sampleId": "MERITI-V1-0170",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0170.png",
+      "sha256": "4f9c82359894c79806708c1376d6ec9942b13c29f572adc85796787ef71b09ea"
+    },
+    {
+      "sampleId": "MERITI-V1-0171",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0171.png",
+      "sha256": "b260557150a1218ff2cfe4de1853e5ae74729660f200322c45c5921c99476b09"
+    },
+    {
+      "sampleId": "MERITI-V1-0172",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0172.png",
+      "sha256": "b532103d4b791161e6680fb15d51b90892473aab27861451da16b9d5a22bef02"
+    },
+    {
+      "sampleId": "MERITI-V1-0173",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0173.png",
+      "sha256": "705f5f14aaf6668ee4fb3aa57a2cbf552791480b2490fad052fe3b4fc8bff14b"
+    },
+    {
+      "sampleId": "MERITI-V1-0174",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0174.png",
+      "sha256": "c3a7eb7eb1b50dbe56cb68093013f483f77b58cd44163c079714e365f8523321"
+    },
+    {
+      "sampleId": "MERITI-V1-0175",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0175.png",
+      "sha256": "8d76c3b33c4651278f5e9bfa885deb276f36e3d7dbac5df97a16fe028beef9b6"
+    },
+    {
+      "sampleId": "MERITI-V1-0176",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0176.png",
+      "sha256": "89a84c10bc6c62f621ef59be74a869de9aa8de8b478e38d2ae0aa7bbe8364f31"
+    },
+    {
+      "sampleId": "MERITI-V1-0177",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0177.png",
+      "sha256": "907a1818c05f65908cb5370ca2ee046365701f37b9b22252cea4070850e3bf83"
+    },
+    {
+      "sampleId": "MERITI-V1-0178",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0178.png",
+      "sha256": "ab22ac175ab5eb4fca137ebfd5c1710f6319d1b993ab24673004c89d06ca8d76"
+    },
+    {
+      "sampleId": "MERITI-V1-0179",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0179.png",
+      "sha256": "f0f4be2437d5005cda830b615fabed8adead5b776557b26a8b6b5e9768cf9e83"
+    },
+    {
+      "sampleId": "MERITI-V1-0180",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0180.png",
+      "sha256": "a4c768d2d9a609702a0f5a1a1c2b125a019a0f3ee5c80f2cc07f329ab651da91"
+    },
+    {
+      "sampleId": "MERITI-V1-0181",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0181.png",
+      "sha256": "2816793dcd0da9286180db3b5469fc3c311c24e58d2afd27e5679ae33ee59c5e"
+    },
+    {
+      "sampleId": "MERITI-V1-0182",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0182.png",
+      "sha256": "24d529122490e811ae194d3955c492dbfbc53bff60d43f6e288df0d31277a778"
+    },
+    {
+      "sampleId": "MERITI-V1-0183",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0183.png",
+      "sha256": "99aed0fee43d7acc1340006c2f9c38e89fb0c1978320b11fb7f343bdcede6f05"
+    },
+    {
+      "sampleId": "MERITI-V1-0184",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0184.png",
+      "sha256": "923f0e5da9fbb3e9f2e5bb74e1be37d7e6d20993c88b822575d4ce04d371b16e"
+    },
+    {
+      "sampleId": "MERITI-V1-0185",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0185.png",
+      "sha256": "a5a0c5ebf182af5103d671698576d9638701577eb38df897d33af7cd9fc5bfb0"
+    },
+    {
+      "sampleId": "MERITI-V1-0186",
+      "date": "20260426",
+      "dataPresenceFraction": null,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0186.png",
+      "sha256": "956f40d6eb6c2372173b5682fa1c6c3f2567a940f7cf82881280a58a5e499cc9"
+    },
+    {
+      "sampleId": "MERITI-V1-0187",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0187.png",
+      "sha256": "c205c9081372cd84b7c1b8255dff55cdb5f203e12ad8838e37e1c8ad036e8df6"
+    },
+    {
+      "sampleId": "MERITI-V1-0188",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0188.png",
+      "sha256": "cdbb335990fec68a4d21f14a0a7416a4673293ad3ff5103e8c985ea7030d49ed"
+    },
+    {
+      "sampleId": "MERITI-V1-0189",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0189.png",
+      "sha256": "5c1d81c62e599e156daf051d741e0126edd2dfa659947118a14c5e03c8372cd4"
+    },
+    {
+      "sampleId": "MERITI-V1-0190",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0190.png",
+      "sha256": "6c2c1b150f42bd35177343f6b4bdfe6d8ae76f23ce3e2aaa6b109a6e2d9ef9c4"
+    },
+    {
+      "sampleId": "MERITI-V1-0191",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0191.png",
+      "sha256": "5dd0b301dbf0a9c5d5c91340e4ce5dba1a0504db971bb9ca5ce91138bd97c301"
+    },
+    {
+      "sampleId": "MERITI-V1-0192",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0192.png",
+      "sha256": "f74edd750f3067503c93e734b4dedb74370f5a619f439d67469739adb2c48e65"
+    },
+    {
+      "sampleId": "MERITI-V1-0193",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0193.png",
+      "sha256": "ef0e0bd50d8dd8106264bea591fd036b3a9545996fce128b159467837f2ef142"
+    },
+    {
+      "sampleId": "MERITI-V1-0194",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0194.png",
+      "sha256": "d36a2a90e86ba502148de40b1b33d16df4da6f35cdaddfa9da95ac12f3f839d4"
+    },
+    {
+      "sampleId": "MERITI-V1-0195",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0195.png",
+      "sha256": "2700aaa3d72a337338a0453d6b89f14292b322609126c4a648a281128165e125"
+    },
+    {
+      "sampleId": "MERITI-V1-0196",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0196.png",
+      "sha256": "c69299ce56c163340ec69d9f44c8477ab3463b9349c570a41b282acf06c52cc7"
+    },
+    {
+      "sampleId": "MERITI-V1-0197",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0197.png",
+      "sha256": "de532b8e1c433c74cbe984e41d2d7e4221c55a400a315fd5bbeb9eb69a33c3d5"
+    },
+    {
+      "sampleId": "MERITI-V1-0198",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0198.png",
+      "sha256": "07bf06a5897fc14277433f3950a4bb7e58e51617eb8c616e862c8b46c6972234"
+    },
+    {
+      "sampleId": "MERITI-V1-0199",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0199.png",
+      "sha256": "39ae81fcc9903621e702dcbb1d0e60be20e2a8dabe68c75bbc4d55b1740693d4"
+    },
+    {
+      "sampleId": "MERITI-V1-0200",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0200.png",
+      "sha256": "f40111484e42973e4c5f1054d6d9645b5d0b8862292175a487bcce305a6842f1"
+    },
+    {
+      "sampleId": "MERITI-V1-0201",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0201.png",
+      "sha256": "d7cbc721b211f7e2ea5c2c58c2f891f58fe14543059491318e0148dcc9ac5630"
+    },
+    {
+      "sampleId": "MERITI-V1-0202",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0202.png",
+      "sha256": "5aab02b1b2a5a6e83dc4cf29d273f327996261a590aa3c1e6f30d45b50985cb4"
+    },
+    {
+      "sampleId": "MERITI-V1-0203",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0203.png",
+      "sha256": "f41cc283783be02d3dd0144644a8175c4fc0e8892c4619d96b9a42dea73f169f"
+    },
+    {
+      "sampleId": "MERITI-V1-0204",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0204.png",
+      "sha256": "a646ce522cf9995ebe032c682a5f3bb2aaf7d15420dc63e7e86a53e413c69f93"
+    },
+    {
+      "sampleId": "MERITI-V1-0205",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0205.png",
+      "sha256": "c841c6a898b6f3ef1334e0be9c9547dc92aa30e5cc3adf6951fa7f3f9292d86d"
+    },
+    {
+      "sampleId": "MERITI-V1-0206",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0206.png",
+      "sha256": "456d6c803faccbaa660a7ab70cabe78da5ca581fdbc8ed730ac2fceb4caadb7a"
+    },
+    {
+      "sampleId": "MERITI-V1-0207",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0207.png",
+      "sha256": "6cd9cbb9a9ad894ea9fffe8dda89e13ee9d93ac05a63b24378d7a411fd8c5376"
+    },
+    {
+      "sampleId": "MERITI-V1-0208",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0208.png",
+      "sha256": "af6d35fc5c483c5235d8ad56101b883d4573669e7709120d4ece0b0ee3d835ea"
+    },
+    {
+      "sampleId": "MERITI-V1-0209",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0209.png",
+      "sha256": "5b5c83a849f53f0c4383634428266897419504f0fe6449473bf652ceaf3ff5dd"
+    },
+    {
+      "sampleId": "MERITI-V1-0210",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0210.png",
+      "sha256": "cb0b0a212ee7332b6462b492cbb99e2c374641f45f0c441393740d26a2961364"
+    },
+    {
+      "sampleId": "MERITI-V1-0211",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0211.png",
+      "sha256": "79b1c7a4e72a337d8d9d75bc42b07c9da0f71b3cc925b89aee15e23b22e04a45"
+    },
+    {
+      "sampleId": "MERITI-V1-0212",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0212.png",
+      "sha256": "fcb9fb0795596fe4b1acc9673cedaca4a7a3869a98e8e323ee50af7a48166c47"
+    },
+    {
+      "sampleId": "MERITI-V1-0213",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0213.png",
+      "sha256": "c99138ed538dd8774ac27132f8d46a6157d0290d31390a1b78ebfbbe38367a93"
+    },
+    {
+      "sampleId": "MERITI-V1-0214",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0214.png",
+      "sha256": "70d34e409c9392227723005b4a406c0d35ea29ded4b57a8dd751dd3967e9ab1a"
+    },
+    {
+      "sampleId": "MERITI-V1-0215",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0215.png",
+      "sha256": "44f7a2bb5468a201b94a7b58d93df6bb1f26deff5370efbef28bc9c3f61da164"
+    },
+    {
+      "sampleId": "MERITI-V1-0216",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0216.png",
+      "sha256": "177f1a293b102569a5390c5f2e58cd43d8070b7bad993a4acfb6c907b41e6048"
+    },
+    {
+      "sampleId": "MERITI-V1-0217",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0217.png",
+      "sha256": "8e7d9ce9624cc0481022f16c006db306788fae16f286081c09e82a49e3df179a"
+    },
+    {
+      "sampleId": "MERITI-V1-0218",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0218.png",
+      "sha256": "f2a963443c205cd79ee8726317dc47b3aaffedd7cd05fe04a1fc3d0b8c1d77ff"
+    },
+    {
+      "sampleId": "MERITI-V1-0219",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0219.png",
+      "sha256": "d34e0f2004e22c0523e41a4fa9beea2c2dbc9ccb65c8e859f399bc4b807d10fc"
+    },
+    {
+      "sampleId": "MERITI-V1-0220",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0220.png",
+      "sha256": "b798b6287e6e88156e416d9ce0ff7820c1553516b43d352aa62418842e4ee755"
+    },
+    {
+      "sampleId": "MERITI-V1-0221",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0221.png",
+      "sha256": "cf845d5b758639370239af51265c8fcf2bf1f0504c774de19d7ac31305878e01"
+    },
+    {
+      "sampleId": "MERITI-V1-0222",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0222.png",
+      "sha256": "b56ebc7a43cf2882c20ca435033fe08adb7ef4774ffe4fe73320dcfc8cac0ea6"
+    },
+    {
+      "sampleId": "MERITI-V1-0223",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0223.png",
+      "sha256": "2345d10617b52204f251bd577ca0738dd2e8afcac837a4dd55097c5f3f1b7b9f"
+    },
+    {
+      "sampleId": "MERITI-V1-0224",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0224.png",
+      "sha256": "425b621b552c4f8a5b9c5921de93cd79ee505eabcc14665a9aa9259c549cdae3"
+    },
+    {
+      "sampleId": "MERITI-V1-0225",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0225.png",
+      "sha256": "9aadeaa23be3236fc566c4904a724d9f73aa859cb09f889d0dc694f28d6700c5"
+    },
+    {
+      "sampleId": "MERITI-V1-0226",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0226.png",
+      "sha256": "e1ab788e7b2a7431de939fb55c27627f6b3516afa04476390027ebe7ac1e19aa"
+    },
+    {
+      "sampleId": "MERITI-V1-0227",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0227.png",
+      "sha256": "695bd65f52c39a827d63559cd6fd780f2b44393f6ac93bae0ff3277f4dbf4675"
+    },
+    {
+      "sampleId": "MERITI-V1-0228",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0228.png",
+      "sha256": "703ad6658ce58481718ec2a91e4edc08c9f7434f0f9efa5c6eca7ba40b632ac0"
+    },
+    {
+      "sampleId": "MERITI-V1-0229",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0229.png",
+      "sha256": "d3973c8604a47bba7769a6f383e4bbdd0b175da042a92ba7b6f4d59dd9341f64"
+    },
+    {
+      "sampleId": "MERITI-V1-0230",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0230.png",
+      "sha256": "fd8e46ec242dfca3561285ec61e37c0591b7c85b2b2774a4cc0aec068223ad6e"
+    },
+    {
+      "sampleId": "MERITI-V1-0231",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0231.png",
+      "sha256": "305421284e9f2eae3dc7d83723bde0a435a0e3c55d92e6e5b81920d5f70a197e"
+    },
+    {
+      "sampleId": "MERITI-V1-0232",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0232.png",
+      "sha256": "ccad9766f4e11e1c36c8ea6cd5e3c7ecf1457f36c5bec8f858e5bf3db8053009"
+    },
+    {
+      "sampleId": "MERITI-V1-0233",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0233.png",
+      "sha256": "6ec24a0973680f0a69ed73bfe8c0f1f7da64e4323f084db75c99b6944acf9cd3"
+    },
+    {
+      "sampleId": "MERITI-V1-0234",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0234.png",
+      "sha256": "8dfab16e479ed92cf470cb67070c34ad0b4caa4e8d51dcd8ca6a0eb372807d47"
+    },
+    {
+      "sampleId": "MERITI-V1-0235",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0235.png",
+      "sha256": "07663c0a4114ea95836b6b4f1a6ac31d1fa0ecc10426f8c71ecf5210f7936e79"
+    },
+    {
+      "sampleId": "MERITI-V1-0236",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0236.png",
+      "sha256": "1a5c79dfca5a93256987fce7a0bc98312c3e628a70d47bd6fea213f2079b1bbe"
+    },
+    {
+      "sampleId": "MERITI-V1-0237",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0237.png",
+      "sha256": "798a100465b0672f21eb4e77bead60c879de0ca6079ea62fa51e4e7dcc86949d"
+    },
+    {
+      "sampleId": "MERITI-V1-0238",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0238.png",
+      "sha256": "5b1ad62ca781bf51919b83cf7ad14432f2cffa09f4ae82fe324568672af405e1"
+    },
+    {
+      "sampleId": "MERITI-V1-0239",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0239.png",
+      "sha256": "23971f2b66151cfe12620f66d43ace9c6d64560f00cb2039e56dca2ac8946719"
+    },
+    {
+      "sampleId": "MERITI-V1-0240",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0240.png",
+      "sha256": "d00e88e0fdc44e381773c9ed9540246ad38b9c1c2db54b887ff79671e4f56ac8"
+    },
+    {
+      "sampleId": "MERITI-V1-0241",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0241.png",
+      "sha256": "c223cd00fa400b5145654d412e10dc4302105aeb5e89d2a3eac100a5eeca2da6"
+    },
+    {
+      "sampleId": "MERITI-V1-0242",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0242.png",
+      "sha256": "2d06b78a8a429b40221845fe3e5aaccded32ee2925f6d56c8da8fda4cb9de640"
+    },
+    {
+      "sampleId": "MERITI-V1-0243",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0243.png",
+      "sha256": "d011a32d8f023651eb49b06cf62c49ee5a15f4e4116c53d1ceb877e767412977"
+    },
+    {
+      "sampleId": "MERITI-V1-0244",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0244.png",
+      "sha256": "24f3b490ee15345034623a2a9120f1afbe279c8695e192f2a5fdad9d7e8e596f"
+    },
+    {
+      "sampleId": "MERITI-V1-0245",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0245.png",
+      "sha256": "1c028457370cb4c33627fcfd1ff986dad220b59a99c7231bee0503479f3ced2f"
+    },
+    {
+      "sampleId": "MERITI-V1-0246",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0246.png",
+      "sha256": "db43ec289b1f9b54aa7d910c28f9bf4affe1ed8b658cdf92a63322af486eee13"
+    },
+    {
+      "sampleId": "MERITI-V1-0247",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0247.png",
+      "sha256": "78ffe7766c2c2378097ee22eb4e8ca84ba870bd73d28702fe12141dc501d8151"
+    },
+    {
+      "sampleId": "MERITI-V1-0248",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0248.png",
+      "sha256": "a77c10541c32fd99ef827459e222a3dcdace8b5673abe1be702898bf56f57086"
+    },
+    {
+      "sampleId": "MERITI-V1-0249",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0249.png",
+      "sha256": "e07c091820ee888aa6ed68a982c00fd0140b4a31af893fb4d1ed575d3dcdef1a"
+    },
+    {
+      "sampleId": "MERITI-V1-0250",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0250.png",
+      "sha256": "914d25c56673ca5469f88a7ae195d812dc34a8b298f9ae0f72e02edd5a1acc3a"
+    },
+    {
+      "sampleId": "MERITI-V1-0251",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0251.png",
+      "sha256": "cda6feb0ad0ec19ba10253875195a8748f9741d5932002190a0722e6a16dfa15"
+    },
+    {
+      "sampleId": "MERITI-V1-0252",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0252.png",
+      "sha256": "9dab907a3de3ecb9d63c15dff7bd68da3eb36f9c388cf49a8eaa4d79cbd86e65"
+    },
+    {
+      "sampleId": "MERITI-V1-0253",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0253.png",
+      "sha256": "27ed3eaa8cd4a64839d3c56c8cd1b356e9cf9ee42bc3a395a6a11b666689d9ec"
+    },
+    {
+      "sampleId": "MERITI-V1-0254",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0254.png",
+      "sha256": "2c035ef32665af78bcefc9a1206bf47f6a234ce2abc2e14f524758fcdcb539b8"
+    },
+    {
+      "sampleId": "MERITI-V1-0255",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0255.png",
+      "sha256": "a36d58382fa7a27841699a2a3c3384b16cb6b3b264ffc12efc4ff3c26958611d"
+    },
+    {
+      "sampleId": "MERITI-V1-0256",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0256.png",
+      "sha256": "e30d4b6f2cf80a3a8dc24bdf6b7bd1b75c6d359b02068e453d4441bc1da24ea2"
+    },
+    {
+      "sampleId": "MERITI-V1-0257",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0257.png",
+      "sha256": "49b0f3cc7b7cd91ce891be2e4ee949370628d93cb9a351689ad495d4b143b4a0"
+    },
+    {
+      "sampleId": "MERITI-V1-0258",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0258.png",
+      "sha256": "86442234dc307a8a60e95654e69e28b06dcbd80b163d82b3eaf87b57471d7721"
+    },
+    {
+      "sampleId": "MERITI-V1-0259",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0259.png",
+      "sha256": "81a803ee87d57bc7f9ed596a200ffcb4b62664e9270832e96aee19cbfc2b20e4"
+    },
+    {
+      "sampleId": "MERITI-V1-0260",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0260.png",
+      "sha256": "168d65bd97236f81b317a458719ae58fbc7e83324a39755582f91dadf78ec41a"
+    },
+    {
+      "sampleId": "MERITI-V1-0261",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0261.png",
+      "sha256": "ef022e76a8f0770d6eaed3af783cf3cff1b44e1671a0e9214eefe870fb963788"
+    },
+    {
+      "sampleId": "MERITI-V1-0262",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0262.png",
+      "sha256": "ad0d783088a4277e0331fb5dea60ba93dc7333d6b4d8fa2c48c00438687b5630"
+    },
+    {
+      "sampleId": "MERITI-V1-0263",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0263.png",
+      "sha256": "78c16bf5a464b111a88b2772bc0d7a0eca8d349d69bf686f319c21ee3a00f958"
+    },
+    {
+      "sampleId": "MERITI-V1-0264",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0264.png",
+      "sha256": "fe24888f2d87d5a78894a9d64346472b836b7b2e5e676ab91e88a2c14094db44"
+    },
+    {
+      "sampleId": "MERITI-V1-0265",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0265.png",
+      "sha256": "cd5841a2af5f5064018ac4e577285b6053c2c526fcd4541ffc226417552ea538"
+    },
+    {
+      "sampleId": "MERITI-V1-0266",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0266.png",
+      "sha256": "0580779e3f530b08ecf39a1665c89a85d026d43f0534d246f823d91b0f20b5a3"
+    },
+    {
+      "sampleId": "MERITI-V1-0267",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0267.png",
+      "sha256": "50f2bfa100402ec85216de50366eef240f6b4c5ced699895c478934e90434e31"
+    },
+    {
+      "sampleId": "MERITI-V1-0268",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0268.png",
+      "sha256": "398db61436e547b70fdbb26494d2fdf2a9ecb932fee05ba3fa9b7c7c114969a6"
+    },
+    {
+      "sampleId": "MERITI-V1-0269",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0269.png",
+      "sha256": "338d4133625bae9aa9ba42b35c5e0b861be5ab2a1d0656c039ef96697b37aab0"
+    },
+    {
+      "sampleId": "MERITI-V1-0270",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0270.png",
+      "sha256": "5caf545bfced02d469df8a327e680da655d44d854233dfccb61c34e2b6757c57"
+    },
+    {
+      "sampleId": "MERITI-V1-0271",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0271.png",
+      "sha256": "45f7a96cce22a881891995b1f3fc769a568d529eb07a37f605bd57ad1dd12d5e"
+    },
+    {
+      "sampleId": "MERITI-V1-0272",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0272.png",
+      "sha256": "a47d439e608c2634e711f521d9cb7792c2cbb64fdfcc966439582032a3048709"
+    },
+    {
+      "sampleId": "MERITI-V1-0273",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0273.png",
+      "sha256": "e97d43a219040c6ecdad7c1f2a7f24903566c411926f47764817e09bde096124"
+    },
+    {
+      "sampleId": "MERITI-V1-0274",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0274.png",
+      "sha256": "a47a9eb4a5b0226ec34efe454daa6a32e7e455c4ff92b22bb7f2f3bd5fb3b470"
+    },
+    {
+      "sampleId": "MERITI-V1-0275",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0275.png",
+      "sha256": "f6cc23ee2067cc98dce6b5796fa63456e52c1ba8d15118b975e6ac6e1dc412df"
+    },
+    {
+      "sampleId": "MERITI-V1-0276",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0276.png",
+      "sha256": "c9e2ee6c213843ee54f5eaf84d87377c356689b4bd9046110c1b91f439220e99"
+    },
+    {
+      "sampleId": "MERITI-V1-0277",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0277.png",
+      "sha256": "8871391a62bb732edb28a1b4910413a53917803ee542f8fc6bf525a137009341"
+    },
+    {
+      "sampleId": "MERITI-V1-0278",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0278.png",
+      "sha256": "6fbd9610b1ebc8e6c2eca53bef00e03d08f395c750c81751d07ab910d39c619a"
+    },
+    {
+      "sampleId": "MERITI-V1-0279",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0279.png",
+      "sha256": "45ee324fdfe7a890a4a73201d576f5bfbe845ef2c6a0535fcd92a6c56c04d6f5"
+    },
+    {
+      "sampleId": "MERITI-V1-0280",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0280.png",
+      "sha256": "07fe7e42b29e145ead4f7aee43efd35ed60654c559b344070baa4827c0c0e165"
+    },
+    {
+      "sampleId": "MERITI-V1-0281",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0281.png",
+      "sha256": "8f20d54cb9332b1893b51a70eca6c2337b9e6f86967ea3f46d82f98daeaa0770"
+    },
+    {
+      "sampleId": "MERITI-V1-0282",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0282.png",
+      "sha256": "3cfee6e03c6b40829a24705974298f290218ada33fe8245b25bbb372e02802cf"
+    },
+    {
+      "sampleId": "MERITI-V1-0283",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0283.png",
+      "sha256": "3989f0eb9ad94c82f02069c89b3ea553f3cb48bf5f33a1af75cb2adbec025d1c"
+    },
+    {
+      "sampleId": "MERITI-V1-0284",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0284.png",
+      "sha256": "34646f682967fffcc237deef38f412e88ee43838f06f561c04515a29f282252a"
+    },
+    {
+      "sampleId": "MERITI-V1-0285",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0285.png",
+      "sha256": "4644badd49c24d9bc290a12f37eb2efd5b7219cba6a87eac2247b2e9f3b96089"
+    },
+    {
+      "sampleId": "MERITI-V1-0286",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0286.png",
+      "sha256": "e6da73c3e21fa6f8456bc2bab8568f726ef9b84a08004d53c3cd9087803f0bad"
+    },
+    {
+      "sampleId": "MERITI-V1-0287",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0287.png",
+      "sha256": "bf0259781811948695007bd31d5d8d3d6548c83228b0ac54cff4e3635da30e24"
+    },
+    {
+      "sampleId": "MERITI-V1-0288",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0288.png",
+      "sha256": "4d729a1af91a538aac2f347538cfc885412f309740d2d3e6b6581f938472d2ad"
+    },
+    {
+      "sampleId": "MERITI-V1-0289",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0289.png",
+      "sha256": "e1f4090a69b5ef38cc67495ce14583386a1097e6d8b7098e510fbda33a33c66e"
+    },
+    {
+      "sampleId": "MERITI-V1-0290",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0290.png",
+      "sha256": "506ccdfa707031667a8857392b587ac6470181dbc2dafcb1f23a90b9f38df396"
+    },
+    {
+      "sampleId": "MERITI-V1-0291",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0291.png",
+      "sha256": "cbd54f987bc0d41ea720388489cb7bcf8250c97778c0569fcaec3f1e1917e9d1"
+    },
+    {
+      "sampleId": "MERITI-V1-0292",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0292.png",
+      "sha256": "f7bd449ab824810370b37a5ee42e59d525fb8a1a3d93835941d8298760601f4c"
+    },
+    {
+      "sampleId": "MERITI-V1-0293",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0293.png",
+      "sha256": "f2fcb77dd5e0dd6ff5293519df9cc99cdd10a8a4efe23a9e521bb31875bd0639"
+    },
+    {
+      "sampleId": "MERITI-V1-0294",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0294.png",
+      "sha256": "1d14cc494dce538bce078cdb94f55f37edd1296a834cc490192043d4150b7748"
+    },
+    {
+      "sampleId": "MERITI-V1-0295",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0295.png",
+      "sha256": "1ec0131646e5c7372b72a8b973e092801256ba33d361d5a858373fac75f21a63"
+    },
+    {
+      "sampleId": "MERITI-V1-0296",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0296.png",
+      "sha256": "1626ad5730f497a6eb86350262d5c7b24e4c21fcb041102a866273211958dc6c"
+    },
+    {
+      "sampleId": "MERITI-V1-0297",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0297.png",
+      "sha256": "a070e4d8a6b2e9d3da6c0ebcda29d3e5cd6ae4e1d26351c5f1df361c99e2fb69"
+    },
+    {
+      "sampleId": "MERITI-V1-0298",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0298.png",
+      "sha256": "be958a29d28b4094408dfdec3abe1169926293a0a0c1cce9770adf5580272660"
+    },
+    {
+      "sampleId": "MERITI-V1-0299",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0299.png",
+      "sha256": "ed842c201ad4b3aa9bdd5a4a1a6610b33682e65c5dc2f20aea64dd40b055f49f"
+    },
+    {
+      "sampleId": "MERITI-V1-0300",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0300.png",
+      "sha256": "0b301fd889d5d4d823c41b4cee85abcd42b774aec56a225fbddf3fe1d0b2e512"
+    },
+    {
+      "sampleId": "MERITI-V1-0301",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0301.png",
+      "sha256": "4517fe3de4429f37dda1662c15f4e922704ca50f991dad1e39e7a6b88b16cee9"
+    },
+    {
+      "sampleId": "MERITI-V1-0302",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0302.png",
+      "sha256": "85bfba4b7678326180154340481a687d0b4d2c263273b0d08300c09d5fc2c957"
+    },
+    {
+      "sampleId": "MERITI-V1-0303",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0303.png",
+      "sha256": "3496dbb57c0e502bb0cc1c26ef5a76094cf52fbcbd78e4a2bbeb9581a3e06a68"
+    },
+    {
+      "sampleId": "MERITI-V1-0304",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0304.png",
+      "sha256": "0a54928181848cf71e69f20869ef8eebf3619d479630a1786d7c9ce958f65a05"
+    },
+    {
+      "sampleId": "MERITI-V1-0305",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0305.png",
+      "sha256": "a2ef0085c0224fc570659da35621aa598ff0aebdbd31173a16c93a1ecc8d84c6"
+    },
+    {
+      "sampleId": "MERITI-V1-0306",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0306.png",
+      "sha256": "f6e52fec3e3f89a802ec5225a51fe568348342d2c730c50b6c50d806fbb94295"
+    },
+    {
+      "sampleId": "MERITI-V1-0307",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0307.png",
+      "sha256": "ff6c16de328ead042934ac705793c0d8df46653210e441203b2b4a65c9b7be68"
+    },
+    {
+      "sampleId": "MERITI-V1-0308",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0308.png",
+      "sha256": "9f9f1e050cf02f2bc6bafc73b87413d71943c91c358ef29446c6ea99d44df6e5"
+    },
+    {
+      "sampleId": "MERITI-V1-0309",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0309.png",
+      "sha256": "cc691aefdb44e63736cc8f9649fa10aa7a9e5c78aae17afdf31f453ad5b2178a"
+    },
+    {
+      "sampleId": "MERITI-V1-0310",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0310.png",
+      "sha256": "1ea87a155768578d6c7ae20d8bfb6920911e8f8eee50956cc50cd9fe719f7035"
+    },
+    {
+      "sampleId": "MERITI-V1-0311",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0311.png",
+      "sha256": "a996c4bde735cf7c916a9f5b0d5aacca143b43a7e8a3e11d6765f88fdc383135"
+    },
+    {
+      "sampleId": "MERITI-V1-0312",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0312.png",
+      "sha256": "9d365efc408af89676188b87921251a8b1307c29967f4500af89f5b0da591280"
+    },
+    {
+      "sampleId": "MERITI-V1-0313",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0313.png",
+      "sha256": "53f168ce935ec7dd83167de8094b2b79324a183088c19fa63f9a4a2e9bb3a8ca"
+    },
+    {
+      "sampleId": "MERITI-V1-0314",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0314.png",
+      "sha256": "1de2430e2a643c2f84e8fd8ceb1e8a99c654b3a3485fa5680dff170c09c35248"
+    },
+    {
+      "sampleId": "MERITI-V1-0315",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0315.png",
+      "sha256": "eee4ab1ebec034e7a9d31d6d5def943a44697c1371afa671bf30de36ab8c8c1c"
+    },
+    {
+      "sampleId": "MERITI-V1-0316",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0316.png",
+      "sha256": "111cc10979c6da59212e5144cbb0a0468af6417b9d57c585270d79887d6622c6"
+    },
+    {
+      "sampleId": "MERITI-V1-0317",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0317.png",
+      "sha256": "c1e41f93cdde586c2f41d1706a1024be5c5c5f60797f917555ea1da8cb8fa89f"
+    },
+    {
+      "sampleId": "MERITI-V1-0318",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0318.png",
+      "sha256": "8692692515e8e329b3dd061d8592514b707e8f8c19aefa88e6919992b0f3635f"
+    },
+    {
+      "sampleId": "MERITI-V1-0319",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0319.png",
+      "sha256": "95c7f4d270ae5b9c95185f3397bcaa033923120f970f595bb2851e671b359b37"
+    },
+    {
+      "sampleId": "MERITI-V1-0320",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0320.png",
+      "sha256": "a5ced507b2dc985e3dc96c91a65c5cfddd772c1ca54ffdf35c78f6bbb2aa9528"
+    },
+    {
+      "sampleId": "MERITI-V1-0321",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0321.png",
+      "sha256": "b48d88469678a58c6ce7587fde11af6a10adee40fb9ad41dc4c5fc676d09ad4f"
+    },
+    {
+      "sampleId": "MERITI-V1-0322",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0322.png",
+      "sha256": "d3218f0813509e1143361c46be3823883dd3c8aafeeb65ab8c55a54934428fa3"
+    },
+    {
+      "sampleId": "MERITI-V1-0323",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0323.png",
+      "sha256": "0bf6ba1b6973e540ee07c4bf3ced3f0cb30f60fe2fb9af29b5e53d9a2a5860e4"
+    },
+    {
+      "sampleId": "MERITI-V1-0324",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0324.png",
+      "sha256": "d6fadfbecea3a0e55f4046200fdf0d6ccabc9243106f225ff030d7b071024acc"
+    },
+    {
+      "sampleId": "MERITI-V1-0325",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0325.png",
+      "sha256": "2402b9a365ba8ff60f31bee16254eec3776f0a0ddc89a3a95d2d3a4916de42c1"
+    },
+    {
+      "sampleId": "MERITI-V1-0326",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0326.png",
+      "sha256": "20ebb89c5f4c4d322dc5c9afe0b61634d18e7613fa758f6a2c8f0d9dc5ef76ed"
+    },
+    {
+      "sampleId": "MERITI-V1-0327",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0327.png",
+      "sha256": "72e12db61b49a5081a030e3463a1c471c1516f2cbcec336fc31d57c542c7865e"
+    },
+    {
+      "sampleId": "MERITI-V1-0328",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0328.png",
+      "sha256": "27261b6c799296d622c14d491b58db10f20b7918e949468fdd6f801cf98b37f9"
+    },
+    {
+      "sampleId": "MERITI-V1-0329",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0329.png",
+      "sha256": "361db225afa2383dd168a6364a5403406ab11787e00dd19d442d705f00b21d22"
+    },
+    {
+      "sampleId": "MERITI-V1-0330",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0330.png",
+      "sha256": "ff02150eb0c4919bb4aa8c203c6c97f8776b88717e6aa363b1ca0bae656eaa48"
+    },
+    {
+      "sampleId": "MERITI-V1-0331",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0331.png",
+      "sha256": "66c8ebeb1eec768a6d999ceabcb7e68cbfea7f1d13ba34d9f409d1c2d8f6be62"
+    },
+    {
+      "sampleId": "MERITI-V1-0332",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0332.png",
+      "sha256": "b57062d044e8aef4b3a9f267ce3690691565b37a86a32e24a30a3679a57e0de7"
+    },
+    {
+      "sampleId": "MERITI-V1-0333",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0333.png",
+      "sha256": "8be46af39e3bfe9ac185136474b823b16e9a03e1e4a7058409faea6a9e7191fd"
+    },
+    {
+      "sampleId": "MERITI-V1-0334",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0334.png",
+      "sha256": "1e333ec00cf617630d2937f7e4ce9093ca28d0a75e849af8f5a175ce97fa9555"
+    },
+    {
+      "sampleId": "MERITI-V1-0335",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0335.png",
+      "sha256": "4c1faa454adff6b48623931b733a9db4943e3887e3643135b64195067e29dc3a"
+    },
+    {
+      "sampleId": "MERITI-V1-0336",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0336.png",
+      "sha256": "775efc8adcae019e9d9d35e7a316753e3657fa7a385b96f8a3de293bd59a2fec"
+    },
+    {
+      "sampleId": "MERITI-V1-0337",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0337.png",
+      "sha256": "934a64c72748a7338ea5bbcdb31f1b38fe14eae94b9edc9a008dbf710fd4b9ca"
+    },
+    {
+      "sampleId": "MERITI-V1-0338",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0338.png",
+      "sha256": "dd90250f9ac82412ef4907b3689b59f9776fd1f5bcadb338884c8349d7021b71"
+    },
+    {
+      "sampleId": "MERITI-V1-0339",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0339.png",
+      "sha256": "76ea86a5450ffd172db0672fde7636222073d04e576c8872990318cda9e2a139"
+    },
+    {
+      "sampleId": "MERITI-V1-0340",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0340.png",
+      "sha256": "3bbad68946f565c1d3028f1bc08273daa5a99b42f706136a51204bf17ec2b673"
+    },
+    {
+      "sampleId": "MERITI-V1-0341",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0341.png",
+      "sha256": "6d4ca3765423fb8dc700ad60f8d2d468382425d611723445e09ae93b2e159fc7"
+    },
+    {
+      "sampleId": "MERITI-V1-0342",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0342.png",
+      "sha256": "0ae519ad97a6ddcacfe4bc47ab3b855cac2dc2a8b1e1e2a5467a81f295cbe308"
+    },
+    {
+      "sampleId": "MERITI-V1-0343",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0343.png",
+      "sha256": "1336ee693962620170db96ae1a36d259a6c4539b8168423cc0369187ac4283d3"
+    },
+    {
+      "sampleId": "MERITI-V1-0344",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0344.png",
+      "sha256": "6a5182aa4cc913568f8893a68a10c953c41cc2ab7f4b517b1c64a0134ad217cb"
+    },
+    {
+      "sampleId": "MERITI-V1-0345",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0345.png",
+      "sha256": "4e230c3f02922d5511263003661962a79659ad868509033677296fa8f9bad95a"
+    },
+    {
+      "sampleId": "MERITI-V1-0346",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0346.png",
+      "sha256": "79d96d79e1d1ab92381e3c6b2b4d283796e86a88aa4654ffa53c6291596ff9d0"
+    },
+    {
+      "sampleId": "MERITI-V1-0347",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0347.png",
+      "sha256": "ca6f0e43697685d98dfe0fcf053fc147678f94f08a20ca1833796c4a6ed5c3cf"
+    },
+    {
+      "sampleId": "MERITI-V1-0348",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0348.png",
+      "sha256": "2248a5734e22eeb4ab5cc9c09b2b68c772aca0f129b253f4d9ca638abedc3986"
+    },
+    {
+      "sampleId": "MERITI-V1-0349",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0349.png",
+      "sha256": "e75e1e8cf641338a2b44838500c45ebb69da4a2a9e75799d81017a038c7d13b3"
+    },
+    {
+      "sampleId": "MERITI-V1-0350",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0350.png",
+      "sha256": "3c9246e64e30543b30f7d8d536f553c336d00a3169aea4ba9a55d5d0c3189dc7"
+    },
+    {
+      "sampleId": "MERITI-V1-0351",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0351.png",
+      "sha256": "89c1db6db10a7bb722a56d39b81d82c12d789e673a396a87528bab3fe9987d43"
+    },
+    {
+      "sampleId": "MERITI-V1-0352",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0352.png",
+      "sha256": "e161d3224da8a35f838f891620b6bc4110f83663a8e6aa3fc94be887c4c5b4af"
+    },
+    {
+      "sampleId": "MERITI-V1-0353",
+      "date": "20260426",
+      "dataPresenceFraction": null,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0353.png",
+      "sha256": "433ee3626b0d7bcb685f05250bb57c21e7552d68524060d9faf9ff43ccdf50e4"
+    },
+    {
+      "sampleId": "MERITI-V1-0354",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0354.png",
+      "sha256": "e7156dac9d232a70af15d2bff91db1882cd8037f7a842dc1f19c0207b438e629"
+    },
+    {
+      "sampleId": "MERITI-V1-0355",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0355.png",
+      "sha256": "71139ae14d8928d4a01d2b124c30d11bd15ec79c21323fa7f835f4beeed973eb"
+    },
+    {
+      "sampleId": "MERITI-V1-0356",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0356.png",
+      "sha256": "dfcf88061126b5c99efaf1baea3879015eb3bf070299ddf7af34c4464a72f00f"
+    },
+    {
+      "sampleId": "MERITI-V1-0357",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0357.png",
+      "sha256": "8d38f750870b2dcaf5f9b9227f0ad3810902fff6ef926f1979027ae04a05e415"
+    },
+    {
+      "sampleId": "MERITI-V1-0358",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0358.png",
+      "sha256": "f495c073130b1dcb5a467427ded04cfec3199657de6e4a04da4226dd8742ad21"
+    },
+    {
+      "sampleId": "MERITI-V1-0359",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0359.png",
+      "sha256": "a04772a848305399fa3400e03a0c68e528a33114c8650496760334e5dfe88a56"
+    },
+    {
+      "sampleId": "MERITI-V1-0360",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0360.png",
+      "sha256": "63efa0020813db262ba6559b340d3666e7795efb90bec3b290a752262473f60f"
+    },
+    {
+      "sampleId": "MERITI-V1-0361",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0361.png",
+      "sha256": "6b0bec04409762e42a0e9a281a0b571ac9e3922cc589388dec65b7c472818849"
+    },
+    {
+      "sampleId": "MERITI-V1-0362",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0362.png",
+      "sha256": "bcd832d5e6ee536a565558d6ff10c8d6a345018b5ef8bb01782fc93db74de2f1"
+    },
+    {
+      "sampleId": "MERITI-V1-0363",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0363.png",
+      "sha256": "67f4df10d690c88db91cf255de648ca742424939a859d3aa713b75a861082f7a"
+    },
+    {
+      "sampleId": "MERITI-V1-0364",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0364.png",
+      "sha256": "16010f77e0c4a5cc6176282b69f4aa3e91f9247b241c66290ec7fd5f8166e497"
+    },
+    {
+      "sampleId": "MERITI-V1-0365",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0365.png",
+      "sha256": "d1cd480e8602f9e669f4511b69a18de37e923f74be4e518fe61b37e1f7955925"
+    },
+    {
+      "sampleId": "MERITI-V1-0366",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0366.png",
+      "sha256": "fed0465d8f89c1cf10bd70d7768efdca6dea46283153e8897ba5b38606cbc6da"
+    },
+    {
+      "sampleId": "MERITI-V1-0367",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0367.png",
+      "sha256": "f6d6afeac4ef9828d8ce6d72a7804f92a0b75fb2d813f5fbe469a7893faad708"
+    },
+    {
+      "sampleId": "MERITI-V1-0368",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0368.png",
+      "sha256": "742af8bb192be4cc489191475b7d4189109cbd57b7ec8382278d531174847c78"
+    },
+    {
+      "sampleId": "MERITI-V1-0369",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0369.png",
+      "sha256": "c275a67b59f2653765c3efbee8c80f95d59f9fcdd63d9cb5a56f0005bdf33b0f"
+    },
+    {
+      "sampleId": "MERITI-V1-0370",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0370.png",
+      "sha256": "ab6dc52f01c8daabe3c7fcdc079057fd5d6e9f6b5386c7caef1749e4395d1b68"
+    },
+    {
+      "sampleId": "MERITI-V1-0371",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0371.png",
+      "sha256": "b4a9fff6796e3d08b6ece8ec7da375ed6447c765bf2dbe00cbaaa2f0444852de"
+    },
+    {
+      "sampleId": "MERITI-V1-0372",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0372.png",
+      "sha256": "ecb90a8b6d5b28d0833b97655ec5a9d9cebeb8ed57bd038e58360c7ef030486c"
+    },
+    {
+      "sampleId": "MERITI-V1-0373",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0373.png",
+      "sha256": "f926999690198d3f19bea6b1db441cb23644f5db07f06d04f0f4ed6e4af6eb9c"
+    },
+    {
+      "sampleId": "MERITI-V1-0374",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0374.png",
+      "sha256": "e4768b209b0483fc8bf92b9e7e04df4b3f70a3e830effdb1321353a41e327944"
+    },
+    {
+      "sampleId": "MERITI-V1-0375",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0375.png",
+      "sha256": "cafa76859649ee4131d673a9d7910abf6ba107f5b975f428cf8f4ab58bfdd76d"
+    },
+    {
+      "sampleId": "MERITI-V1-0376",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0376.png",
+      "sha256": "e4cae4dcf3a8ec13b59e729f0b327d3ad5d65e71aa975a5d5848f4bb3c063972"
+    },
+    {
+      "sampleId": "MERITI-V1-0377",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0377.png",
+      "sha256": "24bc80bcbbd1255d3cc341b885414367296b47e3f9001b2910ede8d8627cb87d"
+    },
+    {
+      "sampleId": "MERITI-V1-0378",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0378.png",
+      "sha256": "d1d5dafe5f91f3cd93bf18cb684a510245a0b5674102b48d20614316dca82dd6"
+    },
+    {
+      "sampleId": "MERITI-V1-0379",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0379.png",
+      "sha256": "95bca18259a139c1a626202799804a1c28e6466c2081769d3c320d228e18d3a4"
+    },
+    {
+      "sampleId": "MERITI-V1-0380",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0380.png",
+      "sha256": "b3d64737345ff7c27954f45ae00ca2cf140eb0bde43e6db6b70f7e30b4090755"
+    },
+    {
+      "sampleId": "MERITI-V1-0381",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0381.png",
+      "sha256": "36049375e2f4db66ffc1189c16aa426ed016941305a0691d816995489fe48e13"
+    },
+    {
+      "sampleId": "MERITI-V1-0382",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0382.png",
+      "sha256": "e15636153b6ea274e33b9ca0c95343c302848b77b726fbc6c44218a23c35ed29"
+    },
+    {
+      "sampleId": "MERITI-V1-0383",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0383.png",
+      "sha256": "287ee2a417ec7e87c7257c4e2185a1d250693961f3c872837e8d5525f87b0f5a"
+    },
+    {
+      "sampleId": "MERITI-V1-0384",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0384.png",
+      "sha256": "ae3dc4dac1e0679d56725dfa27da3eef043b13e1b27960f4d82a6a1862c0ea5f"
+    },
+    {
+      "sampleId": "MERITI-V1-0385",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0385.png",
+      "sha256": "d55d7e730467ffb76d7bca693b0f7bbf6058fa8e52b14488b24bbbe71cab730b"
+    },
+    {
+      "sampleId": "MERITI-V1-0386",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0386.png",
+      "sha256": "9d29c76bdd0e94d589ec96836faeaee401c444594929861c02f4ab5f1658099c"
+    },
+    {
+      "sampleId": "MERITI-V1-0387",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0387.png",
+      "sha256": "4189b7f0c5bac8c1e1a3d4305d1386538ddcb41e45630e0f8699086b83fae692"
+    },
+    {
+      "sampleId": "MERITI-V1-0388",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0388.png",
+      "sha256": "04eb983fbee23ab9ae37a0d2833f8d3a583c647699628c7603bc3605d09657b9"
+    },
+    {
+      "sampleId": "MERITI-V1-0389",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0389.png",
+      "sha256": "e3e44497494e945cd3030a9e8f55b8798bac5028c4f9f7e8e135f31972f8f869"
+    },
+    {
+      "sampleId": "MERITI-V1-0390",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0390.png",
+      "sha256": "1bfef39d9d54c1a7f5274c0c47d0df5a8e3c72f48e85d0c10c7f3019dd062de8"
+    },
+    {
+      "sampleId": "MERITI-V1-0391",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0391.png",
+      "sha256": "90f0fe8d3667efb2c97610814c3985ca38305ae298e151a774fa7c38bcd328e0"
+    },
+    {
+      "sampleId": "MERITI-V1-0392",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0392.png",
+      "sha256": "c8a986035725389e9c65c0dff3cb93d38ce087dd8a838a22675f08527f527d7e"
+    },
+    {
+      "sampleId": "MERITI-V1-0393",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0393.png",
+      "sha256": "e43123d063d04ea5d9bbe8b309a41ed7e4a447f1e95ae7aca6da6cc67a670767"
+    },
+    {
+      "sampleId": "MERITI-V1-0394",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0394.png",
+      "sha256": "8952cbf097ecdf890319aa18b96c3247482e0ca7bfc7f7ee4681de265f98889b"
+    },
+    {
+      "sampleId": "MERITI-V1-0395",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0395.png",
+      "sha256": "1e4e0658fd88b912c77f4dc02fd53f414fa2f0e7b1608d3fd9e9b0ca670eee4b"
+    },
+    {
+      "sampleId": "MERITI-V1-0396",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0396.png",
+      "sha256": "8e70e7ccac5fce4c208fe25dbedeeb48e54ab3e664151ba2ce3f0a9fe39d7cb6"
+    },
+    {
+      "sampleId": "MERITI-V1-0397",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0397.png",
+      "sha256": "895b5e0a5d48e356794c70ddf1d0a8da06560e94785200ca2eefca1f5b4de213"
+    },
+    {
+      "sampleId": "MERITI-V1-0398",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0398.png",
+      "sha256": "455d6dec7edcf6ca81f70d1ef6f0749ea76598bb34ce36e815c73c7f429af94d"
+    },
+    {
+      "sampleId": "MERITI-V1-0399",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0399.png",
+      "sha256": "02624e788fadf057d46f20ff7b311eac3f1c6f0dd07e93e311bbb3ca14de48e7"
+    },
+    {
+      "sampleId": "MERITI-V1-0400",
+      "date": "20260426",
+      "dataPresenceFraction": 1.0,
+      "cloudFreeFraction": null,
+      "image": "data/interim/meriti/independent-reference-audit/CBERS4A_WPM_PCA_RGB321_20260426_199_142/MERITI-V1-0400.png",
+      "sha256": "76e914964bfcd35eb994d18e1d37fdfc67881866a34fb8deccf58eef1e5ed80f"
+    }
+  ]
+}

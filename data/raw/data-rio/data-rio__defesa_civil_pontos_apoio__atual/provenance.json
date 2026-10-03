@@ -1,0 +1,19 @@
+{
+  "id": "data-rio__defesa_civil_pontos_apoio__atual",
+  "source_name": "Pontos de apoio da Defesa Civil",
+  "source_institution": "Defesa Civil Municipal / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Defesa_Civil/Defesa_Civil/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query_paginated",
+  "downloaded_at": "2026-05-17T19:24:02+00:00",
+  "started_at": "2026-05-17T19:24:01+00:00",
+  "duration_seconds": 0.241,
+  "stored_path": "data/raw/data-rio/data-rio__defesa_civil_pontos_apoio__atual/defesa_civil_pontos_apoio_arcgis_capture.json",
+  "stored_filename": "defesa_civil_pontos_apoio_arcgis_capture.json",
+  "content_type": "application/json",
+  "bytes_written": 76758,
+  "sha256": "59f850ea73539ba38ec3c4265500a1e1e2698c26c270689689d92a196a8991b5",
+  "object_id_field": "objectid",
+  "object_id_count": 189,
+  "batch_size": 500,
+  "batch_count": 1
+}

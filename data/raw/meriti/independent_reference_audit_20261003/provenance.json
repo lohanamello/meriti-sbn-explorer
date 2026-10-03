@@ -1,0 +1,138 @@
+{
+  "sourceId": "independent_reference_audit_20261003",
+  "retrievedAt": "2026-10-03T17:03:53.461553+00:00",
+  "sourceUrl": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-L4-DN-1",
+  "purpose": "Independent validation-reference acquisition and blinded visual pilot; no accepted reference labels generated.",
+  "files": [
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CB4A-WPM-L2-DN-1.json",
+      "sizeBytes": 35770,
+      "sha256": "af19c54d5591b671be8967aebe8bb532e6fa7fcbb8e56e4e7059e17d7d19013d"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CB4A-WPM-L2-DN-1.receipt.json",
+      "sizeBytes": 329,
+      "sha256": "c704f7f76f55445a539412b16a331da3f96853003ddb0efbb8b17dcc7a21d2a5"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CB4A-WPM-L4-DN-1.json",
+      "sizeBytes": 182505,
+      "sha256": "5c37058f6f2473e66ca83e319389d005dfff3b8109fb34ad70637b270100712e"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CB4A-WPM-L4-DN-1.receipt.json",
+      "sizeBytes": 329,
+      "sha256": "f114f49694ca271b428dbd5cb405fdb4d776f3b0869b2a497cccb43c0b5bd173"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CB4A-WPM-PCA-FUSED-1.json",
+      "sizeBytes": 15563,
+      "sha256": "684621ae47c4093df9886bb903933809d09a3bc6f383b4dc18c15e89578cbec9"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CB4A-WPM-PCA-FUSED-1.receipt.json",
+      "sizeBytes": 333,
+      "sha256": "90ff1a40b3d7c66a86a9d92cb11b064b188c07d83c44b757503101660a0ea510"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/cbers-l4-collection.json",
+      "sizeBytes": 7323,
+      "sha256": "d286c00fe02f099a44d751754d24a2f92c097b464cf373c25357a1604d34190b"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/cbers-l4-collection.receipt.json",
+      "sizeBytes": 208,
+      "sha256": "01ac6611bfe216c1cf9b213a8b2b71050ac7aa2ecee46fe7e30dc639952de4d9"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS4A_WPM_PCA_RGB321_20260902_198_142.receipt.json",
+      "sizeBytes": 653,
+      "sha256": "c7f670766798bdb20ab0558a9e3237ea49675aff6643e4fde638d05308078e09"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS4A_WPM_PCA_RGB321_20260902_198_142.tif",
+      "sizeBytes": 26398861,
+      "sha256": "5eb5025247ce7b1937d2f5f54b10b4d30252a607aba2894968912041148451cd"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND0.receipt.json",
+      "sizeBytes": 733,
+      "sha256": "c38b2ceafdf850b88dfd0d01e5d5f07056d60ee551abf541dee9786a9fbb3dd6"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND0.tif",
+      "sizeBytes": 16028442,
+      "sha256": "e32ba2ffc97134eb12043d97b4d41f0b71847f16595e4959a9d06883fb04c2ca"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND1.receipt.json",
+      "sizeBytes": 731,
+      "sha256": "ea2948b957d7f27bbcf336a8cb1f28c40f6d4915ac30c14fb0c1e5f7ee00371e"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND1.tif",
+      "sizeBytes": 956716,
+      "sha256": "6ddb8c0bd5ee7b3f0bef004415c26a67af54a2b5b3cfd1524dcc3fa7f4703a46"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND2.receipt.json",
+      "sizeBytes": 731,
+      "sha256": "2ebd09c026846d70fc70fdcc5fee5f840f799112a812d33e9566ae0d3d5a1855"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND2.tif",
+      "sizeBytes": 980329,
+      "sha256": "2c2b5c8c9c107d2a70b557216325dcbd85327105871aff5c447daae9b91ca37f"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND3.receipt.json",
+      "sizeBytes": 732,
+      "sha256": "814bdca9fc0d5e1e812fbfcdc60768c24c80315fb9ce5f95435d74e7721d0e27"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND3.tif",
+      "sizeBytes": 1043498,
+      "sha256": "a13b2e8216c10138e02562a204f63248c04a93690aeb028be01278766598ff4f"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND4.receipt.json",
+      "sizeBytes": 732,
+      "sha256": "d4baa52f57b0e0a1cb0c9ef6af27fabbd190df1a18b2be4ce4b5efaec7149904"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND4.tif",
+      "sizeBytes": 1105678,
+      "sha256": "6f25df74aa76b6b11103197df86d6b49fe197c505b2d4d94d3a7927c17fcd976"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/esri-metadata-10.json",
+      "sizeBytes": 1910632,
+      "sha256": "d446aca58e539086209d46ac8bce2e5050cb6948ffa562b632beb543690a5c1d"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/esri-metadata-10.receipt.json",
+      "sizeBytes": 428,
+      "sha256": "0a4816ac87307c84cc660274aa546d3db7bb322ab934192c9af9e605ff812cb9"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/esri-metadata-9.json",
+      "sizeBytes": 1910632,
+      "sha256": "d446aca58e539086209d46ac8bce2e5050cb6948ffa562b632beb543690a5c1d"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/esri-metadata-9.receipt.json",
+      "sizeBytes": 427,
+      "sha256": "29a81e361e3b5769f79593c2e8e72d3ddd21dd63906b6b5f64b29e7a40a0f99c"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/esri-world-imagery-item.json",
+      "sizeBytes": 10456,
+      "sha256": "b493da24e9329e16c2bc8425f9a85da5244116527e2dcb6fad8405fedcee7261"
+    },
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/esri-world-imagery-item.receipt.json",
+      "sizeBytes": 236,
+      "sha256": "b5e987101b249a04d167cff3c3485437f184c0ee2b3a4c1cefd8632965cc7cc5"
+    }
+  ]
+}

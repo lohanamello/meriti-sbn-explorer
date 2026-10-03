@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-05-17T19:53:33+00:00",
+  "ibge": {
+    "matchedNeighborhoodRows": 162,
+    "neighborhoodRows": 166,
+    "notes": [
+      "Census sectors are aggregated by IBGE NM_BAIRRO after conservative name normalization.",
+      "Freguesia (Ilha do Governador), Oswaldo Cruz, and Sao Cristovao are harmonized to municipal names used by Data.Rio.",
+      "Neighborhoods with no Census 2022 name match are kept with null census metrics rather than imputed."
+    ],
+    "officialAreaKm2": 1204.150798,
+    "officialNeighborhoodsWithoutCensusNameMatch": [
+      "Argentino",
+      "Barra Olímpica",
+      "Ilha de Guaratiba",
+      "Jabour"
+    ],
+    "populationTotalMatched": 6229245,
+    "rioMunicipalityCode": "3304557",
+    "source": "data/raw/ibge/ibge__setores_censitarios_agregados_rj__2022/RJ_setores_CD2022_agregados.gpkg",
+    "unmatchedCensusNeighborhoodNames": []
+  },
+  "outputs": [
+    "data/interim/ibge_census2022_basic_by_neighborhood.csv",
+    "data/interim/ibge_census2022_city_summary.json",
+    "data/interim/sgb_susceptibility_by_neighborhood.csv",
+    "data/interim/sgb_susceptibility_quality.json"
+  ],
+  "sgb_cprm": {
+    "assignmentMethod": "Polygon centroid allocated to official Data.Rio neighborhood boundaries in SIRGAS 2000 UTM 23S.",
+    "classWeights": {
+      "alta": 3.0,
+      "baixa": 1.0,
+      "media": 2.0,
+      "média": 2.0,
+      "suscetivel": 2.0,
+      "suscetível": 2.0
+    },
+    "layersRead": {
+      "corrida_massa": 72,
+      "enxurrada": 58,
+      "inundacao": 3756,
+      "movimento_massa": 2490
+    },
+    "limitations": [
+      "Centroid allocation is a screening approximation and can misallocate polygons crossing neighborhood borders.",
+      "SGB susceptibility classes are hazard context; they do not represent event probability or current drainage condition.",
+      "The first score uses inundation evidence directly and treats mass-movement/flash-flood layers as supporting context."
+    ],
+    "source": "data/raw/sgb-cprm/sgb-cprm__rio_suscetibilidade_sig_zip__2018/sig_riodejaneiro_rj_suscet.zip",
+    "unassigned": {
+      "corrida_massa": {
+        "area_km2": 9.442712,
+        "feature_count": 7
+      },
+      "enxurrada": {
+        "area_km2": 7.68815,
+        "feature_count": 4
+      },
+      "inundacao": {
+        "area_km2": 1.845765,
+        "feature_count": 37
+      },
+      "movimento_massa": {
+        "area_km2": 16.141872,
+        "feature_count": 227
+      }
+    }
+  }
+}

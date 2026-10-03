@@ -1,0 +1,19 @@
+{
+  "id": "data-rio__hidrografia__atual",
+  "source_name": "Hidrografia municipal",
+  "source_institution": "Fundacao Rio-Aguas / Instituto Pereira Passos / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Meio_Ambiente/Hidrografia/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query_paginated",
+  "downloaded_at": "2026-05-17T19:23:39+00:00",
+  "started_at": "2026-05-17T19:23:34+00:00",
+  "duration_seconds": 5.64,
+  "stored_path": "data/raw/data-rio/data-rio__hidrografia__atual/hidrografia_arcgis_capture.json",
+  "stored_filename": "hidrografia_arcgis_capture.json",
+  "content_type": "application/json",
+  "bytes_written": 9779948,
+  "sha256": "290c83384465adfa8ea411ffdabc4bd43324133bdc26586899798f8b84fadd5b",
+  "object_id_field": "meio_ambiente.gisadmin.Hidrografia.fid",
+  "object_id_count": 3663,
+  "batch_size": 500,
+  "batch_count": 8
+}

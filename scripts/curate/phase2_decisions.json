@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "decisions": {
+    "data-rio__limites_ap__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Official Planning Area territorial units and AP3 filter.",
+      "phase2_reason": "Small official municipal polygon layer, readable, traceable, and required for the Phase 3 drilldown contract.",
+      "phase2_limitations": "Portal snapshot is not a versioned release; preserve provenance and generation date."
+    },
+    "data-rio__limites_ra__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Official Administrative Region territorial units.",
+      "phase2_reason": "Official municipal polygon layer supports AP-to-RA drilldown.",
+      "phase2_limitations": "Used as territorial reference, not as risk evidence."
+    },
+    "data-rio__limites_bairros__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Official neighborhood territorial units and primary score geography.",
+      "phase2_reason": "Official neighborhood polygons include AP and administrative-region attributes and can join to multiple collected sources.",
+      "phase2_limitations": "Some recent municipal neighborhood names do not have a one-to-one Census 2022 neighborhood match."
+    },
+    "data-rio__alerta_rio_estacoes__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Monitoring-station context layer.",
+      "phase2_reason": "Station locations are readable point data and useful for explaining future rainfall time-series linkage.",
+      "phase2_limitations": "Station locations are not rainfall measurements; no temporal comparison is inferred from this layer."
+    },
+    "alerta-rio__chuva_tempo_real__snapshot": {
+      "promotion_status": "deferred",
+      "curated_use": "Source-discovery snapshot only.",
+      "phase2_reason": "Real-time HTML snapshot is not a stable historical series and cannot support temporal comparison.",
+      "phase2_limitations": "Needs a reproducible historical route before promotion."
+    },
+    "ibge__setores_censitarios_malha_rj__2022": {
+      "promotion_status": "deferred",
+      "curated_use": "Backup geometry source.",
+      "phase2_reason": "The aggregated GeoPackage already contains the same Rio census-sector geometry plus attributes needed for this phase.",
+      "phase2_limitations": "Keep raw file for future census-sector drilldown."
+    },
+    "ibge__setores_censitarios_agregados_rj__2022": {
+      "promotion_status": "promoted",
+      "curated_use": "Census 2022 population, households, and exposure metrics aggregated to neighborhoods.",
+      "phase2_reason": "Traceable IBGE GeoPackage with Rio census sectors and basic variables at useful spatial resolution.",
+      "phase2_limitations": "Only basic population/household variables are used; this is social exposure, not a full socioeconomic vulnerability index."
+    },
+    "ibge__censo2022_agregados_setores_documentacao__2022": {
+      "promotion_status": "deferred",
+      "curated_use": "Methodological reference.",
+      "phase2_reason": "Useful for interpretation, but not a prioritization-evidence layer by itself.",
+      "phase2_limitations": "Variable dictionary should be captured explicitly before expanding census indicators."
+    },
+    "ana__hidroweb_series_historicas__atual": {
+      "promotion_status": "deferred",
+      "curated_use": "Future station time-series source.",
+      "phase2_reason": "No station/indicator selection was defined for Phase 2 scoring.",
+      "phase2_limitations": "Promote only after Phase 2 or Phase 3 chooses comparable stations and hydrological indicators."
+    },
+    "inea__geoinea_camadas_ambientais__atual": {
+      "promotion_status": "deferred",
+      "curated_use": "Future environmental layers.",
+      "phase2_reason": "Only the source page was captured; individual layers still need extraction.",
+      "phase2_limitations": "Layer-by-layer extraction is required before quality assessment."
+    },
+    "ceperj__iderj_geoservicos__atual": {
+      "promotion_status": "deferred",
+      "curated_use": "Source-discovery route.",
+      "phase2_reason": "Captured route is not yet a concrete analyzable dataset.",
+      "phase2_limitations": "Needs layer selection and extraction."
+    },
+    "mapbiomas__cobertura_uso_solo_10m__colecao2_beta": {
+      "promotion_status": "deferred",
+      "curated_use": "MapBiomas collection landing page.",
+      "phase2_reason": "The page is provenance context, while the large GeoTIFFs require a raster statistics pipeline before evidence promotion.",
+      "phase2_limitations": "Do not infer land-cover metrics until raster clipping and class accounting are reproducible."
+    },
+    "snis__serie_historica_saneamento__1995_atual": {
+      "promotion_status": "deferred",
+      "curated_use": "General SNIS route.",
+      "phase2_reason": "A more specific Rio AE export was captured and curated as municipal temporal context.",
+      "phase2_limitations": "General page is not directly analyzable."
+    },
+    "sinisa__saneamento_basico__2024_atual": {
+      "promotion_status": "deferred",
+      "curated_use": "Future structured sanitation source.",
+      "phase2_reason": "Only public page capture is available; no stable structured export is curated.",
+      "phase2_limitations": "Needs structured SINISA route beyond the public page."
+    },
+    "sgb-cprm__rio_suscetibilidade_movimentos_massa_inundacao__2018": {
+      "promotion_status": "deferred",
+      "curated_use": "Source page for SGB/CPRM susceptibility package.",
+      "phase2_reason": "The analyzable evidence comes from the SIG ZIP record.",
+      "phase2_limitations": "Keep as provenance context for the source family."
+    },
+    "sgb-cprm__rio_suscetibilidade_mapa_pdf__2018": {
+      "promotion_status": "deferred",
+      "curated_use": "Visual reference map.",
+      "phase2_reason": "PDF map is useful for review but not used directly in reproducible spatial joins.",
+      "phase2_limitations": "Use the SIG vectors for analysis."
+    },
+    "sgb-cprm__rio_suscetibilidade_sig_zip__2018": {
+      "promotion_status": "promoted",
+      "curated_use": "Inundation and related susceptibility evidence allocated to neighborhoods.",
+      "phase2_reason": "ZIP contains vector Shapefiles with classes and SIRGAS 2000 UTM 23S CRS; Phase 2 reads the relevant Shapefiles directly.",
+      "phase2_limitations": "Neighborhood allocation uses polygon centroids and source polygon area, so it is a screening proxy, not parcel-scale hazard mapping."
+    },
+    "sgb-cprm__rio_suscetibilidade_mde_zip__2018": {
+      "promotion_status": "deferred",
+      "curated_use": "Future terrain derivatives.",
+      "phase2_reason": "DEM processing is not required for the first app-ready score and would need a raster pipeline.",
+      "phase2_limitations": "Promote only after slope/elevation derivatives are specified."
+    },
+    "sgb-cprm__rio_suscetibilidade_license__2018": {
+      "promotion_status": "rejected",
+      "curated_use": "License/reference text only.",
+      "phase2_reason": "Not a spatial or analytical evidence dataset.",
+      "phase2_limitations": "Keep file for transparency, not as evidence."
+    },
+    "sgb-cprm__rio_suscetibilidade_pdf_text__2018": {
+      "promotion_status": "deferred",
+      "curated_use": "Methodological reference text.",
+      "phase2_reason": "Useful for future methodological notes but not a spatial evidence layer.",
+      "phase2_limitations": "Should be reviewed manually before expanding SGB interpretation."
+    },
+    "sgb-cprm__rio_suscetibilidade_thumbnail__2018": {
+      "promotion_status": "rejected",
+      "curated_use": "Thumbnail only.",
+      "phase2_reason": "Image thumbnail is not analytically useful as evidence.",
+      "phase2_limitations": "The source remains represented by the SIG ZIP and PDF records."
+    },
+    "sgb-cprm__cartografia_riscos_geologicos__atual": {
+      "promotion_status": "deferred",
+      "curated_use": "Future risk-cartography source.",
+      "phase2_reason": "Captured dashboard/page is not yet a concrete spatial extract.",
+      "phase2_limitations": "Needs layer extraction and field review."
+    },
+    "osm__rio_openstreetmap_extract__atual": {
+      "promotion_status": "deferred",
+      "curated_use": "Future supplemental public-space and infrastructure context.",
+      "phase2_reason": "Large Overpass extract duplicates stronger municipal facilities for the first score.",
+      "phase2_limitations": "Needs tag filtering, deduplication, and license-specific attribution before promotion."
+    },
+    "academic__cem_setores_rm_rio__2022": {
+      "promotion_status": "deferred",
+      "curated_use": "Future comparison source.",
+      "phase2_reason": "Captured page only; not directly used while IBGE official sector data is available.",
+      "phase2_limitations": "Review if metropolitan harmonization becomes necessary."
+    },
+    "academic__cem_setores_rm_rio_zip__2022": {
+      "promotion_status": "deferred",
+      "curated_use": "Future comparison source.",
+      "phase2_reason": "Potentially useful, but official IBGE Rio sector data is preferred for this phase.",
+      "phase2_limitations": "Needs schema comparison before use."
+    },
+    "mapbiomas__cobertura_uso_solo_10m_tif__2019": {
+      "promotion_status": "deferred",
+      "curated_use": "Future temporal land-cover metric.",
+      "phase2_reason": "GeoTIFF is available but needs raster zonal statistics and class dictionary before promotion.",
+      "phase2_limitations": "Do not expose temporal trend until all years are processed consistently."
+    },
+    "mapbiomas__cobertura_uso_solo_10m_tif__2020": {
+      "promotion_status": "deferred",
+      "curated_use": "Future temporal land-cover metric.",
+      "phase2_reason": "GeoTIFF is available but needs raster zonal statistics and class dictionary before promotion.",
+      "phase2_limitations": "Do not expose temporal trend until all years are processed consistently."
+    },
+    "mapbiomas__cobertura_uso_solo_10m_tif__2021": {
+      "promotion_status": "deferred",
+      "curated_use": "Future temporal land-cover metric.",
+      "phase2_reason": "GeoTIFF is available but needs raster zonal statistics and class dictionary before promotion.",
+      "phase2_limitations": "Do not expose temporal trend until all years are processed consistently."
+    },
+    "mapbiomas__cobertura_uso_solo_10m_tif__2022": {
+      "promotion_status": "deferred",
+      "curated_use": "Future temporal land-cover metric.",
+      "phase2_reason": "GeoTIFF is available but needs raster zonal statistics and class dictionary before promotion.",
+      "phase2_limitations": "Do not expose temporal trend until all years are processed consistently."
+    },
+    "mapbiomas__cobertura_uso_solo_10m_tif__2023": {
+      "promotion_status": "deferred",
+      "curated_use": "Future temporal land-cover metric.",
+      "phase2_reason": "GeoTIFF is available but needs raster zonal statistics and class dictionary before promotion.",
+      "phase2_limitations": "Do not expose temporal trend until all years are processed consistently."
+    },
+    "snis__serie_historica_rio_agregado_ae__1995_2022": {
+      "promotion_status": "promoted",
+      "curated_use": "Municipal sanitation temporal context.",
+      "phase2_reason": "Structured JSON export is readable and exposes Rio provider/year sanitation indicators.",
+      "phase2_limitations": "Municipal/provider resolution is not neighborhood-discriminating, so it is not used in the neighborhood score."
+    },
+    "ana__snirh_estacoes_hidrometeorologicas_rj__atual": {
+      "promotion_status": "rejected",
+      "curated_use": "None for this phase.",
+      "phase2_reason": "Captured ArcGIS JSON contains zero features.",
+      "phase2_limitations": "Retry source route if ANA station metadata becomes necessary."
+    },
+    "data-rio__hidrografia__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Hydrography density and covered-watercourse proxy by neighborhood.",
+      "phase2_reason": "Readable municipal polyline layer includes AP, neighborhood code, covered/open flag, and length.",
+      "phase2_limitations": "Hydrography density is a pressure/context proxy, not a direct drainage-capacity measurement."
+    },
+    "data-rio__sub_bacias_hidrograficas__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Hydrological context overlay.",
+      "phase2_reason": "Readable official municipal polygon layer supports interpretation of drainage basins.",
+      "phase2_limitations": "Used for context, not as a direct score component."
+    },
+    "data-rio__pracas__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Public green-space and opportunity-space signal by neighborhood.",
+      "phase2_reason": "Readable municipal polygon layer includes neighborhood code, AP, area, and status attributes.",
+      "phase2_limitations": "Plaza area is not a complete vegetation-cover metric and does not replace MapBiomas."
+    },
+    "data-rio__areas_protegidas__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Protected-area context overlay.",
+      "phase2_reason": "Readable municipal polygon layer with management-category attributes.",
+      "phase2_limitations": "Not assumed to be available intervention space; not used as a public-space deficit denominator."
+    },
+    "data-rio__escolas_municipais__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Public facility opportunity anchors.",
+      "phase2_reason": "Readable municipal point layer; public schools can anchor green roofs, shade, and local SBN communication opportunities.",
+      "phase2_limitations": "Facility presence is opportunity context, not proof of implementation feasibility."
+    },
+    "data-rio__servicos_saude__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Public health facility opportunity anchors.",
+      "phase2_reason": "Readable point layer supports local opportunity and vulnerability-context interpretation.",
+      "phase2_limitations": "Collected service list appears concentrated in some areas; use with caution until source scope is confirmed."
+    },
+    "data-rio__defesa_civil_sirenes__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Civil-defense risk-context proxy.",
+      "phase2_reason": "Readable municipal point layer for warning infrastructure in risk areas.",
+      "phase2_limitations": "Sirens indicate recognized risk/response infrastructure, not measured flood probability."
+    },
+    "data-rio__defesa_civil_pontos_apoio__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Civil-defense support context.",
+      "phase2_reason": "Readable municipal point layer for support points related to risk communities.",
+      "phase2_limitations": "Support points are response assets, not hazard measurements."
+    },
+    "data-rio__defesa_civil_nupdec__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Civil-defense community organization context.",
+      "phase2_reason": "Readable point layer contributes to risk-response context.",
+      "phase2_limitations": "NUPDEC presence is institutional context, not risk intensity."
+    },
+    "data-rio__defesa_civil_alojamentos__atual": {
+      "promotion_status": "promoted",
+      "curated_use": "Civil-defense shelter context.",
+      "phase2_reason": "Readable point layer contributes to response-infrastructure context.",
+      "phase2_limitations": "Shelter presence is response context, not direct exposure."
+    }
+  }
+}

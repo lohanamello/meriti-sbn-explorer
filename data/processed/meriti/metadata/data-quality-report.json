@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-10-03T03:10:03+00:00",
+  "municipalityCode": "3305109",
+  "population": 440962,
+  "unitCounts": {
+    "census_sector": 809,
+    "neighborhood": 16,
+    "district": 3,
+    "municipality": 1
+  },
+  "flood": {
+    "sourceFeatures": 284,
+    "clippedFeatures": 284,
+    "repairedGeometries": 1,
+    "classifiedMunicipalAreaPct": 45.836949710183156,
+    "method": "Interseção exata em EPSG:31983; união por classe impede contagem dupla.",
+    "limitation": "Fora dos polígonos publicados significa sem classe nesta fonte, não ausência de risco. Carta de 2015, escala 1:20.000."
+  },
+  "sanitation": {
+    "minimumReportedCoveragePct": 99.42844078646547,
+    "households": 168765,
+    "unclassifiedHouseholds": 616,
+    "numerator": [
+      "V00312",
+      "V00313",
+      "V00314",
+      "V00315",
+      "V00316"
+    ],
+    "denominator": "V00001",
+    "limitation": "Percentual mínimo observado. Restante não classificado não é saneamento adequado. Rede geral ou pluvial não comprova tratamento de esgoto."
+  },
+  "landCover": [
+    {
+      "year": 2019,
+      "source": "data\\raw\\mapbiomas\\mapbiomas__cobertura_uso_solo_10m_tif__2019\\mapbiomas_10m_collection2_integration_v1-classification_2019.tif",
+      "crop": "data\\interim\\meriti\\land-cover-2019.tif",
+      "sha256": "fcd4514bbb1e00c58c0f7c2199cd4392e86b25d415f1c41e4c9789579b739844",
+      "classes": [
+        0,
+        3,
+        11,
+        15,
+        21,
+        24,
+        25,
+        33
+      ],
+      "vegetationPct": 0.213,
+      "urbanPct": 95.7885,
+      "validPixels": 352127,
+      "totalPixels": 352127,
+      "coveragePct": 100.0
+    },
+    {
+      "year": 2020,
+      "source": "data\\raw\\mapbiomas\\mapbiomas__cobertura_uso_solo_10m_tif__2020\\mapbiomas_10m_collection2_integration_v1-classification_2020.tif",
+      "crop": "data\\interim\\meriti\\land-cover-2020.tif",
+      "sha256": "a204b12f015dd515bd4870e6901ff8cb6b0bba756fc45203e9c02c7767d4d6ad",
+      "classes": [
+        0,
+        3,
+        11,
+        15,
+        21,
+        24,
+        25,
+        33
+      ],
+      "vegetationPct": 0.2113,
+      "urbanPct": 96.1696,
+      "validPixels": 352127,
+      "totalPixels": 352127,
+      "coveragePct": 100.0
+    },
+    {
+      "year": 2021,
+      "source": "data\\raw\\mapbiomas\\mapbiomas__cobertura_uso_solo_10m_tif__2021\\mapbiomas_10m_collection2_integration_v1-classification_2021.tif",
+      "crop": "data\\interim\\meriti\\land-cover-2021.tif",
+      "sha256": "895b59efa921e13adf67beba7b7f450e239d6c97c9857d4b000aaa94d9e3de5e",
+      "classes": [
+        0,
+        3,
+        11,
+        15,
+        21,
+        24,
+        33
+      ],
+      "vegetationPct": 0.2093,
+      "urbanPct": 96.3584,
+      "validPixels": 352127,
+      "totalPixels": 352127,
+      "coveragePct": 100.0
+    },
+    {
+      "year": 2022,
+      "source": "data\\raw\\mapbiomas\\mapbiomas__cobertura_uso_solo_10m_tif__2022\\mapbiomas_10m_collection2_integration_v1-classification_2022.tif",
+      "crop": "data\\interim\\meriti\\land-cover-2022.tif",
+      "sha256": "9bca60aa000571d18841e9dd5eda8180f2be8cc822dbe5f909f865552259a011",
+      "classes": [
+        0,
+        3,
+        11,
+        15,
+        21,
+        24,
+        33
+      ],
+      "vegetationPct": 0.2028,
+      "urbanPct": 96.5529,
+      "validPixels": 352127,
+      "totalPixels": 352127,
+      "coveragePct": 100.0
+    },
+    {
+      "year": 2023,
+      "source": "data\\raw\\mapbiomas\\mapbiomas__cobertura_uso_solo_10m_tif__2023\\mapbiomas_10m_collection2_integration_v1-classification_2023.tif",
+      "crop": "data\\interim\\meriti\\land-cover-2023.tif",
+      "sha256": "7e01a6db0da2e4067c6b999855856eaea7cdd96fda281cbcf93e7f3498215436",
+      "classes": [
+        0,
+        3,
+        11,
+        15,
+        21,
+        24,
+        33
+      ],
+      "vegetationPct": 0.1806,
+      "urbanPct": 97.2067,
+      "validPixels": 352127,
+      "totalPixels": 352127,
+      "coveragePct": 100.0
+    }
+  ],
+  "osm": {
+    "received": 248,
+    "clipped": 166,
+    "skippedRelations": 0,
+    "counts": {
+      "green-space": 74,
+      "waterway": 66,
+      "facility": 26
+    },
+    "limitation": "Pontos de equipamentos e áreas verdes representam registros colaborativos. Não são inventário completo nem comprovação de acesso público."
+  }
+}

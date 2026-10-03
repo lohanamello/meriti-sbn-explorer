@@ -1,0 +1,10 @@
+{
+  "id": "ibge__bairros_domicilios2__2022",
+  "source_url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Bairro_csv/Agregados_por_bairros_caracteristicas_domicilio2_BR_20250417.zip",
+  "resolved_url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Bairro_csv/Agregados_por_bairros_caracteristicas_domicilio2_BR_20250417.zip",
+  "downloaded_at": "2026-10-03T03:05:30+00:00",
+  "stored_path": "data/raw/meriti/ibge__bairros_domicilios2__2022/domicilios2.zip",
+  "bytes_written": 4756303,
+  "sha256": "4a4f570003df6e9b549ca3c122713372b420cae251b5f7f0dfe8dacb5a7c186d",
+  "content_type": "application/zip"
+}

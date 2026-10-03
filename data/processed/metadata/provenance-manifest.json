@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "phase2.provenance.v1",
+  "generatedAt": "2026-05-17T22:37:36.169Z",
+  "entries": [
+    {
+      "datasetId": "data-rio__alerta_rio_estacoes__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__alerta_rio_estacoes__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__alerta_rio_estacoes__atual/provenance.json",
+      "provenanceSha256": "29737eba6c6c66bee4ab23d87c6477dd5b94d974401d4027687b1484751138fd"
+    },
+    {
+      "datasetId": "data-rio__areas_protegidas__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__areas_protegidas__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__areas_protegidas__atual/provenance.json",
+      "provenanceSha256": "551e9cb7e7e19ba20a03638b0525c8fb2727550809b369b3fdb3ef4abcedf238"
+    },
+    {
+      "datasetId": "data-rio__defesa_civil_alojamentos__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__defesa_civil_alojamentos__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__defesa_civil_alojamentos__atual/provenance.json",
+      "provenanceSha256": "391554b45aca10805dd1f03b83fcf5f875e26ad0a3b015826db9dea630e45965"
+    },
+    {
+      "datasetId": "data-rio__defesa_civil_nupdec__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__defesa_civil_nupdec__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__defesa_civil_nupdec__atual/provenance.json",
+      "provenanceSha256": "7e2303d32e4d7840c732a1301404278c8cd363176e8e20085f8619d5bb8b4950"
+    },
+    {
+      "datasetId": "data-rio__defesa_civil_pontos_apoio__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__defesa_civil_pontos_apoio__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__defesa_civil_pontos_apoio__atual/provenance.json",
+      "provenanceSha256": "5787891817707b778441a6d38f19519b04ca6d731f9d9bbede301201c1b2e86e"
+    },
+    {
+      "datasetId": "data-rio__defesa_civil_sirenes__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__defesa_civil_sirenes__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__defesa_civil_sirenes__atual/provenance.json",
+      "provenanceSha256": "8c294a9abda6aad3c54a2d81863cfadfbfcdfa91d3285bad207aa790268ea481"
+    },
+    {
+      "datasetId": "data-rio__escolas_municipais__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__escolas_municipais__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__escolas_municipais__atual/provenance.json",
+      "provenanceSha256": "1b24e49cd9da7087ca020f89e5c0b8e97dcd7fd2ff0a550bafaeb6c4b3b3fead"
+    },
+    {
+      "datasetId": "data-rio__hidrografia__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__hidrografia__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__hidrografia__atual/provenance.json",
+      "provenanceSha256": "25ec635e8e2ac5db0cc8b9762ea325ce5f1d85c60da04feb9f8e791ed9a30c57"
+    },
+    {
+      "datasetId": "data-rio__limites_ap__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__limites_ap__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__limites_ap__atual/provenance.json",
+      "provenanceSha256": "4e44690fda87f3371a68f282fc290ed5dae0f1ab15231465cbe6cd92e69a6735"
+    },
+    {
+      "datasetId": "data-rio__limites_bairros__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__limites_bairros__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__limites_bairros__atual/provenance.json",
+      "provenanceSha256": "0f2fa4ec815a577270fbdf17dce4fbef46c9b85d3ffc8c2baff75a07c48b1db0"
+    },
+    {
+      "datasetId": "data-rio__limites_ra__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__limites_ra__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__limites_ra__atual/provenance.json",
+      "provenanceSha256": "336fcff71718399a72395328d212bb31f460bf42f9d7bd07c03fbf4195104b43"
+    },
+    {
+      "datasetId": "data-rio__pracas__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__pracas__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__pracas__atual/provenance.json",
+      "provenanceSha256": "5a1f675ac92158ba7755c0c72fac62341a49c2b9f274ba2dbe1de707dd25d6b5"
+    },
+    {
+      "datasetId": "data-rio__servicos_saude__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__servicos_saude__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__servicos_saude__atual/provenance.json",
+      "provenanceSha256": "9c08deb1d7411a0225a8e1bad0eb5a29f7d1a824974364381e3506ada929508a"
+    },
+    {
+      "datasetId": "data-rio__sub_bacias_hidrograficas__atual",
+      "rawStoragePath": "data/raw/data-rio/data-rio__sub_bacias_hidrograficas__atual",
+      "provenancePath": "data/raw/data-rio/data-rio__sub_bacias_hidrograficas__atual/provenance.json",
+      "provenanceSha256": "9d026b9aa9cce66a030533ebddbd878161448986d3b796c87e2b2ac93900e4e3"
+    },
+    {
+      "datasetId": "ibge__setores_censitarios_agregados_rj__2022",
+      "rawStoragePath": "data/raw/ibge/ibge__setores_censitarios_agregados_rj__2022",
+      "provenancePath": "data/raw/ibge/ibge__setores_censitarios_agregados_rj__2022/provenance.json",
+      "provenanceSha256": "842f111d415820c2576733be213803dbfafbb21f7aa0f71622f2c8d48f6a0ad1"
+    },
+    {
+      "datasetId": "sgb-cprm__rio_suscetibilidade_sig_zip__2018",
+      "rawStoragePath": "data/raw/sgb-cprm/sgb-cprm__rio_suscetibilidade_sig_zip__2018",
+      "provenancePath": "data/raw/sgb-cprm/sgb-cprm__rio_suscetibilidade_sig_zip__2018/provenance.json",
+      "provenanceSha256": "3367400748be2772e84e1a989584c9a8959bd7eac8bdd51efdba1e445c86fc0a"
+    },
+    {
+      "datasetId": "snis__serie_historica_rio_agregado_ae__1995_2022",
+      "rawStoragePath": "data/raw/snis/snis__serie_historica_rio_agregado_ae__1995_2022",
+      "provenancePath": "data/raw/snis/snis__serie_historica_rio_agregado_ae__1995_2022/provenance.json",
+      "provenanceSha256": "1907c508611f72365c972d00b47dda9b374e69c8432898aaa418eb27d3d77f12"
+    }
+  ]
+}

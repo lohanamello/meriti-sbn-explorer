@@ -1,0 +1,44 @@
+[
+  {
+    "file": "city.html",
+    "url": "https://meriti.rj.gov.br/inicio/a-cidade/",
+    "retrievedAt": "2026-10-03T17:41:01.159448+00:00",
+    "sha256": "b75b1beda3da3af265e31d4073b5f19128b2e127b126c808b72fe8dde497f6bd",
+    "bytes": 160393
+  },
+  {
+    "file": "assistance.html",
+    "url": "https://meriti.rj.gov.br/inicio/secretaria-municipal-de-assistencia-social-4/",
+    "retrievedAt": "2026-10-03T17:41:02.370870+00:00",
+    "sha256": "8a161aa6668062b2698e7a537e779e593942ff06c7a3910d94c08b68aeceff0b",
+    "bytes": 233033
+  },
+  {
+    "file": "plan-director.pdf",
+    "url": "https://meriti.rj.gov.br/inicio/wp-content/uploads/2024/01/Plano-Diretor.pdf",
+    "retrievedAt": "2026-10-03T17:41:02.688415+00:00",
+    "sha256": "6071e64724fd55d368a25f23cf911350b93a8ea2adb0a2e49ad5baf87cd95149",
+    "bytes": 15191841
+  },
+  {
+    "file": "law205.pdf",
+    "url": "https://transparencia.meriti.rj.gov.br/ver20230623/tmp/PortalServices/DOM5856_Leicomplementar205.pdf",
+    "retrievedAt": "2026-10-03T17:41:03.331215+00:00",
+    "sha256": "a729a218ed08ecaa3ddc80cc9e9bb9fe700cd2fdbb405c9f15bd358186172396",
+    "bytes": 5814970
+  },
+  {
+    "file": "uerj-atlas.html",
+    "url": "https://www.dageop.com.br/sao-joao-de-meriti",
+    "retrievedAt": "2026-10-03T17:41:03.610609+00:00",
+    "sha256": "5d50e7fdd9a4a7c21a9f9f10240338aa1c036b426fa80cb45ce5705a63e030a8",
+    "bytes": 593355
+  },
+  {
+    "file": "uerj-bairros-localidades.pdf",
+    "url": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+    "retrievedAt": "2026-10-03T17:42:27.160355+00:00",
+    "sha256": "f93fc03f62cb7edaf9de0daac25ee8132d1a8baf72090553a7359f31ae5adc8c",
+    "bytes": 1948849
+  }
+]

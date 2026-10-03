@@ -1,0 +1,42 @@
+{
+  "sourceId": "inpe__cbers4a_wpm_rgb__20260902",
+  "retrievedAt": "2026-10-03T05:12:16+00:00",
+  "sourceUrl": "https://data.inpe.br/bdc/stac/v1/collections/CB4A-WPM-PCA-FUSED-1/items/CBERS4A_WPM_PCA_RGB321_20260902_198_142",
+  "license": "CC-BY-4.0",
+  "query": {
+    "url": "https://data.inpe.br/bdc/stac/v1/search",
+    "parameters": {
+      "collections": "CB4A-WPM-PCA-FUSED-1",
+      "bbox": "-43.411,-22.815,-43.329,-22.755",
+      "datetime": "2025-01-01T00:00:00Z/2026-10-03T00:00:00Z",
+      "limit": 100
+    }
+  },
+  "files": [
+    {
+      "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260902/collection.json",
+      "sizeBytes": 5353,
+      "sha256": "724a5c3be1f9962c7cc7289f4b35eece9b504ac030a100a267d599d386b409dc"
+    },
+    {
+      "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260902/crop-provenance.json",
+      "sizeBytes": 1246,
+      "sha256": "eced71359ab046d40da61aaf70f5e0292fb055e130b45840976a39d4731e5c41"
+    },
+    {
+      "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260902/rgb-native.tif",
+      "sizeBytes": 26398861,
+      "sha256": "5eb5025247ce7b1937d2f5f54b10b4d30252a607aba2894968912041148451cd"
+    },
+    {
+      "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260902/search.json",
+      "sizeBytes": 46418,
+      "sha256": "c465ed7b383267d44050afa3ddbeda3903ac6b63fd983bd8170811d728fbf2bf"
+    },
+    {
+      "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260902/selected-item.json",
+      "sizeBytes": 2685,
+      "sha256": "4a44a4e51beec71b6bdf0e8c98b6055c2788e5f428fe3b77874626c5e2865dc5"
+    }
+  ]
+}

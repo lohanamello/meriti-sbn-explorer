@@ -1,0 +1,272 @@
+{
+  "source": "Atlas escolar de São João de Meriti, DAGEOP/UERJ-FFP",
+  "sourceUrl": "https://www.dageop.com.br/_files/ugd/bb64e6_32f7cc184ff4443da2efda13778d1b06.pdf",
+  "sourcePageUrl": "https://www.dageop.com.br/sao-joao-de-meriti",
+  "sourcePdfSha256": "f93fc03f62cb7edaf9de0daac25ee8132d1a8baf72090553a7359f31ae5adc8c",
+  "sourcePdfMetadata": {
+    "/Author": "Avaliador Av",
+    "/CreationDate": "D:20241105152743-03'00'",
+    "/ModDate": "D:20241105152743-03'00'",
+    "/Producer": "Microsoft: Print To PDF",
+    "/Title": "Bairros_Sao_Joao"
+  },
+  "sourceMapSizePx": [
+    4958,
+    3509
+  ],
+  "sourceDateMeaning": "Data de criação do PDF, não data de vigência ou levantamento dos limites.",
+  "sourceBoundaryDate": null,
+  "sourceBoundaryAccuracyM": null,
+  "xTicksPixelLongitude": [
+    [
+      1125.5,
+      -43.4
+    ],
+    [
+      2584.5,
+      -43.36666666666667
+    ],
+    [
+      4043.5,
+      -43.33333333333333
+    ]
+  ],
+  "yTicksPixelLatitude": [
+    [
+      665.5,
+      -22.766666666666666
+    ],
+    [
+      2124.5,
+      -22.8
+    ]
+  ],
+  "sourceGeographicCrs": "EPSG:4674",
+  "outputCrs": "EPSG:4326",
+  "metricCrs": "EPSG:31983",
+  "longitudeTransformSlopeIntercept": [
+    2.2846698652040993e-05,
+    -43.42571395933287
+  ],
+  "latitudeTransformSlopeIntercept": [
+    -2.2846698652045106e-05,
+    -22.751462188713727
+  ],
+  "controlFitMaxResidualPixels": 6.220091108844948e-10,
+  "controlFitCaveat": "Resíduo nos próprios pontos de ajuste não é validação independente nem medida de exatidão geográfica.",
+  "pixelSizeMApprox": {
+    "eastWest": 2.35,
+    "northSouth": 2.53
+  },
+  "digitization": {
+    "yellowRgbThresholds": "R>215, G>210, B<210, G-B>25",
+    "seedPointsPixel": [
+      {
+        "id": "atlas-parque-alian",
+        "name": "Parque Alian",
+        "xy": [
+          1830,
+          850
+        ]
+      },
+      {
+        "id": "atlas-vila-norma",
+        "name": "Vila Norma",
+        "xy": [
+          950,
+          1620
+        ]
+      },
+      {
+        "id": "atlas-parque-tiete",
+        "name": "Parque Tietê",
+        "xy": [
+          4090,
+          1280
+        ]
+      },
+      {
+        "id": "atlas-parque-novo-rio",
+        "name": "Parque Novo Rio",
+        "xy": [
+          3900,
+          1800
+        ]
+      },
+      {
+        "id": "atlas-parque-analandia",
+        "name": "Parque Analândia",
+        "xy": [
+          4070,
+          2140
+        ]
+      }
+    ],
+    "contourSmoothingPixels": 2,
+    "simplificationPixels": 2,
+    "referenceAccuracy": "desconhecida"
+  },
+  "featureCount": 6,
+  "polygonCount": 5,
+  "pointCount": 1,
+  "mutualOverlapM2": 0,
+  "registrationCheck": {
+    "points": [
+      {
+        "featureId": "atlas-parque-alian",
+        "searchPointPx": [
+          2025,
+          621
+        ],
+        "contourPointPx": [
+          2025.492316342683,
+          622.9078534989055
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 8.442
+      },
+      {
+        "featureId": "atlas-parque-alian",
+        "searchPointPx": [
+          1780,
+          657
+        ],
+        "contourPointPx": [
+          1780.3247453030895,
+          658.9484704437016
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 9.487
+      },
+      {
+        "featureId": "atlas-parque-alian",
+        "searchPointPx": [
+          1600,
+          818
+        ],
+        "contourPointPx": [
+          1596.002299047957,
+          814.0022990479571
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 6.755
+      },
+      {
+        "featureId": "atlas-parque-alian",
+        "searchPointPx": [
+          1500,
+          926
+        ],
+        "contourPointPx": [
+          1500.5019917221446,
+          925.4979862412538
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 20.533
+      },
+      {
+        "featureId": "atlas-vila-norma",
+        "searchPointPx": [
+          1020,
+          1365
+        ],
+        "contourPointPx": [
+          1020.0015604205548,
+          1366.0023353343945
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 5.778
+      },
+      {
+        "featureId": "atlas-vila-norma",
+        "searchPointPx": [
+          900,
+          1510
+        ],
+        "contourPointPx": [
+          897.8717463780426,
+          1503.6639330199337
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 8.688
+      },
+      {
+        "featureId": "atlas-vila-norma",
+        "searchPointPx": [
+          795,
+          1650
+        ],
+        "contourPointPx": [
+          792.0754998398863,
+          1647.8100603062558
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 12.447
+      },
+      {
+        "featureId": "atlas-vila-norma",
+        "searchPointPx": [
+          685,
+          1753
+        ],
+        "contourPointPx": [
+          684.8813240209513,
+          1753.1060012795438
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 15.783
+      },
+      {
+        "featureId": "atlas-parque-tiete",
+        "searchPointPx": [
+          4200,
+          1100
+        ],
+        "contourPointPx": [
+          4199.95800194725,
+          1100.0017761115173
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 6.233
+      },
+      {
+        "featureId": "atlas-parque-tiete",
+        "searchPointPx": [
+          4210,
+          1300
+        ],
+        "contourPointPx": [
+          4211.999170279017,
+          1300.0004197970466
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 3.632
+      },
+      {
+        "featureId": "atlas-parque-analandia",
+        "searchPointPx": [
+          4170,
+          2050
+        ],
+        "contourPointPx": [
+          4168.734420856939,
+          2049.8014753894313
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 4.201
+      },
+      {
+        "featureId": "atlas-parque-analandia",
+        "searchPointPx": [
+          4155,
+          2200
+        ],
+        "contourPointPx": [
+          4151.350023541755,
+          2199.601807983085
+        ],
+        "distanceToIbgeMunicipalBoundaryM": 3.641
+      }
+    ],
+    "medianDistanceM": 7.5985,
+    "maxDistanceM": 20.533,
+    "meaning": "Compatibilidade com a divisa IBGE 2022 em 12 posições reconhecíveis, não usadas no ajuste dos ticks. Não mede exatidão absoluta, nem valida todos os limites internos. O atlas cita IBGE como base e, portanto, esta não é uma referência de campo independente."
+  },
+  "limitations": [
+    "Mapa educacional, não malha administrativa legal.",
+    "A fonte cita a base cartográfica do IBGE, mas não identifica a edição ou o arquivo dos limites granulares.",
+    "Não foi localizada autorização expressa de licença aberta no atlas; a derivação registra fonte e autoria e não redistribui a figura como fundo do aplicativo.",
+    "Não completar mosaico municipal nem calcular indicadores usando estes contornos.",
+    "Vila São João é apenas localização de rótulo.",
+    "Trechos ocultos por símbolos cartográficos foram reconstruídos entre linhas visíveis e estão identificados por feição."
+  ]
+}

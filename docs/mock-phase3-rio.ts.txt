@@ -1,0 +1,361 @@
+import type {
+  EvidenceLayer,
+  OpportunitySummary,
+  TerritorialUnit
+} from "@/types/phase3";
+
+export const MOCK_DATA_NOTICE = "Dados demonstrativos; não usar para análise.";
+
+export const TERRITORIAL_UNITS: TerritorialUnit[] = [
+  {
+    id: "ap1",
+    name: "AP1 - Área Central",
+    unitType: "planning_area",
+    planningArea: "AP1",
+    sourceMode: "mock",
+    geometry: {
+      type: "Feature",
+      properties: { id: "ap1", name: "AP1 - Área Central" },
+      geometry: {
+        type: "Polygon",
+        coordinates: [
+          [
+            [-43.24, -22.94],
+            [-43.16, -22.94],
+            [-43.16, -22.88],
+            [-43.24, -22.88],
+            [-43.24, -22.94]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    id: "ap2",
+    name: "AP2 - Zona Sul / Grande Tijuca",
+    unitType: "planning_area",
+    planningArea: "AP2",
+    sourceMode: "mock",
+    geometry: {
+      type: "Feature",
+      properties: { id: "ap2", name: "AP2 - Zona Sul / Grande Tijuca" },
+      geometry: {
+        type: "Polygon",
+        coordinates: [
+          [
+            [-43.34, -23.03],
+            [-43.16, -23.03],
+            [-43.16, -22.92],
+            [-43.34, -22.92],
+            [-43.34, -23.03]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    id: "ap3",
+    name: "AP3 - Escopo de Estudo",
+    unitType: "planning_area",
+    planningArea: "AP3",
+    sourceMode: "mock",
+    geometry: {
+      type: "Feature",
+      properties: { id: "ap3", name: "AP3 - Escopo de Estudo" },
+      geometry: {
+        type: "Polygon",
+        coordinates: [
+          [
+            [-43.39, -22.94],
+            [-43.16, -22.94],
+            [-43.16, -22.81],
+            [-43.39, -22.81],
+            [-43.39, -22.94]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    id: "ap4",
+    name: "AP4 - Baixada de Jacarepaguá",
+    unitType: "planning_area",
+    planningArea: "AP4",
+    sourceMode: "mock",
+    geometry: {
+      type: "Feature",
+      properties: { id: "ap4", name: "AP4 - Baixada de Jacarepaguá" },
+      geometry: {
+        type: "Polygon",
+        coordinates: [
+          [
+            [-43.48, -23.04],
+            [-43.29, -23.04],
+            [-43.29, -22.91],
+            [-43.48, -22.91],
+            [-43.48, -23.04]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    id: "grande-meier",
+    name: "Grande Méier",
+    unitType: "neighborhood",
+    planningArea: "AP3",
+    sourceMode: "mock",
+    geometry: {
+      type: "Feature",
+      properties: { id: "grande-meier", name: "Grande Méier" },
+      geometry: {
+        type: "Polygon",
+        coordinates: [
+          [
+            [-43.31, -22.92],
+            [-43.24, -22.92],
+            [-43.24, -22.87],
+            [-43.31, -22.87],
+            [-43.31, -22.92]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    id: "ilha-governador",
+    name: "Ilha do Governador",
+    unitType: "neighborhood",
+    planningArea: "AP3",
+    sourceMode: "mock",
+    geometry: {
+      type: "Feature",
+      properties: { id: "ilha-governador", name: "Ilha do Governador" },
+      geometry: {
+        type: "Polygon",
+        coordinates: [
+          [
+            [-43.23, -22.84],
+            [-43.16, -22.84],
+            [-43.16, -22.78],
+            [-43.23, -22.78],
+            [-43.23, -22.84]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    id: "madureira-iraja",
+    name: "Madureira / Irajá",
+    unitType: "administrative_region",
+    planningArea: "AP3",
+    sourceMode: "mock",
+    geometry: {
+      type: "Feature",
+      properties: { id: "madureira-iraja", name: "Madureira / Irajá" },
+      geometry: {
+        type: "Polygon",
+        coordinates: [
+          [
+            [-43.37, -22.9],
+            [-43.29, -22.9],
+            [-43.29, -22.83],
+            [-43.37, -22.83],
+            [-43.37, -22.9]
+          ]
+        ]
+      }
+    }
+  }
+];
+
+export const EVIDENCE_LAYERS: EvidenceLayer[] = [
+  {
+    id: "urban-water-risk-demo",
+    family: "Alagamentos, inundação e risco hídrico urbano",
+    label: "Risco hídrico urbano",
+    status: "mock",
+    resolution: "Unidade territorial demonstrativa",
+    temporalCoverage: "Indisponível até promoção de evidência temporal",
+    sourceDatasetIds: [],
+    legend: [
+      { label: "Sinal demonstrativo alto", color: "#d45a4c" },
+      { label: "Sinal demonstrativo médio", color: "#e0a93f" }
+    ]
+  },
+  {
+    id: "vegetation-deficit-demo",
+    family: "Cobertura vegetal e infraestrutura verde",
+    label: "Déficit de vegetação",
+    status: "mock",
+    resolution: "Unidade territorial demonstrativa",
+    temporalCoverage: "Indisponível até curadoria",
+    sourceDatasetIds: [],
+    legend: [
+      { label: "Déficit demonstrativo", color: "#5e9d72" },
+      { label: "Cobertura demonstrativa parcial", color: "#93b77d" }
+    ]
+  },
+  {
+    id: "social-vulnerability-demo",
+    family: "Vulnerabilidade, demografia e condições sociais",
+    label: "Vulnerabilidade social",
+    status: "mock",
+    resolution: "Unidade territorial demonstrativa",
+    temporalCoverage: "Indisponível até curadoria",
+    sourceDatasetIds: [],
+    legend: [
+      { label: "Vulnerabilidade demonstrativa", color: "#8065b1" },
+      { label: "Atenção demonstrativa", color: "#a78bc7" }
+    ]
+  },
+  {
+    id: "sanitation-pending",
+    family: "Saneamento e drenagem",
+    label: "Saneamento e drenagem",
+    status: "pending",
+    resolution: "Aguardando fase 2",
+    temporalCoverage: "Aguardando fase 2",
+    sourceDatasetIds: ["snis__serie_historica_saneamento__1995_atual"],
+    legend: [{ label: "Pendente", color: "#9aa5a0" }]
+  },
+  {
+    id: "temporal-evidence-unavailable",
+    family: "Evidência temporal",
+    label: "Comparação temporal",
+    status: "unavailable",
+    resolution: "Não disponível",
+    temporalCoverage: "Sem evidência temporal promovida",
+    sourceDatasetIds: [],
+    legend: [{ label: "Indisponível", color: "#8a918e" }]
+  }
+];
+
+export const OPPORTUNITY_SUMMARIES: Record<string, OpportunitySummary> = {
+  ap3: {
+    territoryId: "ap3",
+    prioritizationStatus: "mock",
+    signals: [
+      {
+        label: "Pressão hídrica",
+        value: "Sinal visual demonstrativo",
+        evidenceLayerId: "urban-water-risk-demo",
+        sourceMode: "mock"
+      },
+      {
+        label: "Infraestrutura verde",
+        value: "Leitura demonstrativa de déficit",
+        evidenceLayerId: "vegetation-deficit-demo",
+        sourceMode: "mock"
+      }
+    ],
+    solutionClasses: [
+      {
+        label: "Jardins de chuva e biorretenção",
+        rationale: "Classe exibida apenas para validar a interação do card.",
+        sourceMode: "mock"
+      },
+      {
+        label: "Corredores de arborização viária",
+        rationale: "Classe demonstrativa; não é recomendação analítica.",
+        sourceMode: "mock"
+      }
+    ],
+    technicalLens:
+      "Demonstra a estrutura da lente técnica: fontes, limitações, resolução espacial e componentes do score aparecerão aqui quando a fase 2 promover evidências.",
+    scienceCommunicationLens:
+      "Esta leitura mostra como a AP3 será explicada ao público, sem apresentar conclusões reais enquanto a curadoria não estiver pronta."
+  },
+  "grande-meier": {
+    territoryId: "grande-meier",
+    prioritizationStatus: "mock",
+    signals: [
+      {
+        label: "Exposição local",
+        value: "Padrão demonstrativo no mapa",
+        evidenceLayerId: "urban-water-risk-demo",
+        sourceMode: "mock"
+      },
+      {
+        label: "Cobertura verde",
+        value: "Dado sintético de interface",
+        evidenceLayerId: "vegetation-deficit-demo",
+        sourceMode: "mock"
+      }
+    ],
+    solutionClasses: [
+      {
+        label: "Superfícies permeáveis",
+        rationale: "Classe mockada para validar a apresentação de alternativas.",
+        sourceMode: "mock"
+      },
+      {
+        label: "Microparques urbanos",
+        rationale: "Classe mockada para testar leitura pública.",
+        sourceMode: "mock"
+      }
+    ],
+    technicalLens:
+      "A lente técnica reserva espaço para cruzamentos entre drenagem, vulnerabilidade, vegetação e oportunidade territorial. Nenhum cruzamento real foi calculado nesta versão.",
+    scienceCommunicationLens:
+      "O card mostra como uma área selecionada poderá receber uma explicação clara de risco e oportunidade quando as evidências reais estiverem disponíveis."
+  },
+  "ilha-governador": {
+    territoryId: "ilha-governador",
+    prioritizationStatus: "mock",
+    signals: [
+      {
+        label: "Condição costeira",
+        value: "Sinal sintético para protótipo",
+        evidenceLayerId: "urban-water-risk-demo",
+        sourceMode: "mock"
+      }
+    ],
+    solutionClasses: [
+      {
+        label: "Restauração ripária",
+        rationale: "Classe exibida como placeholder de fluxo analítico.",
+        sourceMode: "mock"
+      }
+    ],
+    technicalLens:
+      "Área demonstrativa para validar seleção territorial e troca de lentes. A resolução real dependerá da fase 2.",
+    scienceCommunicationLens:
+      "Este texto exemplifica a explicação pública de uma unidade territorial, sem afirmar risco real."
+  },
+  "madureira-iraja": {
+    territoryId: "madureira-iraja",
+    prioritizationStatus: "mock",
+    signals: [
+      {
+        label: "Calor e vegetação",
+        value: "Sinal demonstrativo combinado",
+        evidenceLayerId: "vegetation-deficit-demo",
+        sourceMode: "mock"
+      }
+    ],
+    solutionClasses: [
+      {
+        label: "Sombreamento e arborização",
+        rationale: "Classe mockada para validar exibição por unidade ativa.",
+        sourceMode: "mock"
+      }
+    ],
+    technicalLens:
+      "Espaço reservado para explicar componentes, incerteza e fontes por região administrativa.",
+    scienceCommunicationLens:
+      "Exemplo de como a interface comunicará oportunidade territorial sem remover cautelas."
+  }
+};
+
+export const DEFAULT_OPPORTUNITY_SUMMARY: OpportunitySummary = {
+  territoryId: "pending",
+  prioritizationStatus: "pending",
+  signals: [],
+  solutionClasses: [],
+  technicalLens:
+    "Selecione uma unidade territorial com dados demonstrativos para abrir o card. Evidências reais dependem da fase 2.",
+  scienceCommunicationLens:
+    "A análise territorial ficará disponível quando houver evidência curada."
+};

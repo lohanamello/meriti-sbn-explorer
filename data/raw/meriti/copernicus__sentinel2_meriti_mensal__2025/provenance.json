@@ -1,0 +1,615 @@
+{
+  "id": "copernicus__sentinel2_meriti_mensal__2025",
+  "source_url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a",
+  "downloaded_at": "2026-10-03T05:09:50+00:00",
+  "searchQuery": {
+    "collections": [
+      "sentinel-2-c1-l2a"
+    ],
+    "bbox": [
+      -43.411,
+      -22.815,
+      -43.329,
+      -22.755
+    ],
+    "datetime": "2025-01-01T00:00:00Z/2025-12-31T23:59:59Z",
+    "limit": 100,
+    "query": {
+      "eo:cloud_cover": {
+        "lt": 50
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/item.json",
+      "sha256": "3e4f58ef8b9b8a5e6a560ba64f5296a09166627bc2a0131542cf8997acac8360",
+      "bytes": 26328
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/nir.json",
+      "sha256": "b4c4d0a8102b0f33f1519088969f1181333fc836866a91d92837baaa6ec6c2c2",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/nir.tif",
+      "sha256": "4b05388775c4664d836e30046afa216a2b603ea7fd9a3d8990154c52b41087ff",
+      "bytes": 940085
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/red.json",
+      "sha256": "c88252afcedf833c573c959e23c0e263544d3118c4c86bc6fd2211dba70bbacf",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/red.tif",
+      "sha256": "200d1ef72f548d17b4022b9e87bccbd83ae43f1c02dc6dd1259426796b724d07",
+      "bytes": 908361
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/scl.json",
+      "sha256": "3a53662841b314f6f5c5f1c0f585d408f51af68dea5c81e4eb12f852b07aabd5",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250117T130244_L2A/scl.tif",
+      "sha256": "ff4bcd25435b12c5bec94aa768419568806281d0878b86a96b4a47fc5884b112",
+      "bytes": 15380
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/item.json",
+      "sha256": "027affeeed2f5cc359b984c83ade284b4b2488db3d72a6db86a17bb687f22df3",
+      "bytes": 26524
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/nir.json",
+      "sha256": "2e9a9d9053caf5081c6cb1bb2f1de515925724154b25b94ffb88eb96e7e284d3",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/nir.tif",
+      "sha256": "1a8a7847dda323acf01e1166f10583ea306ee5945bc098a398ee11dc5977f34d",
+      "bytes": 936429
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/red.json",
+      "sha256": "e81f261938715419d85a44fd5e1663dedb5bf868a6e7a434f3ebf718160fb251",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/red.tif",
+      "sha256": "d20e34e528b70d2a186113fd1ebc35e15d67bdcf9bd928cc9c60b659827cf645",
+      "bytes": 895887
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/scl.json",
+      "sha256": "b56fc5e4d539cf775f675d76754dce68d1ab01668a2de806cd5c53c65ccdc3cd",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250807T130300_L2A/scl.tif",
+      "sha256": "40f451dd9fc628614a4e7a217964eb7a1f642d5ca187df5272210e2d188c3248",
+      "bytes": 11182
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250827T130259_L2A/item.json",
+      "sha256": "58d1daa2fc78fdc08b458f82e8041385afca102675c8ad460ec2628325fd9d58",
+      "bytes": 26526
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250827T130259_L2A/scl.json",
+      "sha256": "85ecc7c3ed61e4e3ec652c0ec0df5f9e8a01aea5978737c72111a307f763eddb",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20250827T130259_L2A/scl.tif",
+      "sha256": "95342ed07495ab0302e437065de9020c6f417dac4fabfd40caa72c4875ff1603",
+      "bytes": 13912
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/item.json",
+      "sha256": "f0109f593f48886147684973a745f5487fb20638bc515572a0c4807584cd1c08",
+      "bytes": 26547
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/nir.json",
+      "sha256": "5de52b68f23024be18ee8738f60c5c64b3dcd2ab1bb7365df3ab01141934eaec",
+      "bytes": 1337
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/nir.tif",
+      "sha256": "84a75178b36ebf8714001b74624c295b3992baad7b93a0daa024aa0b16995fd9",
+      "bytes": 936520
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/red.json",
+      "sha256": "bd4e0a1632d746c0e86525830067e56876f3e29941b93ffd9751cf2921c13fbe",
+      "bytes": 1335
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/red.tif",
+      "sha256": "0157ff7df6b377c2006401dd9f4cb4ebfa76a0b61005f2ab6380f17fa90a3a97",
+      "bytes": 899440
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/scl.json",
+      "sha256": "cfe4cb3d13a6d389b9e96592d6a2deeb436e521290da5f91a278e7900abb9a9e",
+      "bytes": 1103
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251105T130301_L2A/scl.tif",
+      "sha256": "a99def7773be169e8eb26b801f50180ec1d62ed01ed1246e28dffae5f4c3cc76",
+      "bytes": 12761
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251125T130610_L2A/item.json",
+      "sha256": "7ae76ce1bf81f16ce8505bcea0e687ede96b40cbd2963d700ae716e782c4790e",
+      "bytes": 26549
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251125T130610_L2A/scl.json",
+      "sha256": "5f62f5a3bab4e17e99be2f34c057107317d7b127b91b9558a7ed1efe20b7b42f",
+      "bytes": 1103
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2A_T23KPQ_20251125T130610_L2A/scl.tif",
+      "sha256": "f569764bd18b4aba76a0a450219db45571e28dd218f932f0e39634d5f7789cf0",
+      "bytes": 16186
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250102T130726_L2A/item.json",
+      "sha256": "f7012421830ac7af5d4daa5ae91ccc70bcb0b06c44d9ddc3857acc3149c73ee6",
+      "bytes": 26324
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250102T130726_L2A/scl.json",
+      "sha256": "54f26c7884395fb3913bbf5d1ad48ca5507d8fead7d047d867f6a1b5d5285453",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250102T130726_L2A/scl.tif",
+      "sha256": "7276f735dc61f2b506a95ae7b215df3994998f0081311e760954547f673852c0",
+      "bytes": 15048
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/item.json",
+      "sha256": "9d68bea17af7d1bee24a630e3f14cbba309172ad95d998ca5d6523b1c9834356",
+      "bytes": 26324
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/nir.json",
+      "sha256": "172c2fa2e4315d88a09f1fc72cef76ef6b025754089c40143d9af7a2c784936c",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/nir.tif",
+      "sha256": "4cdc26a7348417874468c1357827c5972261ebeadc8f41a04475197bbf12b337",
+      "bytes": 951256
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/red.json",
+      "sha256": "aff5faf333c3c6b1b48bc53506d9008c4574452ccba0a6f5326b17b1aa4b03d4",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/red.tif",
+      "sha256": "1306e6d8fc3501117c1095b3d336f7057fb5ddcae6b52699dc49dbe16ec6416a",
+      "bytes": 903912
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/scl.json",
+      "sha256": "93d3f73383d10c85d266d02de4117d2b03110c962f9a5a0105e5fe50a57543c3",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250303T130248_L2A/scl.tif",
+      "sha256": "7e0dcf65d8fcbfbe69c1e0926b5a5ebf803aaebb6c136b41cec6584bf48c9f6c",
+      "bytes": 13163
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250313T130247_L2A/item.json",
+      "sha256": "14cabea4a1594ed3046332c954a4d9b81a57e6ba3f557f6b61aae342b3ad6002",
+      "bytes": 26326
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250313T130247_L2A/scl.json",
+      "sha256": "395732ab8aa993dd25df5afd2e6f4d94721954c9504fb0e8a5f8fc9e2e9926a0",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250313T130247_L2A/scl.tif",
+      "sha256": "dcb7b1e072bb3f6270d15413ff987750531606271d17d659c72d8a859df64df4",
+      "bytes": 12534
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250323T130248_L2A/item.json",
+      "sha256": "3048cafad91a9ee52b44ee9390ffc56ccfdeb159b50f610f2095c10c1b7f45cf",
+      "bytes": 26327
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250323T130248_L2A/scl.json",
+      "sha256": "63af7ca59425a7b8ba10e5dc18241a37cdce826a574bb37be524531fa6cb35bc",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250323T130248_L2A/scl.tif",
+      "sha256": "8ffe617de07377bf5b430ed00ac0a551adcbcaaf32abac5467a83229db63a385",
+      "bytes": 14576
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/item.json",
+      "sha256": "2702351d7c6c377729b01e7531ba1db34c9225ddbfa6e17d1415b78f7ebdd792",
+      "bytes": 26324
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/nir.json",
+      "sha256": "0a80af501e5dcc2351853366255cf30c23e9e7b3645fb9c0d94856ffa809316b",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/nir.tif",
+      "sha256": "5b05601d84837dbb445adf51698c8c2a0502c52f051256fba6ac7d65dd0411bf",
+      "bytes": 943740
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/red.json",
+      "sha256": "1a603ea428589d1166189407f475d75b109f7f9d13e3c3c6b14f6d2fdbae6724",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/red.tif",
+      "sha256": "4eb0a4ff3f5304c08f349907fd5ad4cf5b359515198f48cd3f07c99270c80ee8",
+      "bytes": 901031
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/scl.json",
+      "sha256": "d2f80d55a4107d7641116a356fa45bde06151342940aef6b5587d54e42448fb9",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250402T130248_L2A/scl.tif",
+      "sha256": "b41b885dc9901e1a20cec4fa4966576c57e658c77b7e4e62ae81b909851be65d",
+      "bytes": 14314
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250820T130247_L2A/item.json",
+      "sha256": "749f73cb28ffa8cc69f05723e7cb0536a7590a7be4b7e605fd0af75462de529d",
+      "bytes": 26528
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250820T130247_L2A/scl.json",
+      "sha256": "314acd920f1d602ac3ede733de1e766ed3fa06a1b01d3f90ff923667fb8eb7db",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250820T130247_L2A/scl.tif",
+      "sha256": "4d255a71913ac9ffa1ffc7de5ce93d5206e715812568ea5678f9f319a44ce842",
+      "bytes": 12191
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/item.json",
+      "sha256": "2c24d4f9e69bd4fb3865c647c3c631099e9ee84b42d63acbaa94b4ad945af684",
+      "bytes": 26521
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/nir.json",
+      "sha256": "dd95903e6cb970bec706240286d061c734733ecb6e22302bf4ead0a107006a86",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/nir.tif",
+      "sha256": "ab27182e69b28d648287a9e6ec9a7eb93a13f18a9f897a3b68706e75d77a5f9e",
+      "bytes": 934897
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/red.json",
+      "sha256": "6c19a8c8a3d4de1cb0276a53136571fe0ffb7563fe877a0d8281d38bdbc117ee",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/red.tif",
+      "sha256": "528ae6f6c584dc39ff0e732f93924ddf80c86fefc407498f04783cd5bdf11367",
+      "bytes": 897193
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/scl.json",
+      "sha256": "7657f68399410ae52d46af401600a1c1d989b70df31005a2a475ce618464047d",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20250909T130244_L2A/scl.tif",
+      "sha256": "b56bdf19bb2821f35dbd2354540867e47ba0caccbe6cf5161786a9626df1a0a4",
+      "bytes": 11111
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20251128T130318_L2A/item.json",
+      "sha256": "9f8f09601f92372fc25a8ed528f345a2a69354168b552ea768d312513b894feb",
+      "bytes": 26550
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20251128T130318_L2A/scl.json",
+      "sha256": "ce8f7f401d53eeebb328739193ff28fcfb61190130353a283b70879839b78a49",
+      "bytes": 1103
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2B_T23KPQ_20251128T130318_L2A/scl.tif",
+      "sha256": "b44c5f03a6c5b2d9f30651d34313196acb14e818827dce206418d6ad0cbb9152",
+      "bytes": 14604
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/item.json",
+      "sha256": "c82fe54eb665ce4e8f74954f51970c117abeb6e9e7535f19e6aba880d396a6c1",
+      "bytes": 26324
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/nir.json",
+      "sha256": "21654bc76841f5fc46f44ceefaa675ed2d7f2ef9b06be1951591fcaf3f46637f",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/nir.tif",
+      "sha256": "589fa3dd31a2572a310be2366f7c12318fe3d0b534ad633c3895e7c2fe382881",
+      "bytes": 949684
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/red.json",
+      "sha256": "ad7e48e4e06b5431ac01233836fbc975c73d1a07ce055fe4108aacc3c9520269",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/red.tif",
+      "sha256": "64f4190c054c5237c233bc8eb96e98638f7cbe7ac0fab0ce2456ad9d49643083",
+      "bytes": 901339
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/scl.json",
+      "sha256": "e5b9727c44f08977a0ad49ece1c3eeaf39d19639ce73c60220029e77feeb3af9",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250216T130308_L2A/scl.tif",
+      "sha256": "e9fc6d7a2e283cf6d8b4dc339d6a49288a9d7afe02de57fed36bfef6ca63559e",
+      "bytes": 13406
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250308T130700_L2A/item.json",
+      "sha256": "c4c55b081e8d2e3976c18c043b2bacf2b926147b851869c78fd91b16d877f6b7",
+      "bytes": 26325
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250308T130700_L2A/scl.json",
+      "sha256": "9945a4b92e84ebd9b7d71e59a8c89b6f2557661b45e36ec084bd1ab24bf71674",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250308T130700_L2A/scl.tif",
+      "sha256": "cbfc34234bc7184f354537bc502062051018cae70d3a30e95e6d8e9a3afca257",
+      "bytes": 17241
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250318T130631_L2A/item.json",
+      "sha256": "154402317ec045040ea03d886564db7bbbf0df43231d651cfdc42ad086ca0b98",
+      "bytes": 26327
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250318T130631_L2A/scl.json",
+      "sha256": "a63f36c19e6900d6b1b49da7a3aea401749b29766f7007dbbbefa0fff3efccd0",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250318T130631_L2A/scl.tif",
+      "sha256": "da109a2603a6ecb998f909d848cd2b2d80d92b590d1dde2631f6dbc82dad197a",
+      "bytes": 13686
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250328T130502_L2A/item.json",
+      "sha256": "08aae08d9159851c4894b5fb6aa5fccc059dddb747e587ed95855e4ffaf18d06",
+      "bytes": 26326
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250328T130502_L2A/scl.json",
+      "sha256": "eea5fa038d88ae5b74749fb5d50d4d95770b173093b47623590eeae34cc18e78",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250328T130502_L2A/scl.tif",
+      "sha256": "65596bd1bfa63561d31938a803b4d9ce8fbbc2637bce3fb5019068b0e123f60a",
+      "bytes": 17168
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/item.json",
+      "sha256": "5bd3d40d172e8e6c4310584c39dd1ba96199017ee097cfd385d0b69b3cc12587",
+      "bytes": 26325
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/nir.json",
+      "sha256": "d057f21ceba25d7727ddee16ca9132bb15bf1e05d1cf723519b3db197e628edd",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/nir.tif",
+      "sha256": "a3eeaab8d887182e40904a86bf6de0a674eb6bcdea57a43698e05089850b6d43",
+      "bytes": 949816
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/red.json",
+      "sha256": "26af404c540b51fcd46aa7b8227c26d4395b9c618527da98f85da5d538c56b35",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/red.tif",
+      "sha256": "a52f9d2af7790d8984549286c618c52f0dab15146e9113ac5c1f575561ef27f0",
+      "bytes": 902786
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/scl.json",
+      "sha256": "17f8a7f521be6f5de543fe964fc591f735de91f9665cb5351af1871bccd4a3e2",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250517T130302_L2A/scl.tif",
+      "sha256": "4d50c1bd063942609fa39326f643d2f6884213be7311a2e912e7f729dfd775aa",
+      "bytes": 14435
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/item.json",
+      "sha256": "9f6ec6098de5d68bd75403ac71bf3b97af9c5e72a6e894725dffa7b01d6a0b50",
+      "bytes": 26524
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/nir.json",
+      "sha256": "a55de6f9ef8894d13a78fa8ea1f1ea2ae157e63e7de27413b42b74834b67ff49",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/nir.tif",
+      "sha256": "2c55b232cc225f8fcfc0c0fb797763800a31bd9f7305573c994fd594fa152023",
+      "bytes": 945827
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/red.json",
+      "sha256": "65d65ac1eb698f0bef456b30a4c1985bc82fd0e1be84882ee7d47ec9093d486c",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/red.tif",
+      "sha256": "e64d603f54a17ae0c88a0b9292cd0483fbf3740d16717520abc63ffdaddda47b",
+      "bytes": 902070
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/scl.json",
+      "sha256": "8a3c0db6e5ce22314505735baea31bf8b3de5e4619a008fe9732e866f476bd0b",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250616T130532_L2A/scl.tif",
+      "sha256": "9fa9b06eb33eaa6942d6071fce960f012633ee9205a649222545486c61a1d6ae",
+      "bytes": 13658
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/item.json",
+      "sha256": "e8412caa91c1f70be8865f41ce908b2550a8d5298886b48de606c39d73195482",
+      "bytes": 26524
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/nir.json",
+      "sha256": "4e7877cf00ec34cd9d16ac5b3a6fbe57d5cf761414e50d2ad840e9e8af72f7aa",
+      "bytes": 1336
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/nir.tif",
+      "sha256": "38d7897f6b50c6bf60181264ba14c02f0a19ecf72c5db59153b3b209d95271a1",
+      "bytes": 940551
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/red.json",
+      "sha256": "029b4d8761f1394dd96dd7768fb7b06f89be120a6797f636773f2da08cd424a1",
+      "bytes": 1334
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/red.tif",
+      "sha256": "2b4b724af179c308e154402a996090771fe4ee03d865dc23a42ea74cc8724e12",
+      "bytes": 896816
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/scl.json",
+      "sha256": "66934df0d4fc12f0a69bcf5e11dc35711484b9f4f06818fe4bb9ecd3b79d7b3e",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250716T130309_L2A/scl.tif",
+      "sha256": "403d246d7e9bee77624550b22cf02ea4296db44d90bc05dce7e962e19d5eff70",
+      "bytes": 11683
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250825T130609_L2A/item.json",
+      "sha256": "2bad05b641e1a1b3a486f93fc6fe30c99f80610523e5220ec6d4ee9882df9d1a",
+      "bytes": 26523
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250825T130609_L2A/scl.json",
+      "sha256": "f249e6861b2171a5ebd0b0b9fe94617bbf770d253b345010f5a63fbf9051322c",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20250825T130609_L2A/scl.tif",
+      "sha256": "6ab88b6a0817626ae2878018785bf8dbd7dd022d1b7cbdfbdc9650ca33e1c5d7",
+      "bytes": 16230
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/item.json",
+      "sha256": "bf9134d38cc3e82d652237b2ac5d26772859fd6746df53d4045e27fd5a71c325",
+      "bytes": 26547
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/nir.json",
+      "sha256": "b2b1af3f7e05248f58542d760556ebe43bda7b8050f749ada624ee35d62579ba",
+      "bytes": 1337
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/nir.tif",
+      "sha256": "12161aa3a8405537b41af4a612dc0763fb0a22d1e433eb4282d74387be81ca59",
+      "bytes": 943892
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/red.json",
+      "sha256": "d178c8da044cf9e55279cfb2049a85f0cd40a493b9c955db4ecda0ef0ec5f57b",
+      "bytes": 1335
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/red.tif",
+      "sha256": "d631e90c8bae0f37ee39edbcd8932df30267674f70f3b8e3530aa0243b1422c7",
+      "bytes": 902669
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/scl.json",
+      "sha256": "f31c660ad73cac27d34f0d53bfb4d975e1d641c33b0c68c5f5fedad7ad712e14",
+      "bytes": 1103
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251024T130258_L2A/scl.tif",
+      "sha256": "1899071d16958792504fc64f9677599f144a1af4b3e361a7ca5b3b198d4371e9",
+      "bytes": 12473
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/item.json",
+      "sha256": "38594e15fccece86ade65b2e17406132865a495e9b417a74f7c639c0eadc448b",
+      "bytes": 26545
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/nir.json",
+      "sha256": "a9bb87b5268b7bae57007a64e26787e1d76f56284da6a892bf68b7af186ba784",
+      "bytes": 1337
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/nir.tif",
+      "sha256": "7bce00fdecdb7f863c05df5ff019e3ba4c595e0eb650c087f0bd28ba6b28fad0",
+      "bytes": 948822
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/red.json",
+      "sha256": "6a004e3c806763e2910b73c291fc179aaf15645010ff83673d92214398f4653c",
+      "bytes": 1335
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/red.tif",
+      "sha256": "de31200e2566d8e8e88a42e959e084bdb2ca420b33f741cc0cedd8c046371e31",
+      "bytes": 912343
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/scl.json",
+      "sha256": "bb518e1031b2892f8cf897cd3bcfbd1b917fe54b8d1064b312e1e06f72706d08",
+      "bytes": 1103
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/S2C_T23KPQ_20251223T130253_L2A/scl.tif",
+      "sha256": "c14fdd6ce39febfa659880ef22cd89dc111aa0c80204667c023815e42f23b199",
+      "bytes": 13755
+    },
+    {
+      "path": "data/raw/meriti/copernicus__sentinel2_meriti_mensal__2025/search.json",
+      "sha256": "7c2c73a212845e929f5b21c35f204a5b4902ea4c5cff36de142974c9dc518d97",
+      "bytes": 1718969
+    }
+  ]
+}

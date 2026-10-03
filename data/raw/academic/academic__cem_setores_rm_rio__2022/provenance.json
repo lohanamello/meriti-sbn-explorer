@@ -1,0 +1,17 @@
+{
+  "id": "academic__cem_setores_rm_rio__2022",
+  "source_name": "Setores Censitarios 2022 da Regiao Metropolitana do Rio de Janeiro",
+  "source_institution": "CEM / USP",
+  "source_url": "https://centrodametropole.fflch.usp.br/pt-br/node/17503",
+  "acquisition_route": "secondary_download",
+  "downloaded_at": "2026-05-17T18:03:50+00:00",
+  "started_at": "2026-05-17T18:03:50+00:00",
+  "duration_seconds": 0.271,
+  "stored_path": "data/raw/academic/academic__cem_setores_rm_rio__2022/cem_setores_rm_rio_2022_page.html",
+  "original_filename": "17503",
+  "stored_filename": "cem_setores_rm_rio_2022_page.html",
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_header": null,
+  "bytes_written": 34822,
+  "sha256": "8eef8057dd0f6d6f7ece3a2b28fd7a895117bfb3ebc4848387baad7525658080"
+}

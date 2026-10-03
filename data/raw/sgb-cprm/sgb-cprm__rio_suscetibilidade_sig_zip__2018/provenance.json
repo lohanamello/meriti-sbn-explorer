@@ -1,0 +1,19 @@
+{
+  "id": "sgb-cprm__rio_suscetibilidade_sig_zip__2018",
+  "source_name": "Carta de Suscetibilidade Rio de Janeiro - arquivos vetoriais SIG",
+  "source_institution": "SGB / CPRM",
+  "source_url": "https://rigeo.sgb.gov.br/server/api/core/bitstreams/85495bf8-8b2d-49a2-b93c-85fea3942623/content",
+  "acquisition_route": "direct_download",
+  "downloaded_at": "2026-05-17T18:40:12+00:00",
+  "started_at": "2026-05-17T18:10:06+00:00",
+  "duration_seconds": 1807.797,
+  "stored_path": "data/raw/sgb-cprm/sgb-cprm__rio_suscetibilidade_sig_zip__2018/sig_riodejaneiro_rj_suscet.zip",
+  "original_filename": "content",
+  "stored_filename": "sig_riodejaneiro_rj_suscet.zip",
+  "content_type": "aplication/zip;charset=UTF-8",
+  "content_encoding": null,
+  "content_length_header": 1418376227,
+  "bytes_written": 1418376227,
+  "sha256": "3b5c0b8927b87b84bc9a7c7ff2ab450ee240b8b14e59807d94b501a56dfa8ad3",
+  "resumable": true
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 2,
+  "form": "review-blinded-v2.csv",
+  "masterSha256": "a84ffb05350917a860d02bbb7993bf8d89687a258b76199900d3593cae4ed18f",
+  "formSha256": "62a581b8f6ebe2884f5c18027d6cee61dcbee6ba023a831946f16ef2e7b60085",
+  "fields": [
+    "sample_id",
+    "longitude",
+    "latitude",
+    "clipped_cell_area_m2",
+    "review_status",
+    "live_vegetation_fraction",
+    "tree_canopy_fraction",
+    "reference_source",
+    "reference_image_date",
+    "reference_resolution_m",
+    "temporal_match_notes",
+    "interpretation_method",
+    "interpreter",
+    "second_interpreter",
+    "adjudication_notes",
+    "reference_evidence_id",
+    "independent_reference_confirmed",
+    "notes",
+    "reference_adequacy_decision",
+    "reference_adequacy_report",
+    "pilot_concordance_report",
+    "alignment_assessment_report"
+  ],
+  "adequacyFields": {
+    "reference_adequacy_decision": "approved only after the documented reference pilot and alignment review establish suitability for the target fraction; otherwise pending or rejected",
+    "reference_adequacy_report": "Traceable report identifier evaluating temporal suitability, spatial resolution, cloud/shadow/missing data, mixed vegetation fractions and source limitations",
+    "pilot_concordance_report": "Traceable independent pilot report documenting interpreter agreement and ambiguity for vegetation fractions across urban conditions",
+    "alignment_assessment_report": "Traceable report of registration checks and residuals, independent check points when adjustment is applied, and consequences for the target fractions"
+  },
+  "limitation": "No fixed pixel-size cutoff certifies reference adequacy. These fields preserve the scientific review decision; software cannot verify the truth of an attestation."
+}

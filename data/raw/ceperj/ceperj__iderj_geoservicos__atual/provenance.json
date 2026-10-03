@@ -1,0 +1,17 @@
+{
+  "id": "ceperj__iderj_geoservicos__atual",
+  "source_name": "IDE.RJ Catalogo e Geoservicos",
+  "source_institution": "CEPERJ / Governo do Estado do Rio de Janeiro",
+  "source_url": "https://iderj.ceperj.rj.gov.br",
+  "acquisition_route": "portal_or_ogc_service",
+  "downloaded_at": "2026-05-17T18:02:59+00:00",
+  "started_at": "2026-05-17T18:02:59+00:00",
+  "duration_seconds": 0.079,
+  "stored_path": "data/raw/ceperj/ceperj__iderj_geoservicos__atual/iderj_home.html",
+  "original_filename": null,
+  "stored_filename": "iderj_home.html",
+  "content_type": "text/html",
+  "content_length_header": 794,
+  "bytes_written": 794,
+  "sha256": "83851e39b2b29187b08838d1a1ca8d0b97ab7718cd50e3a8b13bf5933f4151a0"
+}

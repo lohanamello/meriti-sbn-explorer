@@ -1,0 +1,17 @@
+{
+  "id": "ibge__setores_censitarios_malha_rj__2022",
+  "source_name": "Malha de Setores Censitarios 2022 - RJ",
+  "source_institution": "IBGE",
+  "source_url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2022/setores/gpkg/UF/RJ/RJ_setores_CD2022.gpkg",
+  "acquisition_route": "direct_download",
+  "downloaded_at": "2026-05-17T17:44:39+00:00",
+  "started_at": "2026-05-17T17:44:37+00:00",
+  "duration_seconds": 1.748,
+  "stored_path": "data/raw/ibge/ibge__setores_censitarios_malha_rj__2022/RJ_setores_CD2022_malha.gpkg",
+  "original_filename": "RJ_setores_CD2022.gpkg",
+  "stored_filename": "RJ_setores_CD2022_malha.gpkg",
+  "content_type": null,
+  "content_length_header": 73641984,
+  "bytes_written": 73641984,
+  "sha256": "76396586a2c8492f424c1548f3dbaf711aaef3a9fa1e6d67b9954cbb847f4148"
+}

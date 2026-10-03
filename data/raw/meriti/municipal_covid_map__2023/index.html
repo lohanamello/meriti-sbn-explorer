@@ -1,0 +1,923 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		   <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+	        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Vagos', 30],
+          ['Ocupados', 0],
+        ]);
+
+        // Set chart options
+        var options = {
+						width: '100%',
+						height: 380,
+                       
+					   colors: ['#008000', '#ff0000']};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+		$(window).on("throttledresize", function (event) {
+
+		var data = google.visualization.arrayToDataTable([]);
+		drawChart(data, options);
+});
+      }
+    </script>
+	<style>
+			#chart-body {
+			position: absolute;
+			padding-bottom: 100%;
+			height: 0;
+			overflow:hidden;
+		}
+
+		#chart_div {
+			position: relative;
+			top: 0;
+			left: 0;
+			width:100%;
+			height:100%;
+		}
+		</style>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+		 <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />-->
+        <title>Painel COVID-19 - São João de Meriti</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
+		 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" crossorigin=""/>  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" crossorigin=""></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		 <style>
+#map
+{
+    width: 100px;
+    height:400px;
+    min-height: 100%;
+    min-width: 100%;
+    display: block;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+#map-holder{
+    height: 100%;
+}
+
+.fill
+{
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+</style>
+
+    </head>
+    <body class="sb-nav-fixed">
+<nav class="navbar-header"  style="background-color: #0d324a">
+ <div class="text-center">
+    <img src="/covid/dist/img/banner_corona.png" class="img-fluid">
+  </div>
+</nav>
+      
+                <main>
+                    <div class="container">
+					
+						<div class="row">
+							<div class="col-sm">
+								<h1 class="mt-4"><strong>Painel <font color="#0000cd">COVID-19</font></strong></h1>
+							</div>
+							<div class="col-sm">
+								<p class="text-right mt-4 font-weight-bold"><font color="gray"><strong>Atualizado em</strong> <br>11/03/23 às 18:00 </p>
+							</div>
+						</div>
+						
+						
+						<ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active">Prefeitura de São João de Meriti - Secretaria Municipal de Saúde</li>
+							
+                        </ol>
+						<ol class="breadcrumb mb-4">
+                          <li class="breadcrumb-item active">Secretaria Municipal de Ciência e Tecnologia</li>
+							
+                        </ol>
+						
+						
+                        <div class="row justify-content-center">
+                            
+				<div class="col-md">
+                                <div class="card bg-primary text-white mb-4">
+                                    <div class="card-body">Casos <br />Confirmados</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link"><strong>												31737									</strong></a>
+									<br><br>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="card bg-warning text-white mb-3">
+                                    <div class="card-body">Casos <br />Suspeitos</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link"><strong>	5261</strong>
+												</a>
+												<br><br>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+						
+							
+                            <div class="col-md">
+                                <div class="card bg-success text-white mb-4">
+                                    <div class="card-body">Casos <br />Descartados</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link"><strong>18999</strong></a>
+												<br><br>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+				
+                           <div class="col-md">
+                                <div class="card bg-danger text-white mb-4">
+                                    <div class="card-body">Casos de <br />Óbitos</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link"><strong>1486</strong></a>
+												<br><br>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+				
+							
+                        </div>
+						
+						
+						<div class="card mb-4">
+                            <div class="card-header"><i class="fas fa-map mr-1"></i>Mapa - São João de Meriti</div>
+                            <div class="container fill">
+						<div id='map'>i</div>
+						</div></div>
+						<script>
+      
+   var map = L.map(document.getElementById('map'), {
+        center: [-22.7848648, -43.3655871],
+		zoom: 13
+		
+      });
+      var basemap = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {});
+          basemap.addTo(map);
+	
+	
+
+
+	//geojson	
+	
+		var geojsonFeature = {
+    "type": "Feature",
+    "properties": {
+        "name": "São João de Meriti",
+        
+    },
+ 
+};
+		L.geoJSON(geojsonFeature).addTo(map);
+		var myLayer = L.geoJSON().addTo(map);
+		
+		var myLayer = [{ "type": "Feature", "properties": {"id": "3305109", "name": "São João de Meriti", "description": "São João de Meriti"}, "geometry": { "type": "Polygon", "coordinates": [[[-43.3304171568, -22.7559587629], [-43.3301530938, -22.8015926548], [-43.3585113167, -22.8027066971], [-43.3765508669, -22.8101218237], [-43.3896291016, -22.8136093475], [-43.3913133890, -22.8137628507], [-43.3993204615, -22.8046014829], [-43.4018139862, -22.8017483820], [-43.4106203303, -22.7916685753], [-43.3961802843, -22.7769193761], [-43.3913579839, -22.7721783976], [-43.3844276855, -22.7661587669], [-43.3618875450, -22.7619459162], [-43.3304171568, -22.7559587629]]] }}];
+
+var myStyle = {
+    
+    "weight": 5,
+    "opacity": 0.65
+};
+
+L.geoJSON(myLayer, {
+    style: myStyle
+}).addTo(map); 
+
+
+//marcar bairros
+
+
+
+var circle = L.circle([-22.790287, -43.384323],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Agostinho Porto<br />Confirmados:209 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.802097, -43.368469],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Centro<br />Confirmados:946 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.775588, -43.385359],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Coelho da Rocha<br />Confirmados:396 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.795885, -43.397437],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Éden<br />Confirmados:312 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.808031, -43.378842],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Engenheiro Belford<br />Confirmados:73 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.782691, -43.397155],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Grande Rio<br />Confirmados:42 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.774237, -43.348188],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Botânico<br />Confirmados:56 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.777982, -43.348939],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Iris<br />Confirmados:66 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.794798, -43.359889],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim José Bonifácio<br />Confirmados:74 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.785820, -43.343710],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Jurema<br />Confirmados:9 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.78271, -43.374724],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Meriti<br />Confirmados:113 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.762173, -43.334507],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Metrópole<br />Confirmados:635 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.765833, -43.338329],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Nova Califórnia<br />Confirmados:11 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.774453, -43.333196],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Olavo Bilac<br />Confirmados:52 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.769527, -43.350202],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Paraíso<br />Confirmados:110 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.769546, -43.350814],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Santa Rosa<br />Confirmados:73 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.776439, -43.33891],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Jardim Sumaré<br />Confirmados:87 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.771344, -43.384168],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque Alian<br />Confirmados:72 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.799827, -43.335393],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque Analândia<br />Confirmados:57 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.790248, -43.333949],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque Araruama<br />Confirmados:72 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.792216, -43.349636
+],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque Barreto<br />Confirmados:42 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.795198, -43.340972],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque Novo Rio<br />Confirmados:67 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.784646, -43.395161],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque Santana<br />Confirmados:4 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.810986, -43.388889],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque São Judas Tadeu<br />Confirmados:16 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.810690, -43.389834],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque São Nicolau<br />Confirmados:10 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.787038, -43.330761],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque Tietê<br />Confirmados:1 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.778640, -43.339868],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Parque Vitória<br />Confirmados:1 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.800514, -43.392868],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:São Mateus<br />Confirmados:196 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.792879, -43.404602],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Tomazinho<br />Confirmados:25 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.788097, -43.351532],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Trezentos<br />Confirmados:2 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.788097, -43.351532],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Venda Velha<br />Confirmados:43 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.79281, -43.404645],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Vila Formoso<br />Confirmados:8 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.792819, -43.404645],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Vila Norma<br />Confirmados:42 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.796004, -43.377598],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Vila Rosali<br />Confirmados:66 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.796360, -43.384572],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Vila São João<br />Confirmados:74 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.796360, -43.384572],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Vila Tiradentes<br />Confirmados:48 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.773234, -43.359546],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Vila Zulmira<br />Confirmados:14 ');
+
+
+var popup = L.popup();var circle = L.circle([-22.773234, -43.359546],{
+    color: '#007bff',
+    fillColor: '#007bff',
+    fillOpacity: 0.5,
+    radius: 200
+}).addTo(map);
+
+circle.bindPopup('Bairro:Vilar dos Teles<br />Confirmados:257 ');
+
+
+var popup = L.popup();
+</script>
+
+
+<script>
+var map = L.map('map').fitWorld();
+
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    tileSize: 512,
+    zoomOffset: -1
+}).addTo(map);
+</script>
+ <div class="card mb-4">
+                                    <div class="card-header"><i class="fas fa-chart-area mr-1"></i>Casos Acumulados</div>
+                                     <div class="card-body"><canvas id="myChart" width="200%" height="60"></canvas>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+
+<script>
+
+  var ctx = document.getElementById("myChart");
+  var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ['11/02/23','12/02/23','13/02/23','14/02/23','15/02/23','16/02/23','17/02/23','18/02/23','19/02/23','20/02/23','21/02/23','22/02/23','23/02/23','24/02/23','25/02/23','26/02/23','27/02/23','28/02/23','01/03/23','02/03/23','03/03/23','04/03/23','05/03/23','06/03/23','07/03/23','08/03/23','09/03/23','10/03/23','11/03/23',],
+        datasets: [{
+                label: 'Confirmados',
+                data: [0,0,0,3,2,4,0,0,0,0,0,0,21,0,0,0,0,0,15,64,13,0,0,0,0,15,22,19,0,],
+											
+						borderColor: "blue"
+            },
+            {
+                label: 'Óbitos',
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,],
+                
+                borderColor: "orange"
+				
+            }
+        ]
+    },
+	
+	
+	  options: {
+ 
+    elements: {
+	
+      line: {
+		  tension:0
+		  
+	  }
+	  
+    }
+  }
+	
+	
+});
+</script>
+
+							</div>
+                        
+						   </div>
+						
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card mb-4">
+                                    <div class="card-header"><i class="fas fa-chart-pie mr-1"></i>Ocupação de Leitos</div>
+                                      <div class="card-body">
+									 <div id="chart_div"></div>
+
+									</div>
+									</div>
+									</div>
+                          
+						  
+						  <div class="col-xl-6">
+                                <div class="card mb-4">
+                                    <div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Vacinados até 11/03/23</div>
+                                     <div class="card-body"><canvas id="grafico_dia" width="100%" height="78%"></canvas>
+										<script>// Set new default font family and font color to mimic Bootstrap's default styling
+Chart.defaults.global.defaultFontFamily = '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+Chart.defaults.global.defaultFontColor = '#292b2c';
+
+
+
+
+
+// grafico barra diario
+var ctx = document.getElementById("grafico_dia");
+var myLineChart = new Chart(ctx, {
+  type: 'bar',
+  
+  data: {
+    labels: ['','',],
+    datasets: [
+	{
+      label: "1º dose",
+      backgroundColor: "rgba(109,183,252)",
+      borderColor: "rgba(109,183,252)",
+      data: [303026],
+											
+											
+    },
+	
+	{
+      label: "2º dose",
+      backgroundColor: "rgba(123,190,252)",
+      borderColor: "rgba(123,190,252)",
+      data: [232907],
+											
+											
+    },
+	
+	{
+      label: "3º dose",
+      backgroundColor: "rgba(149,203,252)",
+      borderColor: "rgba(149,203,252)",
+      data: [74580],
+											
+											
+    },
+	
+	
+	{
+      label: "4º dose",
+      backgroundColor: "rgba(180,218,252)",
+      borderColor: "rgba(180,218,252)",
+      data: [12368],
+											
+											
+    },
+	
+	
+	{
+      label: "Dose Única",
+      backgroundColor: "rgba(210,232,253)",
+      borderColor: "rgba(210,232,253)",
+      data: [9156],
+	}
+	
+	],
+	
+	
+	
+  }
+  
+});
+
+		</script>							
+									</div>
+                                </div>
+                            </div>
+						
+						</div>
+						<div class="text-center">
+    <a href="http://meriti.rj.gov.br/home/coronavirus/" target="_blank"><img src="/covid/dist/img/banner_infos.jpeg" class="img-fluid"></a>
+  </div>
+  <br>
+ 
+  
+  <div class="text-center">
+    <a href="/covid/dist/img/contigencia.pdf" target="_blank"><img src="/covid/dist/img/banner_contigencia.jpg" class="img-fluid"></a>
+  </div>
+  <br />
+                        <div class="card mb-4">
+                            <div class="card-header"><i class="fas fa-table mr-1"></i>Casos por Bairros</div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                   <table class="table">
+									  <thead>
+										<tr>
+										  <th scope="col">Bairros</th>
+										  <th scope="col">Casos Confirmados</th>
+										  <th scope="col">Óbitos</th>
+										</tr>
+									  </thead>
+									  <tbody>
+										
+											
+							
+
+<tr>
+																															
+										<td>Não Informado</td><td>27356</td><td>891</td></tr><tr>
+																															
+										<td>Centro</td><td>946</td><td>115</td></tr><tr>
+																															
+										<td>Jardim Metrópole</td><td>635</td><td>24</td></tr><tr>
+																															
+										<td>Coelho da Rocha</td><td>396</td><td>61</td></tr><tr>
+																															
+										<td>Éden</td><td>312</td><td>40</td></tr><tr>
+																															
+										<td>Vilar dos Teles</td><td>257</td><td>56</td></tr><tr>
+																															
+										<td>Agostinho Porto</td><td>209</td><td>31</td></tr><tr>
+																															
+										<td>São Mateus</td><td>196</td><td>21</td></tr><tr>
+																															
+										<td>Jardim Meriti</td><td>113</td><td>26</td></tr><tr>
+																															
+										<td>Jardim Paraíso</td><td>110</td><td>8</td></tr><tr>
+																															
+										<td>Jardim Sumaré</td><td>87</td><td>6</td></tr><tr>
+																															
+										<td>Jardim José Bonifácio</td><td>74</td><td>17</td></tr><tr>
+																															
+										<td>Vila São João</td><td>74</td><td>20</td></tr><tr>
+																															
+										<td>Jardim Santa Rosa</td><td>73</td><td>3</td></tr><tr>
+																															
+										<td>Engenheiro Belford</td><td>73</td><td>15</td></tr><tr>
+																															
+										<td>Parque Araruama</td><td>72</td><td>13</td></tr><tr>
+																															
+										<td>Parque Alian</td><td>72</td><td>7</td></tr><tr>
+																															
+										<td>Parque Novo Rio</td><td>67</td><td>8</td></tr><tr>
+																															
+										<td>Jardim Iris</td><td>66</td><td>1</td></tr><tr>
+																															
+										<td>Vila Rosali</td><td>66</td><td>28</td></tr><tr>
+																															
+										<td>Parque Analândia</td><td>57</td><td>5</td></tr><tr>
+																															
+										<td>Jardim Botânico</td><td>56</td><td>0</td></tr><tr>
+																															
+										<td>Jardim Olavo Bilac</td><td>52</td><td>8</td></tr><tr>
+																															
+										<td>Vila Tiradentes</td><td>48</td><td>13</td></tr><tr>
+																															
+										<td>Venda Velha</td><td>43</td><td>13</td></tr><tr>
+																															
+										<td>Grande Rio</td><td>42</td><td>6</td></tr><tr>
+																															
+										<td>Parque Barreto</td><td>42</td><td>9</td></tr><tr>
+																															
+										<td>Vila Norma</td><td>42</td><td>12</td></tr><tr>
+																															
+										<td>Tomazinho</td><td>25</td><td>12</td></tr><tr>
+																															
+										<td>Parque São Judas Tadeu</td><td>16</td><td>2</td></tr><tr>
+																															
+										<td>Vila Zulmira</td><td>14</td><td>5</td></tr><tr>
+																															
+										<td>Jardim Nova Califórnia</td><td>11</td><td>1</td></tr><tr>
+																															
+										<td>Parque São Nicolau</td><td>10</td><td>6</td></tr><tr>
+																															
+										<td>Jardim Jurema</td><td>9</td><td>1</td></tr><tr>
+																															
+										<td>Vila Formoso</td><td>8</td><td>1</td></tr><tr>
+																															
+										<td>Parque Santana</td><td>4</td><td>0</td></tr><tr>
+																															
+										<td>Trezentos</td><td>2</td><td>1</td></tr><tr>
+																															
+										<td>Parque Tietê</td><td>1</td><td>0</td></tr><tr>
+																															
+										<td>Parque Vitória</td><td>1</td><td>0</td></tr>										
+										
+							</tr>					
+										<tr>
+												
+										</tr>
+										<tr> 
+										</tr>
+									  </tbody>
+									</table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					
+									
+					<center><h4><b><div class="table-responsive">
+			
+                                </div>
+			
+			</b></h4> </center>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Prefeitura de São João de Meriti 2022 -  Desenvolvido pela Secretaria Municipal de Ciência e Tecnologia</li>
+							</div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+         
+       
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/datatables-demo.js"></script>
+    </body>
+</html>
+
+

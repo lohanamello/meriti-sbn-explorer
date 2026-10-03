@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-10-03T16:59:18+00:00",
+  "targetDate": "2026-07-02",
+  "comparedDate": "2026-04-26",
+  "method": "Independent local translation diagnostic on image-gradient Pearson correlation, 160m context, central ~120m compared; 2m search increments within +/-10m; no transformation fitted or applied.",
+  "referenceFiles": [
+    {
+      "file": "data/raw/meriti/independent_reference_audit_20261003/CBERS_4A_WPM_20260702_198_142_L4-BAND0.tif",
+      "sha256": "e32ba2ffc97134eb12043d97b4d41f0b71847f16595e4959a9d06883fb04c2ca"
+    },
+    {
+      "file": "data/raw/meriti/inpe__cbers4a_wpm_rgb__20260426/rgb-native.tif",
+      "sha256": "712381960370157ae4f38a2d9ebc0b635ec53ccb7489f68d9e5df6fc588a1b2e"
+    }
+  ],
+  "limitations": [
+    "This measures image-patch relative agreement, not absolute geolocation accuracy or independent control-point RMSE.",
+    "Changing shadows, off-nadir building displacement, radiometry and vegetation can bias the correlation optimum.",
+    "No positional adequacy approval follows from this diagnostic. No measured Esri alignment is available."
+  ],
+  "observations": [
+    {
+      "sampleId": "MERITI-V1-0359",
+      "pearsonGradientCorrelation": 0.5481525864230976,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": 2,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0384",
+      "pearsonGradientCorrelation": 0.559735213387489,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 0.0
+    },
+    {
+      "sampleId": "MERITI-V1-0015",
+      "pearsonGradientCorrelation": 0.5890391849473048,
+      "aprilRelativeToJulyEastM": 2,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0321",
+      "pearsonGradientCorrelation": 0.5499647095644075,
+      "aprilRelativeToJulyEastM": 2,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0124",
+      "pearsonGradientCorrelation": 0.5277957941570552,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": -2,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0214",
+      "pearsonGradientCorrelation": 0.5624187574753651,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": 2,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0108",
+      "pearsonGradientCorrelation": 0.6109473980194121,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 0.0
+    },
+    {
+      "sampleId": "MERITI-V1-0022",
+      "pearsonGradientCorrelation": 0.6110713664166272,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": -2,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0163",
+      "pearsonGradientCorrelation": 0.5788680344521652,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 0.0
+    },
+    {
+      "sampleId": "MERITI-V1-0130",
+      "pearsonGradientCorrelation": 0.5872734197864966,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 0.0
+    },
+    {
+      "sampleId": "MERITI-V1-0243",
+      "pearsonGradientCorrelation": 0.6297848162864454,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": -2,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0260",
+      "pearsonGradientCorrelation": 0.41518485484198375,
+      "aprilRelativeToJulyEastM": 2,
+      "aprilRelativeToJulyNorthM": 2,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.8284271247461903
+    },
+    {
+      "sampleId": "MERITI-V1-0388",
+      "pearsonGradientCorrelation": 0.7371063069989728,
+      "aprilRelativeToJulyEastM": 2,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0128",
+      "pearsonGradientCorrelation": 0.6794043188566201,
+      "aprilRelativeToJulyEastM": 2,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0254",
+      "pearsonGradientCorrelation": 0.5134472813606723,
+      "aprilRelativeToJulyEastM": 2,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 2.0
+    },
+    {
+      "sampleId": "MERITI-V1-0339",
+      "pearsonGradientCorrelation": 0.6714515342093651,
+      "aprilRelativeToJulyEastM": 0,
+      "aprilRelativeToJulyNorthM": 0,
+      "searchBoundaryHit": false,
+      "translationMagnitudeM": 0.0
+    }
+  ]
+}

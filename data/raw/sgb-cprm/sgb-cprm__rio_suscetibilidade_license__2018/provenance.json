@@ -1,0 +1,17 @@
+{
+  "id": "sgb-cprm__rio_suscetibilidade_license__2018",
+  "source_name": "Carta de Suscetibilidade Rio de Janeiro - license file",
+  "source_institution": "SGB / CPRM",
+  "source_url": "https://rigeo.sgb.gov.br/server/api/core/bitstreams/76a546fc-5f98-42ca-91ae-a5588cb7969b/content",
+  "acquisition_route": "direct_download",
+  "downloaded_at": "2026-05-17T17:51:11+00:00",
+  "started_at": "2026-05-17T17:51:11+00:00",
+  "duration_seconds": 0.172,
+  "stored_path": "data/raw/sgb-cprm/sgb-cprm__rio_suscetibilidade_license__2018/license.txt",
+  "original_filename": "content",
+  "stored_filename": "license.txt",
+  "content_type": "text/plain;charset=utf-8",
+  "content_length_header": 2324,
+  "bytes_written": 2324,
+  "sha256": "8177cf3a678aa17a525c612704d0887857c768b2a6fd71d6ee6187a6ae6d5842"
+}

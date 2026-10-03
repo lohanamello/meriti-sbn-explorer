@@ -1,0 +1,540 @@
+{
+  "type": "FeatureCollection",
+  "name": "data-rio__alerta_rio_estacoes__atual",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 31,
+        "name": "Laranjeiras",
+        "address": "Rua Cardoso Junior, 479"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1875,
+          -22.94056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 32,
+        "name": "São Cristóvão",
+        "address": "Campo de São Cristóvão, 268"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.22167,
+          -22.89667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 14,
+        "name": "Jacarepaguá/Tanque",
+        "address": "Rua Godofredo Viana, 64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36472,
+          -22.9125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 12,
+        "name": "Bangu",
+        "address": "Rua Fonseca, 534"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.46583,
+          -22.88028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 24,
+        "name": "Anchieta",
+        "address": "Rua Antúria, 31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.40333,
+          -22.82694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 26,
+        "name": "Campo Grande",
+        "address": "Rua Eng. Trindade, 229"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.56194,
+          -22.90361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 22,
+        "name": "Santa Cruz",
+        "address": "Praça Ruão s/nº"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.68444,
+          -22.90944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 27,
+        "name": "Sepetiba",
+        "address": "Rua do Império s/n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.71167,
+          -22.96889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 20,
+        "name": "Guaratiba",
+        "address": "Estrada Barra de Guaratiba, 9140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.59472,
+          -23.05028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 25,
+        "name": "Grota Funda",
+        "address": "Avenida das Américas, 459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.52139,
+          -23.01444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 19,
+        "name": "Barra/Rio Centro",
+        "address": "Av. Salvador Allende, S/N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.40508,
+          -22.98129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 18,
+        "name": "Jacarepaguá/Cidade de Deus",
+        "address": "Estrada Mal. Salazar de Moraes, 1409"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36278,
+          -22.94556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 7,
+        "name": "Grajaú",
+        "address": "Rua Professor Valadares, 262"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2675,
+          -22.92222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 23,
+        "name": "Grande Méier",
+        "address": "Rua Tenente França, 141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.27806,
+          -22.89056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 13,
+        "name": "Piedade",
+        "address": "Rua da Capela,96"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.31005,
+          -22.89182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 10,
+        "name": "Madureira",
+        "address": "Largo da Penha, 19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33889,
+          -22.87333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 11,
+        "name": "Irajá",
+        "address": "Av. Brasil, 19001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33694,
+          -22.82694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 9,
+        "name": "Penha",
+        "address": "Largo da Penha, 19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.27528,
+          -22.84444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 8,
+        "name": "Ilha do Governador",
+        "address": "Rua Orestes Barbosa, 229"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.21028,
+          -22.81806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 15,
+        "name": "Saúde",
+        "address": "Rua Sacadura Cabral, 178"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.18786,
+          -22.89606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 17,
+        "name": "Barra/Itanhangá",
+        "address": "Rua Major Rolinda da Silva, 65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.29965,
+          -23.00849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 16,
+        "name": "Jardim Botânico",
+        "address": "Rua Jardim Botânico, 1003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.22389,
+          -22.97278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 2,
+        "name": "Urca",
+        "address": "Av. Pasteur, 35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.16667,
+          -22.95583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 5,
+        "name": "Santa Teresa",
+        "address": "Rua Almirante Alexandrino, 1761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.19639,
+          -22.93167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 4,
+        "name": "Tijuca",
+        "address": "Estrada do Sumaré, 670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.22167,
+          -22.93194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 6,
+        "name": "Copacabana",
+        "address": "Av. Atlântica, 4240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.18944,
+          -22.98639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 3,
+        "name": "Rocinha",
+        "address": "Estrada da Gávea, 242"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.245,
+          -22.98583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 1,
+        "name": "Vidigal",
+        "address": "Av. Niemeyer, 121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.23306,
+          -22.9925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 28,
+        "name": "Alto da Boa Vista",
+        "address": "Rua Boa Vista, 196"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.27833,
+          -22.96583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 29,
+        "name": "Av. Brasil/Mendanha",
+        "address": "Estrada do Mendanha, 4842"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.54111,
+          -22.85694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 21,
+        "name": "Estrada Grajaú/Jacarepaguá",
+        "address": "Avenida Menezes Cortes, 3245"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.31583,
+          -22.92556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 30,
+        "name": "Recreio dos Bandeirantes",
+        "address": "Avenida Baltazar da Silveira, 335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.44056,
+          -23.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sourceDatasetId": "data-rio__alerta_rio_estacoes__atual",
+        "stationCode": 33,
+        "name": "Tijuca/Muda",
+        "address": "Praça Xavier de Brito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.24333,
+          -22.93278
+        ]
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  }
+}

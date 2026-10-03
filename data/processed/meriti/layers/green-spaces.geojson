@@ -1,0 +1,1263 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/5481683211",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "playground",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3643678,
+          -22.7768835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/13676388853",
+        "name": "quadra de esportes",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3375198,
+          -22.777456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "node/13676514976",
+        "name": "quadrado de esportes",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3396802,
+          -22.7759578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/60257579",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "playground",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.40003056717582,
+          -22.788636150000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/164025842",
+        "name": "Praça do Barcelona",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.329575734839,
+          -22.78945710189725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165521308",
+        "name": "Praça do Parque Araruama",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.336880699118424,
+          -22.79399495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/285257304",
+        "name": "Praça Manuel Coelho Alamo",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.38084677060345,
+          -22.78599965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/309658389",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.353703498143325,
+          -22.7972022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/326376081",
+        "name": "Força Aérea",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33319513644298,
+          -22.77660675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/508840647",
+        "name": "Praça da Bandeira",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.372393072979456,
+          -22.77145375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520797207",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.398073733278835,
+          -22.7970125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520808925",
+        "name": "Praça Goiás",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.39533010625,
+          -22.78831435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520808927",
+        "name": "Praça Parima",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.39493542841058,
+          -22.78238425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520808940",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.38297601824858,
+          -22.806387049999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520808947",
+        "name": "Campo do Martins",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36780530252469,
+          -22.79488585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520808948",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36940547442009,
+          -22.79233375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520816739",
+        "name": "Praça da Carioca",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.37707338311426,
+          -22.785529699999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520816752",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.372408353309254,
+          -22.7805929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520816753",
+        "name": "Praça Gil",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.364829567760836,
+          -22.79049925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520816755",
+        "name": "Praça da Prefeitura",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36859176402685,
+          -22.779134499999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520816760",
+        "name": "Praça do Camilo",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.34307566227087,
+          -22.76136825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/520816762",
+        "name": "Praça do Rodo",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.34127246361638,
+          -22.7663692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/525422072",
+        "name": "Praça Jardim Botânico",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35515931485371,
+          -22.7754458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/549045703",
+        "name": "Praça do Cruzeiro",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33654289094053,
+          -22.7625661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/549045708",
+        "name": "Praça Do Meio",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.341539255453455,
+          -22.76285145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/549441850",
+        "name": "Campo da torre",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33813695,
+          -22.764125800000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/549937998",
+        "name": "Campos da Guaxa",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33059022028113,
+          -22.75800725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/550754890",
+        "name": "Parque Coelho da Rocha",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.387885539549046,
+          -22.7781336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/550762410",
+        "name": "Praça da Matriz",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.37073507983372,
+          -22.802368700000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/550766573",
+        "name": "Praça Portinari",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3822121332786,
+          -22.780709899999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/550766574",
+        "name": "Praça Portinari",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.381744126600324,
+          -22.780444199999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/551059260",
+        "name": "Praça Jardim Metrópole",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.330007334776376,
+          -22.7640129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/551501630",
+        "name": "Praça do Noia",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33511831286674,
+          -22.76810205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/557082081",
+        "name": "Praça do Íris",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.351792333953355,
+          -22.77828245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/557087007",
+        "name": "Prefeitura de SJM",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.368464370107176,
+          -22.778543550000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/557087008",
+        "name": "Praça da Verm. Ivam Lopes",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36434243740035,
+          -22.7768395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/557087009",
+        "name": "Praça Ivam Lopes",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.364168080431966,
+          -22.7774944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/557089879",
+        "name": "Rotatória Vilar dos Teles",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.360990364928796,
+          -22.775899000000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119899",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.362914839001206,
+          -22.778163900000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119901",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36303713114626,
+          -22.7783905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119903",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36275133152746,
+          -22.7778401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119905",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.362425073257285,
+          -22.7772744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119906",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36246040931675,
+          -22.77725915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119907",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36321816981584,
+          -22.77880245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119910",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36332547709077,
+          -22.77918825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119911",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36344428001392,
+          -22.7797108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119912",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36375783287037,
+          -22.78007355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119921",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35272776632716,
+          -22.77541235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570119925",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35050174819699,
+          -22.778972250000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570120157",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36425491125308,
+          -22.776548849999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/570120557",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35893509603605,
+          -22.775560249999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/591679775",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35324236176471,
+          -22.7984862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/591682759",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35790263753661,
+          -22.77634185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/591682760",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.353002165676884,
+          -22.773765500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/681285469",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "playground",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.39694364518532,
+          -22.79292935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/697511743",
+        "name": "Praça da Vila Tiradentes",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.38336708175764,
+          -22.7935606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/738396048",
+        "name": "Praça do DPO",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33199665725748,
+          -22.76455145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/836366926",
+        "name": "quadra euclides da cunha",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35986427236611,
+          -22.7682365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/957256077",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35263336400255,
+          -22.7754616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/998450479",
+        "name": "Campo Do Tamanco",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.34354048609163,
+          -22.763551300000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1001869100",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33423364224137,
+          -22.7875861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1001869101",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33448984832246,
+          -22.78464795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1001872196",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33774731366938,
+          -22.7777308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1001872197",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33755060086328,
+          -22.7774124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1001872200",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.348247788241764,
+          -22.785102700000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1001872201",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3476775731982,
+          -22.7885808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1068690588",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33759813873971,
+          -22.7838689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1088788770",
+        "name": "luiz gama",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35722072954621,
+          -22.7666611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1112085438",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36053523391226,
+          -22.772914800000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1158175799",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.336095200572245,
+          -22.7847636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1304960669",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "playground",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33703513296726,
+          -22.79394105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1319397963",
+        "name": "Sem nome cadastrado",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.33192445291236,
+          -22.793580249999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1361863282",
+        "name": "Praça do Deserto",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.37651251513314,
+          -22.8094029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1561725312",
+        "name": "Praça Alex Cara Russa - Morro do Conceito",
+        "kind": "green-space",
+        "category": "park",
+        "overlayColor": "#5f9d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36556204353565,
+          -22.78755315
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "street-trees-census",
+  "label": "Arborização nas vias · Censo 2022",
+  "family": "Investigação da vegetação",
+  "sourceDatasetIds": [
+    "ibge__entorno_arborizacao__2022"
+  ],
+  "temporalCoverage": "Observações de campo de 2022–2023, divulgadas em 2025",
+  "resolution": "Setores censitários; dados próprios de bairros, distritos e município",
+  "legendTitle": "Moradores em faces com árvores (% do universo do entorno)",
+  "legend": [
+    {
+      "label": "0 a menos de 25%",
+      "color": "#ecefc5"
+    },
+    {
+      "label": "25 a menos de 50%",
+      "color": "#b8d19d"
+    },
+    {
+      "label": "50 a menos de 75%",
+      "color": "#6aab75"
+    },
+    {
+      "label": "75 a 100%",
+      "color": "#286447"
+    },
+    {
+      "label": "Sem dado publicado ou suprimido",
+      "color": "#c7cdd1"
+    }
+  ],
+  "limitation": "Percentual de moradores em faces de vias com árvores, não percentual de área vegetal. Coleta entre junho de 2022 e maio de 2023. O quesito considera árvores na face e no canteiro central, não toda vegetação viva. Setor sem registro positivo não significa setor sem vegetação. Três setores sem registro e um setor com moradores suprimidos permanecem sem valor.",
+  "attribution": "IBGE, Censo Demográfico 2022, Pesquisa Urbanística do Entorno dos Domicílios"
+}

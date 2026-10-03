@@ -1,0 +1,61 @@
+{
+  "sourceId": "meta_wri__canopy_height_v2__2026",
+  "retrievedAt": "2026-10-03T05:21:00+00:00",
+  "sourceUrl": "https://registry.opendata.aws/dataforgood-fb-forestsv2/",
+  "license": "CC-BY-4.0",
+  "crop": {
+    "sourceId": "meta_wri__canopy_height_v2__2026",
+    "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/2112000120.tif",
+    "tile": "2112000120",
+    "retrievedAt": "2026-10-03T05:04:28+00:00",
+    "sha256": "903c34ff2fd792a9c23476d91e30cacbc2c160a8c93d60adf57504092cffc663",
+    "operation": "Native-grid rectangular crop, unchanged digital numbers and source dataset mask.",
+    "crs": "EPSG:3857",
+    "resolution": [
+      1.1943285669558747,
+      1.1943285669558747
+    ],
+    "dtype": "uint8",
+    "units": "meters",
+    "sourceNodata": null,
+    "sourceMaskFlags": [
+      [
+        "MaskFlags.per_dataset"
+      ]
+    ],
+    "window": {
+      "colOffset": 16977,
+      "rowOffset": 16298,
+      "width": 7765,
+      "height": 6123
+    },
+    "cropBounds": [
+      -4832557.93568806,
+      -2609738.100612394,
+      -4823283.974365647,
+      -2602425.226796923
+    ]
+  },
+  "files": [
+    {
+      "file": "data\\raw\\meriti\\meta_wri__canopy_height_v2__2026\\2112000120-imagery-dates.geojson",
+      "sizeBytes": 9192523,
+      "sha256": "208f0ab2cc2931393bf2a6d146d24294fdd38f26052bdbfa3887bfc1b03dc9e2"
+    },
+    {
+      "file": "data\\raw\\meriti\\meta_wri__canopy_height_v2__2026\\2112000120-imagery-dates.receipt.json",
+      "sizeBytes": 392,
+      "sha256": "f744bea63b904526c994962a981d8da18a495dfbf02613d1c40c4a869680873f"
+    },
+    {
+      "file": "data\\raw\\meriti\\meta_wri__canopy_height_v2__2026\\canopy-height-native.tif",
+      "sizeBytes": 4124103,
+      "sha256": "903c34ff2fd792a9c23476d91e30cacbc2c160a8c93d60adf57504092cffc663"
+    },
+    {
+      "file": "data\\raw\\meriti\\meta_wri__canopy_height_v2__2026\\crop-provenance.json",
+      "sizeBytes": 903,
+      "sha256": "fe105f11eb78ae25ca03069a65bce84d0b0eec88f1e8b29c8e2ae0044545a18c"
+    }
+  ]
+}

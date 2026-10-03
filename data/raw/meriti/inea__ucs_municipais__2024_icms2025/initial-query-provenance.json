@@ -1,0 +1,29 @@
+{
+  "source_id": "inea__ucs_municipais__2024_icms2025",
+  "source_url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11",
+  "query_url": "https://geoportal.inea.rj.gov.br/server/rest/services/Unidades_de_Conserva%C3%A7%C3%A3o/FeatureServer/11/query?where=municipio+LIKE+%27%25Meriti%25%27&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000",
+  "query_parameters": {
+    "where": "municipio LIKE '%Meriti%'",
+    "outFields": "*",
+    "f": "geojson",
+    "outSR": "4326",
+    "returnZ": "false",
+    "returnM": "false",
+    "resultRecordCount": 2000
+  },
+  "retrieved_at": "2026-10-03T04:06:18.380519+00:00",
+  "files": [
+    {
+      "path": "features.geojson",
+      "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+      "size_bytes": 42
+    },
+    {
+      "path": "layer-metadata.json",
+      "sha256": "8782d91032a77171197b3656933e0b4d66e29ad8d2ed23b15ef5c850219498c2",
+      "size_bytes": 9370
+    }
+  ],
+  "feature_count": 0,
+  "license": "Publicly accessible governmental geodata; layer does not state an explicit reuse license."
+}

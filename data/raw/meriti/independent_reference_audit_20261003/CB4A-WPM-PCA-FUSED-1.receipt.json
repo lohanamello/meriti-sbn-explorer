@@ -1,0 +1,5 @@
+{
+  "url": "https://data.inpe.br/bdc/stac/v1/search?collections=CB4A-WPM-PCA-FUSED-1&bbox=-43.411%2C-22.815%2C-43.329%2C-22.755&datetime=2026-01-01T00%3A00%3A00Z%2F2026-10-03T23%3A59%3A59Z&limit=100",
+  "retrievedAt": "2026-10-03T16:48:26+00:00",
+  "sha256": "684621ae47c4093df9886bb903933809d09a3bc6f383b4dc18c15e89578cbec9"
+}

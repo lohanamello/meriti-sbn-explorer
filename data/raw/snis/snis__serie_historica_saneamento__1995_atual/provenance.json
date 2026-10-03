@@ -1,0 +1,17 @@
+{
+  "id": "snis__serie_historica_saneamento__1995_atual",
+  "source_name": "SNIS Serie Historica",
+  "source_institution": "SNIS / Ministerio das Cidades",
+  "source_url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/pmss/snis",
+  "acquisition_route": "portal_download",
+  "downloaded_at": "2026-05-17T18:03:24+00:00",
+  "started_at": "2026-05-17T18:03:21+00:00",
+  "duration_seconds": 3.322,
+  "stored_path": "data/raw/snis/snis__serie_historica_saneamento__1995_atual/snis_page.html",
+  "original_filename": "snis",
+  "stored_filename": "snis_page.html",
+  "content_type": "text/html;charset=utf-8",
+  "content_length_header": 159551,
+  "bytes_written": 159551,
+  "sha256": "44aa4d96fe0a9d248d3314c2926c0a5f5cd48829a7f297386a921920fd143fbe"
+}

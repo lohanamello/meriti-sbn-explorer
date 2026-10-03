@@ -1,0 +1,10 @@
+{
+  "id": "sgb__meriti_sig__2015",
+  "source_url": "https://rigeo.sgb.gov.br/bitstreams/c609802b-ba56-4438-8e0f-ed0416136bcf/download",
+  "resolved_url": "https://rigeo.sgb.gov.br/server/api/core/bitstreams/c609802b-ba56-4438-8e0f-ed0416136bcf/content",
+  "downloaded_at": "2026-10-03T03:00:22+00:00",
+  "stored_path": "data/raw/meriti/sgb__meriti_sig__2015/susceptibility.zip",
+  "bytes_written": 81489369,
+  "sha256": "d6b07ffb705ff2cdf4829cb369cfcd4a6d43753c7a07ee953367cec65da39f78",
+  "content_type": "aplication/zip;charset=UTF-8"
+}

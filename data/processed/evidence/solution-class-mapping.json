@@ -1,0 +1,75 @@
+[
+  {
+    "id": "rain-gardens-bioretention",
+    "label": "Jardins de chuva e biorretenção",
+    "evidencePattern": "Alta exposição a inundação ou pressão de drenagem, com ruas e equipamentos públicos como âncoras de oportunidade.",
+    "evidenceLayerIds": [
+      "urban-water-prioritization-score",
+      "drainage-hydrography-pressure",
+      "public-facility-opportunity-anchors"
+    ],
+    "limitations": "Exige verificação local de faixa disponível, interferências de redes, infiltração do solo e viabilidade de manutenção."
+  },
+  {
+    "id": "permeable-surfaces",
+    "label": "Superfícies permeáveis",
+    "evidencePattern": "Alta pressão de drenagem combinada com baixa oferta de áreas verdes públicas em bairros densos.",
+    "evidenceLayerIds": [
+      "drainage-hydrography-pressure",
+      "green-public-space-deficit"
+    ],
+    "limitations": "O potencial de retrofit de superfícies precisa ser confirmado com dados de titularidade e condição do pavimento."
+  },
+  {
+    "id": "street-tree-shade-corridors",
+    "label": "Arborização viária e corredores de sombra",
+    "evidencePattern": "Alta exposição social e déficit de áreas verdes, especialmente onde equipamentos públicos podem ancorar rotas locais.",
+    "evidenceLayerIds": [
+      "social-exposure-census2022",
+      "green-public-space-deficit",
+      "public-facility-opportunity-anchors"
+    ],
+    "limitations": "O plantio exige checagem de largura de calçada, redes subterrâneas e adequação de espécies."
+  },
+  {
+    "id": "riparian-restoration",
+    "label": "Restauração ripária",
+    "evidencePattern": "Alta densidade de hidrografia associada a contexto de suscetibilidade à inundação.",
+    "evidenceLayerIds": [
+      "drainage-hydrography-pressure",
+      "flood-susceptibility-context"
+    ],
+    "limitations": "Requer avaliação em escala de lote sobre condição do canal, faixas de afastamento e situação fundiária."
+  },
+  {
+    "id": "floodable-parks-retention",
+    "label": "Parques alagáveis e áreas de retenção",
+    "evidencePattern": "Alta exposição a inundação com contexto de praças públicas ou áreas protegidas.",
+    "evidenceLayerIds": [
+      "urban-water-prioritization-score",
+      "green-public-space-deficit",
+      "protected-area-context"
+    ],
+    "limitations": "É apenas uma classe de solução; modelagem hidráulica e disponibilidade fundiária são obrigatórias antes do projeto."
+  },
+  {
+    "id": "green-roofs-public-facilities",
+    "label": "Telhados verdes em equipamentos públicos",
+    "evidencePattern": "Alta densidade de equipamentos públicos em bairros densos ou com déficit de áreas verdes.",
+    "evidenceLayerIds": [
+      "public-facility-opportunity-anchors",
+      "green-public-space-deficit"
+    ],
+    "limitations": "Titularidade do edifício, estrutura da cobertura, acesso e capacidade de manutenção ainda são desconhecidos nesta fase."
+  },
+  {
+    "id": "urban-micro-parks",
+    "label": "Microparques urbanos e infraestrutura verde de bolso",
+    "evidencePattern": "Alta exposição populacional e baixa área de praça por morador.",
+    "evidenceLayerIds": [
+      "social-exposure-census2022",
+      "green-public-space-deficit"
+    ],
+    "limitations": "Exige confirmação de terrenos vagos ou públicos e desenvolvimento de projeto em escala comunitária."
+  }
+]

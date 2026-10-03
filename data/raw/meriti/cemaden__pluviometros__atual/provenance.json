@@ -1,0 +1,10 @@
+{
+  "id": "cemaden__pluviometros__atual",
+  "source_url": "https://www2.cemaden.gov.br/pluviometros-automatico/",
+  "resolved_url": "http://www2.cemaden.gov.br/pluviometros-automatico/",
+  "downloaded_at": "2026-10-03T03:00:28+00:00",
+  "stored_path": "data/raw/meriti/cemaden__pluviometros__atual/portal.html",
+  "bytes_written": 70738,
+  "sha256": "1d0f9e6e3bfcbe2d313a53d9af3450dd16b34545d1c0d7d53e5bcf69970a199d",
+  "content_type": "text/html; charset=UTF-8"
+}

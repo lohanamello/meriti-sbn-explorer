@@ -1,0 +1,18 @@
+{
+  "id": "osm__rio_openstreetmap_extract__atual",
+  "source_name": "OpenStreetMap Rio Extract",
+  "source_institution": "OpenStreetMap contributors",
+  "source_url": "https://overpass-api.de/api/interpreter",
+  "acquisition_route": "overpass_query",
+  "downloaded_at": "2026-05-17T18:08:02+00:00",
+  "started_at": "2026-05-17T18:07:43+00:00",
+  "duration_seconds": 19.563,
+  "stored_path": "data/raw/osm/osm__rio_openstreetmap_extract__atual/rio_nbs_context_overpass.json",
+  "stored_filename": "rio_nbs_context_overpass.json",
+  "content_type": "application/json",
+  "content_length_header": null,
+  "bytes_written": 30615272,
+  "sha256": "0e39976d5d7db727337e3c718bce5b830af524f98220d64c0651d94fbf013d2c",
+  "query_path": "scripts/collect/overpass_queries/rio_nbs_context.overpassql",
+  "query_sha256": "e6ec72a1caf44bbad743555569d57af6acee79ea4280522fbfb90d52e00b66e6"
+}

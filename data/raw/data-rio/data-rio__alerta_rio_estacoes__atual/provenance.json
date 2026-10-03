@@ -1,0 +1,17 @@
+{
+  "id": "data-rio__alerta_rio_estacoes__atual",
+  "source_name": "Estacoes Alerta Rio",
+  "source_institution": "GEORIO / Prefeitura do Rio de Janeiro",
+  "source_url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Geotecnia/Estacoes_AlertaRio/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=json",
+  "acquisition_route": "arcgis_feature_query",
+  "downloaded_at": "2026-05-17T17:37:08+00:00",
+  "started_at": "2026-05-17T17:37:07+00:00",
+  "duration_seconds": 0.146,
+  "stored_path": "data/raw/data-rio/data-rio__alerta_rio_estacoes__atual/alerta_rio_estacoes.json",
+  "original_filename": "query",
+  "stored_filename": "alerta_rio_estacoes.json",
+  "content_type": "application/json; charset=UTF-8",
+  "content_length_header": 5723,
+  "bytes_written": 5723,
+  "sha256": "11a730c6bd90c9b6867a1bdd4633985c1a525384b7d3b24bb0970fea2371c9c7"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "alerta-rio__chuva_tempo_real__snapshot",
+  "source_name": "Dados Pluviometricos do Sistema Alerta Rio",
+  "source_institution": "GEORIO / Prefeitura do Rio de Janeiro",
+  "source_url": "http://websempre.rio.rj.gov.br/estacoes/",
+  "acquisition_route": "html_snapshot",
+  "downloaded_at": "2026-05-17T17:37:40+00:00",
+  "started_at": "2026-05-17T17:37:40+00:00",
+  "duration_seconds": 0.386,
+  "stored_path": "data/raw/alerta-rio/alerta-rio__chuva_tempo_real__snapshot/alerta_rio_estacoes_snapshot.html",
+  "original_filename": "estacoes",
+  "stored_filename": "alerta_rio_estacoes_snapshot.html",
+  "content_type": "text/html; charset=utf-8",
+  "content_length_header": null,
+  "bytes_written": 73257,
+  "sha256": "182083cb3a5b11b9abbf10ba75e81a428c132b42464bb34ccd266b1ffb0ac869"
+}

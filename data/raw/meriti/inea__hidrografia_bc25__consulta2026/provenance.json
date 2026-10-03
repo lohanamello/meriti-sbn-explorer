@@ -1,0 +1,35 @@
+{
+  "source_id": "inea__hidrografia_bc25__consulta2026",
+  "source_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/84",
+  "query_url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/84/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects",
+  "query_parameters": {
+    "where": "1=1",
+    "outFields": "*",
+    "f": "geojson",
+    "outSR": "4326",
+    "returnZ": "false",
+    "returnM": "false",
+    "resultRecordCount": 2000,
+    "geometry": "-43.425,-22.83,-43.315,-22.74",
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": "4326",
+    "spatialRel": "esriSpatialRelIntersects"
+  },
+  "retrieved_at": "2026-10-03T04:06:41.824391+00:00",
+  "files": [
+    {
+      "path": "features.geojson",
+      "sha256": "e604709a789a9c8356419271071d87754a92f1727cddaca9906e1f574ea8e7b4",
+      "size_bytes": 263074,
+      "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/84/query?where=1%3D1&outFields=%2A&f=geojson&outSR=4326&returnZ=false&returnM=false&resultRecordCount=2000&geometry=-43.425%2C-22.83%2C-43.315%2C-22.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects"
+    },
+    {
+      "path": "layer-metadata.json",
+      "sha256": "fea9ee5c7067f8bbc25cc93cb76e73a017fd291613fa02b7a28bcc24989fec4b",
+      "size_bytes": 9940,
+      "url": "https://geoportal.inea.rj.gov.br/server/rest/services/BC_25/FeatureServer/84?f=json"
+    }
+  ],
+  "feature_count": 197,
+  "license": "Publicly accessible governmental geodata; layer does not state an explicit reuse license."
+}

@@ -1,0 +1,237 @@
+{
+  "reviewedAt": "2026-10-03T17:03:53.458546+00:00",
+  "reviewer": "Codex visual inspection, one AI reviewer",
+  "independentHumanReviewers": 0,
+  "referenceDate": "2026-07-02",
+  "targetDate": "2026-10-01",
+  "selection": {
+    "seed": 20261003,
+    "samples": [
+      {
+        "sampleId": "MERITI-V1-0359"
+      },
+      {
+        "sampleId": "MERITI-V1-0384"
+      },
+      {
+        "sampleId": "MERITI-V1-0015"
+      },
+      {
+        "sampleId": "MERITI-V1-0321"
+      },
+      {
+        "sampleId": "MERITI-V1-0124"
+      },
+      {
+        "sampleId": "MERITI-V1-0214"
+      },
+      {
+        "sampleId": "MERITI-V1-0108"
+      },
+      {
+        "sampleId": "MERITI-V1-0022"
+      },
+      {
+        "sampleId": "MERITI-V1-0163"
+      },
+      {
+        "sampleId": "MERITI-V1-0130"
+      },
+      {
+        "sampleId": "MERITI-V1-0243"
+      },
+      {
+        "sampleId": "MERITI-V1-0260"
+      },
+      {
+        "sampleId": "MERITI-V1-0388"
+      },
+      {
+        "sampleId": "MERITI-V1-0128"
+      },
+      {
+        "sampleId": "MERITI-V1-0254"
+      },
+      {
+        "sampleId": "MERITI-V1-0339"
+      }
+    ],
+    "inputCellsSha256": "22f003e6d7bc59162b4497fc48cead3d40d4a159cac9c3ed52f2f95d0a0d683a",
+    "viewContextMeters": 80,
+    "displayScales": {
+      "0": [
+        75.0,
+        303.0
+      ],
+      "1": [
+        115.0,
+        265.0
+      ],
+      "2": [
+        76.0,
+        236.0
+      ],
+      "3": [
+        57.0,
+        267.0
+      ],
+      "4": [
+        66.0,
+        301.0
+      ]
+    },
+    "display": "Native DN, per-band whole-crop 2nd/98th percentile stretch; no pansharpening; nearest-neighbor zoom only.",
+    "limitation": "Display transformation only. DN is not surface reflectance; no NDVI or area estimate produced."
+  },
+  "observations": [
+    {
+      "sampleId": "MERITI-V1-0359",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0384",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0015",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0321",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0124",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0214",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0108",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0022",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0163",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0130",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "likely",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0243",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "likely",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0260",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0388",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0128",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0254",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "indeterminate",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    },
+    {
+      "sampleId": "MERITI-V1-0339",
+      "status": "ai_pilot_only",
+      "liveVegetationPresence": "likely",
+      "liveVegetationFraction": null,
+      "treeCanopyFraction": null,
+      "cloudAssessment": "no_obvious_cloud_obstruction_in_july_pilot",
+      "acceptedReferenceLabel": false
+    }
+  ],
+  "notes": [
+    "No predictor values, strata, weights or master sample were consulted for this visual pilot.",
+    "Presence likely is not a verified label or an area fraction. No absence labels were inferred from predominantly built surfaces.",
+    "All 16 September pilot panels were inadequate for reliable fraction interpretation due to visible cloud, haze or shadow; this is a visual adequacy decision, not a quantitative cloud mask."
+  ]
+}

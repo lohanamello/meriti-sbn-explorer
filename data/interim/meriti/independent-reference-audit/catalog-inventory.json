@@ -1,0 +1,420 @@
+{
+  "generatedAt": "2026-10-03T17:00:24+00:00",
+  "items": [
+    {
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260902_198_142",
+      "date": "2026-09-02T00:00:00.000000Z",
+      "assets": [
+        "tci",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260426_199_142",
+      "date": "2026-04-26T00:00:00.000000Z",
+      "assets": [
+        "tci",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260331_198_142",
+      "date": "2026-03-31T00:00:00.000000Z",
+      "assets": [
+        "tci",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260223_198_142",
+      "date": "2026-02-23T00:00:00.000000Z",
+      "assets": [
+        "tci",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-PCA-FUSED-1",
+      "id": "CBERS4A_WPM_PCA_RGB321_20260128_198_142",
+      "date": "2026-01-28T00:00:00.000000Z",
+      "assets": [
+        "tci",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 245
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260902_198_142_L4",
+      "date": "2026-09-02T12:44:36.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260902_198_141_L4",
+      "date": "2026-09-02T12:44:23.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260728_199_141_L4",
+      "date": "2026-07-28T12:45:31.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260702_198_142_L4",
+      "date": "2026-07-02T12:40:04.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260702_198_141_L4",
+      "date": "2026-07-02T12:39:51.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260627_199_142_L4",
+      "date": "2026-06-27T12:42:36.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260627_199_141_L4",
+      "date": "2026-06-27T12:42:23.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260527_199_142_L4",
+      "date": "2026-05-27T12:42:16.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260527_199_141_L4",
+      "date": "2026-05-27T12:42:03.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260426_199_142_L4",
+      "date": "2026-04-26T12:44:39.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260426_199_141_L4",
+      "date": "2026-04-26T12:44:26.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260331_198_142_L4",
+      "date": "2026-03-31T12:43:32.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260223_198_142_L4",
+      "date": "2026-02-23T12:47:58.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260223_198_141_L4",
+      "date": "2026-02-23T12:47:45.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L4-DN-1",
+      "id": "CBERS_4A_WPM_20260128_198_142_L4",
+      "date": "2026-01-28T12:47:28.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L2-DN-1",
+      "id": "CBERS_4A_WPM_20260501_198_142_L2",
+      "date": "2026-05-01T12:41:10.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    },
+    {
+      "collection": "CB4A-WPM-L2-DN-1",
+      "id": "CBERS_4A_WPM_20260123_199_142_L2",
+      "date": "2026-01-23T12:51:20.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 400
+    },
+    {
+      "collection": "CB4A-WPM-L2-DN-1",
+      "id": "CBERS_4A_WPM_20260123_199_141_L2",
+      "date": "2026-01-23T12:51:07.000000Z",
+      "assets": [
+        "BAND0",
+        "BAND1",
+        "BAND2",
+        "BAND3",
+        "BAND4",
+        "BAND0_xml",
+        "BAND1_xml",
+        "BAND2_xml",
+        "BAND3_xml",
+        "BAND4_xml",
+        "thumbnail"
+      ],
+      "cloudCover": null,
+      "blindedCellsIntersectingFootprint": 0
+    }
+  ]
+}

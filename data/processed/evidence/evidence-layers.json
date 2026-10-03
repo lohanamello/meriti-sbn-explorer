@@ -1,0 +1,222 @@
+[
+  {
+    "id": "urban-water-prioritization-score",
+    "family": "Alagamentos, inundação e risco hídrico urbano",
+    "label": "Pontuação de priorização hídrica urbana",
+    "status": "available",
+    "resolution": "Bairros oficiais do Rio; sínteses por AP são agregações ponderadas por população.",
+    "temporalCoverage": "Camadas municipais atuais, Censo 2022 e suscetibilidade SGB/CPRM 2018.",
+    "sourceDatasetIds": [
+      "sgb-cprm__rio_suscetibilidade_sig_zip__2018",
+      "data-rio__hidrografia__atual",
+      "ibge__setores_censitarios_agregados_rj__2022",
+      "data-rio__pracas__atual",
+      "data-rio__defesa_civil_sirenes__atual",
+      "data-rio__defesa_civil_pontos_apoio__atual",
+      "data-rio__defesa_civil_nupdec__atual",
+      "data-rio__defesa_civil_alojamentos__atual",
+      "data-rio__escolas_municipais__atual",
+      "data-rio__servicos_saude__atual"
+    ],
+    "layerFile": "data/processed/layers/neighborhood-scores.geojson",
+    "legend": [
+      {
+        "label": "Muito alto",
+        "color": "#b63d35"
+      },
+      {
+        "label": "Alto",
+        "color": "#d97844"
+      },
+      {
+        "label": "Elevado",
+        "color": "#e4bd59"
+      },
+      {
+        "label": "Moderado",
+        "color": "#7aa974"
+      },
+      {
+        "label": "Mais baixo",
+        "color": "#5d8aa8"
+      }
+    ]
+  },
+  {
+    "id": "flood-susceptibility-context",
+    "family": "Alagamentos, inundação e risco hídrico urbano",
+    "label": "Contexto de suscetibilidade à inundação SGB/CPRM",
+    "status": "available",
+    "resolution": "Polígonos SGB alocados aos bairros por centróide para triagem.",
+    "temporalCoverage": "Pacote de suscetibilidade SGB/CPRM 2018.",
+    "sourceDatasetIds": [
+      "sgb-cprm__rio_suscetibilidade_sig_zip__2018"
+    ],
+    "layerFile": "data/processed/layers/neighborhood-scores.geojson",
+    "legend": [
+      {
+        "label": "Maior participação ponderada de suscetibilidade",
+        "color": "#b63d35"
+      },
+      {
+        "label": "Menor participação ponderada de suscetibilidade",
+        "color": "#f1c27d"
+      }
+    ]
+  },
+  {
+    "id": "drainage-hydrography-pressure",
+    "family": "Saneamento e drenagem",
+    "label": "Pressão de hidrografia e cursos d'água cobertos",
+    "status": "available",
+    "resolution": "Linhas de hidrografia municipal associadas pelo código de bairro Data.Rio.",
+    "temporalCoverage": "Retrato atual do portal Data.Rio.",
+    "sourceDatasetIds": [
+      "data-rio__hidrografia__atual"
+    ],
+    "layerFile": "data/processed/layers/hydrography.geojson",
+    "legend": [
+      {
+        "label": "Curso d'água coberto",
+        "color": "#7d5a44"
+      },
+      {
+        "label": "Curso d'água aberto",
+        "color": "#3b84a5"
+      }
+    ]
+  },
+  {
+    "id": "social-exposure-census2022",
+    "family": "Vulnerabilidade, demografia e condições sociais",
+    "label": "Exposição populacional do Censo 2022",
+    "status": "available",
+    "resolution": "Setores censitários do IBGE agregados por NM_BAIRRO aos bairros oficiais.",
+    "temporalCoverage": "Censo 2022.",
+    "sourceDatasetIds": [
+      "ibge__setores_censitarios_agregados_rj__2022"
+    ],
+    "layerFile": "data/processed/layers/neighborhood-scores.geojson",
+    "legend": [
+      {
+        "label": "Maior densidade populacional",
+        "color": "#8065b1"
+      },
+      {
+        "label": "Menor densidade populacional",
+        "color": "#c8b7df"
+      }
+    ]
+  },
+  {
+    "id": "green-public-space-deficit",
+    "family": "Cobertura vegetal e infraestrutura verde",
+    "label": "Déficit de áreas verdes públicas",
+    "status": "available",
+    "resolution": "Polígonos de praças municipais agregados por código de bairro.",
+    "temporalCoverage": "Retrato atual do portal Data.Rio.",
+    "sourceDatasetIds": [
+      "data-rio__pracas__atual"
+    ],
+    "layerFile": "data/processed/layers/plazas.geojson",
+    "legend": [
+      {
+        "label": "Menor área de praça por morador",
+        "color": "#9a6a3a"
+      },
+      {
+        "label": "Maior área de praça por morador",
+        "color": "#5f9d73"
+      }
+    ]
+  },
+  {
+    "id": "protected-area-context",
+    "family": "Cobertura vegetal e infraestrutura verde",
+    "label": "Contexto de áreas protegidas",
+    "status": "available",
+    "resolution": "Polígonos municipais de áreas protegidas.",
+    "temporalCoverage": "Retrato atual do portal Data.Rio.",
+    "sourceDatasetIds": [
+      "data-rio__areas_protegidas__atual"
+    ],
+    "layerFile": "data/processed/layers/protected-areas.geojson",
+    "legend": [
+      {
+        "label": "Uso sustentável / proteção",
+        "color": "#2f7d5b"
+      },
+      {
+        "label": "Contexto de amortecimento / patrimônio",
+        "color": "#8a9d54"
+      }
+    ]
+  },
+  {
+    "id": "civil-defense-risk-context",
+    "family": "Alagamentos, inundação e risco hídrico urbano",
+    "label": "Contexto de risco e resposta da Defesa Civil",
+    "status": "available",
+    "resolution": "Pontos municipais de Defesa Civil alocados aos bairros.",
+    "temporalCoverage": "Retrato atual do portal Data.Rio.",
+    "sourceDatasetIds": [
+      "data-rio__defesa_civil_sirenes__atual",
+      "data-rio__defesa_civil_pontos_apoio__atual",
+      "data-rio__defesa_civil_nupdec__atual",
+      "data-rio__defesa_civil_alojamentos__atual"
+    ],
+    "layerFile": "data/processed/layers/civil-defense-context.geojson",
+    "legend": [
+      {
+        "label": "Infraestrutura de alerta / resposta",
+        "color": "#c24f55"
+      },
+      {
+        "label": "Organização de apoio",
+        "color": "#e0a93f"
+      }
+    ]
+  },
+  {
+    "id": "public-facility-opportunity-anchors",
+    "family": "Equipamentos públicos, terras públicas e espaços de oportunidade",
+    "label": "Equipamentos públicos como âncoras de oportunidade",
+    "status": "available",
+    "resolution": "Pontos de escolas municipais e serviços de saúde alocados aos bairros.",
+    "temporalCoverage": "Retrato atual do portal Data.Rio.",
+    "sourceDatasetIds": [
+      "data-rio__escolas_municipais__atual",
+      "data-rio__servicos_saude__atual"
+    ],
+    "layerFile": "data/processed/layers/public-facilities.geojson",
+    "legend": [
+      {
+        "label": "Escola municipal",
+        "color": "#4f8cc9"
+      },
+      {
+        "label": "Serviço de saúde",
+        "color": "#7d68b3"
+      }
+    ]
+  },
+  {
+    "id": "snis-sanitation-temporal-context",
+    "family": "Evidência temporal",
+    "label": "Contexto de saneamento SNIS",
+    "status": "available",
+    "resolution": "Linhas por município/prestador, sem discriminação por bairro.",
+    "temporalCoverage": "Exportação Rio AE capturada para 1995-2022.",
+    "sourceDatasetIds": [
+      "snis__serie_historica_rio_agregado_ae__1995_2022"
+    ],
+    "layerFile": "data/processed/evidence/sanitation-timeseries-snis-rio-ae.json",
+    "timelineReady": false,
+    "legend": [
+      {
+        "label": "Apenas contexto",
+        "color": "#7f8f8b"
+      }
+    ]
+  }
+]
