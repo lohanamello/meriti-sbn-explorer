@@ -1,10 +1,11 @@
 export const REVIEW_STORAGE_KEY = "meriti-cell-reviews-v1";
 export const REVIEW_SOURCE = "INPE/CBERS-4A WPM L4 2026-07-02 PAN2m RGB-NIR8m";
+export const COMPARISON_REVIEW_SOURCE = "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02";
 export type CellReview = {
   sampleId: string;
   vegetation: "present" | "absent" | "unsure";
-  source: typeof REVIEW_SOURCE;
-  imageDate: "2026-07-02";
+  source: typeof REVIEW_SOURCE | typeof COMPARISON_REVIEW_SOURCE;
+  imageDate: "2026-07-02" | null;
   status: "draft";
   updatedAt: string;
 };
@@ -17,9 +18,9 @@ export function parseReviewFile(text: string, allowedIds: Set<string>): Record<s
   for (const row of file.records) {
     if (!row || !allowedIds.has(row.sampleId) || Object.hasOwn(records, row.sampleId)
       || !["present", "absent", "unsure"].includes(row.vegetation)
-      || row.source !== REVIEW_SOURCE || row.imageDate !== "2026-07-02" || row.status !== "draft"
+      || !((row.source === REVIEW_SOURCE && row.imageDate === "2026-07-02") || (row.source === COMPARISON_REVIEW_SOURCE && row.imageDate === null)) || row.status !== "draft"
       || typeof row.updatedAt !== "string" || !Number.isFinite(Date.parse(row.updatedAt))) throw new Error("O arquivo contém uma avaliação inválida ou de outra amostra.");
-    records[row.sampleId] = { sampleId: row.sampleId, vegetation: row.vegetation, source: REVIEW_SOURCE, imageDate: "2026-07-02", status: "draft", updatedAt: row.updatedAt };
+    records[row.sampleId] = { sampleId: row.sampleId, vegetation: row.vegetation, source: row.source, imageDate: row.imageDate, status: "draft", updatedAt: row.updatedAt };
   }
   return records;
 }

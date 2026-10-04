@@ -15,7 +15,7 @@ export function GoogleMapComparison({ view, cell = false, onToggle }: {
         </div>
         <p>{cell ? "Abre o centro desta célula; o contorno magenta não aparece no Google." : "Abre o centro da cruz em outra aba. Após mover este mapa, clique novamente para comparar."}</p>
         <p>Coloque as janelas lado a lado. A aba do Google não acompanha o arrasto automaticamente.</p>
-        <small>{cell ? "Consulta complementar: a ficha acima continua vinculada ao CBERS de julho. " : ""}A nitidez e a data podem variar. Street View abre uma foto próxima, quando disponível; não mostra tudo que existe dentro dos terrenos.</small>
+        <small>{cell ? "Consulta adicional: a ficha usa a comparação Esri + CBERS, sem incluir o Google como fonte. " : ""}A nitidez e a data podem variar. Street View abre uma foto próxima, quando disponível; não mostra tudo que existe dentro dos terrenos.</small>
       </> : <p>Carregando a posição do mapa…</p>}
     </div>
   </details>;

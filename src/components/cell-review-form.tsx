@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { REVIEW_SOURCE, type CellReview } from "@/lib/cell-reviews";
+import { REVIEW_SOURCE, COMPARISON_REVIEW_SOURCE, type CellReview } from "@/lib/cell-reviews";
 
 export function CellReviewForm({ sampleId, review, onSave, onNext, hasNext }: {
   sampleId: string; review?: CellReview; onSave: (review: CellReview) => void; onNext: () => void; hasNext: boolean;
@@ -10,11 +10,12 @@ export function CellReviewForm({ sampleId, review, onSave, onNext, hasNext }: {
   const [message, setMessage] = useState("");
   function save(next: boolean) {
     if (!vegetation) { setMessage("Escolha uma das três opções para salvar."); return; }
-    onSave({ sampleId, vegetation, source: REVIEW_SOURCE, imageDate: "2026-07-02", status: "draft", updatedAt: new Date().toISOString() });
+    onSave({ sampleId, vegetation, source: COMPARISON_REVIEW_SOURCE, imageDate: null, status: "draft", updatedAt: new Date().toISOString() });
     if (next) onNext();
   }
   return <section className="cell-review-form" aria-label={`Avaliar ${sampleId}`}>
     <h3>Sua avaliação · {sampleId}</h3>
+    {review?.source === REVIEW_SOURCE && <p>Avaliação anterior feita com CBERS. Ao salvar novamente, você registra uma revisão usando Esri + CBERS.</p>}
     <fieldset><legend>Você identifica vegetação dentro do contorno?</legend>
       {([["present", "Confere"], ["absent", "Não confere"], ["unsure", "Não consigo classificar"]] as const).map(([value, label]) =>
         <label key={value}><input type="radio" name={`vegetation-${sampleId}`} value={value} checked={vegetation === value} onChange={() => { setVegetation(value); setMessage(""); }} />{label}</label>)}

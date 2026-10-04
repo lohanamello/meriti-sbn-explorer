@@ -1341,7 +1341,7 @@ p {
 .research-measure small { display: block; margin-top: 10px; color: var(--ink-muted); }
 .research-measure p, .validation-downloads p { font-size: 0.8rem; line-height: 1.6; }
 .validation-downloads a { display: block; margin: 10px 0; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; font-size: 0.82rem; }
-.validation-page { max-width: 980px; margin: 0 auto; padding: 32px 24px 64px; line-height: 1.7; }
+.validation-page { max-width: 1440px; margin: 0 auto; padding: 32px 24px 64px; line-height: 1.7; }
 .validation-header { padding: 10px 0 24px; }
 .validation-header h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1.15; margin: 16px 0; }
 .validation-header > p:last-child { font-size: 1.1rem; max-width: 72ch; }
@@ -1413,3 +1413,19 @@ p {
 .map-comparison-crosshair::before, .map-comparison-crosshair::after { content: ""; position: absolute; background: #fff; }
 .map-comparison-crosshair::before { width: 18px; height: 2px; top: 8px; }
 .map-comparison-crosshair::after { height: 18px; width: 2px; left: 8px; }
+
+.validation-comparison-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px; align-items: start; scroll-margin-top: 16px; }
+.validation-comparison-grid > div { min-width: 0; }
+.validation-comparison-grid h3 { margin: 0 0 10px; font-weight: 700; }
+.validation-comparison-grid .validation-gallery-controls { margin: 10px 0; gap: 8px; }
+.validation-comparison-grid .validation-map-panel { height: 480px; margin-top: 10px; }
+.validation-comparison-grid .validation-map-panel:fullscreen { height: 100dvh; }
+.validation-comparison-photo > .google-comparison { margin-top: 12px; }
+.validation-comparison-grid .cell-review-form { margin-top: 12px; padding: 14px; font-size: .9rem; line-height: 1.45; }
+.validation-comparison-grid .cell-review-form fieldset { margin: 10px 0; }
+.validation-resolution-note { margin: 0 0 10px; font-size: .85rem; }
+@media (max-width: 800px) {
+  .validation-comparison-grid { grid-template-columns: 1fr; }
+  .validation-comparison-grid .validation-map-panel { height: 350px; }
+  .validation-comparison-grid .validation-map-panel:fullscreen { height: 100dvh; }
+}

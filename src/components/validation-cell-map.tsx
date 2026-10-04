@@ -42,7 +42,7 @@ export function ValidationCellMap({ cell }: { cell: ValidationCell }) {
       map.addLayer({ id: "cell-outline", type: "line", source: "cell", paint: { "line-color": "#ff37dc", "line-width": 3 } });
       setLoaded(true);
     });
-    map.on("error", () => setError("Parte da imagem não carregou. Use o painel CBERS acima ou tente novamente mais tarde."));
+    map.on("error", () => setError("Parte da imagem não carregou. Use o painel CBERS ao lado ou tente novamente mais tarde."));
     const observer = new ResizeObserver(() => map.resize());
     observer.observe(containerRef.current);
     return () => { observer.disconnect(); map.remove(); mapRef.current = null; };
@@ -67,9 +67,9 @@ export function ValidationCellMap({ cell }: { cell: ValidationCell }) {
     {error && <p role="alert">{error}</p>}
     <div className="validation-map-panel" ref={panelRef} aria-label={`Foto detalhada da célula ${cell.properties.sample_id}`}>
       <div className="validation-map-canvas" ref={containerRef} />
-      <div className="validation-map-comparison"><GoogleMapComparison view={comparisonView} onToggle={(open) => { if (open) setComparisonMarker(true); }} /></div>
       {comparisonMarker && <div className="map-comparison-crosshair" aria-hidden="true" />}
       <div className="validation-map-label">{cell.properties.sample_id} · {cell.properties.clipped_cell_area_m2.toLocaleString("pt-BR", { maximumFractionDigits: 1 })} m² · {outlineVisible ? "contorno magenta" : "contorno oculto"}</div>
     </div>
+    <GoogleMapComparison view={comparisonView} onToggle={(open) => { if (open) setComparisonMarker(true); }} />
   </>;
 }
