@@ -2,6 +2,8 @@ import Link from "next/link";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { getPhase3ExplorerData } from "@/lib/phase3-app-data";
+import { VegetationGuide } from "@/components/vegetation-guide";
+import type { ValidationCell, ReferenceMetadata } from "@/lib/validation-cells";
 import { ValidationGallery } from "@/components/validation-gallery";
 
 export default async function ValidationPage() {
@@ -10,10 +12,16 @@ export default async function ValidationPage() {
   const field = research.fieldEvidence;
   const city = field.observations["3305109"];
   const cells = JSON.parse(await readFile(path.join(process.cwd(), "data/processed/meriti/validation/sample-cells-blinded.geojson"), "utf8"));
-  const sampleIds: string[] = cells.features.map((feature: { properties: { sample_id: string } }) => feature.properties.sample_id);
+  const metadata = JSON.parse(await readFile(path.join(process.cwd(), "data/interim/meriti/independent-reference-audit/esri-cell-metadata.json"), "utf8"));
+  const references: Record<string, ReferenceMetadata> = {};
+  for (const entry of metadata.data as Array<{ layer: number; sampleId: string; candidates: Array<{ SRC_DATE: number; SRC_RES: number }> }>) {
+    if (entry.layer !== 9) continue;
+    references[entry.sampleId] = { dates: [...new Set(entry.candidates.map((item) => item.SRC_DATE))], resolutions: [...new Set(entry.candidates.map((item) => item.SRC_RES))] };
+  }
   return <main className="validation-page">
-    <header className="validation-header"><Link className="icon-link" href="/">Voltar ao mapa</Link><p className="eyebrow">Conferência das evidências · 03/10/2026</p><h1>O que já foi conferido</h1>
-      <p>Há evidência independente de árvores em Meriti. A porcentagem de toda vegetação viva ainda exige uma referência capaz de resolver as plantas pequenas, além das árvores.</p></header>
+    <header className="validation-header"><Link className="icon-link" href="/">Voltar ao mapa</Link><p className="eyebrow">Conferência das evidências · 03/10/2026</p><h1>Conferir a vegetação total</h1>
+      <p>O objetivo é estimar a porcentagem do município coberta por toda a vegetação viva, incluindo árvores, arbustos, gramados e jardins. A conferência está abaixo; a estimativa final ainda depende de referências adequadas e revisão.</p></header>
+    <VegetationGuide />
     <section className="validation-section" aria-labelledby="field-title"><h2 id="field-title">Presença histórica observada pelo IBGE</h2>
       <dl className="validation-facts"><div><dt>Setores com faces de rua que tinham árvores</dt><dd>{field.summary.sectorsWithObservedTreePresence} de {field.summary.sectorsWithPublishedFaceObservations}</dd></div>
         <div><dt>Moradores em faces com árvores</dt><dd>{city.residents?.withTrees?.toLocaleString("pt-BR")} de {city.residents?.surveyedTotal?.toLocaleString("pt-BR")}</dd></div>
@@ -29,7 +37,7 @@ export default async function ValidationPage() {
       <details><summary>O que falta para calcular a porcentagem validada</summary><ul>{audit.barriers.map((barrier) => <li key={barrier}>{barrier}</li>)}</ul></details>
       <a href="/api/validacao/auditoria" download>Baixar auditoria das referências</a> · <a href={audit.openReference.sourceUrl}>Cena original do INPE</a>
     </section>
-    <ValidationGallery sampleIds={sampleIds} />
+    <ValidationGallery cells={cells.features as ValidationCell[]} references={references} />
     <section className="validation-section"><h2>Materiais de conferência</h2><p>As fichas preservam a amostra original e as células sem sinal vegetal, necessárias para procurar omissões. Os resultados só entram no estimador depois de atender aos critérios do protocolo.</p>
       <nav aria-label="Materiais de validação"><a href="/api/validacao/ficha" download>Ficha de interpretação, CSV</a><a href="/api/validacao/celulas" download>Células para SIG, GeoJSON</a><a href="/api/validacao/protocolo" download>Protocolo e incerteza</a><a href="/api/metodologia" download>Metodologia completa</a></nav>
     </section>

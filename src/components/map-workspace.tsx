@@ -34,7 +34,7 @@ const BASE_STYLE: StyleSpecification = {
       ],
       tileSize: 256,
       // Beyond this level, enlarge existing imagery rather than request finer tiles.
-      maxzoom: 20,
+      maxzoom: 19,
       attribution:
         "Esri, Maxar, Earthstar Geographics, and the GIS User Community"
     }

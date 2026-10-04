@@ -32,7 +32,7 @@ describe("Meriti explorer", () => {
     expect(mapRender.mock.lastCall?.[0].viewportUnit).toBe(initial.viewportUnit);
     expect(screen.getByRole("button", { name: "Foto detalhada" })).toHaveAttribute("aria-pressed", "true");
     expect(screen.getByText("Censo 2022")).toBeInTheDocument();
-    fireEvent.click(screen.getByRole("button", { name: "Vegetação recente", exact: true }));
+    fireEvent.click(screen.getByRole("button", { name: "Vegetação geral · 2026", exact: true }));
     expect(mapRender.mock.lastCall?.[0].activeLayers.map((layer: { id: string }) => layer.id)).toEqual(["vegetation-recent", "protected-areas", "rivers-official"]);
     expect(screen.getByRole("button", { name: "Foto detalhada" })).toHaveAttribute("aria-pressed", "false");
   });

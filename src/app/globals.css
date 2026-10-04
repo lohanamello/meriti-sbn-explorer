@@ -1372,3 +1372,19 @@ p {
 
 .neighborhood-table { overflow-x: auto; }
 .neighborhood-table th, .neighborhood-table td { text-align: left; min-width: 145px; vertical-align: top; }
+
+.vegetation-guide { padding: 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--accent-soft); font-size: .85rem; line-height: 1.55; flex-shrink: 0; }
+.vegetation-guide summary { cursor: pointer; color: var(--accent); font-weight: 700; }
+.vegetation-guide p { margin: 12px 0; }
+.vegetation-guide dl { margin: 12px 0; }
+.vegetation-guide dl > div + div { margin-top: 12px; }
+.vegetation-guide dt { font-weight: 700; }
+.vegetation-guide dd { margin: 3px 0 0; }
+.vegetation-guide a { color: var(--accent); text-decoration: underline; }
+.validation-map-panel { position: relative; height: 480px; overflow: hidden; border: 1px solid var(--line); border-radius: 6px; margin-top: 14px; background: var(--map-ink); }
+.validation-map-canvas { position: absolute; inset: 0; }
+.validation-map-panel:fullscreen { width: 100vw; height: 100dvh; margin: 0; border: 0; }
+.validation-map-label { position: absolute; z-index: 1; left: 8px; top: 8px; max-width: calc(100% - 62px); padding: 5px 8px; border-radius: 4px; background: var(--surface); color: var(--ink); font-size: 11px; }
+.validation-reference-date { padding: 12px; background: var(--accent-soft); font-size: .85rem; }
+#conferir-celulas { scroll-margin-top: 20px; }
+@media (max-width: 620px) { .validation-map-panel { height: 400px; } }

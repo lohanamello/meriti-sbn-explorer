@@ -9,6 +9,7 @@ import { MapWorkspace } from "./map-workspace";
 import { OpportunityCard } from "./opportunity-card";
 import { InfoTip } from "./info-tip";
 import { LocalityCard } from "./locality-card";
+import { VegetationGuide } from "./vegetation-guide";
 import "./explorer-review.css";
 
 const GRANULARITIES: Array<{ label: string; value: TerritorialUnitType }> = [
@@ -90,7 +91,7 @@ export function ExplorerShell({ catalogStats, phase3Data }: { catalogStats: Cata
         </div>
         <div className="workspace-topbar__actions">
           <Link className="icon-link" href="/bairros">Bairros</Link>
-          <Link className="icon-link" href="/validacao">Validação</Link>
+          <Link className="icon-link" href="/validacao#conferir-celulas">Conferir células</Link>
           <Link className="icon-link" href="/catalogo"><Database size={18} aria-hidden="true" /><span>Catálogo</span></Link>
         </div>
       </header>
@@ -103,11 +104,12 @@ export function ExplorerShell({ catalogStats, phase3Data }: { catalogStats: Cata
         <span className="exploration-toolbar__label">Explorar</span>
         {[
           { label: "Foto detalhada", ids: [] },
-          { label: "Vegetação recente", ids: ["vegetation-recent", "protected-areas", "rivers-official"] },
+          { label: "Vegetação geral · 2026", ids: ["vegetation-recent", "protected-areas", "rivers-official"] },
           { label: "Imagem CBERS", ids: ["cbers-reference", "protected-areas"] },
-          { label: "Copas em 2019", ids: ["canopy-height", "protected-areas"] },
-          { label: "Vegetação em 2025", ids: ["vegetation-recurrence", "protected-areas"] },
+          { label: "Copas estimadas · 2019", ids: ["canopy-height", "protected-areas"] },
+          { label: "Persistência do verde · 2025", ids: ["vegetation-recurrence", "protected-areas"] },
           { label: "Rios e inundação", ids: ["rivers-official", "water-bodies", "flood-susceptibility"] },
+          { label: "Árvores nas ruas · IBGE", ids: ["street-trees-census"] },
           { label: "Densidade", ids: ["population", "rivers-official"] }
         ].map((view) => <button type="button" key={view.label}
           aria-pressed={activeOverlayIds.length === view.ids.length && view.ids.every((id) => activeOverlayIds.includes(id))}
@@ -117,6 +119,7 @@ export function ExplorerShell({ catalogStats, phase3Data }: { catalogStats: Cata
       </nav>
       <section className="workspace-grid">
         <aside className="control-panel" aria-label="Controles do mapa">
+          <VegetationGuide />
           <section className="panel-section">
             <div className="panel-section__header"><MapPin size={18} aria-hidden="true" /><h2>Recorte territorial</h2></div>
             <p className="territory-code">Limites oficiais · IBGE 3305109</p>
