@@ -15,31 +15,37 @@ const cells: ValidationCell[] = [
 
 describe("cell comparison", () => {
   beforeEach(() => localStorage.clear());
-  it("reviews a fixed queue of old positives without skipping corrected cells and resumes only pending work", () => {
+  it.each([
+    ["present", "Conferes", "absent", "Não confere"],
+    ["absent", "Não confere", "present", "Confere"]
+  ] as const)("reviews old %s answers without skipping corrections and resumes only pending work", (kind, label, correction, correctionLabel) => {
     const third = { ...cells[1], properties: { ...cells[1].properties, sample_id: "MERITI-V1-0003" } };
-    const allCells = [...cells, third];
+    const fourth = { ...cells[1], properties: { ...cells[1].properties, sample_id: "MERITI-V1-0004" } };
+    const allCells = [...cells, third, fourth];
     const rows = Object.fromEntries(allCells.map((cell, i) => [cell.properties.sample_id, {
-      sampleId: cell.properties.sample_id, vegetation: i === 1 ? "absent" : "present", source: COMPARISON_REVIEW_SOURCE,
+      sampleId: cell.properties.sample_id, vegetation: i === 1 ? correction : kind, criterion: i === 3 ? PRESENCE_CRITERION : undefined, source: COMPARISON_REVIEW_SOURCE,
       imageDate: null, status: "draft", updatedAt: "2026-10-01T10:00:00Z"
     } satisfies CellReview]));
     localStorage.setItem(REVIEW_STORAGE_KEY, serializeReviews(rows));
     const view = render(<ValidationGallery cells={allCells} references={{}} />);
-    fireEvent.click(screen.getByRole("button", { name: "Revisar meus Conferes (2 pendentes)" }));
+    fireEvent.click(screen.getByRole("button", { name: `Revisar meus ${label} (2 pendentes)` }));
     expect(screen.getAllByRole("option")).toHaveLength(2);
-    fireEvent.click(screen.getByLabelText("Não confere"));
+    fireEvent.click(screen.getByLabelText(correctionLabel));
     fireEvent.click(screen.getByRole("button", { name: "Salvar e próxima" }));
     expect(screen.getByTestId("cell-map")).toHaveTextContent("MERITI-V1-0003");
-    expect(screen.getByText("Revisão dos seus Conferes · 1 de 2 revistos")).toBeInTheDocument();
+    expect(screen.getByText(`Revisão dos seus ${label} · 1 de 2 revistos`)).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Anterior", exact: true }));
-    expect(screen.getByLabelText("Não confere")).toBeChecked();
+    expect(screen.getByLabelText(correctionLabel)).toBeChecked();
     view.unmount();
     render(<ValidationGallery cells={allCells} references={{}} />);
-    fireEvent.click(screen.getByRole("button", { name: "Revisar meus Conferes (1 pendentes)" }));
+    fireEvent.click(screen.getByRole("button", { name: `Revisar meus ${label} (1 pendentes)` }));
     expect(screen.getByTestId("cell-map")).toHaveTextContent("MERITI-V1-0003");
     fireEvent.click(screen.getByRole("button", { name: "Salvar avaliação", exact: true }));
     expect(screen.getByText(/Revisão desta rodada concluída/)).toBeInTheDocument();
     const saved = parseReviewFile(localStorage.getItem(REVIEW_STORAGE_KEY)!, new Set(allCells.map(c => c.properties.sample_id)));
-    expect(saved[rows["MERITI-V1-0001"].sampleId].beforePresenceReview?.vegetation).toBe("present");
+    expect(saved[rows["MERITI-V1-0001"].sampleId].beforePresenceReview?.vegetation).toBe(kind);
+    expect(saved["MERITI-V1-0001"].vegetation).toBe(correction);
+    expect(saved["MERITI-V1-0004"]).toEqual(rows["MERITI-V1-0004"]);
     expect(saved["MERITI-V1-0002"]).toEqual(rows["MERITI-V1-0002"]);
     expect(saved["MERITI-V1-0003"].criterion).toBe(PRESENCE_CRITERION);
   });

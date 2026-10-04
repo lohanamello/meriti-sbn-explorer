@@ -25,25 +25,31 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
   const ids = useMemo(() => new Set(cells.map((item) => item.properties.sample_id)), [cells]);
   const { records, ready, storageMessage, save, importBackup } = useCellReviews(ids);
   const [dirty, setDirty] = useState(false);
-  // Freeze this round so correcting a positive never removes the current cell or skips the next one.
+  // Freeze this round so changing an answer never removes the current cell or skips the next one.
   const [reviewQueue, setReviewQueue] = useState<number[] | null>(null);
-  const pendingPositives = cells.flatMap((item, position) => {
+  const [reviewKind, setReviewKind] = useState<"present" | "absent">("present");
+  function pendingReviews(kind: "present" | "absent") { return cells.flatMap((item, position) => {
     const row = records[item.properties.sample_id];
-    return row?.vegetation === "present" && row.criterion !== PRESENCE_CRITERION ? [position] : [];
-  });
+    return row?.vegetation === kind && row.criterion !== PRESENCE_CRITERION ? [position] : [];
+  }); }
+  const pendingPositives = pendingReviews("present");
+  const pendingNegatives = pendingReviews("absent");
+  const reviewLabel = reviewKind === "present" ? "Conferes" : "Não confere";
   const visibleIndices = reviewQueue ?? cells.map((_, position) => position);
   const position = visibleIndices.indexOf(index);
   const previousIndex = visibleIndices[position - 1];
   const nextIndex = visibleIndices[position + 1];
   const reviewedCount = reviewQueue?.filter((i) => records[cells[i].properties.sample_id]?.criterion === PRESENCE_CRITERION).length ?? 0;
-  function startPositiveReview() {
-    if (!pendingPositives.length) return;
-    if (dirty && !window.confirm("Há alterações não salvas. Deseja descartá-las para iniciar a revisão dos Conferes?")) return;
+  function startReview(kind: "present" | "absent") {
+    const pending = kind === "present" ? pendingPositives : pendingNegatives;
+    if (!pending.length) return;
+    if (dirty && !window.confirm("Há alterações não salvas. Deseja descartá-las para iniciar a revisão?")) return;
     setDirty(false);
-    setReviewQueue(pendingPositives);
-    setIndex(pendingPositives[0]);
+    setReviewKind(kind);
+    setReviewQueue(pending);
+    setIndex(pending[0]);
   }
-  function leavePositiveReview() {
+  function leaveReview() {
     if (dirty && !window.confirm("Há alterações não salvas. Deseja descartá-las e voltar à lista completa?")) return;
     setDirty(false);
     setReviewQueue(null);
@@ -75,15 +81,19 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
     <p>Os quadrados incluem áreas com e sem sinal vegetal. As previsões do modelo ficam ocultas para não influenciar sua leitura.</p>
     <div className="positive-review-panel">
       {reviewQueue ? <>
-        <strong>Revisão dos seus Conferes · {reviewedCount} de {reviewQueue.length} revistos</strong>
-        <p>Esta rodada mostra somente os Conferes que estavam pendentes quando você começou. Ao corrigir uma resposta, a célula continua nesta lista para você poder voltar a ela.</p>
+        <strong>Revisão dos seus {reviewLabel} · {reviewedCount} de {reviewQueue.length} revistos</strong>
+        <p>Esta rodada mostra somente os “{reviewKind === "present" ? "Confere" : "Não confere"}” que estavam pendentes quando você começou. Ao corrigir uma resposta, a célula continua nesta lista para você poder voltar a ela.</p>
         {reviewedCount === reviewQueue.length && <p role="status">Revisão desta rodada concluída. Exporte suas avaliações para guardar uma cópia.</p>}
-        <button type="button" onClick={leavePositiveReview}>Voltar às 400 células</button>
+        <button type="button" onClick={leaveReview}>Voltar às 400 células</button>
       </> : <>
-        <button type="button" disabled={!ready || !pendingPositives.length} onClick={startPositiveReview}>Revisar meus Conferes ({pendingPositives.length} pendentes)</button>
-        <p>Revise só os “Confere” antigos. A resposta anterior será preservada na cópia exportada; nenhuma classificação muda até você salvar.</p>
+        <div className="validation-gallery-controls">
+          <button type="button" disabled={!ready || !pendingPositives.length} onClick={() => startReview("present")}>Revisar meus Conferes ({pendingPositives.length} pendentes)</button>
+          <button type="button" disabled={!ready || !pendingNegatives.length} onClick={() => startReview("absent")}>Revisar meus Não confere ({pendingNegatives.length} pendentes)</button>
+        </div>
+        <p>Escolha quais respostas antigas revisar. A resposta anterior será preservada na cópia exportada; nenhuma classificação muda até você salvar. As células já revistas pelo critério de presença não precisam ser repetidas.</p>
       </>}
       <p><strong>O critério é presença de plantas, não predominância nem drenagem.</strong> Terra ou brita sem plantas: “Não confere”. Com gramíneas ou outras plantas identificáveis: “Confere”, mesmo que sejam minoria. Imagem ambígua: “Não consigo classificar”.</p>
+      {reviewQueue && reviewKind === "absent" && <p>Mesmo com mais telhado ou asfalto, se você identifica plantas dentro do contorno, marque “Confere”. Não é preciso estimar a porcentagem.</p>}
     </div>
     <div className="validation-gallery-controls">
       <button onClick={() => navigate(previousIndex)} disabled={previousIndex === undefined}>Anterior</button>
