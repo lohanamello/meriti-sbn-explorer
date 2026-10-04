@@ -36,3 +36,5 @@ data/**
 !data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4
 !data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/*.png
 !data/interim/meriti/independent-reference-audit/CBERS_4A_WPM_20260702_198_142_L4/chips.json
+
+!data/interim/meriti/independent-reference-audit/esri-cell-metadata.json
