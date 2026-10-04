@@ -5,6 +5,7 @@ import { getPhase3ExplorerData } from "@/lib/phase3-app-data";
 import { VegetationGuide } from "@/components/vegetation-guide";
 import type { ValidationCell, ReferenceMetadata } from "@/lib/validation-cells";
 import { ValidationGallery } from "@/components/validation-gallery";
+import type { AssistedReview } from "@/lib/assisted-review";
 
 export default async function ValidationPage() {
   const { vegetationResearch: research } = await getPhase3ExplorerData();
@@ -13,6 +14,8 @@ export default async function ValidationPage() {
   const city = field.observations["3305109"];
   const cells = JSON.parse(await readFile(path.join(process.cwd(), "data/processed/meriti/validation/sample-cells-blinded.geojson"), "utf8"));
   const metadata = JSON.parse(await readFile(path.join(process.cwd(), "data/interim/meriti/independent-reference-audit/esri-cell-metadata.json"), "utf8"));
+  const analysis = JSON.parse(await readFile(path.join(process.cwd(), "data/processed/meriti/validation/assisted-review.json"), "utf8"));
+  const assistedReview: AssistedReview = { generatedAt: analysis.generatedAt, priorityIds: analysis.priorityIds, priorityBaseline: analysis.priorityBaseline, summary: analysis.summary };
   const references: Record<string, ReferenceMetadata> = {};
   for (const entry of metadata.data as Array<{ layer: number; sampleId: string; candidates: Array<{ SRC_DATE: number; SRC_RES: number }> }>) {
     if (entry.layer !== 9) continue;
@@ -37,7 +40,7 @@ export default async function ValidationPage() {
       <details><summary>O que falta para calcular a porcentagem validada</summary><ul>{audit.barriers.map((barrier) => <li key={barrier}>{barrier}</li>)}</ul></details>
       <a href="/api/validacao/auditoria" download>Baixar auditoria das referências</a> · <a href={audit.openReference.sourceUrl}>Cena original do INPE</a>
     </section>
-    <ValidationGallery cells={cells.features as ValidationCell[]} references={references} />
+    <ValidationGallery cells={cells.features as ValidationCell[]} references={references} assistedReview={assistedReview} />
     <section className="validation-section"><h2>Materiais de conferência</h2><p>As fichas preservam a amostra original e as células sem sinal vegetal, necessárias para procurar omissões. Os resultados só entram no estimador depois de atender aos critérios do protocolo.</p>
       <nav aria-label="Materiais de validação"><a href="/api/validacao/ficha" download>Ficha de interpretação, CSV</a><a href="/api/validacao/celulas" download>Células para SIG, GeoJSON</a><a href="/api/validacao/protocolo" download>Protocolo e incerteza</a><a href="/api/metodologia" download>Metodologia completa</a></nav>
     </section>

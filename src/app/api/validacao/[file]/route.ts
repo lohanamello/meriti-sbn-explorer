@@ -3,6 +3,8 @@ import path from "node:path";
 import { NextResponse } from "next/server";
 
 const FILES: Record<string, { read: () => Promise<Buffer>; type: string; name: string }> = {
+  triagem: { read: () => readFile(path.join(process.cwd(), "data/processed/meriti/validation/assisted-review.csv")), type: "text/csv; charset=utf-8", name: "meriti-triagem-400-celulas.csv" },
+  "triagem-metodo": { read: () => readFile(path.join(process.cwd(), "data/processed/meriti/validation/assisted-review.json")), type: "application/json; charset=utf-8", name: "meriti-triagem-metodo.json" },
   auditoria: { read: () => readFile(path.join(process.cwd(), "docs/methodology/meriti-validation-reference-audit.md")), type: "text/markdown; charset=utf-8", name: "meriti-auditoria-referencias.md" },
   campo: { read: () => readFile(path.join(process.cwd(), "docs/methodology/meriti-vegetation-field-evidence.md")), type: "text/markdown; charset=utf-8", name: "meriti-arborizacao-ibge.md" },
   ficha: { read: () => readFile(path.join(process.cwd(), "data/processed/meriti/validation/review-blinded-v3.csv")), type: "text/csv; charset=utf-8", name: "meriti-ficha-interpretacao.csv" },

@@ -15,6 +15,34 @@ const cells: ValidationCell[] = [
 
 describe("cell comparison", () => {
   beforeEach(() => localStorage.clear());
+  it("keeps automatic analysis separate and resumes a priority round including saved uncertainty", () => {
+    const old: CellReview = { sampleId: "MERITI-V1-0001", vegetation: "unsure", source: COMPARISON_REVIEW_SOURCE,
+      imageDate: null, status: "draft", criterion: PRESENCE_CRITERION, updatedAt: "2026-10-01T10:00:00Z" };
+    localStorage.setItem(REVIEW_STORAGE_KEY, serializeReviews({ [old.sampleId]: old }));
+    const assisted = { generatedAt: "2026-10-04T12:00:00Z", priorityIds: [old.sampleId, "MERITI-V1-0002"],
+      priorityBaseline: { [old.sampleId]: old.updatedAt, "MERITI-V1-0002": null },
+      summary: { analyzedCells: 2, humanPresenceReviewed: 0, automaticProvisional: 2, priorityCells: 2,
+        unreviewedOutsidePriority: 0, legacyNegativesWithSignal: 0, reviewedPositivesBelow03: 0, signalCounts: {} } };
+    const view = render(<ValidationGallery cells={cells} references={{}} assistedReview={assisted} />);
+    fireEvent.click(screen.getByRole("button", { name: "Revisar prioridades (2 pendentes)" }));
+    expect(screen.getByText("Revisão prioritária · 0 de 2 revistos")).toBeInTheDocument();
+    expect(JSON.parse(localStorage.getItem(REVIEW_STORAGE_KEY)!).records).toEqual([old]);
+    fireEvent.click(screen.getByRole("button", { name: "Salvar e próxima" }));
+    expect(screen.getByText("Revisão prioritária · 1 de 2 revistos")).toBeInTheDocument();
+    expect(screen.getByTestId("cell-map")).toHaveTextContent("MERITI-V1-0002");
+    view.unmount();
+    render(<ValidationGallery cells={cells} references={{}} assistedReview={assisted} />);
+    fireEvent.click(screen.getByRole("button", { name: "Revisar prioridades (1 pendentes)" }));
+    expect(screen.getByTestId("cell-map")).toHaveTextContent("MERITI-V1-0002");
+    fireEvent.click(screen.getByLabelText("Confere"));
+    fireEvent.click(screen.getByRole("button", { name: "Salvar avaliação", exact: true }));
+    expect(screen.getByText(/Revisão desta rodada concluída/)).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Voltar às 400 células" }));
+    expect(screen.getByRole("button", { name: "Revisar prioridades (0 pendentes)" })).toBeDisabled();
+    const saved = parseReviewFile(localStorage.getItem(REVIEW_STORAGE_KEY)!, new Set(cells.map(c => c.properties.sample_id)));
+    expect(saved[old.sampleId].vegetation).toBe("unsure");
+    expect(saved["MERITI-V1-0002"].vegetation).toBe("present");
+  });
   it.each([
     ["present", "Conferes", "absent", "Não confere"],
     ["absent", "Não confere", "present", "Confere"]

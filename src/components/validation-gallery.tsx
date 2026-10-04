@@ -7,6 +7,7 @@ import { CellReviewForm } from "./cell-review-form";
 import { GoogleMapComparison } from "./google-map-comparison";
 import { useCellReviews } from "@/lib/use-cell-reviews";
 import { PRESENCE_CRITERION, serializeReviews } from "@/lib/cell-reviews";
+import { priorityReviewed, type AssistedReview } from "@/lib/assisted-review";
 import { cellBounds, type ReferenceMetadata, type ValidationCell } from "@/lib/validation-cells";
 
 const ValidationCellMap = dynamic(() => import("./validation-cell-map").then((module) => module.ValidationCellMap), {
@@ -18,7 +19,7 @@ function formatDate(value: number) {
   return `${text.slice(6, 8)}/${text.slice(4, 6)}/${text.slice(0, 4)}`;
 }
 
-export function ValidationGallery({ cells, references }: { cells: ValidationCell[]; references: Record<string, ReferenceMetadata> }) {
+export function ValidationGallery({ cells, references, assistedReview }: { cells: ValidationCell[]; references: Record<string, ReferenceMetadata>; assistedReview?: AssistedReview }) {
   const imageRef = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
   const [backupMessage, setBackupMessage] = useState("");
@@ -27,21 +28,30 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
   const [dirty, setDirty] = useState(false);
   // Freeze this round so changing an answer never removes the current cell or skips the next one.
   const [reviewQueue, setReviewQueue] = useState<number[] | null>(null);
-  const [reviewKind, setReviewKind] = useState<"present" | "absent">("present");
-  function pendingReviews(kind: "present" | "absent") { return cells.flatMap((item, position) => {
-    const row = records[item.properties.sample_id];
-    return row?.vegetation === kind && row.criterion !== PRESENCE_CRITERION ? [position] : [];
-  }); }
+  const [reviewKind, setReviewKind] = useState<"present" | "absent" | "priority">("present");
+  function pendingReviews(kind: "present" | "absent") {
+    return cells.flatMap((item, position) => {
+      const row = records[item.properties.sample_id];
+      return row?.vegetation === kind && row.criterion !== PRESENCE_CRITERION ? [position] : [];
+    });
+  }
   const pendingPositives = pendingReviews("present");
   const pendingNegatives = pendingReviews("absent");
+  const pendingPriorities = (assistedReview?.priorityIds ?? []).flatMap(id => {
+    const i = cells.findIndex(cell => cell.properties.sample_id === id);
+    return i >= 0 && !priorityReviewed(records[id], assistedReview?.priorityBaseline[id]) ? [i] : [];
+  });
   const reviewLabel = reviewKind === "present" ? "Conferes" : "Não confere";
   const visibleIndices = reviewQueue ?? cells.map((_, position) => position);
   const position = visibleIndices.indexOf(index);
   const previousIndex = visibleIndices[position - 1];
   const nextIndex = visibleIndices[position + 1];
-  const reviewedCount = reviewQueue?.filter((i) => records[cells[i].properties.sample_id]?.criterion === PRESENCE_CRITERION).length ?? 0;
-  function startReview(kind: "present" | "absent") {
-    const pending = kind === "present" ? pendingPositives : pendingNegatives;
+  const reviewedCount = reviewQueue?.filter((i) => {
+    const id = cells[i].properties.sample_id;
+    return reviewKind === "priority" ? priorityReviewed(records[id], assistedReview?.priorityBaseline[id]) : records[id]?.criterion === PRESENCE_CRITERION;
+  }).length ?? 0;
+  function startReview(kind: "present" | "absent" | "priority") {
+    const pending = kind === "priority" ? pendingPriorities : kind === "present" ? pendingPositives : pendingNegatives;
     if (!pending.length) return;
     if (dirty && !window.confirm("Há alterações não salvas. Deseja descartá-las para iniciar a revisão?")) return;
     setDirty(false);
@@ -75,23 +85,38 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
   const imageUrl = `/meriti/validation/${sampleId}.png`;
   const bounds = cellBounds(cell);
   const cellView = { longitude: (bounds[0][0] + bounds[1][0]) / 2, latitude: (bounds[0][1] + bounds[1][1]) / 2, zoom: 20 };
+  const otherReviews = <>
+    <div className="validation-gallery-controls">
+      <button type="button" disabled={!ready || !pendingPositives.length} onClick={() => startReview("present")}>Revisar meus Conferes ({pendingPositives.length} pendentes)</button>
+      <button type="button" disabled={!ready || !pendingNegatives.length} onClick={() => startReview("absent")}>Revisar meus Não confere ({pendingNegatives.length} pendentes)</button>
+    </div>
+    <p>Escolha quais respostas antigas revisar. A resposta anterior será preservada na cópia exportada; nenhuma classificação muda até você salvar. As células já revistas pelo critério de presença não precisam ser repetidas.</p>
+  </>;
   return <section id="conferir-celulas" className="validation-section" aria-label="Imagens das células sorteadas">
-    <h2>Conferir as 400 células</h2>
+    <h2>{assistedReview ? "Conferência de vegetação" : "Conferir as 400 células"}</h2>
     <p><strong>O objetivo é medir toda a vegetação viva:</strong> copas de árvores, arbustos, gramados e jardins. Nesta revisão, indique apenas se identifica vegetação dentro do contorno. Sombra ou imagem pouco nítida devem permanecer como dúvida.</p>
     <p>Os quadrados incluem áreas com e sem sinal vegetal. As previsões do modelo ficam ocultas para não influenciar sua leitura.</p>
+    {assistedReview && !reviewQueue && <section className="positive-review-panel" aria-label="Rodada reduzida de revisão">
+      <h3>Sua próxima rodada: {assistedReview.summary.priorityCells} células prioritárias</h3>
+      <p>O processamento automático das {assistedReview.summary.analyzedCells} células está pronto. Na análise inicial, {assistedReview.summary.humanPresenceReviewed} tinham sua revisão de presença; as outras {assistedReview.summary.automaticProvisional} receberam uma análise provisória de sinal vegetal, separada das suas respostas.</p>
+      <p><strong>Para esta rodada, basta revisar as {assistedReview.summary.priorityCells} selecionadas.</strong> Você não precisa estimar porcentagens. As demais continuam disponíveis, sem virar uma nova tarefa obrigatória.</p>
+      {!reviewQueue && <button type="button" disabled={!ready || !pendingPriorities.length} onClick={() => startReview("priority")}>Revisar prioridades ({pendingPriorities.length} pendentes)</button>}
+      {ready && pendingPriorities.length === 0 && <p role="status">As prioridades desta análise já foram revisadas. Exporte suas avaliações para guardar uma cópia.</p>}
+      <p>A lista prioriza dúvidas e divergências; não significa que só essas células sejam incertas. A análise automática não é uma validação científica nem um intervalo de confiança.</p>
+      <details><summary>Ver o resultado da análise automática</summary>
+        <p>Na comparação inicial, {assistedReview.summary.legacyNegativesWithSignal} “Não confere” antigos tinham sinal vegetal a partir de NDVI 0,3; {assistedReview.summary.reviewedPositivesBelow03} “Confere” revistos ficaram abaixo desse corte. Portanto, sinal baixo não comprova ausência de plantas.</p>
+        <p>Sinal forte: {assistedReview.summary.signalCounts.strong_signal}; intermediário: {assistedReview.summary.signalCounts.intermediate_signal}; baixo: {assistedReview.summary.signalCounts.weak_signal}; dados insuficientes: {assistedReview.summary.signalCounts.insufficient_data}. São contagens da amostra, não porcentagens de cobertura do município.</p>
+        <p>Fora desta rodada, {assistedReview.summary.unreviewedOutsidePriority} células ainda dependiam de referência de presença na análise inicial. Nenhuma sugestão automática substituiu sua classificação ou alterou o mapa.</p>
+        <a href="/api/validacao/triagem" download>Baixar análise das 400 células (CSV)</a>{" · "}<a href="/api/validacao/triagem-metodo" download>Baixar critérios e resultados completos (JSON)</a>
+      </details>
+    </section>}
     <div className="positive-review-panel">
       {reviewQueue ? <>
-        <strong>Revisão dos seus {reviewLabel} · {reviewedCount} de {reviewQueue.length} revistos</strong>
-        <p>Esta rodada mostra somente os “{reviewKind === "present" ? "Confere" : "Não confere"}” que estavam pendentes quando você começou. Ao corrigir uma resposta, a célula continua nesta lista para você poder voltar a ela.</p>
+        <strong>{reviewKind === "priority" ? "Revisão prioritária" : `Revisão dos seus ${reviewLabel}`} · {reviewedCount} de {reviewQueue.length} revistos</strong>
+        <p>{reviewKind === "priority" ? "Esta rodada mostra somente as prioridades pendentes quando você começou." : `Esta rodada mostra somente os “${reviewKind === "present" ? "Confere" : "Não confere"}” que estavam pendentes quando você começou.`} Ao corrigir uma resposta, a célula continua nesta lista para você poder voltar a ela.</p>
         {reviewedCount === reviewQueue.length && <p role="status">Revisão desta rodada concluída. Exporte suas avaliações para guardar uma cópia.</p>}
         <button type="button" onClick={leaveReview}>Voltar às 400 células</button>
-      </> : <>
-        <div className="validation-gallery-controls">
-          <button type="button" disabled={!ready || !pendingPositives.length} onClick={() => startReview("present")}>Revisar meus Conferes ({pendingPositives.length} pendentes)</button>
-          <button type="button" disabled={!ready || !pendingNegatives.length} onClick={() => startReview("absent")}>Revisar meus Não confere ({pendingNegatives.length} pendentes)</button>
-        </div>
-        <p>Escolha quais respostas antigas revisar. A resposta anterior será preservada na cópia exportada; nenhuma classificação muda até você salvar. As células já revistas pelo critério de presença não precisam ser repetidas.</p>
-      </>}
+      </> : assistedReview ? <details><summary>Outras revisões (opcional)</summary>{otherReviews}</details> : otherReviews}
       <p><strong>O critério é presença de plantas, não predominância nem drenagem.</strong> Terra ou brita sem plantas: “Não confere”. Com gramíneas ou outras plantas identificáveis: “Confere”, mesmo que sejam minoria. Imagem ambígua: “Não consigo classificar”.</p>
       {reviewQueue && reviewKind === "absent" && <p>Mesmo com mais telhado ou asfalto, se você identifica plantas dentro do contorno, marque “Confere”. Não é preciso estimar a porcentagem.</p>}
     </div>
