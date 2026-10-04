@@ -1,8 +1,18 @@
 import { describe, expect, it } from "vitest";
-import { mergeReviews, parseReviewFile, REVIEW_SOURCE, COMPARISON_REVIEW_SOURCE, serializeReviews, type CellReview } from "./cell-reviews";
+import { mergeReviews, parseReviewFile, REVIEW_SOURCE, COMPARISON_REVIEW_SOURCE, PRESENCE_CRITERION, retainOriginalReview, serializeReviews, type CellReview } from "./cell-reviews";
 const row: CellReview = { sampleId: "MERITI-V1-0001", vegetation: "unsure", source: REVIEW_SOURCE, imageDate: "2026-07-02", status: "draft", updatedAt: "2026-10-04T19:00:00Z" };
 const ids = new Set([row.sampleId]);
 describe("review backups", () => {
+  it("keeps the original answer and declared source when a positive is corrected, including after export", () => {
+    const original = { ...row, vegetation: "present" as const };
+    const corrected = retainOriginalReview(original, { ...row, vegetation: "absent", criterion: PRESENCE_CRITERION, updatedAt: "2026-10-04T21:00:00Z" });
+    const again = retainOriginalReview(corrected, { ...corrected, vegetation: "unsure", updatedAt: "2026-10-04T22:00:00Z" });
+    const result = parseReviewFile(serializeReviews({ [row.sampleId]: again }), ids)[row.sampleId];
+    expect(result.beforePresenceReview).toEqual({ vegetation: "present", source: row.source, imageDate: row.imageDate, updatedAt: row.updatedAt });
+    expect(result.vegetation).toBe("unsure");
+    expect(result.criterion).toBe(PRESENCE_CRITERION);
+    expect(original).not.toHaveProperty("criterion");
+  });
   it("round-trips uncertainty without turning it into absence or a validated label", () => {
     const restored = parseReviewFile(serializeReviews({ [row.sampleId]: row }), ids);
     expect(restored[row.sampleId]).toEqual(row);

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { REVIEW_STORAGE_KEY, mergeReviews, parseReviewFile, serializeReviews, type CellReview } from "./cell-reviews";
+import { REVIEW_STORAGE_KEY, mergeReviews, parseReviewFile, serializeReviews, retainOriginalReview, type CellReview } from "./cell-reviews";
 
 export function useCellReviews(ids: Set<string>) {
   const [records, setRecords] = useState<Record<string, CellReview>>({});
@@ -22,7 +22,19 @@ export function useCellReviews(ids: Set<string>) {
     setReady(true);
   }, [ids]);
 
-  function persist(next: Record<string, CellReview>) {
+  function persist(update: (current: Record<string, CellReview>) => Record<string, CellReview>) {
+    let current = records;
+    if (!blocked) {
+      try {
+        const raw = localStorage.getItem(REVIEW_STORAGE_KEY);
+        if (raw) current = mergeReviews(records, parseReviewFile(raw, ids));
+      } catch {
+        setRecords(update(records));
+        setStorageMessage("Não foi possível conferir o armazenamento atual. Nenhum dado foi substituído. Exporte suas avaliações antes de sair.");
+        return;
+      }
+    }
+    const next = update(current);
     setRecords(next);
     if (blocked) return;
     try {
@@ -33,7 +45,7 @@ export function useCellReviews(ids: Set<string>) {
     }
   }
   return { records, ready, storageMessage,
-    save: (row: CellReview) => persist({ ...records, [row.sampleId]: row }),
-    importBackup: (raw: string) => persist(mergeReviews(records, parseReviewFile(raw, ids)))
+    save: (row: CellReview) => persist((current) => ({ ...current, [row.sampleId]: retainOriginalReview(current[row.sampleId], row) })),
+    importBackup: (raw: string) => { const incoming = parseReviewFile(raw, ids); persist((current) => mergeReviews(current, incoming)); }
   };
 }

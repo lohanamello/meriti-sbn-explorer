@@ -6,7 +6,7 @@ import { useMemo, useRef, useState } from "react";
 import { CellReviewForm } from "./cell-review-form";
 import { GoogleMapComparison } from "./google-map-comparison";
 import { useCellReviews } from "@/lib/use-cell-reviews";
-import { serializeReviews } from "@/lib/cell-reviews";
+import { PRESENCE_CRITERION, serializeReviews } from "@/lib/cell-reviews";
 import { cellBounds, type ReferenceMetadata, type ValidationCell } from "@/lib/validation-cells";
 
 const ValidationCellMap = dynamic(() => import("./validation-cell-map").then((module) => module.ValidationCellMap), {
@@ -25,6 +25,29 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
   const ids = useMemo(() => new Set(cells.map((item) => item.properties.sample_id)), [cells]);
   const { records, ready, storageMessage, save, importBackup } = useCellReviews(ids);
   const [dirty, setDirty] = useState(false);
+  // Freeze this round so correcting a positive never removes the current cell or skips the next one.
+  const [reviewQueue, setReviewQueue] = useState<number[] | null>(null);
+  const pendingPositives = cells.flatMap((item, position) => {
+    const row = records[item.properties.sample_id];
+    return row?.vegetation === "present" && row.criterion !== PRESENCE_CRITERION ? [position] : [];
+  });
+  const visibleIndices = reviewQueue ?? cells.map((_, position) => position);
+  const position = visibleIndices.indexOf(index);
+  const previousIndex = visibleIndices[position - 1];
+  const nextIndex = visibleIndices[position + 1];
+  const reviewedCount = reviewQueue?.filter((i) => records[cells[i].properties.sample_id]?.criterion === PRESENCE_CRITERION).length ?? 0;
+  function startPositiveReview() {
+    if (!pendingPositives.length) return;
+    if (dirty && !window.confirm("Há alterações não salvas. Deseja descartá-las para iniciar a revisão dos Conferes?")) return;
+    setDirty(false);
+    setReviewQueue(pendingPositives);
+    setIndex(pendingPositives[0]);
+  }
+  function leavePositiveReview() {
+    if (dirty && !window.confirm("Há alterações não salvas. Deseja descartá-las e voltar à lista completa?")) return;
+    setDirty(false);
+    setReviewQueue(null);
+  }
   function navigate(next: number) {
     if (dirty && !window.confirm("Há alterações não salvas nesta célula. Deseja descartá-las e mudar de célula?")) return;
     setDirty(false);
@@ -50,10 +73,22 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
     <h2>Conferir as 400 células</h2>
     <p><strong>O objetivo é medir toda a vegetação viva:</strong> copas de árvores, arbustos, gramados e jardins. Nesta revisão, indique apenas se identifica vegetação dentro do contorno. Sombra ou imagem pouco nítida devem permanecer como dúvida.</p>
     <p>Os quadrados incluem áreas com e sem sinal vegetal. As previsões do modelo ficam ocultas para não influenciar sua leitura.</p>
+    <div className="positive-review-panel">
+      {reviewQueue ? <>
+        <strong>Revisão dos seus Conferes · {reviewedCount} de {reviewQueue.length} revistos</strong>
+        <p>Esta rodada mostra somente os Conferes que estavam pendentes quando você começou. Ao corrigir uma resposta, a célula continua nesta lista para você poder voltar a ela.</p>
+        {reviewedCount === reviewQueue.length && <p role="status">Revisão desta rodada concluída. Exporte suas avaliações para guardar uma cópia.</p>}
+        <button type="button" onClick={leavePositiveReview}>Voltar às 400 células</button>
+      </> : <>
+        <button type="button" disabled={!ready || !pendingPositives.length} onClick={startPositiveReview}>Revisar meus Conferes ({pendingPositives.length} pendentes)</button>
+        <p>Revise só os “Confere” antigos. A resposta anterior será preservada na cópia exportada; nenhuma classificação muda até você salvar.</p>
+      </>}
+      <p><strong>O critério é presença de plantas, não predominância nem drenagem.</strong> Terra ou brita sem plantas: “Não confere”. Com gramíneas ou outras plantas identificáveis: “Confere”, mesmo que sejam minoria. Imagem ambígua: “Não consigo classificar”.</p>
+    </div>
     <div className="validation-gallery-controls">
-      <button onClick={() => navigate(index - 1)} disabled={index === 0}>Anterior</button>
-      <label>Célula <select value={index} onChange={(event) => navigate(Number(event.target.value))}>{cells.map((item, position) => <option key={item.properties.sample_id} value={position}>{item.properties.sample_id}</option>)}</select></label>
-      <button onClick={() => navigate(index + 1)} disabled={index === cells.length - 1}>Próxima</button>
+      <button onClick={() => navigate(previousIndex)} disabled={previousIndex === undefined}>Anterior</button>
+      <label>Célula <select value={index} onChange={(event) => navigate(Number(event.target.value))}>{visibleIndices.map((i) => <option key={cells[i].properties.sample_id} value={i}>{cells[i].properties.sample_id}</option>)}</select></label>
+      <button onClick={() => navigate(nextIndex)} disabled={nextIndex === undefined}>Próxima</button>
     </div>
     <p>Compare o mesmo contorno magenta nas imagens abaixo. As fontes têm datas diferentes; se a leitura ou a comparação deixar dúvida, escolha “Não consigo classificar”.</p>
     <div className="validation-comparison-grid" ref={imageRef}>
@@ -69,17 +104,17 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
           <figcaption>INPE, CBERS-4A/WPM · CC BY 4.0. Visualização do projeto.</figcaption>
         </figure>
         <a href={imageUrl} download>Baixar o painel desta célula</a>
-    {ready && <div onChangeCapture={() => setDirty(true)}><CellReviewForm key={`${sampleId}-${records[sampleId]?.updatedAt ?? "new"}`} sampleId={sampleId} review={records[sampleId]} hasNext={index < cells.length - 1} onSave={(row) => { save(row); setDirty(false); }} onNext={() => { setIndex(index + 1); imageRef.current?.scrollIntoView?.({ behavior: "smooth", block: "start" }); }} /></div>}
+    {ready && <div onChangeCapture={() => setDirty(true)}><CellReviewForm key={`${sampleId}-${records[sampleId]?.updatedAt ?? "new"}`} sampleId={sampleId} review={records[sampleId]} hasNext={nextIndex !== undefined} onSave={(row) => { save(row); setDirty(false); }} onNext={() => { setIndex(nextIndex); imageRef.current?.scrollIntoView?.({ behavior: "smooth", block: "start" }); }} /></div>}
       </div>
     </div>
     <div className="review-progress">
       <strong>{Object.keys(records).length} de {cells.length} células com avaliação salva</strong>
       <p>{Object.values(records).filter((row) => row.vegetation === "present").length} confere · {Object.values(records).filter((row) => row.vegetation === "absent").length} não confere · {Object.values(records).filter((row) => row.vegetation === "unsure").length} não consigo classificar.</p>
       <p role="status">{storageMessage}</p>
-      <p>Comece com 10 a 20 células para testar a leitura. As novas avaliações registram a comparação visual Esri + CBERS, sem atribuir uma data única às duas fontes. Não aprovam a estimativa de outubro nem atualizam o mapa automaticamente.</p>
+      <p>As novas avaliações registram a comparação visual Esri + CBERS, sem atribuir uma data única às duas fontes. Não aprovam a estimativa de outubro nem atualizam o mapa automaticamente.</p>
       <div className="validation-gallery-controls">
         <button type="button" disabled={!ready || !Object.keys(records).length} onClick={exportBackup}>Exportar avaliações salvas</button>
-        <label className="review-import">Importar cópia de avaliações<input type="file" accept=".json,application/json" disabled={!ready} onChange={async (event) => {
+        <label className="review-import">Importar cópia de avaliações<input type="file" accept=".json,application/json" disabled={!ready || reviewQueue !== null} onChange={async (event) => {
           const file = event.target.files?.[0];
           event.target.value = "";
           if (!file) return;
@@ -91,7 +126,7 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
             setBackupMessage("Cópia importada. A avaliação mais recente de cada célula foi preservada.");
           } catch { setBackupMessage("Não foi possível importar: use uma cópia válida exportada por esta ferramenta. Suas avaliações atuais foram preservadas."); }
         }} /></label>
-        <button type="button" disabled={!ready || cells.every((item) => records[item.properties.sample_id])} onClick={() => navigate(cells.findIndex((item) => !records[item.properties.sample_id]))}>Ir para uma célula sem avaliação</button>
+        <button type="button" disabled={!ready || reviewQueue !== null || cells.every((item) => records[item.properties.sample_id])} onClick={() => navigate(cells.findIndex((item) => !records[item.properties.sample_id]))}>Ir para uma célula sem avaliação</button>
       </div>
       <p role="status">{backupMessage}</p>
     </div>

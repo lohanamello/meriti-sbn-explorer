@@ -3,6 +3,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { ValidationCell } from "@/lib/validation-cells";
 import { cellBounds } from "@/lib/validation-cells";
 import { ValidationGallery } from "./validation-gallery";
+import { REVIEW_STORAGE_KEY, COMPARISON_REVIEW_SOURCE, PRESENCE_CRITERION, parseReviewFile, serializeReviews, type CellReview } from "@/lib/cell-reviews";
 
 vi.mock("next/dynamic", () => ({ default: () => function MockMap({ cell }: { cell: ValidationCell }) {
   return <div data-testid="cell-map">{cell.properties.sample_id}</div>;
@@ -14,6 +15,45 @@ const cells: ValidationCell[] = [
 
 describe("cell comparison", () => {
   beforeEach(() => localStorage.clear());
+  it("reviews a fixed queue of old positives without skipping corrected cells and resumes only pending work", () => {
+    const third = { ...cells[1], properties: { ...cells[1].properties, sample_id: "MERITI-V1-0003" } };
+    const allCells = [...cells, third];
+    const rows = Object.fromEntries(allCells.map((cell, i) => [cell.properties.sample_id, {
+      sampleId: cell.properties.sample_id, vegetation: i === 1 ? "absent" : "present", source: COMPARISON_REVIEW_SOURCE,
+      imageDate: null, status: "draft", updatedAt: "2026-10-01T10:00:00Z"
+    } satisfies CellReview]));
+    localStorage.setItem(REVIEW_STORAGE_KEY, serializeReviews(rows));
+    const view = render(<ValidationGallery cells={allCells} references={{}} />);
+    fireEvent.click(screen.getByRole("button", { name: "Revisar meus Conferes (2 pendentes)" }));
+    expect(screen.getAllByRole("option")).toHaveLength(2);
+    fireEvent.click(screen.getByLabelText("Não confere"));
+    fireEvent.click(screen.getByRole("button", { name: "Salvar e próxima" }));
+    expect(screen.getByTestId("cell-map")).toHaveTextContent("MERITI-V1-0003");
+    expect(screen.getByText("Revisão dos seus Conferes · 1 de 2 revistos")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Anterior", exact: true }));
+    expect(screen.getByLabelText("Não confere")).toBeChecked();
+    view.unmount();
+    render(<ValidationGallery cells={allCells} references={{}} />);
+    fireEvent.click(screen.getByRole("button", { name: "Revisar meus Conferes (1 pendentes)" }));
+    expect(screen.getByTestId("cell-map")).toHaveTextContent("MERITI-V1-0003");
+    fireEvent.click(screen.getByRole("button", { name: "Salvar avaliação", exact: true }));
+    expect(screen.getByText(/Revisão desta rodada concluída/)).toBeInTheDocument();
+    const saved = parseReviewFile(localStorage.getItem(REVIEW_STORAGE_KEY)!, new Set(allCells.map(c => c.properties.sample_id)));
+    expect(saved[rows["MERITI-V1-0001"].sampleId].beforePresenceReview?.vegetation).toBe("present");
+    expect(saved["MERITI-V1-0002"]).toEqual(rows["MERITI-V1-0002"]);
+    expect(saved["MERITI-V1-0003"].criterion).toBe(PRESENCE_CRITERION);
+  });
+  it("preserves a saved answer from another tab when saving the current cell", () => {
+    const view = render(<ValidationGallery cells={cells} references={{}} />);
+    const external: CellReview = { sampleId: "MERITI-V1-0002", vegetation: "absent", source: COMPARISON_REVIEW_SOURCE, imageDate: null, status: "draft", updatedAt: "2026-10-01T10:00:00Z" };
+    localStorage.setItem(REVIEW_STORAGE_KEY, serializeReviews({ [external.sampleId]: external }));
+    fireEvent.click(screen.getByLabelText("Confere"));
+    fireEvent.click(screen.getByRole("button", { name: "Salvar avaliação", exact: true }));
+    expect(screen.getByText("2 de 2 células com avaliação salva")).toBeInTheDocument();
+    const saved = parseReviewFile(localStorage.getItem(REVIEW_STORAGE_KEY)!, new Set(cells.map(c => c.properties.sample_id)));
+    expect(saved[external.sampleId]).toEqual(external);
+    view.unmount();
+  });
   it("opens Google at the selected cell alongside the default Esri view without saving a review", () => {
     render(<ValidationGallery cells={cells} references={{}} />);
     fireEvent.click(screen.getByText("Ver esta célula no Google Maps", { exact: true }));

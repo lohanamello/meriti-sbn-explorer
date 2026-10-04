@@ -1424,6 +1424,10 @@ p {
 .validation-comparison-grid .cell-review-form { margin-top: 12px; padding: 14px; font-size: .9rem; line-height: 1.45; }
 .validation-comparison-grid .cell-review-form fieldset { margin: 10px 0; }
 .validation-resolution-note { margin: 0 0 10px; font-size: .85rem; }
+.positive-review-panel { padding: 14px 18px; margin: 18px 0; border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px; background: var(--accent-soft); }
+.positive-review-panel p { margin: 10px 0 0; font-size: .9rem; }
+.positive-review-panel button { border: 1px solid var(--line); padding: 10px 14px; min-height: 44px; border-radius: 4px; background: var(--surface); color: var(--accent); font-weight: 700; }
+.positive-review-panel button:disabled { opacity: .55; cursor: default; }
 @media (max-width: 800px) {
   .validation-comparison-grid { grid-template-columns: 1fr; }
   .validation-comparison-grid .validation-map-panel { height: 350px; }
