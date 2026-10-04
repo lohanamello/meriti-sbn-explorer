@@ -1,12 +1,4 @@
 .ui-review {
-  --background: oklch(0.96 0.007 155);
-  --surface: oklch(0.985 0.004 150);
-  --surface-strong: oklch(0.995 0.002 150);
-  --ink: oklch(0.28 0.026 155);
-  --ink-muted: oklch(0.48 0.021 155);
-  --line: oklch(0.86 0.012 155);
-  --green: oklch(0.43 0.073 162);
-  --green-soft: oklch(0.93 0.025 162);
   --shadow: none;
   height: 100dvh;
   min-height: 640px;
@@ -27,13 +19,13 @@
 .ui-review .workspace-brand__mark { width: 38px; height: 42px; border-radius: 2px; font-size: 11px; letter-spacing: 0.04em; }
 .ui-review .workspace-brand h1 { font-size: 22px; font-weight: 650; letter-spacing: -0.045em; }
 .ui-review .workspace-brand .eyebrow { font-size: 10px; letter-spacing: 0.055em; color: var(--ink-muted); }
-.ui-review .phase-pill { padding: 5px 8px; border-radius: 4px; font-size: 10px; background: var(--green-soft); color: var(--green); }
+.ui-review .phase-pill { padding: 5px 8px; border-radius: 4px; font-size: 10px; background: var(--accent-soft); color: var(--accent); }
 .ui-review .data-notice { flex: 0 0 auto; min-height: 31px; padding: 3px 22px; border: 0; border-radius: 0; background: var(--background); color: var(--ink-muted); font-size: 11px; }
 .ui-review .data-notice strong { font-weight: 550; }
 .exploration-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; min-height: 48px; padding: 7px 20px; border-bottom: 1px solid var(--line); background: var(--surface); }
 .exploration-toolbar__label { margin-right: 9px; font-size: 11px; font-weight: 650; text-transform: uppercase; letter-spacing: 0.08em; }
 .exploration-toolbar button { min-height: 32px; padding: 6px 12px; border: 1px solid transparent; border-radius: 4px; background: transparent; font-size: 12px; font-weight: 550; color: var(--ink-muted); }
-.exploration-toolbar button[aria-pressed=true] { border-color: var(--green); background: var(--green-soft); color: var(--green); }
+.exploration-toolbar button[aria-pressed=true] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
 .exploration-toolbar__count { margin-left: auto; font-size: 11px; color: var(--ink-muted); }
 .exploration-toolbar .exploration-toolbar__clear { text-decoration: underline; text-underline-offset: 3px; font-size: 11px; }
 .ui-review .workspace-grid { grid-template-columns: 252px minmax(0, 1fr) 328px; align-items: stretch; min-height: 0; flex: 1 1 0; gap: 0; padding: 0; }
@@ -44,7 +36,7 @@
 .ui-review .panel-section:last-child { border: 0; }
 .ui-review .panel-section__header { gap: 7px; margin-bottom: 12px; }
 .ui-review .panel-section__header h2 { font-size: 13px; font-weight: 650; }
-.ui-review .panel-section__header > svg { width: 15px; height: 15px; color: var(--green); }
+.ui-review .panel-section__header > svg { width: 15px; height: 15px; color: var(--accent); }
 .ui-review .territory-code { font-size: 11px; color: var(--ink-muted); margin: 0 0 10px; }
 .ui-review .quick-focus { min-height: 32px; font-size: 11px; border-radius: 4px; }
 .ui-review .segmented-control { gap: 3px; }
@@ -56,19 +48,19 @@
 .ui-review .unit-list button { padding: 9px 8px; border-radius: 4px; box-shadow: none; }
 .ui-review .unit-list button strong { font-size: 12px; font-weight: 600; }
 .ui-review .unit-list button small { font-size: 10px; line-height: 1.4; }
-.ui-review .unit-list button[aria-pressed=true] { background: var(--green-soft); color: var(--green); border-color: var(--green-soft); }
+.ui-review .unit-list button[aria-pressed=true] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent-soft); }
 .ui-review .unit-list button[aria-pressed=true] small { color: var(--ink-muted); }
 .ui-review .overlay-group { padding: 0; border: 0; background: transparent; }
 .ui-review .overlay-group h3 { font-size: 10px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.06em; margin: 10px 0 4px; color: var(--ink-muted); }
 .ui-review .overlay-row { border-radius: 0; border: 0; padding: 8px 0; align-items: flex-start; }
 .ui-review .overlay-row + .overlay-row { border-top: 1px solid var(--line); }
 .ui-review .overlay-row__toggle { align-items: flex-start; gap: 8px; }
-.ui-review .overlay-row input { margin-top: 3px; accent-color: var(--green); width: 15px; height: 15px; flex: 0 0 15px; }
+.ui-review .overlay-row input { margin-top: 3px; accent-color: var(--accent); width: 15px; height: 15px; flex: 0 0 15px; }
 .ui-review .overlay-row__main > span { font-size: 12px; font-weight: 550; line-height: 1.5; }
 .ui-review .overlay-row__main small { font-size: 11px; line-height: 1.5; color: var(--ink-muted); }
 .ui-review .map-panel { position: relative; top: auto; height: 100%; min-height: 0; width: 100%; align-self: stretch; aspect-ratio: auto; border: 0; border-radius: 0; }
 .ui-review .map-panel__controls { left: 12px; top: 12px; right: 52px; }
-.ui-review .map-panel__meta, .ui-review .map-legend { border-radius: 4px; backdrop-filter: none; background: oklch(0.25 0.025 155); box-shadow: 0 2px 9px #17231f22; }
+.ui-review .map-panel__meta, .ui-review .map-legend { border-radius: 4px; backdrop-filter: none; background: #13243d; box-shadow: 0 2px 9px #17263d22; }
 .ui-review .map-panel__meta { gap: 4px; padding: 5px; font-family: var(--font-geist-sans),sans-serif; font-size: 10px; }
 .ui-review .map-panel__meta span { background: transparent; padding: 3px; }
 .ui-review .map-legend summary { padding: 9px 11px; font-size: 11px; }
@@ -98,9 +90,9 @@
 .ui-review .solution-list li span { font-size: 11px; line-height: 1.6; }
 .ui-review .info-tip__trigger { width: 25px; height: 25px; }
 .ui-review .source-section .text-link, .ui-review .source-section .quick-focus { font-size: 11px; border-radius: 4px; }
-.ui-review button:focus-visible, .ui-review a:focus-visible, .ui-review input:focus-visible, .ui-review select:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+.ui-review button:focus-visible, .ui-review a:focus-visible, .ui-review input:focus-visible, .ui-review select:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 @media (hover: hover) and (pointer: fine) {
-  .ui-review .exploration-toolbar button:hover, .ui-review .unit-list button:hover { background: var(--green-soft); color: var(--green); }
+  .ui-review .exploration-toolbar button:hover, .ui-review .unit-list button:hover { background: var(--accent-soft); color: var(--accent); }
 }
 @media (max-width: 1100px) {
   .workspace-shell.ui-review { height: auto; min-height: 100dvh; overflow: visible; }
