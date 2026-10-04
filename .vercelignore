@@ -28,6 +28,8 @@ data/**
 !data/processed/meriti/rasters
 !data/processed/meriti/rasters/*.png
 !data/processed/meriti/validation
+!data/processed/meriti/validation/assisted-review.json
+!data/processed/meriti/validation/assisted-review.csv
 !data/processed/meriti/validation/review-blinded-v3.csv
 !data/processed/meriti/validation/sample-cells-blinded.geojson
 !data/interim
