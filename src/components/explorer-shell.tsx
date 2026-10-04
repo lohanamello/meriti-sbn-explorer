@@ -102,6 +102,7 @@ export function ExplorerShell({ catalogStats, phase3Data }: { catalogStats: Cata
       <nav className="exploration-toolbar" aria-label="Visualizações rápidas">
         <span className="exploration-toolbar__label">Explorar</span>
         {[
+          { label: "Foto detalhada", ids: [] },
           { label: "Vegetação recente", ids: ["vegetation-recent", "protected-areas", "rivers-official"] },
           { label: "Imagem CBERS", ids: ["cbers-reference", "protected-areas"] },
           { label: "Copas em 2019", ids: ["canopy-height", "protected-areas"] },

@@ -33,6 +33,8 @@ const BASE_STYLE: StyleSpecification = {
         "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
       ],
       tileSize: 256,
+      // Beyond this level, enlarge existing imagery rather than request finer tiles.
+      maxzoom: 20,
       attribution:
         "Esri, Maxar, Earthstar Geographics, and the GIS User Community"
     }
@@ -111,6 +113,7 @@ export function MapWorkspace({
     }),
     [selectedUnitId, units]
   );
+  const inspectionMode = activeLayers.length === 0;
   const selectedUnit = useMemo(
     () => units.find((unit) => unit.id === selectedUnitId),
     [selectedUnitId, units]
@@ -126,7 +129,7 @@ export function MapWorkspace({
       attributionControl: false,
       center: getBoundsCenter(studyArea.bounds),
       container: mapContainer,
-      maxZoom: 19,
+      maxZoom: 22,
       minZoom: 10,
       style: BASE_STYLE,
       zoom: 12
@@ -144,6 +147,9 @@ export function MapWorkspace({
       new maplibregl.NavigationControl({ showCompass: false }),
       "top-right"
     );
+
+    map.addControl(new maplibregl.ScaleControl({ unit: "metric", maxWidth: 120 }), "bottom-left");
+    map.addControl(new maplibregl.FullscreenControl({ container: mapContainer.parentElement! }), "top-right");
 
     map.on("error", (event) => {
       setMapError(event.error?.message ?? "Erro no mapa.");
@@ -280,11 +286,23 @@ export function MapWorkspace({
       | undefined;
     unitsSource?.setData(unitCollection);
     updateTerritorialSelectionPaint(map, selectedUnitId);
+    if (inspectionMode) map.setPaintProperty("territorial-units-fill", "fill-opacity", 0);
   }, [
     mapLoaded,
     selectedUnitId,
-    unitCollection
+    unitCollection,
+    inspectionMode
   ]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapLoaded) return;
+    map.setPaintProperty("reference-imagery", "raster-brightness-max", inspectionMode ? 1 : 0.72);
+    map.setPaintProperty("reference-imagery", "raster-brightness-min", inspectionMode ? 0 : 0.08);
+    map.setPaintProperty("reference-imagery", "raster-opacity", inspectionMode ? 1 : 0.88);
+    map.setPaintProperty("reference-imagery", "raster-saturation", inspectionMode ? 0 : -0.45);
+    map.setPaintProperty("municipality-boundary-fill", "fill-opacity", inspectionMode ? 0 : 0.06);
+  }, [mapLoaded, inspectionMode]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -402,6 +420,11 @@ export function MapWorkspace({
               : "sem sobreposição"}
         </span>
       </div>
+      {inspectionMode && <div className="map-inspection-note">
+        <strong>Foto detalhada · Esri</strong>
+        <span>Aproxime com + ou a roda do mouse. Use tela cheia para inspecionar as copas.</span>
+        <small>A data e o detalhe variam por local. Zoom adicional amplia a imagem; não cria novas medições de vegetação.</small>
+      </div>}
       <details className="map-legend" aria-label="Legenda">
         <summary>Legenda · {activeLayers.length} camadas</summary>
         <div className="map-legend__content">

@@ -125,3 +125,7 @@
   .ui-review .overlay-row__main small { font-size: 11px; }
   .ui-review .card-section p { font-size: 14px; }
 }
+
+.map-inspection-note { display: grid; gap: 5px; max-width: min(300px, 100%); padding: 10px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink); font-size: 11px; line-height: 1.5; pointer-events: auto; }
+.map-inspection-note small { color: var(--ink-muted); font-size: 10px; }
+.ui-review .map-panel:fullscreen { width: 100vw; height: 100dvh; max-height: none; }

@@ -57,7 +57,9 @@ vi.mock("maplibre-gl", () => {
     default: {
       AttributionControl: class MockAttributionControl {},
       Map: MockMap,
-      NavigationControl: class MockNavigationControl {}
+      NavigationControl: class MockNavigationControl {},
+      ScaleControl: class MockScaleControl {},
+      FullscreenControl: class MockFullscreenControl {}
     }
   };
 });

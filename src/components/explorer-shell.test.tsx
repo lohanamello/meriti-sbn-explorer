@@ -24,6 +24,18 @@ describe("Meriti explorer", () => {
     expect(screen.queryByText("Posição", { exact: true })).not.toBeInTheDocument();
     expect(screen.queryByRole("button", { name: "AP3" })).not.toBeInTheDocument();
   });
+  it("opens a clean photo without changing territory or evidence values, then restores an analytical view", () => {
+    mount();
+    const initial = mapRender.mock.lastCall?.[0];
+    fireEvent.click(screen.getByRole("button", { name: "Foto detalhada" }));
+    expect(mapRender.mock.lastCall?.[0].activeLayers).toEqual([]);
+    expect(mapRender.mock.lastCall?.[0].viewportUnit).toBe(initial.viewportUnit);
+    expect(screen.getByRole("button", { name: "Foto detalhada" })).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByText("Censo 2022")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Vegetação recente", exact: true }));
+    expect(mapRender.mock.lastCall?.[0].activeLayers.map((layer: { id: string }) => layer.id)).toEqual(["vegetation-recent", "protected-areas", "rivers-official"]);
+    expect(screen.getByRole("button", { name: "Foto detalhada" })).toHaveAttribute("aria-pressed", "false");
+  });
   it("preserves the overlay reference when switching lenses or territory selection", () => {
     mount();
     const layers = mapRender.mock.lastCall?.[0].activeLayers;
