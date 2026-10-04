@@ -14,6 +14,18 @@ const cells: ValidationCell[] = [
 
 describe("cell comparison", () => {
   beforeEach(() => localStorage.clear());
+  it("opens Google at the selected cell without loading Esri or changing the review source", () => {
+    render(<ValidationGallery cells={cells} references={{}} />);
+    fireEvent.click(screen.getByText("Ver esta célula no Google Maps", { exact: true }));
+    const link = screen.getByRole("link", { name: /Abrir no Google/ });
+    const first = link.getAttribute("href");
+    fireEvent.click(screen.getByRole("button", { name: "Próxima", exact: true }));
+    expect(link.getAttribute("href")).not.toBe(first);
+    expect(new URL(link.getAttribute("href")!).searchParams.get("center")).toBe("-22.8500000,-43.3500000");
+    expect(screen.queryByTestId("cell-map")).not.toBeInTheDocument();
+    expect(screen.getByText(/ficha acima continua vinculada ao CBERS/)).toBeInTheDocument();
+    expect(screen.getByText("0 de 2 células com avaliação salva")).toBeInTheDocument();
+  });
   it("keeps the selected cell, CBERS panel and historical metadata together without marking it validated", () => {
     render(<ValidationGallery cells={cells} references={{
       "MERITI-V1-0001": { dates: [20250616], resolutions: [.34] },

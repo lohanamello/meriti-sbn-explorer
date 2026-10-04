@@ -10,6 +10,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useOverlayData } from "@/lib/use-overlay-data";
 import { evidenceAssetUrl } from "@/lib/evidence-asset";
 import { featurePopup, showFeaturePopup } from "@/lib/map-feature-popup";
+import { GoogleMapComparison } from "./google-map-comparison";
+import type { MapViewpoint } from "@/lib/google-maps-links";
 import type {
   EvidenceLayer,
   Locality,
@@ -91,6 +93,8 @@ export function MapWorkspace({
   const hasFitInitialViewportRef = useRef(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
+  const [comparisonView, setComparisonView] = useState<MapViewpoint | null>(null);
+  const [comparisonMarker, setComparisonMarker] = useState(false);
   const { collections: overlayCollections, errors: overlayErrors, loading: loadingOverlays } = useOverlayData(activeLayers, year);
 
   useEffect(() => {
@@ -142,6 +146,11 @@ export function MapWorkspace({
           });
 
     mapRef.current = map;
+    const updateComparisonView = () => {
+      const center = map.getCenter();
+      setComparisonView({ longitude: center.lng, latitude: center.lat, zoom: map.getZoom() });
+    };
+    map.on("moveend", updateComparisonView);
     resizeObserver?.observe(mapContainer);
     map.addControl(
       new maplibregl.NavigationControl({ showCompass: false }),
@@ -156,6 +165,7 @@ export function MapWorkspace({
     });
 
     map.on("load", () => {
+      updateComparisonView();
       map.addSource("municipality-boundary", {
         type: "geojson",
         data: studyArea.boundary,
@@ -425,6 +435,7 @@ export function MapWorkspace({
         <span>Aproxime com + ou a roda do mouse. Use tela cheia para inspecionar as copas.</span>
         <small>A data e o detalhe variam por local. Zoom adicional amplia a imagem; não cria novas medições de vegetação.</small>
       </div>}
+      <GoogleMapComparison view={comparisonView} onToggle={(open) => { if (open) setComparisonMarker(true); }} />
       <details className="map-legend" aria-label="Legenda">
         <summary>Legenda · {activeLayers.length} camadas</summary>
         <div className="map-legend__content">
@@ -459,6 +470,7 @@ export function MapWorkspace({
       </div>
       {mapError || overlayErrors.length > 0 ? <div className="map-error" role="alert">{[mapError, ...overlayErrors].filter(Boolean).join(" ")} As demais camadas continuam disponíveis.</div> : null}
       <div ref={mapContainerRef} className="map-canvas" />
+      {comparisonMarker && <div className="map-comparison-crosshair" aria-hidden="true" />}
     </section>
   );
 }

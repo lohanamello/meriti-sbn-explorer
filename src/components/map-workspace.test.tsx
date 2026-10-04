@@ -1,4 +1,4 @@
-import { act, render } from "@testing-library/react";
+import { act, fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 
 import appData from "../../data/processed/meriti/phase3-app-data.json";
@@ -10,6 +10,7 @@ const mapConstructorOptions = vi.hoisted(() => vi.fn());
 const layerInsertions = vi.hoisted(() => vi.fn());
 const clickHandler = vi.hoisted(() => ({ current: undefined as undefined | ((event: unknown) => void) }));
 const clickedEvidence = vi.hoisted(() => ({ features: [] as Array<{ properties: Record<string, string> }> }));
+const camera = vi.hoisted(() => ({ lng: -43.37, lat: -22.785, zoom: 12, onMove: undefined as undefined | (() => void) }));
 
 vi.mock("maplibre-gl", () => {
   class MockMap {
@@ -22,6 +23,8 @@ vi.mock("maplibre-gl", () => {
     addLayer(layer: { id: string }, before?: string) { layerInsertions(layer.id, before); }
     addSource() {}
     easeTo() {}
+    getCenter() { return { lng: camera.lng, lat: camera.lat }; }
+    getZoom() { return camera.zoom; }
     fitBounds() {}
     queryRenderedFeatures(_point: unknown, options: { layers: string[] }) {
       return options.layers.includes("territorial-units-fill") ? [{ properties: { id: "330510905000001" } }] : clickedEvidence.features;
@@ -40,6 +43,7 @@ vi.mock("maplibre-gl", () => {
     }
     jumpTo() {}
     on(eventName: string, handlerOrLayer: unknown) {
+      if (eventName === "moveend" && typeof handlerOrLayer === "function") camera.onMove = handlerOrLayer as () => void;
       if (eventName === "click" && typeof handlerOrLayer === "function") clickHandler.current = handlerOrLayer as (event: unknown) => void;
       if (eventName === "load" && typeof handlerOrLayer === "function") {
         handlerOrLayer();
@@ -65,6 +69,22 @@ vi.mock("maplibre-gl", () => {
 });
 
 describe("MapWorkspace", () => {
+  it("updates the external comparison destination after the map moves", async () => {
+    render(<MapWorkspace activeLayers={[]} studyArea={(appData as unknown as Phase3ExplorerData).studyArea}
+      year={2022} selectedUnitId="" selectionRevision={0} units={[]} onSelectUnit={() => undefined} />);
+    await act(async () => undefined);
+    fireEvent.click(screen.getByText("Comparar com Google Maps", { exact: true }));
+    const link = screen.getByRole("link", { name: /Abrir no Google/ });
+    const before = link.getAttribute("href");
+    act(() => { camera.lng = -43.35; camera.lat = -22.79; camera.zoom = 19.4; camera.onMove?.(); });
+    const url = new URL(link.getAttribute("href")!);
+    expect(url.searchParams.get("center")).toBe("-22.7900000,-43.3500000");
+    expect(url.searchParams.get("zoom")).toBe("20");
+    expect(link.getAttribute("href")).not.toBe(before);
+    expect(link).toHaveAttribute("rel", "noopener noreferrer");
+    expect(screen.getByText(/não acompanha o arrasto automaticamente/)).toBeInTheDocument();
+    camera.lng = -43.37; camera.lat = -22.785; camera.zoom = 12;
+  });
   it("keeps the dated RGB below the boundary and analytical evidence even when selected last", async () => {
     layerInsertions.mockClear();
     const data = appData as unknown as Phase3ExplorerData;

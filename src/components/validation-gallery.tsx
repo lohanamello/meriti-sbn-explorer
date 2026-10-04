@@ -4,9 +4,10 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useMemo, useRef, useState } from "react";
 import { CellReviewForm } from "./cell-review-form";
+import { GoogleMapComparison } from "./google-map-comparison";
 import { useCellReviews } from "@/lib/use-cell-reviews";
 import { serializeReviews } from "@/lib/cell-reviews";
-import type { ReferenceMetadata, ValidationCell } from "@/lib/validation-cells";
+import { cellBounds, type ReferenceMetadata, type ValidationCell } from "@/lib/validation-cells";
 
 const ValidationCellMap = dynamic(() => import("./validation-cell-map").then((module) => module.ValidationCellMap), {
   ssr: false, loading: () => <p>Carregando a foto detalhada…</p>
@@ -44,6 +45,8 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
   const sampleId = cell.properties.sample_id;
   const reference = references[sampleId];
   const imageUrl = `/meriti/validation/${sampleId}.png`;
+  const bounds = cellBounds(cell);
+  const cellView = { longitude: (bounds[0][0] + bounds[1][0]) / 2, latitude: (bounds[0][1] + bounds[1][1]) / 2, zoom: 20 };
   return <section id="conferir-celulas" className="validation-section" aria-label="Imagens das células sorteadas">
     <h2>Conferir as 400 células</h2>
     <p><strong>O objetivo é medir toda a vegetação viva:</strong> copas de árvores, arbustos, gramados e jardins. Nesta revisão, indique apenas se identifica vegetação dentro do contorno. Sombra ou imagem pouco nítida devem permanecer como dúvida.</p>
@@ -85,6 +88,7 @@ export function ValidationGallery({ cells, references }: { cells: ValidationCell
       <p role="status">{backupMessage}</p>
     </div>
     <p>A ficha oficial e as frações validadas continuam separadas. Depois da revisão, os rascunhos podem apoiar a análise de erros. O número de avaliações salvas não é o número de células cientificamente validadas.</p>
+    <GoogleMapComparison view={cellView} cell />
     <details className="review-optional-reference"><summary>Consulta opcional: localizar a célula na foto Esri</summary>
     <h3>Localizar a célula na foto detalhada</h3>
     <p>A foto Esri permite examinar o contexto com mais detalhe. O contorno magenta mostra a célula sorteada, não uma detecção de vegetação. Você pode ocultá-lo, aproximar a imagem e abrir em tela cheia.</p>
