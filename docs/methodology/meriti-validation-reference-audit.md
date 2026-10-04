@@ -58,6 +58,10 @@ As consultas a fontes estaduais e municipais encontraram referências ao Projeto
 
 ## Interface de consulta de 04/10/2026
 
+A galeria agora inclui uma ficha de revisão preliminar vinculada exclusivamente ao painel CBERS de 02/07/2026. Registra somente presença de vegetação (Confere), ausência observada com a célula inteira legível (Não confere) ou indeterminação (Não consigo classificar). Não coleta porcentagem nem converte indeterminação em ausência. Esses rótulos não significam concordância com o modelo: respondem à pergunta explícita sobre presença de vegetação. O formulário mantém os resultados do modelo ocultos. A consulta Esri fica em uma seção opcional separada e não é a fonte destas observações.
+
+Os registros têm status de rascunho e persistem apenas no navegador, com exportação e importação de cópia JSON. Falhas de armazenamento são avisadas; cópias importadas têm formato, origem e IDs conferidos antes de qualquer substituição. A importação conserva o registro mais recente por célula. Esses rascunhos não preenchem a ficha oficial, não atualizam os mapas e não são contados como frações aceitas. Uma triagem inicial de 10–20 células serve para verificar a usabilidade da referência, sem produzir estimativa municipal ou dispensar o protocolo de validação.
+
 O objetivo reafirmado é medir a fração horizontal de toda vegetação viva, incluindo copas, arbustos, gramados e jardins. Copas isoladamente, presença de árvores nas vias e recorrência do NDVI permanecem medidas complementares. Os atalhos da interface agora explicitam essas diferenças.
 
 A galeria de validação passou a oferecer consulta interativa à imagem Esri, com a geometria cega da célula, zoom, escala e tela cheia. O mapa carrega somente a área visualizada pelo usuário, sem coleta de mosaicos, extração automática, recortes redistribuídos ou gravação de rótulos. A camada de metadados consultada em 03/10/2026 é exibida por célula como registro histórico; não certifica a imagem atual de um serviço mutável. A geometria não foi ajustada visualmente à imagem. O contorno é a célula sorteada, não uma previsão de vegetação.

@@ -1388,3 +1388,14 @@ p {
 .validation-reference-date { padding: 12px; background: var(--accent-soft); font-size: .85rem; }
 #conferir-celulas { scroll-margin-top: 20px; }
 @media (max-width: 620px) { .validation-map-panel { height: 400px; } }
+
+.cell-review-form, .review-progress { margin-top: 20px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.cell-review-form fieldset { display: grid; gap: 10px; margin: 16px 0; padding: 12px; border: 1px solid var(--line); }
+.cell-review-form legend { font-weight: 700; }
+.cell-review-form fieldset label { display: flex; gap: 10px; align-items: baseline; cursor: pointer; }
+.cell-review-form input[type=radio] { accent-color: var(--accent); }
+.review-progress { background: var(--accent-soft); }
+.review-progress p:last-child, .cell-review-form p:last-child { margin-bottom: 0; }
+.review-import { display: grid; gap: 8px; font-size: .85rem; }
+.review-import input { max-width: 100%; }
+.review-optional-reference { margin-top: 26px; border-top: 1px solid var(--line); padding-top: 16px; }

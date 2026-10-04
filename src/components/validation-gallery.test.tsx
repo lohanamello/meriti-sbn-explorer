@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import { describe, expect, it, vi } from "vitest";
+import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { ValidationCell } from "@/lib/validation-cells";
 import { cellBounds } from "@/lib/validation-cells";
 import { ValidationGallery } from "./validation-gallery";
@@ -13,12 +13,14 @@ const cells: ValidationCell[] = [
 ];
 
 describe("cell comparison", () => {
+  beforeEach(() => localStorage.clear());
   it("keeps the selected cell, CBERS panel and historical metadata together without marking it validated", () => {
     render(<ValidationGallery cells={cells} references={{
       "MERITI-V1-0001": { dates: [20250616], resolutions: [.34] },
       "MERITI-V1-0002": { dates: [20250616, 20251224], resolutions: [.34, .5] }
     }} />);
     expect(screen.queryByTestId("cell-map")).not.toBeInTheDocument();
+    fireEvent.click(screen.getByText("Consulta opcional: localizar a célula na foto Esri"));
     fireEvent.click(screen.getByRole("button", { name: "Abrir foto detalhada da célula" }));
     expect(screen.getByTestId("cell-map")).toHaveTextContent("MERITI-V1-0001");
     expect(screen.getByText(/16\/06\/2025; resolução/)).toBeInTheDocument();
@@ -29,6 +31,17 @@ describe("cell comparison", () => {
     expect(screen.getByRole("button", { name: "Próxima" })).toBeDisabled();
     expect(screen.getByText(/Não há extração automática/)).toBeInTheDocument();
     expect(screen.getByText(/Os quadrados incluem áreas com e sem sinal vegetal/)).toBeInTheDocument();
+  });
+  it("restores saved progress after leaving the page, without starting an Esri map", () => {
+    const view = render(<ValidationGallery cells={cells} references={{}} />);
+    fireEvent.click(screen.getByLabelText("Não consigo classificar"));
+    fireEvent.click(screen.getByRole("button", { name: "Salvar e próxima" }));
+    expect(screen.getByText("1 de 2 células com avaliação salva")).toBeInTheDocument();
+    view.unmount();
+    render(<ValidationGallery cells={cells} references={{}} />);
+    expect(screen.getByLabelText("Não consigo classificar")).toBeChecked();
+    expect(screen.getByText("1 de 2 células com avaliação salva")).toBeInTheDocument();
+    expect(screen.queryByTestId("cell-map")).not.toBeInTheDocument();
   });
   it("uses complete polygon bounds, including clipped multipart cells", () => {
     expect(cellBounds(cells[0])).toEqual([[-43.3, -22.8], [-43.2, -22.7]]);
