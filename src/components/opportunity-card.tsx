@@ -31,6 +31,7 @@ export function OpportunityCard({ activeLayers, catalogStats, lens, phase3Data, 
       landCover: observation,
       landCoverSeries: series,
       recentVegetation: { ...phase3Data.recentVegetation, observations: undefined, territoryObservation: recent },
+      income: phase3Data.income ? { ...phase3Data.income, observations: undefined, territoryObservation: phase3Data.income.observations[selectedUnit.id] } : undefined,
       vegetationResearch: {
         ...phase3Data.vegetationResearch,
         fieldEvidence: { ...phase3Data.vegetationResearch.fieldEvidence, observations: undefined, territoryObservation: selectedUnit ? phase3Data.vegetationResearch.fieldEvidence.observations[selectedUnit.id] : undefined },

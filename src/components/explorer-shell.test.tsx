@@ -14,6 +14,19 @@ const mount = () => render(<ExplorerShell catalogStats={stats} phase3Data={data}
 
 describe("Meriti explorer", () => {
   beforeEach(() => mapRender.mockClear());
+  it("shows official income and switches between mean and median without changing the income year", () => {
+    mount();
+    fireEvent.click(screen.getByRole("button", { name: "Município", exact: true }));
+    fireEvent.click(screen.getByRole("button", { name: "Renda · 2022", exact: true }));
+    expect(mapRender.mock.lastCall?.[0].activeLayers.map((layer: { id: string }) => layer.id)).toEqual(["income-median"]);
+    expect(screen.getByText("Renda mediana dos responsáveis com renda · 2022").closest("li")).toHaveTextContent("R$ 1.300,00");
+    expect(screen.getByText("Renda média dos responsáveis com renda · 2022").closest("li")).toHaveTextContent("R$ 1.893,05");
+    fireEvent.click(screen.getByRole("checkbox", { name: /^Renda média dos responsáveis/ }));
+    expect(mapRender.mock.lastCall?.[0].activeLayers.map((layer: { id: string }) => layer.id)).toEqual(["income-mean"]);
+    fireEvent.change(screen.getByLabelText("Ano da cobertura vegetal"), { target: { value: "2019" } });
+    expect(screen.getByText("Renda média dos responsáveis com renda · 2022").closest("li")).toHaveTextContent("R$ 1.893,05");
+    expect(mapRender.mock.lastCall?.[0].activeLayers.find((layer: { id: string }) => layer.id === "income-mean").temporalCoverage).toContain("2022");
+  });
   it("starts at the municipal extent, with all 16 official neighborhoods and no score", () => {
     mount();
     expect(mapRender.mock.lastCall?.[0]).toMatchObject({

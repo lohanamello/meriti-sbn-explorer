@@ -109,7 +109,12 @@ def validate():
             assert observation['vegetationPct']+observation['urbanPct'] <= 100.0001
     with CATALOG.open(encoding='utf-8', newline='') as stream:
         catalog={row['id']:row for row in csv.DictReader(stream)}
-    assert len(app['evidenceLayers'])==19
+    assert len(app['evidenceLayers'])==21
+    income = app['income']
+    assert income['referenceYear'] == 2022 and income['inflationAdjusted'] is False
+    assert income['sectorCoverage'] == dict(total=809, published=805, no_record=2, suppressed=2)
+    assert income['observations']['3305109']['meanMonthlyBRL'] == 1893.05
+    assert income['observations']['3305109']['medianMonthlyBRL'] == 1300
     for layer in app['evidenceLayers']:
         assert all(catalog[ident]['promotion_status']=='promoted' for ident in layer['sourceDatasetIds'])
         assert layer['limitation'] and layer['temporalCoverage']
@@ -215,7 +220,7 @@ def validate():
     audit=app['vegetationResearch']['referenceAudit']
     assert audit['acceptedFractionLabels'] == 0 and audit['aiPilot']['reviewedCells'] == 16
     assert audit['openReference']['acquisitionDate'] == '2026-07-02'
-    print('PASS: 829 territories, population conservation, topology, 19 layers, 21 municipal names, 5 approximate boundaries and 1 label point without assigned statistics, 6 protected areas, deduplicated rivers, satellite masks/coverage, CHM classes/dates/area conservation, 12 months, 400 registered samples, provenance, hashes, no scores or ranks.')
+    print('PASS: 829 territories, population conservation, topology, 21 layers, income at official scales with 805/809 published sectors, 21 municipal names, 5 approximate boundaries and 1 label point without assigned statistics, 6 protected areas, deduplicated rivers, satellite masks/coverage, CHM classes/dates/area conservation, 12 months, 400 registered samples, provenance, hashes, no scores or ranks.')
 
 
 if __name__ == '__main__':

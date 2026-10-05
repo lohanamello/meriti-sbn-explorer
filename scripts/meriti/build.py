@@ -13,6 +13,7 @@ from satellite import SOURCE_ID as SATELLITE_ID
 from vegetation_evidence import publish as publish_vegetation, CHM_ID, CBERS_ID, SEASONAL_ID, SOURCE_IDS
 from vegetation_evidence import publish_field_evidence, FIELD_ID
 from neighborhoods import SOURCE_ID as NEIGHBORHOOD_ID, register_source as register_neighborhood_source, publish as publish_neighborhoods, LIMITATION as NEIGHBORHOOD_LIMITATION
+from income import SOURCE_ID as INCOME_ID, enrich as enrich_income
 
 SANITATION_IDS = ['ibge__bairros_domicilios1__2022', 'ibge__bairros_domicilios2__2022']
 LAND_COVER_IDS = [f'mapbiomas__cobertura_uso_solo_10m_tif__{year}' for year in YEARS]
@@ -91,7 +92,7 @@ def register_supplemental_sources():
 def update_catalog():
     with CATALOG.open(encoding='utf-8', newline='') as stream:
         rows = list(csv.DictReader(stream))
-    promoted = {IBGE_ID, FLOOD_ID, *SANITATION_IDS, *LAND_COVER_IDS, OSM_ID, SATELLITE_ID, UC_ID, RIVER_ID, CANAL_ID, WATER_ID,FIELD_ID,NEIGHBORHOOD_ID,*SOURCE_IDS}
+    promoted = {IBGE_ID, FLOOD_ID, *SANITATION_IDS, *LAND_COVER_IDS, OSM_ID, SATELLITE_ID, UC_ID, RIVER_ID, CANAL_ID, WATER_ID,FIELD_ID,NEIGHBORHOOD_ID,INCOME_ID,*SOURCE_IDS}
     decisions = {
         'ibge__setores_censitarios_malha_rj__2022': ('deferred', 'Malha redundante; o GeoPackage com atributos fornece a geometria usada.'),
         'academic__cem_setores_rm_rio_zip__2022': ('deferred', 'Reúne variáveis básicas do IBGE já incorporadas diretamente da fonte oficial.'),
@@ -207,9 +208,10 @@ def build():
                   temporalEvidence=dict(hasTemporalEvidence=True,timelineReady=True,years=YEARS,defaultYear=2022,temporalCoverage='2019–2023',limitation='O ano selecionado altera somente a cobertura vegetal. SGB permanece em 2015 e Censo em 2022. Variações da classificação não comprovam mudanças reais sem validação independente.',observations=annual),
                   methodologyFiles=['docs/methodology/meriti.md','docs/methodology/meriti-neighborhoods-research.md'],protectedAreas=environmental['protectedAreas'],vegetationResearch=vegetation_research,
                   recentVegetation={key:satellite[key] for key in ['sourceId','startDate','endDate','sceneCount','resolutionMeters','minimumObservations','thresholds','rgbDate','sceneIds','observations']})
+    bundle = enrich_income(bundle)
     with CATALOG.open(encoding='utf-8', newline='') as stream:
         catalog = {row['id']: row for row in csv.DictReader(stream)}
-    source_ids = sorted({ident for layer in layers for ident in layer['sourceDatasetIds']})
+    source_ids = sorted({ident for layer in bundle['evidenceLayers'] for ident in layer['sourceDatasetIds']})
     bundle['sourceReferences'] = [dict(id=ident, name=catalog[ident]['source_name'], institution=catalog[ident]['source_institution'],
                                       url=catalog[ident]['source_url'], period=catalog[ident]['temporal_coverage'], license=catalog[ident]['license']) for ident in source_ids]
     write_json(OUTPUT / 'phase3-app-data.json', bundle)
@@ -217,7 +219,7 @@ def build():
     neighborhoods.to_csv(OUTPUT/'neighborhood-indicators.csv',index=False)
     update_catalog()
     write_json(OUTPUT/'metadata/output-manifest.json',dict(generatedAt=now(),files=[dict(path=p.relative_to(ROOT).as_posix(),bytes=p.stat().st_size,sha256=digest_file(p)) for p in sorted(OUTPUT.rglob('*')) if p.is_file() and p.name!='output-manifest.json']))
-    print(json.dumps(dict(territories=len(territories),layers=len(layers),years=YEARS,compositeScore=False)))
+    print(json.dumps(dict(territories=len(territories),layers=len(bundle['evidenceLayers']),years=YEARS,compositeScore=False)))
 
 
 if __name__ == '__main__':

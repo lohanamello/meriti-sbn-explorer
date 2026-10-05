@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-10-05T02:37:27+00:00",
+  "limitation": "Rendimento nominal mensal das pessoas responsáveis com rendimento por domicílios particulares permanentes ocupados, Censo 2022; reais de 2022, sem correção pela inflação. Não é renda domiciliar per capita nem renda de todos os moradores. Responsáveis sem rendimento não integram a média e a mediana. X e setores sem registro permanecem sem dados. O mapa mantém os setores; o cartão usa o agregado oficial do território selecionado, sem calcular médias de medianas. As faixas de cor são apenas de visualização, não linhas de pobreza ou ranking de vulnerabilidade.",
+  "provenance": [
+    {
+      "file": "dicionario_de_dados_renda_responsavel_20260508.xlsx",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Rendimento_do_Responsavel/dicionario_de_dados_renda_responsavel_20260508.xlsx",
+      "sha256": "fea6e2b2439eeb167c6fa9c136ed7cb13ebcb06f4c875d634e3e2578c668a48d"
+    },
+    {
+      "file": "Agregados_por_municipios_renda_responsavel_BR_20260508_csv.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Rendimento_do_Responsavel/Agregados_por_municipios_renda_responsavel_BR_20260508_csv.zip",
+      "sha256": "ad52b9e9fe7bf67d45250799d6926e4f13752cfddc5f0f96a7147f9b5fb909fe",
+      "encoding": "latin-1",
+      "matchedRows": 1
+    },
+    {
+      "file": "Agregados_por_distritos_renda_responsavel_BR_20260508_csv.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Rendimento_do_Responsavel/Agregados_por_distritos_renda_responsavel_BR_20260508_csv.zip",
+      "sha256": "424b7628d2cc2026c3e63afda04b1a876952ec1a97baa0ab5bc9f8114e56f307",
+      "encoding": "latin-1",
+      "matchedRows": 3
+    },
+    {
+      "file": "Agregados_por_bairros_renda_responsavel_BR_20260508_csv.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Rendimento_do_Responsavel/Agregados_por_bairros_renda_responsavel_BR_20260508_csv.zip",
+      "sha256": "db2fda144b62d9badf21ac54fdf43dbba09e029fd21f27393df7c5f4ea7ac333",
+      "encoding": "latin-1",
+      "matchedRows": 16
+    },
+    {
+      "file": "Agregados_por_setores_renda_responsavel_BR_20260508_csv.zip",
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios_Rendimento_do_Responsavel/Agregados_por_setores_renda_responsavel_BR_20260508_csv.zip",
+      "sha256": "141c83e7635674e7e2c941e55f98811e538fcbf2e1e1125b0aa7892c260f4a23",
+      "encoding": "utf-8-sig",
+      "matchedRows": 807
+    }
+  ],
+  "sectorCoverage": {
+    "total": 809,
+    "published": 805,
+    "no_record": 2,
+    "suppressed": 2
+  },
+  "municipalIncome": {
+    "meanMonthlyBRL": 1893.05,
+    "medianMonthlyBRL": 1300.0,
+    "status": "published",
+    "sourceTerritoryType": "municipality"
+  },
+  "definitions": {
+    "V06004": "Rendimento nominal médio mensal de responsáveis com rendimento",
+    "V06006": "Rendimento nominal mediano mensal de responsáveis com rendimento"
+  },
+  "aggregation": "Each scale uses its own official aggregate; no averaging of medians or spatial interpolation."
+}

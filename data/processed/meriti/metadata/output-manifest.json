@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T18:01:28+00:00",
+  "generatedAt": "2026-10-05T02:37:27+00:00",
   "files": [
     {
       "path": "data/processed/meriti/layers/facilities.geojson",
@@ -15,6 +15,16 @@
       "path": "data/processed/meriti/layers/green-spaces.geojson",
       "bytes": 29255,
       "sha256": "c0a415e788b7e52042f52bba973e38311fcfee1a23459564b83efb30574ea2b1"
+    },
+    {
+      "path": "data/processed/meriti/layers/income-mean.geojson",
+      "bytes": 918573,
+      "sha256": "e31a0f26fbe26ad7ee16d240833522f00811aba5aaff4c937610db227bd07db5"
+    },
+    {
+      "path": "data/processed/meriti/layers/income-median.geojson",
+      "bytes": 918573,
+      "sha256": "553f6522f64770b5035d0d4f5ca531e058454b5d40c97834488ae3bce9def548"
     },
     {
       "path": "data/processed/meriti/layers/local-neighborhoods.geojson",
@@ -117,6 +127,11 @@
       "sha256": "e4ff95101270e19ba6526f88eeaf3557c6510f6f3f8059b6eb524dcc4fe615ac"
     },
     {
+      "path": "data/processed/meriti/metadata/income-report.json",
+      "bytes": 3267,
+      "sha256": "852ec459145eaf825b9f5af41797f4da93935e20decf69b25fb1d89412b7384d"
+    },
+    {
       "path": "data/processed/meriti/metadata/neighborhood-georeferencing.json",
       "bytes": 7269,
       "sha256": "31bd49d18c5c160f24be22c201e62cd27251c44cca07dbfe5b89dde8a93bf2b5"
@@ -138,8 +153,8 @@
     },
     {
       "path": "data/processed/meriti/phase3-app-data.json",
-      "bytes": 9042558,
-      "sha256": "7999250af2d2ec29cd4cffe5c62b77c94976188c806dad7db013d534b4dc0500"
+      "bytes": 9560351,
+      "sha256": "c1487e2577127c7474eb7c767b5aff51b3fa29198b546fdfceaa51cffa006866"
     },
     {
       "path": "data/processed/meriti/rasters/cbers4a-rgb-20260426.png",
@@ -165,6 +180,16 @@
       "path": "data/processed/meriti/rasters/sentinel2-rgb-2026.png",
       "bytes": 1613260,
       "sha256": "5897d8dcc13ecc486c885794c1382e7127225a5679ef4e29e58edd76d2b55ce1"
+    },
+    {
+      "path": "data/processed/meriti/validation/assisted-review.csv",
+      "bytes": 106935,
+      "sha256": "06d8fbbe5ba3d8b0e44bbc5b5fd06fd672b11044a35b85e5f20a5b22ac844dad"
+    },
+    {
+      "path": "data/processed/meriti/validation/assisted-review.json",
+      "bytes": 356160,
+      "sha256": "47a7d9182be55f0b56818de5407e7f28131dc1642ed4c9037f9dd62359b24367"
     },
     {
       "path": "data/processed/meriti/validation/review-blinded-v2.csv",

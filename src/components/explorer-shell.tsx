@@ -79,6 +79,11 @@ export function ExplorerShell({ catalogStats, phase3Data }: { catalogStats: Cata
     setActiveOverlayIds((ids) => ids.includes("vegetation") ? ids : [...ids, "vegetation"]);
   }
 
+  function toggleOverlay(id: string) {
+    setActiveOverlayIds((ids) => ids.includes(id) ? ids.filter(value => value !== id)
+      : [...ids.filter(value => !id.startsWith("income-") || !value.startsWith("income-")), id]);
+  }
+
   return (
     <main className="workspace-shell ui-review">
       <header className="workspace-topbar">
@@ -110,7 +115,8 @@ export function ExplorerShell({ catalogStats, phase3Data }: { catalogStats: Cata
           { label: "Persistência do verde · 2025", ids: ["vegetation-recurrence", "protected-areas"] },
           { label: "Rios e inundação", ids: ["rivers-official", "water-bodies", "flood-susceptibility"] },
           { label: "Árvores nas ruas · IBGE", ids: ["street-trees-census"] },
-          { label: "Densidade", ids: ["population", "rivers-official"] }
+          { label: "Densidade", ids: ["population", "rivers-official"] },
+          ...(phase3Data.income ? [{ label: "Renda · 2022", ids: ["income-median"] }] : [])
         ].map((view) => <button type="button" key={view.label}
           aria-pressed={activeOverlayIds.length === view.ids.length && view.ids.every((id) => activeOverlayIds.includes(id))}
           onClick={() => setActiveOverlayIds(view.ids)}>{view.label}</button>)}
@@ -157,7 +163,7 @@ export function ExplorerShell({ catalogStats, phase3Data }: { catalogStats: Cata
                 {layers.map((layer) => <div className="overlay-row" key={layer.id}>
                   <label className="overlay-row__toggle">
                   <input type="checkbox" checked={activeOverlayIds.includes(layer.id)} disabled={!isMapOverlayLayer(layer)}
-                    onChange={() => setActiveOverlayIds((ids) => ids.includes(layer.id) ? ids.filter((id) => id !== layer.id) : [...ids, layer.id])} />
+                    onChange={() => toggleOverlay(layer.id)} />
                   <span className="overlay-row__main"><span>{layer.label}</span><small>{layer.resolution} · {layer.timelineReady ? year : layer.temporalCoverage}</small></span>
                   </label>
                   <InfoTip label={layer.label}>{layer.limitation}<br /><br />Fonte e período, {layer.temporalCoverage}.</InfoTip>

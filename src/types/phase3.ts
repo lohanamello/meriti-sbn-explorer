@@ -90,6 +90,12 @@ export interface NeighborhoodReference {
   comparison: Array<{ name: string; ibgeId: string | null; ibgeName: string | null; localityId: string | null }>;
 }
 export interface Phase3ExplorerData {
+  income?: {
+    sourceId: string; sourceUrl: string; referenceYear: number; releaseDate: string; currency: string;
+    inflationAdjusted: boolean; population: string; variables: Record<string, string>;
+    sectorCoverage: { total: number; published: number; suppressed: number; no_record: number };
+    observations: Record<string, { meanMonthlyBRL: number | null; medianMonthlyBRL: number | null; status: string; sourceTerritoryType: string }>;
+  };
   neighborhoodReference: NeighborhoodReference;
   vegetationResearch: VegetationResearch;
   schemaVersion: string;
