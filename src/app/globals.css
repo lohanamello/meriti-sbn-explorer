@@ -1105,9 +1105,11 @@ p {
 
 .source-modal {
   display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
   gap: 12px;
   width: min(940px, 100%);
   max-height: min(760px, calc(100vh - 36px));
+  max-height: min(760px, calc(100dvh - 36px));
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -1144,8 +1146,11 @@ p {
 
 .source-citation-list {
   display: grid;
+  min-height: 0;
+  align-content: start;
   gap: 9px;
-  overflow: auto;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
   padding: 0 16px 16px 36px;
   margin: 0;
 }
