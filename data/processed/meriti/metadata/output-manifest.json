@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T02:37:27+00:00",
+  "generatedAt": "2026-10-05T04:54:28+00:00",
   "files": [
     {
       "path": "data/processed/meriti/layers/facilities.geojson",
@@ -153,8 +153,8 @@
     },
     {
       "path": "data/processed/meriti/phase3-app-data.json",
-      "bytes": 9560351,
-      "sha256": "c1487e2577127c7474eb7c767b5aff51b3fa29198b546fdfceaa51cffa006866"
+      "bytes": 9562393,
+      "sha256": "bc379657238cd0ed36adc1dce94993bcb11ac2dedc79d3b0f32bc71b3dc5fc7e"
     },
     {
       "path": "data/processed/meriti/rasters/cbers4a-rgb-20260426.png",
@@ -192,6 +192,11 @@
       "sha256": "47a7d9182be55f0b56818de5407e7f28131dc1642ed4c9037f9dd62359b24367"
     },
     {
+      "path": "data/processed/meriti/validation/human-reviews-final.json",
+      "bytes": 45962,
+      "sha256": "1dbdef83e51b4001a8b7a59b80c72cb9020f27d19671e44e3066f83d57c100df"
+    },
+    {
       "path": "data/processed/meriti/validation/review-blinded-v2.csv",
       "bytes": 32328,
       "sha256": "62a581b8f6ebe2884f5c18027d6cee61dcbee6ba023a831946f16ef2e7b60085"
@@ -205,6 +210,16 @@
       "path": "data/processed/meriti/validation/review-blinded.csv",
       "bytes": 30621,
       "sha256": "55c7dfccc38bfef5d3f474e8e66e45f1ad80df5ff3276f867188d9ff7601fc0b"
+    },
+    {
+      "path": "data/processed/meriti/validation/review-closure.csv",
+      "bytes": 29170,
+      "sha256": "2dc89fa0e9ae22f2ee2f7a96558b4a21e8f3c869bc949c63d82891c8828acf1e"
+    },
+    {
+      "path": "data/processed/meriti/validation/review-closure.json",
+      "bytes": 322130,
+      "sha256": "71fea8979290548e45b0dc55d9075db8388a54f8fa66a73ffc4da0dd2c3a0514"
     },
     {
       "path": "data/processed/meriti/validation/review-form-v2.json",

@@ -63,7 +63,18 @@ def validate_vegetation_research(app, units):
     assert reference['date'] == '2026-04-26' and reference['resolutionMeters'] == 2
     assert reference['cloudFreePct'] is None and reference['dataPresencePct'] > 99
     validation = research['validation']
-    assert validation['status'] == 'awaiting_independent_reference'
+    assert validation['status'] == 'presence_review_closed_no_area_estimate'
+    closure = json.loads((OUTPUT / 'validation/review-closure.json').read_text(encoding='utf-8'))
+    final = research['finalReview']
+    assert final['status'] == 'closed' and final['closedOn'] == '2026-10-05'
+    assert final['summary'] == closure['summary']
+    assert len(closure['records']) == len({r['sampleId'] for r in closure['records']}) == 400
+    assert final['summary']['priorityCompleted'] == final['summary']['priorityCells'] == 30
+    assert (final['summary']['humanPresent'], final['summary']['humanAbsent']) == (54, 18)
+    assert final['summary']['humanPresenceReviewed'] == 72
+    assert final['summary']['historicalCriterionRecords'] == 58 and final['summary']['automaticOnly'] == 270
+    assert final['summary']['confidenceInterval'] is None and final['summary']['municipalVegetationFraction'] is None
+    assert all(r['vegetationFraction'] is None and r['confidenceProbability'] is None for r in closure['records'])
     assert validation['estimandDate'] == '2026-10-01'
     assert validation['sampleCells'] == 400 and validation['referenceLabelsCompleted'] == 0
     design = json.loads((OUTPUT / 'validation/sampling-design.json').read_text(encoding='utf-8'))

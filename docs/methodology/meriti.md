@@ -1,5 +1,7 @@
 # Indicadores territoriais de São João de Meriti
 
+> **Entrega atualizada em 05/10/2026:** a rodada visual está encerrada. A página de classificação foi substituída por [Metodologia e resultados](https://meriti-sbn-explorer.vercel.app/metodologia). Foram concluídas as 30 prioridades (12 presenças e 18 ausências), totalizando 72 células pelo critério harmonizado: 54 presenças e 18 ausências. O [relatório de encerramento](/api/validacao/relatorio) documenta 130 registros humanos preservados, os resultados das 400 células e os limites da interpretação qualitativa. Não foi calculada fração municipal corrigida ou intervalo de confiança observado. As descrições de conferência e protocolos anteriores abaixo ficam como memória técnica.
+
 ## Decisões do pesquisador
 
 Victor confirmou os bairros do IBGE como base principal e escolheu apresentar somente indicadores, sem pontuação composta ou ranking. A interface mantém o mapa, as camadas, as lentes de interpretação e o catálogo do projeto original. A metodologia de pontuação do Rio não se aplica a Meriti.

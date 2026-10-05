@@ -1,6 +1,6 @@
 {
   "schemaVersion": "meriti.app-data.v1",
-  "generatedAt": "2026-10-05T02:37:27+00:00",
+  "generatedAt": "2026-10-05T04:54:28+00:00",
   "outputCrs": "EPSG:4326",
   "sourceMode": "processed",
   "primaryTerritorialUnit": "neighborhood",
@@ -112881,7 +112881,7 @@
     },
     {
       "id": "validation-sample",
-      "label": "Amostra de conferência · 400 células",
+      "label": "Amostra metodológica · 400 células",
       "family": "Conferência dos dados",
       "status": "available",
       "layerFile": "layers/validation-sample.geojson",
@@ -112899,7 +112899,7 @@
           "color": "#b65372"
         }
       ],
-      "limitation": "400 células sorteadas, incluindo negativos, ausências e áreas protegidas. Nenhum rótulo de referência foi preenchido. Esta camada não contém 400 confirmações de vegetação.",
+      "limitation": "Amostra probabilística preservada. A rodada visual foi encerrada em 05/10/2026; os resultados e limites estão na metodologia. As respostas de presença não medem fração vegetal.",
       "attribution": "Amostragem do projeto; insumos IBGE, INEA, Copernicus e MapBiomas"
     },
     {
@@ -194610,7 +194610,8 @@
   },
   "methodologyFiles": [
     "docs/methodology/meriti.md",
-    "docs/methodology/meriti-neighborhoods-research.md"
+    "docs/methodology/meriti-neighborhoods-research.md",
+    "docs/methodology/meriti-review-final.md"
   ],
   "protectedAreas": [
     {
@@ -231515,7 +231516,7 @@
     },
     "validation": {
       "designId": "meriti-live-vegetation-v1",
-      "status": "awaiting_independent_reference",
+      "status": "presence_review_closed_no_area_estimate",
       "sampleCells": 400,
       "referenceLabelsCompleted": 0,
       "estimandDate": "2026-10-01",
@@ -283744,6 +283745,43 @@
         "Duas interpretações independentes e adjudicação ainda pendentes."
       ],
       "reportFile": "docs/methodology/meriti-validation-reference-audit.md"
+    },
+    "finalReview": {
+      "closedOn": "2026-10-05",
+      "status": "closed",
+      "summary": {
+        "analyzedCells": 400,
+        "priorityCells": 30,
+        "priorityCompleted": 30,
+        "priorityPresent": 12,
+        "priorityAbsent": 18,
+        "priorityUnsure": 0,
+        "humanRecordsSaved": 130,
+        "humanPresenceReviewed": 72,
+        "humanPresent": 54,
+        "humanAbsent": 18,
+        "humanUnsure": 0,
+        "historicalCriterionRecords": 58,
+        "automaticOnly": 270,
+        "withoutHumanPresenceReview": 328,
+        "signalCounts": {
+          "strong_signal": 76,
+          "weak_signal": 216,
+          "intermediate_signal": 88,
+          "insufficient_data": 20
+        },
+        "acceptedVegetationFractions": 0,
+        "municipalVegetationFraction": null,
+        "confidenceInterval": null
+      },
+      "limitations": [
+        "A interpretação humana registra presença identificável de plantas, mesmo em pequena proporção; não mede fração de cobertura vegetal.",
+        "As 30 células finais foram selecionadas por dúvida e divergência. Este subconjunto dirigido não permite estimar acurácia municipal ou intervalo de confiança.",
+        "Os registros antigos de Não confere sem revisão do critério permanecem históricos: podem expressar predominância de construções, não ausência de plantas.",
+        "As demais células mantêm apenas análise espectral ou registros históricos. A conclusão da rodada não transforma essas células em referências humanas.",
+        "As imagens Esri têm datas variáveis; a referência CBERS de 02/07/2026 antecede a data-alvo de 01/10/2026 em 91 dias. Há diferenças de resolução, alinhamento e época.",
+        "O mapa publica indicadores espectrais e modelos com suas definições originais. Não há fração vegetal municipal corrigida pela revisão, intervalo de confiança observado ou precisão validada."
+      ]
     }
   },
   "recentVegetation": {

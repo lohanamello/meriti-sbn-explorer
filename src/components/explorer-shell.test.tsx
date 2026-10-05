@@ -36,6 +36,8 @@ describe("Meriti explorer", () => {
     expect(screen.queryByText("Pontuação", { exact: true })).not.toBeInTheDocument();
     expect(screen.queryByText("Posição", { exact: true })).not.toBeInTheDocument();
     expect(screen.queryByRole("button", { name: "AP3" })).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Metodologia", exact: true })).toHaveAttribute("href", "/metodologia");
+    expect(screen.queryByRole("link", { name: "Conferir células" })).not.toBeInTheDocument();
   });
   it("opens a clean photo without changing territory or evidence values, then restores an analytical view", () => {
     mount();

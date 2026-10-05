@@ -14,6 +14,7 @@ from vegetation_evidence import publish as publish_vegetation, CHM_ID, CBERS_ID,
 from vegetation_evidence import publish_field_evidence, FIELD_ID
 from neighborhoods import SOURCE_ID as NEIGHBORHOOD_ID, register_source as register_neighborhood_source, publish as publish_neighborhoods, LIMITATION as NEIGHBORHOOD_LIMITATION
 from income import SOURCE_ID as INCOME_ID, enrich as enrich_income
+from close_review import enrich as enrich_closed_review
 
 SANITATION_IDS = ['ibge__bairros_domicilios1__2022', 'ibge__bairros_domicilios2__2022']
 LAND_COVER_IDS = [f'mapbiomas__cobertura_uso_solo_10m_tif__{year}' for year in YEARS]
@@ -209,6 +210,7 @@ def build():
                   methodologyFiles=['docs/methodology/meriti.md','docs/methodology/meriti-neighborhoods-research.md'],protectedAreas=environmental['protectedAreas'],vegetationResearch=vegetation_research,
                   recentVegetation={key:satellite[key] for key in ['sourceId','startDate','endDate','sceneCount','resolutionMeters','minimumObservations','thresholds','rgbDate','sceneIds','observations']})
     bundle = enrich_income(bundle)
+    bundle = enrich_closed_review(bundle)
     with CATALOG.open(encoding='utf-8', newline='') as stream:
         catalog = {row['id']: row for row in csv.DictReader(stream)}
     source_ids = sorted({ident for layer in bundle['evidenceLayers'] for ident in layer['sourceDatasetIds']})

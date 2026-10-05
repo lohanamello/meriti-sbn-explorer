@@ -30,6 +30,9 @@ data/**
 !data/processed/meriti/validation
 !data/processed/meriti/validation/assisted-review.json
 !data/processed/meriti/validation/assisted-review.csv
+!data/processed/meriti/validation/review-closure.json
+!data/processed/meriti/validation/review-closure.csv
+!data/processed/meriti/validation/human-reviews-final.json
 !data/processed/meriti/validation/review-blinded-v3.csv
 !data/processed/meriti/validation/sample-cells-blinded.geojson
 !data/interim

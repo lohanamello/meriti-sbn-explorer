@@ -1,0 +1,1369 @@
+{
+  "schema": "meriti.cell-reviews.v1",
+  "records": [
+    {
+      "sampleId": "MERITI-V1-0001",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:00.209Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T20:57:26.916Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0002",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T20:57:34.384Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0003",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:31:30.709Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0004",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T20:58:18.809Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0005",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:04.783Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T20:59:16.678Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0006",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:08.705Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T20:59:46.170Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0007",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:16.472Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T20:59:58.303Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0008",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:21.274Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T21:00:09.529Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0009",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:00:27.612Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0010",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:24.089Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T21:00:33.237Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0011",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:27.596Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T21:00:43.080Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0012",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:00:47.055Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0013",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:00:50.799Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0014",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:00:54.788Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0015",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:00:58.771Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0016",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:30.522Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T21:01:12.339Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0017",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:32.933Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T21:01:26.940Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0018",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:35.157Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T21:01:34.403Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0019",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:02:03.183Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0020",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:37.779Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T21:02:11.377Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0021",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:40.153Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T21:02:15.029Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0022",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:42.871Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T21:02:29.262Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0023",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:30:56.804Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0024",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:31:56.175Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0025",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:03:22.810Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0026",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:03:36.302Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0027",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:56.675Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0028",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:34:00.359Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0029",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:03:56.669Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0030",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:30:47.131Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0031",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:30:22.817Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0032",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:06:00.672Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0033",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:06:06.963Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0034",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:06:10.686Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0035",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:06:18.074Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0036",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T21:06:22.337Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0037",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:13:11.193Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0038",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:48.383Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:13:20.231Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0039",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:09.589Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0040",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:31:17.855Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0041",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:51.212Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:13:50.732Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0042",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:14:09.358Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0043",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:14:13.888Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0044",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:14:20.258Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0045",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:14:35.834Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0046",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:53.804Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:14:43.097Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0047",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:56.152Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:14:47.322Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0048",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:57:58.179Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:14:55.534Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0049",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:00.465Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:14:59.341Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0050",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:02.813Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:15:03.756Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0051",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:05.126Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:15:07.733Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0052",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:07.685Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:15:11.350Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0053",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:15:16.669Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0054",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:10.143Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:15:20.089Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0055",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:30:17.464Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0056",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:15:41.767Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0057",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:18:44.667Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0058",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:19:38.109Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0059",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:31.770Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:22:38.475Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0060",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:32:42.631Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0061",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:36.187Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:22:47.990Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0062",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:38.988Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:23:02.099Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0063",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:23:17.849Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0064",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:23:27.430Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0065",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:23:30.709Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0066",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:42.241Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:23:40.408Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0067",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:58:45.621Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:23:46.530Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0068",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:23:58.048Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0069",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:24:02.703Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0070",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:32:06.703Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0071",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:24:10.303Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0072",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:24:13.410Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0073",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:24:16.612Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0074",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:24:37.119Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0075",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T22:59:26.050Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:24:44.014Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0076",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:11.263Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:24:48.621Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0077",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:24:53.090Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0078",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:31:12.106Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0079",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:04.841Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0080",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:25:08.189Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0081",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:32:52.511Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0082",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:25:17.261Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0083",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:14.009Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:25:30.864Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0084",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:31:26.334Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0085",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:25:48.998Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0086",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:25:52.587Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0087",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:25:55.872Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0088",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:25:59.762Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0089",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:26:04.810Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0090",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:26:16.090Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0091",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:16.616Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:26:19.969Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0092",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:26:31.209Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0093",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:26:34.975Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0094",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:26:43.778Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0095",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:26:47.339Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0096",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:20.161Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:27:03.679Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0097",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:29:45.792Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0098",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:22.635Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:29:50.340Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0099",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:25.068Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:29:54.846Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0100",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:29:58.309Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0101",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:30:51.871Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0102",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:31.183Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:31:12.233Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0103",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:31:19.665Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0104",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:34.247Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:31:36.097Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0105",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:31:48.600Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0106",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:36.958Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:31:56.693Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0107",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:31:46.643Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0108",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:39.572Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:32:15.347Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0109",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:32:25.227Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0110",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:32:46.913Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0111",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:32:45.365Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0112",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:47.767Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:33:53.554Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0113",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:31:38.749Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0114",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:13.433Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0115",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:00:50.930Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:34:19.972Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0116",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:32:30.988Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0117",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:34:33.664Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0118",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:34:40.610Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0119",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:34:46.836Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0120",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "updatedAt": "2026-10-04T22:34:52.780Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0121",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-04T23:02:34.383Z",
+      "beforePresenceReview": {
+        "vegetation": "present",
+        "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+        "imageDate": null,
+        "updatedAt": "2026-10-04T22:34:58.604Z"
+      }
+    },
+    {
+      "sampleId": "MERITI-V1-0122",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:00.364Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0128",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:34.668Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0160",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:23.247Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0186",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:48.480Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0201",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:17.889Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0250",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:52.547Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0286",
+      "vegetation": "present",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:33:43.691Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0312",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:34:24.152Z"
+    },
+    {
+      "sampleId": "MERITI-V1-0396",
+      "vegetation": "absent",
+      "source": "Esri World Imagery online + INPE/CBERS-4A WPM L4 2026-07-02",
+      "imageDate": null,
+      "status": "draft",
+      "criterion": "visible-vegetation-v1",
+      "updatedAt": "2026-10-05T04:34:32.671Z"
+    }
+  ]
+}

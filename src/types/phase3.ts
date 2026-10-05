@@ -132,7 +132,22 @@ export interface Phase3ExplorerData {
     license: string;
   }>;
 }
+export interface FinalReview {
+  closedOn: string;
+  status: "closed";
+  summary: {
+    analyzedCells: number; priorityCells: number; priorityCompleted: number;
+    priorityPresent: number; priorityAbsent: number; priorityUnsure: number;
+    humanRecordsSaved: number; humanPresenceReviewed: number;
+    humanPresent: number; humanAbsent: number; humanUnsure: number;
+    historicalCriterionRecords: number; automaticOnly: number; withoutHumanPresenceReview: number;
+    signalCounts: Record<string, number>;
+    acceptedVegetationFractions: number; municipalVegetationFraction: null; confidenceInterval: null;
+  };
+  limitations: string[];
+}
 export interface VegetationResearch {
+  finalReview: FinalReview;
   fieldEvidence: {
     sourceId: string; sourceUrl: string; publicationUrl: string;
     referencePeriod: { start: string; end: string }; publicationDate: string;

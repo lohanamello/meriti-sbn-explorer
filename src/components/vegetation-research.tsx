@@ -12,11 +12,11 @@ export function VegetationResearch({ data, territoryId }: { data: ResearchData; 
   const urbanOverlap = canopy?.mapBiomas2019Comparison.byMapBiomasClass.urban;
   const field = territoryId ? data.fieldEvidence.observations[territoryId] : undefined;
   return <section className="card-section vegetation-research" aria-label="Investigação e validação da vegetação">
-    <h3>Conferir a vegetação <InfoTip label="Evidências complementares">As medidas abaixo descrevem coisas diferentes. Altura modelada de copas, recorrência de NDVI e fração real de vegetação não são intercambiáveis. Nenhuma delas foi convertida em nota ou usada como rótulo de verdade para validar a outra.</InfoTip></h3>
-    <div className="research-status"><strong>Validação da fração vegetal</strong><span>Referências e piloto disponíveis</span>
-      <p>{data.validation.referenceLabelsCompleted} de {data.validation.sampleCells} frações de referência aceitas. A porcentagem final e a margem de erro serão calculadas depois da conferência.</p>
-      <small>Data-alvo da cobertura · {data.validation.estimandDate.split("-").reverse().join("/")}</small>
-      <p><Link href="/validacao">Ver a conferência, as imagens e as pendências</Link></p>
+    <h3>Metodologia da vegetação <InfoTip label="Evidências complementares">As medidas abaixo descrevem coisas diferentes. Altura modelada de copas, recorrência de NDVI e fração real de vegetação não são intercambiáveis. Nenhuma delas foi convertida em nota ou usada como rótulo de verdade para validar a outra.</InfoTip></h3>
+    <div className="research-status"><strong>Revisão visual concluída</strong><span>Resultados documentados · {data.finalReview.closedOn.split("-").reverse().join("/")}</span>
+      <p>{data.finalReview.summary.priorityCompleted} células prioritárias conferidas; {data.finalReview.summary.humanPresenceReviewed} células no total revisadas pelo critério de presença de plantas.</p>
+      <small>As respostas registram presença, sem medir porcentagem vegetal dentro das células. Os percentuais do mapa mantêm as definições de suas fontes.</small>
+      <p><Link href="/metodologia">Como chegamos aos resultados</Link></p>
     </div>
     {field && <div className="research-measure">
       <h4>Árvores observadas em campo <InfoTip label="Arborização do Censo 2022">{data.fieldEvidence.scope} {data.fieldEvidence.denominator} {data.fieldEvidence.validationUse} Dados ausentes ou suprimidos permanecem sem valor.</InfoTip></h4>
@@ -37,12 +37,10 @@ export function VegetationResearch({ data, territoryId }: { data: ResearchData; 
       <dl><div><dt>Sinal recorrente nas datas selecionadas</dt><dd>{percent(seasonal.recurrentSignalPct)}</dd></div><div><dt>Pixels com observações suficientes</dt><dd>{percent(seasonal.coveragePct)}</dd></div></dl>
       <small>{data.seasonality.sceneCount} aquisições · janeiro a dezembro</small>
     </div>}
-    <details className="validation-downloads"><summary>Material para conferência independente</summary>
-      <p>Interprete a célula inteira, registre a data e a fonte, e marque dúvidas. A amostra inclui locais sem sinal vegetal para medir omissões.</p>
-      <a href="/api/validacao/ficha" download>Ficha de interpretação, CSV</a>
-      <a href="/api/validacao/celulas" download>400 células para SIG, GeoJSON</a>
-      <a href="/api/validacao/protocolo" download>Protocolo e cálculo da incerteza</a>
-      <p>A imagem CBERS de 26/04/2026 ajuda na inspeção. Para representar a cobertura de 01/10/2026, exige avaliação documentada de estabilidade temporal e alinhamento.</p>
+    <details className="validation-downloads"><summary>Resultados e memória metodológica</summary>
+      <a href="/api/validacao/resultados" download>Resultados finais das 400 células, CSV</a>
+      <a href="/api/validacao/relatorio" download>Metodologia da revisão concluída</a>
+      <a href="/api/validacao/celulas" download>Geometrias da amostra, GeoJSON</a>
     </details>
   </section>;
 }

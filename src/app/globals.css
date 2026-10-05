@@ -1355,6 +1355,16 @@ p {
 .validation-section details summary { cursor: pointer; font-weight: 650; margin: 18px 0; }
 .validation-section li { margin: 8px 0; }
 .validation-section nav { display: flex; flex-wrap: wrap; gap: 14px 24px; }
+.methodology-page { max-width: 1120px; }
+.methodology-completed { color: var(--accent); font-weight: 650; }
+.methodology-facts > div { padding: 18px; background: var(--accent-soft); border: 1px solid var(--line); border-radius: 8px; }
+.methodology-nav { display: flex; flex-wrap: wrap; gap: 12px 24px; padding: 0 0 24px; }
+.methodology-steps { padding-left: 24px; }
+.methodology-steps li { padding: 5px 0 5px 8px; }
+.methodology-sources > div { margin: 20px 0; }
+.methodology-sources dt { font-weight: 700; }
+.methodology-sources dd { margin: 6px 0 0; }
+.methodology-page section { scroll-margin-top: 20px; }
 .validation-gallery-controls { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin: 20px 0; }
 .validation-gallery-controls button, .validation-gallery-controls select { border: 1px solid var(--line); background: var(--surface-strong); color: var(--ink); border-radius: 4px; padding: 10px; min-height: 44px; }
 .validation-gallery-controls button:disabled { opacity: .45; cursor: default; }
